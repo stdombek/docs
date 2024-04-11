@@ -39,6 +39,8 @@ Finance permissions:
 *   **Finance: Export finance records.** This permission allows the user to run an export of finance records for a ledger.
 *   **Finance: Manage acquisition units.** This permission allows users to change the assignment of acquisition units for the record when editing a record.
 *   **Finance: Manually release encumbrance.** This permission allows the user to release an encumbrance from a fund using the **Release encumbrance** action on the budget transaction log.
+*   **Finance: Recalculate budget totals.** This permission allows the user to recalculate budget totals after having deleted financial transactions (e.g. pending payments, encumbrances) by using the **Recalculate budget total** action on the budget record.
+*   **Finance: Unrelease encumbrance.** This permission allows the user to manually unrelease an encumbrance that may have been erroneously released either by an invoice approval or a manual action.
 *   **Finance: View fiscal year.** This permission allows searching and viewing of fiscal year records.
 *   **Finance: View fund and budget.** This permission allows the user to search and view funds and budgets.
 *   **Finance: View group.** This permission allows the user to search and view groups.
@@ -744,6 +746,13 @@ You can transfer money between the current fiscal year budgets of two funds. Thi
 
 
 
+## Recalculating budget totals
+There are cases when, after deleteing financial transactions like penidng payments, credits, payments, and encumbrances, a library may need to recalculate the totals on the impacted budget. 
+
+1. [Find the budget](#viewing-budget-details) you want to recalculate and select it.
+2. In the **Budget details** window, click **Actions > Recalculate budget totals.**
+3. A confirmation message appears that says *Budget totals have been updated based on current budget transactions*. 
+
 ## Deleting a budget
 
 
@@ -916,8 +925,21 @@ To release an encumbrance, follow these steps:
 1. Find the transaction list for the encumbered budget.  See [Viewing transactions for a current budget](#viewing-transactions-for-a-current-budget) for more information.
 2. Select the encumbrance transaction from the result list. 
 3. On the encumbrance detail pane, click **Release encumbrance.**
-4. In the confirmation window, click **Confirm** for the message “Are you sure you want to release this encumbrance?” Any remaining amount will be added back to the budget.
+4. In the confirmation window, click **Confirm** for the message “Are you sure you want to release this encumbrance? Any remaining amount will be added back to the budget."
 5. The encumbrance is released.  The amount is restored to the budget and the status value on the encumbrance detail pane changes from **Unreleased** to **Released.**
+
+#### Unreleasing encumbrances manually
+
+
+There are situations where encumbrances may erroneously end up with a status of released. In these circumstances users should be able to unrelease encumbrances manually. To unrelease an encumbrance, the user must have the **Finance: Unrelease encumbrance** [permission](#permissions) assigned. 
+
+To unrelease an encumbrance, follow these steps:
+
+1. Find the transaction list for the budget you wish to re-encumber.  See [Viewing transactions for a current budget](#viewing-transactions-for-a-current-budget) for more information.
+2. Select the encumbrance transaction from the result list. 
+3. On the encumbrance detail pane, click **Unrelease encumbrance.**
+4. In the confirmation window, click **Confirm** for the message “Are you sure you want to unrelease this encumbrance? Any remaining amount will be encumbered against the budget."
+5. The encumbrance is unreleased.  The amount is re-encumbered on the budget and the status value on the encumbrance detail pane changes from **Released** to **Unreleased.**
 
 ### Viewing payment transactions
 
