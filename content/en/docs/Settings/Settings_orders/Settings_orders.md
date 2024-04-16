@@ -23,9 +23,6 @@ In order to interact with order settings, a user needs to be assigned the follow
 *   **Settings (Orders): Can view, edit, delete Order Templates.** This permission allows you to view, edit, and delete Order Templates in Settings > Orders.
 
 
-For information on assigning permissions to users, see [Assigning permissions to a user record]({{< ref "/users.md#assigning-permissions-to-a-user-record" >}}).
-
-
 ## Settings > Orders > General > Approvals
 
 If you want to require approval to open orders, select **“Approval required” to open orders**. When selected, an additional step between Pending and Open is added. A user with the appropriate permission has to approve the order via a separate action or by checking an approval box on the order record. Once the order is approved, the date and time of the approval is captured, along with the username of the person who made the approval. If this setting is not activated, the approval date and time will match the date and time that the order was opened. For more information, see [Approving an order]({{< ref "/orders.md#approving-an-order" >}}).
@@ -211,7 +208,7 @@ There are four default interactions you can select:
 
 Use this setting to determine the instance status that is assigned to the instances that are created through opening an order. Note: If you have not selected a default, then you may encounter problems when trying to receive an item or when you close an order.
 
-For information on managing instance status values, see [Settings > Inventory > Instances > Instance status types]]({{< relref "settings_inventory#settings--inventory--instance-status-types" >}}).
+For information on managing instance status values, see [Settings > Inventory > Instances > Instance status types]({{< relref "settings_inventory#settings--inventory--instance-status-types" >}}).
 
 
 ## Settings > Orders > Inventory interaction > Instance type
