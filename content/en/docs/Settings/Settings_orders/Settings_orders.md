@@ -14,13 +14,15 @@ The Orders section of the Settings app is where you establish whether you want t
 In order to interact with order settings, a user needs to be assigned the following permissions:
 
 
-
-*   **Settings (Orders): Can view all settings.**  This permission allows you to view all of the Orders settings. 
-*   **Settings (Orders): Can view and edit all settings.** This permission allows you to view and edit all of the Orders settings.
-*   **Settings (Orders): Can view Order Templates.** This permission allows you to view Order Templates in Settings > Orders.
-*   **Settings (Orders): Can view, edit Order Templates.** This permission allows you to view and edit Order Templates in Settings > Orders.
-*   **Settings (Orders): Can view, edit, create Order Templates.** This permission allows you to view, edit, and create Order Templates in Settings > Orders.
-*   **Settings (Orders): Can view, edit, delete Order Templates.** This permission allows you to view, edit, and delete Order Templates in Settings > Orders.
+*   **Settings (Orders): Can create, edit, view and delete custom fields.**  This permission allows the user to create, edit, view and delete custom fields in Settings > Orders.
+*   **Settings (Orders): Can create, edit, view custom fields.**  This permission allows the user to create, edit, and view custom fields in Settings > Orders.
+*   **Settings (Orders): Can view custom fields.**  This permission allows the user to view custom fields in Settings > Orders.
+*   **Settings (Orders): Can view all settings.**  This permission allows the user to view all of the Orders settings. 
+*   **Settings (Orders): Can view and edit all settings.** This permission allows the user to view and edit all of the Orders settings.
+*   **Settings (Orders): Can view Order Templates.** This permission allows the user to view Order Templates in Settings > Orders.
+*   **Settings (Orders): Can view, edit Order Templates.** This permission allows the user to view and edit Order Templates in Settings > Orders.
+*   **Settings (Orders): Can view, edit, create Order Templates.** This permission allows the user to view, edit, and create Order Templates in Settings > Orders.
+*   **Settings (Orders): Can view, edit, delete Order Templates.** This permission allows the user to view, edit, and delete Order Templates in Settings > Orders.
 
 
 ## Settings > Orders > General > Approvals
