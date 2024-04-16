@@ -26,7 +26,9 @@ The permissions listed below allow you to interact with the Receiving app and de
 
 
 
+*   **Receiving: Assign acquisition units to new receiving title.** This permission allows the user to apply an acquisition unit to a new title created in the Receiving app.
 *   **Receiving: Export search results.** This permission allows the user to export receiving search results in .csv format.
+*   **Receiving: Manage acquisition units.** This permission allows the user to add or update acquisition units on receiving records that may have been inherited from corresponding order records.
 *   **Receiving: View.** This permission allows the user to view receiving information for orders.
 *   **Receiving: View, edit.** This permission allows the user to receive and edit pieces that are associated with a purchase order line.
 *   **Receiving: View, edit, create.** This permission allows the user to view, edit, and create piece records. Note: Users can only create pieces if the related purchase order line has the [Receiving workflow](../orders/#po-line-details) set to “Independent order and receipt quantity.”
