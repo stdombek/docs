@@ -11,7 +11,7 @@ The GOBI integration section of the Settings app defines your configuration for 
 
 ## Permissions
 
-In order to interact with GOBI integration settings, a user needs to be assigned the following permission. For information on assigning permissions to users, see [Assigning permissions to a user record]({{< ref "/users.md#assign-or-unassign-permissions" >}}).
+In order to interact with GOBI integration settings, a user needs to be assigned the following permission:
 
 *   **GOBI Integration: view and edit settings.**  This permission allows you to view and edit GOBI integration settings. 
 
