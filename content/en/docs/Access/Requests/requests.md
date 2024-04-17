@@ -288,7 +288,7 @@ The hold shelf clearance report includes requests that simultaneously meet all t
 
 * the associated item has a status of **Awaiting pickup**;
 * the request has a status of **Closed - Cancelled** or **Closed - Pickup expired**;
-* the item’s request queue is empty OR the top request in queue is NOT status “Open - Awaiting pickup”.
+* the item’s request queue is empty OR the top request in the queue does NOT have the status “Open - Awaiting pickup”.
 
 The third condition covers the case where an Awaiting pickup item has the hold shelf expiration period expired, but there is another request for the item. The item will appear on the hold shelf clearance report, but if the item is then checked in at its pickup service point for the second request, then the first two conditions are satisfied (with regards to the first request) but the item will not be on the report.
 
@@ -322,7 +322,7 @@ Libraries can choose to use search slips if they have many copies of a title (in
 
 The search slips report generates a single slip for every hold request with request status **Open - Not yet filled**. The report only prints hold requests for items that are shelved nearest the currently selected service point (i.e., those items whose Effective location is associated with the currently selected service point). You must be signed in to the service point you want to generate the search slips for. If no items match the report’s criteria, the option is grayed out.
 
-You can configure the information that appears on the pick slips in the [Settings app}(../../../settings/settings_circulation/settings_circulation/#configuring-a-staff-slip).
+You can configure the information that appears on the pick slips in the [Settings app](../../../settings/settings_circulation/settings_circulation/#configuring-a-staff-slip).
 
 To print search slips, in the Requests pane, select Actions > Print search slips for [your service point]. A print dialog appears.
 
