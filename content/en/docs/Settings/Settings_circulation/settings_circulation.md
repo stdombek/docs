@@ -385,15 +385,20 @@ Overdue fine policies determine the fines that accrue when an item is checked ou
 
 #### Reminder fees
 
-The five options, **Count closed days/hours/minutes**, **Ignore grace periods for recalls**, **Ignore grace periods for holds**, **Allow renewal of items with reminder fee(s)**, and **Clear patron block when paid** are not available for Poppy. They can only have the selection value of **No**.
+1. **Create on closed days.** If you select **Yes**, Reminder fees will be created on days the library is closed. Select **No** to have Reminder fees created on the first open day after they would otherwise be created. See example in [Additional topics > Fees and fines](../../../access/additional-topics/feesfines/feesfines/#reminder-fee-examples-with-closed-days).
+2. **Ignore grace periods for recalls.** This setting can only be **No** for Quesnelia.
+3. **Ignore grace periods for holds.** This setting can only be **No** for Quesnelia.
+4. **Allow renewal of items with reminder fee(s).** If you select Yes, items with reminder fees can be renewed. The reminder fee will not be removed when the item is renewed.
+5. **Clear patron block when paid.** This setting can only be **No** for Quesnelia.
 
 Click **Add reminder fee** to set up a reminder fee schedule:
 
-1. Enter a number in **Interval** and choose the time interval in **Frequency** to determine how long after an item is overdue the fee is applied and the notice is sent.
-2. Enter **Fee** amount.
-3. Choose a **Notice method**. **Email** will send an email to the address in the user record. Printed reminder fee notices are not available.
-4. Select a fee/fine **Notice template**.
+1. Enter a number in **Interval** and choose the time interval in **Frequency** to determine how long after an item is overdue the fee is applied and the notice is sent. See example in [Additional topics > Fees and fines](../../../access/additional-topics/feesfines/feesfines/#reminder-fees).
+2. Enter a **Fee** amount.
+3. Choose a **Notice method**. **Email** will send an email to the address in the user record. Select **Print** if you want to [send a printed notice](../../../users#view-patron-print-jobs).
+4. Select a fee/fine **Notice template** that aligns with the Notice method chosen in the previous step.
 5. **Block template** functionality is not yet available. Block templates are set up in [Settings > Users > Patron Block Templates](../../settings_users/settings_users/#settings--users--patron-block-templates).
+6. Click **Add reminder fee** again to add another reminder fee. Reminder fees after the first in the sequence are created [**Interval**]  [**Frequency**] after the previous reminder fee. 
 
 
 ### Duplicating an overdue fine policy
@@ -474,6 +479,7 @@ Lost item fee policies determine when overdue items automatically age to lost (t
 
 Patron notice policies determine which patron notice templates are sent out before, during, or after certain triggering events. Multiple notices can be set up in one policy. Patron notice policies are used in Circulation rules.
 
+Note: Reminder fees do not use the patron notice policy. See [Reminder fees](#reminder-fees).
 
 ### Implementation considerations
 
@@ -612,10 +618,11 @@ Patron notice templates are the templates used in your Patron notice policies. C
 3. Clear the **Active** checkbox if you do not want the notice to be available for use in notice policies.
 4. Optional: Enter a **Description** in the box.
 5. Select a **Category** for the template. Categories determine which section of the notice policy the notice can be used in and which tokens are available to be used in the body of the email.
-6. In the Email section, enter a **Subject** for the email sent to the patron.
-7. Enter a **Body** for the email sent to the patron. Click **{ }** to add tokens to the notice. Tokens fill in the item, loan, request, or user information based on the selected variables related to the notice event.
-8. Optional: Click **Preview** to view a preview of the notice.
-9. Click **Save & close**. The notice is saved and appears in the Patron notice templates pane.
+6.	In the **Email or print** section, select the **Print only** checkbox to delete the subject line. Notices are printed in the [Users search results pane](../../../users#view-patron-notice-print-jobs).   Currently, only Reminder fees are able to be collected in the nightly print job.
+7.	Clear the **Print only** checkbox if you want to email the notice, and enter a Subject.
+8. Enter a **Body** for the email sent to the patron. Click **{ }** to add tokens to the notice. Tokens fill in the item, loan, request, or user information based on the selected variables related to the notice event.
+9. Optional: Click **Preview** to view a preview of the notice.
+10. Click **Save & close**. The notice is saved and appears in the Patron notice templates pane.
 
 
 ### Duplicating a patron notice template
@@ -720,6 +727,13 @@ Notices that are triggered by title-level requests are not yet included in FOLIO
 * **Confirmation notice**. Choose a notice template from the drop-down if you want to send a patron notice when a title-level request is created.
 * **Cancellation notice**. Choose a notice template from the drop-down if you want to send a patron notice when a title-level request is canceled.
 * **Expiration notice**. Choose a notice template from the drop-down if you want to send a patron notice when a title-level request expires without having been fulfilled.
+
+Click **Save** at the bottom of the screen to save any changes.
+
+
+## Settings > Circulation > Print hold requests
+
+**Allow print hold requests (Open - Not yet filled)**. Check the box if you want the option to print [Search slips](../../../access/requests/requests/printing-hold-request-search-slips) for hold requests.
 
 Click **Save** at the bottom of the screen to save any changes.
 
