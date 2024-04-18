@@ -313,7 +313,7 @@ To create a pick report, follow these steps:
 
 ### Printing pick slips
 
-The pick slips report generates a single slip for every paged item that needs to be pulled from the shelf. Because this report automatically prints only those items whose Effective location is associated with the currently selected service point, you must be signed in to the service point you want to generate the slips for. If no items match the report’s criteria, the option is grayed out. **Allow print hold requests (Open - Not yet filled)** must be enabled in [Settings > Circulation > Print hold requests](../../../settings/settings_circulation/settings_circulation/#Settings--Circulation--Print hold requests).
+The pick slips report generates a single slip for every paged item that needs to be pulled from the shelf. Because this report automatically prints only those items whose Effective location is associated with the currently selected service point, you must be signed in to the service point you want to generate the slips for. If no items match the report’s criteria, the option is grayed out.
 
 You can configure the information that appears on the pick slips in the [Settings app.](../../../settings/settings_circulation/settings_circulation/#settings--circulation--staff-slips)
 
