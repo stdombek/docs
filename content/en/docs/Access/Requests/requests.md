@@ -50,11 +50,11 @@ Requests are assigned one of three Request Types:
 
 Note that FOLIO allows items in some statuses to be recalled even if they are not on loan to a patron, but there is currently no difference in FOLIO workflows between a recall and a page when that occurs. If a loan is recalled, the original loan period may be shortened.
 
-After a request has been created, requets are set in progress by [checking the item in with the Check in app](../../check-in/checkin/#checking-in-an-item-on-route-to-another-service-point).
+After a request has been created, requests are set in progress by [checking the item in with the Check in app](../../check-in/checkin/#checking-in-an-item-on-route-to-another-service-point).
 
 Open requests have one of the following statuses:
 
-* **Open - Awaiting delivery**: The request has been set in progress and the item is in the process of being delivered, but the item has not yet been checked out to the patron. Generally this signals a possible issue with the delivery request.
+* **Open - Awaiting delivery**: The request is a [Delivery request](#processing-delivery-requests), and the requested item has been checked in, but the item has not yet been checked out to the requester.
 * **Open - Awaiting pickup**: The requested item has been checked in at the requested pickup point, waiting for the requester to pick it up.
 * **Open - In transit**: The request has been set in progress and the item is being delivered to the patron’s requested pickup service point.
 * **Open - Not yet filled**: The request has not yet been set in progress, and the Request expiration date, if it exists, is in the future.
@@ -62,7 +62,7 @@ Open requests have one of the following statuses:
 Closed requests have one of the following statuses:
 
 * **Closed - Cancelled**: The request was cancelled either prior to an item being available for pickup, or after the item became available for pickup, but before the pickup expired.
-* **Closed - Filled**: The item was placed on hold for the patron, and the patron checked the item out.
+* **Closed - Filled**: The item was placed on hold for the patron, and the patron checked the item out. This also includes [Delivery requests](#processing-delivery-requests) where the item was checked in and the **Close and check out** option was selected.
 * **Closed - Pickup expired**: The item was placed on hold for the patron, but the patron did not pick up the item before the Hold shelf expiration date passed.
 * **Closed - Unfilled**: The request was not set in progress before the Request expiration date passed. If the Request expiration date field is empty, the request will never be moved to this status.
 
@@ -320,7 +320,7 @@ You can configure the information that appears on the pick slips in the [Setting
 To print pick slips, in the Requests pane, select **Actions > Print pick slips for [your service point]**. A print dialog appears.
 
 ## Printing Hold request search slips  
-Libraries can choose to use search slips if they have many copies of a title (instance), but not all copies have been cataloged. When a patron requests an item from that instance, a search slip can be printed so a staff member can look for the item.
+Libraries can choose to use search slips if they have many copies of a title (instance), but not all copies have been cataloged. When a patron requests an item from that instance, a search slip can be printed so a staff member can look for the item. Libraries must enable **Allow print hold requests (Open - Not yet filled)** in [Settings > Circulation > Print hold requests](../../../settings/settings_circulation/settings_circulation/#settings--circulation--print-hold-requests) in order to use this feature.
 
 The search slips report generates a single slip for every hold request with request status **Open - Not yet filled**. The report only prints hold requests for items that are shelved nearest the currently selected service point (i.e., those items whose Effective location is associated with the currently selected service point). You must be signed in to the service point you want to generate the search slips for. If no items match the report’s criteria, the option is grayed out.
 
