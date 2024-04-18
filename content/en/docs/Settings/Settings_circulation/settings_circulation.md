@@ -34,6 +34,7 @@ The following are all the Circulation Settings permissions:
 * **Settings (Circ): Can view lost item fee policies:** Allows the user to view lost item fee policies but does not allow create, edit or delete.
 * **Settings (Circ): Can view overdue fine policies:** Allows the user to view overdue fine policies but does not allow create, edit or delete.
 * **Settings (Circ): View circulation rules:** Allows a user to view circulation rules but does not allow them to create, edit or delete rules.
+* **Settings (Circulation): Can view staff slips:** Allows the user to view staff slips but does not  allow editing of staff slips.
 * **Settings (Circulation): Title level request edit:** Allows users to enable, disable and configure title-level requesting. Note that title level requesting cannot be disabled via settings if there are any open title level requests.
 
 
@@ -133,8 +134,9 @@ If your library could potentially encounter duplicate barcodes as described, you
 Staff slips allow you to configure the information that appears on your staff slips. You have the option of printing these slips when their associated action occurs:
 
 * **Hold.** This slip is available through the Check in app, when you check in an item with a request.
-* **Pick slip.** This slip is available in the Requests app, when you generate the pick slip report.
+* **Pick slip.** This slip is available in the Requests app, when you generate the [pick slip report](../../../access/requests/requests/#printing-pick-slips).
 * **Request delivery.** This slip is available in the Check in app, when you check in an item with a delivery request.
+* **Search slip (Hold requests).** This slip is available in the Requests app, when you generate the [search slip report.](../../../access/requests/requests/#printing-hold-request-search-slips)
 * **Transit.** This slip is available in the Check in app, when you check in an item that is in transit to another location.
 
 
