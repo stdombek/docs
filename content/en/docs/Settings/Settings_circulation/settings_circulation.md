@@ -29,13 +29,13 @@ The following are all the Circulation Settings permissions:
 * **Settings (Circ): Can create, edit and remove request policies:** Allows the user to create, read, update, and delete request policies.
 * **Settings (Circ): Can create, edit and remove staff slips:** Allows the user to create, read, and update staff slips. Note: Users can erase the content of staff slips in the editor, but cannot delete the staff slip itself.
 * **Settings (Circ): Can edit loan history:** Allows the user to edit settings in Settings > Circulation > Loan anonymization.
-* **Settings (Circ): Can view loan history:** Allows the user to view settings in Settings > Circulation > Loan anonymization.
+* **Settings (Circ): Can view loan history:** Allows the user to view settings in Settings > Circulation > Loan anonymization but does not allow editing.
 * **Settings (Circ): Can view loan policies:** Allows the user to view loan policies but does not allow create, edit or delete.
 * **Settings (Circ): Can view lost item fee policies:** Allows the user to view lost item fee policies but does not allow create, edit or delete.
 * **Settings (Circ): Can view overdue fine policies:** Allows the user to view overdue fine policies but does not allow create, edit or delete.
 * **Settings (Circ): View circulation rules:** Allows a user to view circulation rules but does not allow them to create, edit or delete rules.
 * **Settings (Circulation): Can view staff slips:** Allows the user to view staff slips but does not  allow editing of staff slips.
-* **Settings (Circulation): Title level request edit:** Allows users to enable, disable and configure title-level requesting. Note that title level requesting cannot be disabled via settings if there are any open title level requests.
+* **Settings (Circulation): Title level request edit:** Allows the user to enable, disable and configure title-level requesting. Note that title level requesting cannot be disabled via settings if there are any open title level requests.
 
 
 ## Settings > Circulation > Circulation rules
@@ -99,8 +99,8 @@ This setting allows you to specify what types of patron IDs can be scanned to ch
 At least one of the options must be selected:
 
 * **Barcode.**
-* **External system id.**
-* **FOLIO record number.**
+* **External system ID.**
+* **FOLIO record number (ID).**
 * **Username.**
 * **User custom fields.**
 
@@ -205,7 +205,7 @@ When closed loans are anonymized, all related patron information is removed from
 Select one of the following options to determine if closed loans are anonymized:
 
 * **Immediately after loan closes**. The anonymization process begins after the session is closed. Immediate anonymizing of loans runs on a schedule that can be determined by your system administrator or hosting provider.
-* **[Interval of time] after the loan closes**. Use the boxes to select the interval of time.
+* **[Interval of time] after loan closes**. Use the boxes to select the interval of time.
 * **Never**.
 
 
@@ -241,7 +241,7 @@ If you want to create exceptions for closed loans with associated fees/fines pai
 
 Loan policies determine how an item is treated if it is checked out, renewed, or requested. Loan policies include a wide variety of configuration options and are used in Circulation rules.
 
-Loan policy behavior differs depending on the unit of time used for the loan period. If an item is checked out for minutes or hours, the loan is considered “short term.” If an item is checked out for days, weeks or months, the loan is considered “long term.”
+Loan policy behavior differs depending on the unit of time used for the loan period. If an item is checked out for minutes or hours, the loan is considered “short term.” If an item is checked out for days, weeks or months, the loan is considered “long term.” See [Additional topics > Loans](../../../access/additional-topics/loans/loans/#what-does-folio-consider-a-short-term-loan-what-is-considered-a-long-term-loan) for more information.
 
 ### Implementation considerations
 
@@ -426,7 +426,7 @@ Click **Add reminder fee** to set up a reminder fee schedule:
 
 ## Lost item fee policies
 
-Lost item fee policies determine when overdue items automatically age to lost (their Item status changes from Overdue to Lost); it also determines the charges billed to patrons for lost items. Lost item fee policies are used in Circulation rules.
+Lost item fee policies determine when overdue items automatically age to lost (their Item status changes to Aged to lost); it also determines the charges billed to patrons for lost items. Lost item fee policies are used in Circulation rules.
 
 
 ### Creating a lost item fee policy
@@ -438,7 +438,7 @@ Lost item fee policies determine when overdue items automatically age to lost (t
 5. Enter the amount of time in which **Patron billed after aged to lost**.
 6. Enter the amount of time in which **Recalled items aged to lost after overdue**. This setting allows libraries to set a shorter “aged to lost” period if the item has been recalled for use by other patrons. This setting **must have a value** in order for recalled items to age to lost.
 7. Enter the amount of time in which **Patron billed for recall after aged to lost**. This setting **must have a value** in order for patrons to be billed when a recalled item ages to lost.
-8. In the **Charge amount for item** section, choose **Actual cost** or **Set cost**. If you use Actual cost, you can use the **Lost items requiring actual cost** report in the Users app to find the aged to lost items and then apply a manual cost. If you use Set cost, then enter an amount in the box.
+8. In the **Charge amount for item** section, choose **Actual cost** or **Set cost**. If you use Actual cost, you can use the **Lost items requiring actual cost** report in the [Users app](../../../users/#processing-lost-items-requiring-actual-cost) to find the aged to lost items and then apply a manual cost. If you use Set cost, then enter an amount in the box.
 9. Enter a **Lost item processing fee**. This is an additional charge that will be added to the charge amount for the item when billed to the patron.
 10. Select whether to **Charge lost item processing fee if item declared lost by patron**.
 11. Select whether to **Charge lost item processing fee if item aged to lost by system**.
@@ -479,11 +479,11 @@ Lost item fee policies determine when overdue items automatically age to lost (t
 
 Patron notice policies determine which patron notice templates are sent out before, during, or after certain triggering events. Multiple notices can be set up in one policy. Patron notice policies are used in Circulation rules.
 
-Note: Reminder fees do not use the patron notice policy. See [Reminder fees](#reminder-fees).
+Note: Reminder fees and Title level hold requests do not use the patron notice policy. See [Reminder fees](#reminder-fees) and [TLR Notice templates](#notice-templates).
 
 ### Implementation considerations
 
-Before you can set up your patron notice policies, you must first configure your Patron notice templates.
+Before you can set up your patron notice policies, you must first configure your [Patron notice templates](#patron-notice-templates).
 
 You can set up multiple notices in one policy. Libraries’ needs differ. Some will want to create several policies with one or few notices in each policy. Other libraries may find it advantageous to create few policies, each containing several notices. Additionally, patron notice policies can be associated with more than one circulation rule.
 
@@ -608,7 +608,7 @@ Select whether multiple lost item fee notices are bundled together:
 
 ## Patron notice templates
 
-Patron notice templates are the templates used in your Patron notice policies. Currently, patron notices can only be sent via email.
+Patron notice templates are the templates used in your Patron notice policies. Except for Reminder fees, patron notices can only be sent via email.
 
 
 ### Creating a new patron notice template
@@ -712,13 +712,12 @@ Request policies determine the types of requests (pages, holds, and recalls) all
 
 FOLIO provides functionality for both item-level and title-level requesting. Since title-level requesting is off by default, you need to enable and configure related settings in this section if your library wants to use it.
 
-* **Allow title level requests**. If your library wants to use title-level requesting, check this box.
+* **Allow title level requests**. If your library wants to use title-level requesting, check this box. Before allowing title level requesting, be aware that you will not be able to turn title-level requesting off if there are any open title level requests.
 * **”Create title level request” selected by default.** If you are using title-level requesting, there will be a checkbox in the Requests app to toggle whether a request is title-level or item-level. If you’d like title-level request to be the default choice, check this box.
 * **Fail to create title level hold when request is blocked by circulation rule**. Check this box if you want title level hold requests to follow the circulation rules. If you do not check this box, then title level hold requests will go through even when item level hold requests are blocked by the circulation rule.
 
 Click **Save** at the bottom of the screen to save any changes.
 
-Before allowing title level requesting, be aware that you will not be able to turn title-level requesting off if there are any open title level requests.
 
 ### Notice templates
 
