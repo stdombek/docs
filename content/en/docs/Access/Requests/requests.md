@@ -85,7 +85,7 @@ After you perform a search for requests, you can save your results to a comma-se
 
 ### Creating a request
 
-Library staff create requests in the Requests app.  They also can start the request process from a user record in Users, or an item record in Inventory; those apps will route you into the Requests app to create the request. Note: You must have permission to create requests in the Requests app in order to see the option to create a request from Inventory.
+Library staff create requests in the Requests app.  They also can start the request process from a user record in Users, or an item record in Inventory; those apps will route you into the Requests app to create the request. Note: You must have permission to create requests in the Requests app in order to see the option to create a request from Inventory. You can request items lacking a barcode by starting in the Inventory app -- see [Inventory > Creating a new request](../../../metadata/inventory/#creating-a-new-request).
 
 Requesting is controlled by circulation rules and item statuses. You cannot request some item statuses and some only allow holds and recalls. See [Platform Essentials > Item Status](../../../platform-essentials/item-status/itemstatus/) for more information.
 
