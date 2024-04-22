@@ -1,7 +1,7 @@
 ---
 title: "Invoices"
 linkTitle: "Invoices"
-date: 2024-04-16
+date: 2024-04-21
 weight: 20
 tags: ["parenttopic"]
 ---
@@ -175,7 +175,11 @@ You must **add or create new invoice lines** before the invoice can be approved 
 2. In the **Select order lines** window, in the **Search & filter** box, use the search and filter options to locate the purchase order line (POL).
 3. To select one or more order lines, select the checkboxes to the left of the POL number.
 4. Click **Save**. 
-The order lines appear in the Invoice lines table.  To view an invoice line, click on a row in the Invoice lines table.  See [Viewing invoice lines](#viewing-invoice-lines) for more information.  If you select a purchase order line that contains a vendor that doesn’t match the organization for the invoice, a Confirmation dialog appears. Click **Confirm** to continue with the purchase order line selection or **Cancel** to choose a different purchase order line.
+The order lines appear in the Invoice lines table.  To view an invoice line, click on a row in the Invoice lines table.  See [Viewing invoice lines](#viewing-invoice-lines) for more information.
+
+If you select a purchase order line that contains a vendor that doesn’t match the organization for the invoice, a Confirmation dialog appears. Click **Confirm** to continue with the purchase order line selection or **Cancel** to choose a different purchase order line.
+
+If you select a purchase order line that has a different currenncy than the invoice, a Confirmation dialog appears. Click **Confirm** to continue with the purchase order line selection or **Cancel** to choose a different purchase order line.
 
 If the selected purchase order line has a payment status of **Fully paid**, a red banner will display at the top of the invoice header and a red exclamation mark icon will display beside the relevant invoice line to alert you that the purchase order selected is already fully paid.
 
@@ -194,7 +198,7 @@ To create an invoice line that is not associated with an existing purchase order
 
 ## Linking an invoice line to a purchase order line
 
-When vendor EDIFACT format invoices are loaded to the system through data import, invoice lines are created based on information provided from the vendor included in the EDIFACT file.  FOLIO will attempt to match invoice lines on incoming EDIFACT files to existing purchase order lines (POLs) in FOLIO, based on at least one match point: purchase order line (POL) number and vendor reference number (VRN). The system may be unable to  automatically match some invoice lines to an existing purchase order line.  To manually link an invoice line to a purchase order line, follow these steps:
+When EDIFACT invoices are loaded to the system through Data import, invoice lines are created based on information provided from the vendor included in the EDIFACT file.  FOLIO will attempt to match invoice lines on incoming EDIFACT files to existing purchase order lines (POLs) in FOLIO, based on at least one match point: purchase order line (POL) number and vendor reference number (VRN). The system may be unable to  automatically match some invoice lines to an existing purchase order line.  To manually link an invoice line to a purchase order line, follow these steps:
 
 
 1. From the vendor invoice pane, review the Invoice lines accordion to determine whether the system has automatically created a purchase order link.  A successfully linked invoice line contains a **POL number** value in the Invoice line table list.  If the **POL number** is blank, the system was unable to match to an existing purchase order.
@@ -209,6 +213,7 @@ When vendor EDIFACT format invoices are loaded to the system through data import
 
 
 *   **Description.** The description or title for the invoice line. This may contain the materials, service, or fee being invoiced. This information will be pre-populated if creating the invoice line from a purchase order line (POL).
+*   **POL number.** If the invoice line is linked to a purchase order line (POL), the POL number will display here. A **POL look-up** ontion is included to link an invoice line to a POL if one is not populated.
 *   **Invoice line number.** The invoice line number for the invoice line which will be created after you save this new invoice line.
 *   **Status.** The status of the invoice: Open, Reviewed, Approved, Paid, Cancelled.
 *   **Vendor reference numbers.** Click **Add reference number** to add vendor reference numbers for the invoice line. For more information about vendor reference numbers, see [Orders > Adding an order line to an order > Vendor ref number](../acquisitions/orders/#vendor-1). This information may be pre-populated if creating the invoice line from a purchase order line (POL).
@@ -293,17 +298,6 @@ To search for invoices created for a specific vendor, follow these steps:
 4. Click the vendor to populate the **Vendor name** field. The search results appear in the Invoices pane.  
 
 For information on searching for organizations, see [Organizations > Searching for an organization](../acquisitions/organizations/#searching-for-an-organization).
-
-
-### Date created
-
-To search for invoices based on the date they were created, follow these steps:
-
-
-
-1. In the **Search & filter** pane, click **Date created.**
-2. Enter a start date in the **From** box and an end date in the **To** box.
-3. Click **Apply**. The search results appear in the Invoices pane.  
 
 
 ### Invoice date
@@ -451,7 +445,66 @@ To search for invoices by lock total amount, follow these steps:
 To search for invoices by the fiscal year assigned to the record, follow these steps:
 
 1. In the **Search & filter** pane, click **Fiscal year**.
-2. Select the fiscal year code from the drop-down list. The search results appear in the Invoices pane.  
+2. Select the fiscal year code from the drop-down list. The search results appear in the Invoices pane.
+
+### Created by
+To search for invoices based on the user who created it, follow these steps:
+1. In the **Search & filter** pane, click **Created by.**
+2. Click **Find User**.
+3. In the **Select User** modal, use the search and filter options to locate the user.
+4. Click on the user record. The search results appear in the Invoices pane.
+
+### Date created
+
+To search for invoices based on the date they were created, follow these steps:
+
+1. In the **Search & filter** pane, click **Date created.**
+2. Enter a start date in the **From** box and an end date in the **To** box.
+3. Click **Apply**. The search results appear in the Invoices pane.
+
+### Updated by
+To search for invoices based on the user who last updated it, follow these steps:
+1. In the **Search & filter** pane, click **Updated by.**
+2. Click **Find User**.
+3. In the **Select User** modal, use the search and filter options to locate the user.
+4. Click on the user record. The search results appear in the Invoices pane.
+
+### Date updated
+
+To search for invoices based on the date they were last updated, follow these steps:
+1. In the **Search & filter** pane, click **Date updated.**
+2. Enter a start date in the **From** box and an end date in the **To** box.
+3. Click **Apply**. The search results appear in the Invoices pane.  
+
+### Created by (Invoice Line)
+To search for invoices based on the user who created it, follow these steps:
+1. In the **Search & filter** pane, click **Created by (Invoice Line).**
+2. Click **Find User**.
+3. In the **Select User** modal, use the search and filter options to locate the user.
+4. Click on the user record. The search results appear in the Invoices pane.
+
+### Date created (Invoice Line)
+
+To search for invoices based on the date they were created, follow these steps:
+
+1. In the **Search & filter** pane, click **Date created (Invoice Line).**
+2. Enter a start date in the **From** box and an end date in the **To** box.
+3. Click **Apply**. The search results appear in the Invoices pane.
+
+### Updated by (Invoice Line)
+To search for invoices based on the user who last updated it, follow these steps:
+1. In the **Search & filter** pane, click **Updated by (Invoice Line).**
+2. Click **Find User**.
+3. In the **Select User** modal, use the search and filter options to locate the user.
+4. Click on the user record. The search results appear in the Invoices pane.
+
+### Date updated (Invoice Line)
+
+To search for invoices based on the date they were last updated, follow these steps:
+1. In the **Search & filter** pane, click **Date updated (Invoice Line).**
+2. Enter a start date in the **From** box and an end date in the **To** box.
+3. Click **Apply**. The search results appear in the Invoices pane.  
+
 
 ## Exporting search results
 
@@ -495,6 +548,10 @@ To export a file of invoice information in comma-separated values (.csv) format,
 *   Currency
 *   Exchange rate
 *   Invoice tags
+*   Created by
+*   Created on
+*   Updated by
+*   Updated on
 
 ### Invoice line fields to export
 
@@ -520,6 +577,10 @@ To export a file of invoice information in comma-separated values (.csv) format,
 *   Voucher date
 *   Disbursement number
 *   Disbursement date
+*   Created by (Invoice Line)
+*   Created on (Invoice Line)
+*   Updated by (Invoice Line)
+*   Updated on (Invoice Line)
 
 
 
@@ -547,6 +608,7 @@ For information about most of the fields in the Invoice information section, see
 *   **Source.** The method by which this invoice was created: User, API, EDI, or MARC.
 *   **Total units.** The total units for the invoice calculated as the sum of the quantity values on all invoice lines.
 *   **Payment date.**  The date on which the invoice status transitioned to **Paid.**
+*   **Calculated total amount (Exchanged).** This field appears if the invoice is paid in a currency other than the system default and shows the exchanged amnount in the system currency.
 
 
 ### Viewing invoice lines
@@ -569,6 +631,7 @@ The invoice lines section lists all invoice lines for the order. The invoice lin
 *   **Sub-total.** The price of the invoice before adding adjustments.
 *   **Adjustments.** The adjustments associated with the invoice.
 *   **Total.** The total amount of the invoice line calculated as the **Sub-total** plus **Adjustments**.
+*   **Vendor code.** The vendor code listed on the associated Organization record.
 
 
 To view more information about the invoice line, click on the row in the invoice lines list.  A detail pane opens containing information about the invoice line. See [Creating a new invoice line](#creating-a-new-invoice-line) for descriptions of the fields in the invoice line detail pane.
@@ -581,8 +644,12 @@ The **View invoice line** detail pane includes an accordion section to list **Ot
 
 *   **Vendor invoice number.** The number provided by the vendor for this invoice.  Click on the clipboard icon beside the vendor invoice number to copy the value to your clipboard.
 *   **Invoice line #.**   The system-generated invoice line number.
+*   **Fiscal year.** The fiscal year associated with the invoice.
 *   **Invoice date.** The vendor invoice date.
-*   **Vendor name.** The vendor name.
+*   **Vendor code.** The vendor code from the Organziation record.
+*   **Subscription start date.** The date the subscription starts. This information may be pre-populated if creating the invoice line from a purchase order line (POL).
+*   **Subscription end date.** The date the subscription ends. This information may be pre-populated if creating the invoice line from a purchase order line (POL).
+*   **Subscription info.** Subscription information for this invoice line, such as which volumes are being invoiced.
 *   **Status.** The status of the invoice: Open, Reviewed, Approved, Paid, cancelled.
 *   **Quantity.** The quantity ordered.
 *   **Amount.** The combined cost of the items ordered and adjustments for the invoice.
@@ -685,6 +752,7 @@ To approve an invoice, follow these steps:
 2. In the **Vendor invoice number** pane, click **Actions > Approve.**
 3. In the **Approve invoice** dialog, click **Approve**. A confirmation message appears and the invoice is approved.
 
+Note: the action may be listed as **Approve & pay** if you have selected the **Approve and pay in one click** option in [Settings > Invoices > Approvals] (../settings/settings_invoices/settings_invoices/#settings--invoices--approvals).
 
 
 ## Viewing a voucher
@@ -741,11 +809,11 @@ The Voucher lines table contains this information for each voucher line:
 *   **Amount.**
 
 ## Edit a voucher to add disbursement information
-To add information about the invoice voucher disbursement from an external accounts payable system, use the Action menu to edit the invoice voucher. 
+To add information about the invoice voucher disbursement from an external accounts payable system, use the **Actions** menu to edit the invoice voucher. 
 
 1. Using the Search and Filter pane, find the invoice for which you want to update disbursement information and select it.
 2. Scroll down to the Voucher information section and click the **View voucher** button
-2. From the View voucher full-screen window, open the Action menu and select **Edit**.
+2. From the View voucher full-screen window, open the **Actions** menu and select **Edit**.
 2. Enter the disbursement information in the fields described below.
 4. Click **Save and close.**  
 
@@ -754,7 +822,7 @@ The only fields that are editable on the voucher are:
 *   **Disbursement number.** Enter an identifier from an external system corresponding to a payment, such as a check number.
 *   **Disbursement date.**  Enter the date of the disbursement transaction in the external system.
 *   **Disbursement amount.**  Enter the amount of the disbursement, with or without decimal.
-
+Note: the voucher number will be editable only if configured in [Settings > Invoices > Voucher number] (../settings/settings_invoices/settings_invoices/#settings--invoices--voucher-number).
   
 ## Exporting vouchers
 To export a file of voucher information in JSON or XML format, follow these steps:
