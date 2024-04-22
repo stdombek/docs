@@ -716,7 +716,7 @@ The Receive function can be used to receive multiple pieces at once.
 
 
 
-## Unreceiving an order
+## Unreceiving an piece
 
 
 
@@ -725,3 +725,60 @@ The Receive function can be used to receive multiple pieces at once.
 3. Optional: Make changes to the **Comment** field.
 4. Select the checkbox beside each piece you want to unreceive. Note: If you want to unreceive all of the received pieces, select the top checkbox.
 5. Click **Unreceive**. The selected pieces are now displayed under the Expected section.
+
+## Marking a piece unreceivable
+If a piece arrives and is damaged or otherwise unreceiveable, use the following steps to mark the piece unreceivable:
+1. Using the **Search & filter** pane, find the receiving title you want to mark unreceivable and select it.
+2. In the Expected section of the receiving title, click on the piece.
+3. The **Edit piece** modal will appear.
+4. Click on the dropdown menu next to **Save & close** and select **Unreceivable**.
+5. The piece status will update to 'Unreceivable' and the piece will move to the **Unreceiveable** accordion on the receiving record.
+6. Click **Receive**. The selected pieces are now displayed under the Received section.
+
+Note: if this action is performed in error or the piece becomes receivable, you can click on the piece in the **Unreceivable** accordion and, in the **Edit piece** modal, click on the dropdown menu next to **Save & close** and select **Expect**. This will move the piece back to the **Expected** accordion and update the piece status accordingly.
+
+## Claiming a piece
+If a piece never arrives from the vendor, the library may wish to file a claim with the vendor to seek replacement or a refund. 
+
+To update a piece to 'Claim sent', use the following steps:
+1. Using the **Search & filter** pane, find the receiving title for which you want to send a claim and select it.
+2. In the Expected section of the receiving title, click on the piece.
+3. The **Edit piece** modal will appear.
+4. Click on the dropdown menu next to **Save & close** and select **Send claim**.
+5. In the **Send claim** modal, enter a **Claim expiry date**.
+6. Optional: add internal and external notes, if desired.
+7. Click **Save & close**.
+8. The piece status will update to 'Claim sent' and remain in the **Expected** accordion on the receiving record.
+
+Note: A library may wish to filter by **Receiving status** and use the **Export results (CSV)** option to send information to their vendor to support the claim.
+
+If a library knows they must wait for a longer period of time before submitting a claim to a vendor, they may update a piece to delay the claim:
+1. Using the **Search & filter** pane, find the receiving title for which you want to send delay a claim and select it.
+2. In the Expected section of the receiving title, click on the piece.
+3. The **Edit piece** modal will appear.
+4. Click on the dropdown menu next to **Save & close** and select **Delay claim**.
+5. In the **Delay piece** modal, enter a **Delay to** date.
+6. Click **Save & close**.
+7. The piece status will update to 'Claim delayed' and remain in the **Expected** accordion on the receiving record.
+Note: When the delay date has passed, the piece status reverts to 'Late' or 'Expected' depending on the expected receipt date and the claiming interval for the receiving title. If the status of the piece has already been changed to 'Received' or 'Unreceivable', the status will not update after the delad date has passed.
+
+
+## Viewing a piece's status log
+The status of a piece can update when any of the following actions occur:
+*  The piece is created.
+*  The piece is received.
+*  The piece is unreceived.
+*  The piece has not been received and it is past its expected receipt date.
+*  A claim is sent or delayed for the piece, which has not been received by the library.
+
+These status changes are tracked and can be reviewed in the piece record's status log. To access the status log:
+1. Using the **Search & filter** pane, find the receiving title and select it.
+2. Click on the piece.
+3. The **Edit piece** modal will appear.
+4. Expand the **Status log** accordion at the bottom of the piece.
+5. A table will appear with the following columns:
+*  **Status change.** The status of the piece.
+*  **Date.** The date the status change occurred.
+*  **Interval.** This column only holds data for **Send claim** and **Delay claim** updates.
+*  **Updated by.** The name of the user who made the update.
+
