@@ -32,7 +32,7 @@ The Export manager app allows users to view export logs and reports initiated fr
 *   eHoldings
 *   MARC authority 
 
-Note: MARC authority exports are limited to the reports related to MARC authorities. If exporting MARC authority records, the export can be accessed in the Data export logs. For more information, see [Exporting MARC authority records] (../metadata/inventory/marcauthority/#exporting-marc-authority-records).
+Note: MARC authority exports are limited to the [reports related to MARC authorities] (../metadata/inventory/marcauthority/#reporting). If exporting MARC authority records, the export can be accessed in the Data export logs. For more information, see [Exporting MARC authority records] (../metadata/inventory/marcauthority/#exporting-marc-authority-records).
 
 Once an export is initiated in any of these areas, a log of the export appears in the Export manager app. The app’s **Search & filter** pane displays two tabs: **All** and **Organizations**. The **Organizations** tab supports EDIFACT order export, while all other supported exports are accessible using the **All** tab.
 
