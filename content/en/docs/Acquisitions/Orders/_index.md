@@ -918,6 +918,8 @@ Note: multiple product IDs may be added to a purchase order line.
 *   **Donor.** The donor of the item. Note: As of the Quesnelia release, this field has been disabled and will be deprecated in 2025. Please create donor records from the Organizations app. Use the [Donor information](#donor-information) accordion below to add donors to the POL.
 *   **Selector.** The person who chose the item.
 *   **Requester.** The person who requested the item.
+*   **Claiming active.** If this item is eligible for claiming with the vendor, check this box. This will activate the **Claiming interval** field.
+*   **Claiming interval.** This field will be autofilled if the corresponding field is configured on the associated vendor record, but may be overridden on the individual purchase order line. Enter the desired interval in days.
 *   **Cancellation restriction.** If there is a cancellation restriction on the item, select the **Cancellation restriction** checkbox.
 *   **Rush.** If the item needs rush processing, select the **Rush** checkbox. This indicator will appear in the Receiving app.
 *   **Collection.** If the item is part of a collection, select the **Collection** checkbox.
