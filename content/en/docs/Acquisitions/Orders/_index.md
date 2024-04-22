@@ -384,7 +384,7 @@ To search for orders updated by a specific user, follow these steps:
 
 ### Date updated
 
-To search for orders based on the date they were created, follow these steps:
+To search for orders based on the date they were updated, follow these steps:
 
 1. In the **Search & filter** pane, click **Date updated**.
 
@@ -1456,7 +1456,7 @@ To search for order lines based on their export date, follow these steps:
 
 ### Created by
 
-To search for orderlines created by a specific user, follow these steps:
+To search for order lines created by a specific user, follow these steps:
 
 1. In the **Search & filter** pane, click **Created by**.
 
@@ -1492,7 +1492,7 @@ To search for order lines updated by a specific user, follow these steps:
 
 ### Date updated
 
-To search for order lines based on the date they were created, follow these steps:
+To search for order lines based on the date they were updated, follow these steps:
 
 1. In the **Search & filter** pane, click **Date updated**.
 
