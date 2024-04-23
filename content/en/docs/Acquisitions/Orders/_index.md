@@ -101,7 +101,7 @@ Once you create an order, you need to [add at least one order line to the order]
 *   **Approved.** To approve the order, select the **Approved** checkbox. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
 
 #### Custom fields
-The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see XX
+The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Creating an ongoing order
@@ -159,7 +159,7 @@ You can search for orders in the **Search & filter** pane. Click **Orders** to s
 *   **PO number.** The purchase order number.
 
 
-You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in Settings > Orders > Custom fields.
+You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Status
@@ -1078,7 +1078,7 @@ This section only appears if you select Other under [Order format](#order-format
 *   **Material type.** The type of material.
 
 ### Custom fields
-The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see XX
+The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 ## Adding package titles to an order line
 
@@ -1141,7 +1141,7 @@ You can search for order lines in the **Search & filter** pane. Order lines is s
 *   **Product ID.** The Product ID of the item.
 *   **Product ID ISBN.** The ISBN of the item.
 
-You can also search for order lines by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information. Note: additional filter options may be visible to users if custom fileds have been configured in [Settings > Orders > Custom fields] (XX).
+You can also search for order lines by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information. Note: additional filter options may be visible to users if custom fileds have been configured in [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Receipt status
