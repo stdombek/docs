@@ -20,42 +20,51 @@ A library may need to edit fields on an order record with an 'Open' status. This
 ### Order fields
 | One-Time   | Ongoing | Ongoing Subscription |
 | -------- | ------- | ------- |
-| Vendor |     |     |
-| Acquisition unit |      |     |
-| Bill to   |     |     |
-| Ship to  |     |     |
-| Tags  |    |    |
-| Note  |    |    |
-| Custom fields  |    |    |
+| Vendor |  Vendor   |  Vendor   |
+| Acquisition unit |   Acquisition unit   |  Acquisition unit   |
+| Assigned to |   Assigned to   |   Assigned to   |
+| Bill to   |  Bill to   |  Bill to   |
+| Ship to  |   Ship to   |  Ship to   |
+| Tags  |  Tags  |  Tags  |
+| Note  |  Note   |  Note  |
+| Custom fields  |  Subscription  |  Subscription  |
+|   |  Review date  |  Renewal interval  |
+|   |  Notes |  Renewal date  |
+|   |  Custom fields |  Review period  |
+|   |   |  Notes |
+|   |   |  Custom fields  |
 
 ### Order line fields
 | One-Time   | Ongoing | Ongoing Subscription |
 | -------- | ------- | ------- |
-| Receiving note |     |     |
-| Subsciption from |      |     |
-| Subscription to   |     |     |
-| Linked package  |     |     |
-| Internal note  |    |    |
-| Receipt date  |    |    |
-| Receipt status  |    |    |
-| Payment status  |    |    |
-| Claiming active  |    |    |
-| Claiming interval  |    |    |
-| Cancellation restriction  |    |    |
-| Cancellation description  |    |    |
-| Line description  |    |    |
-| Tags  |    |    |
-| Donor information  |    |    |
-| Vendor reference number and type  |    |    |
-| Unit price (physical and electronic)  |    |    |
-| Additional cost  |    |    |
-| Currency  |    |    |
-| Set exchange rate  |    |    |
-| Discount  |    |    |
-| Fund distribution |    |    |
-| Receipt/Activation due  |    |    |
-| Expected activation/receipt date  |    |    |
-| URL  |    |    |
+| Receiving note |  Receiving note    |  Receiving note    |
+| Subsciption from |   Subsciption from   |   Subsciption from  |
+| Subscription to   |  Subscription to    |  Subscription to    |
+| Linked package  |   Subscription to   |   Subscription to   |
+| Internal note  |  Internal note  |  Internal note  |
+| Receipt date  |  Receipt date  | Receipt date   |
+| Receipt status  | Receipt status    |   Receipt status  |
+| Payment status  | Payment status    |  Payment status   |
+| Claiming active  |  Payment status   |  Payment status   |
+| Claiming interval  |  Claiming interval   |  Claiming interval   |
+| Cancellation restriction  | Claiming interval    |  Claiming interval   |
+| Cancellation description  | Cancellation description   |  Cancellation description  |
+| Line description  |  Line description  |  Line description  |
+| Tags  |  Tags  |  Tags  |
+| Donor information  | Donor information   | Donor information  |
+| Vendor reference number and type  |  Renewal note  | Renewal note   |
+| Unit price (physical and electronic)  | Vendor reference number and type   |  Vendor reference number and type  |
+| Additional cost  |  Unit price (physical and electronic)  |  Unit price (physical and electronic)  |
+| Currency  |  Additional cost  |  Additional cost  |
+| Set exchange rate  |  Currency  |  Currency  |
+| Discount  |  Set exchange rate   |  Set exchange rate   |
+| Fund distribution |  Discount  |   Discount |
+| Material supplier/access provider  |  Fund distribution  | Fund distribution   |
+|  Receipt/Activation due |  Quantity (physical and electronic)*  |  Quantity (physical and electronic)*  |
+| Expected activation/receipt date |  Material supplier/access provider  |  Material supplier/access provider  |
+| URL  | Receipt/Activation due   |  Receipt/Activation due  |
+|  | Expected activation/receipt date   |  Expected activation/receipt date  |
+|  | URL   |  URL  |
 
 ## How does FOLIO know when to close an order as 'Complete'?
 An order will automatically close with a ‘Reason for closure’ of Complete if all POL associated with the order achieve one of the following:
