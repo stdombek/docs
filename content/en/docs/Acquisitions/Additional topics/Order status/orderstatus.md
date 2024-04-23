@@ -40,7 +40,7 @@ A library may need to edit fields on an order record with an 'Open' status. This
 | Receiving note |  Receiving note    |  Receiving note    |
 | Subsciption from |   Subsciption from   |   Subsciption from  |
 | Subscription to   |  Subscription to    |  Subscription to    |
-| Linked package  |   Subscription to   |   Subscription to   |
+| Linked package  |   Linked package   |   Linked package  |
 | Internal note  |  Internal note  |  Internal note  |
 | Receipt date  |  Receipt date  | Receipt date   |
 | Receipt status  | Receipt status    |   Receipt status  |
