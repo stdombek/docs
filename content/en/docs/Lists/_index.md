@@ -124,9 +124,6 @@ To view the refreshed list, click **Actions \> Refresh List** and click the **Vi
 A new list must have **List information** and a **Query** assigned to establish the record set for the list. A **Test query** must be performed before the query can be run and saved. 
 
 
-A record set in a list is currently limited to 1.25 million records. 
-
-
 ### List information
 
 
@@ -135,13 +132,13 @@ To add list details for a new list, follow these steps:
 
 1. In the Lists pane, click on **New**. 
 2. In the **New List** window, add the **List name**, **Description**, **Visibility**, and **Status** criteria in the **List information** section. 
-3. Select the appropriate **Record type** for the list. Select the appropriate **Record type** for the list. Record types include **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info** and **Users**.
+3. Select the appropriate **Record type** for the list. Select the appropriate **Record type** for the list. Record types include **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, **Purchase order lines**, and **Users**.
 
 
 ### Build a query
 
 
-The **Build query** function in the Lists app allows the user to build a query for these record types: **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, and **Users**. The query string populates in the **Query** field as the query is built. 
+The **Build query** function in the Lists app allows the user to build a query for these record types: **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, **Purchase order lines**, and **Users**. The query string populates in the **Query** field as the query is built. 
 
 
 To set criteria and build a query for new list, follow these steps: 
@@ -165,33 +162,6 @@ Test query is required before the query can be run and saved whenever 1) creatin
 8. Click **Run query & save**. If saved successfully, a *(Name of List) saved successfully* message appears momentarily. Once the query is completed, a *Refresh complete with (number of) records: View updated list* at the top of the window. 
 9. Click the **View updated list** link in the confirmation message to view the record set in the list. 
 10. In a list, the fields of the record type display as column headings. The default display of column headings is based on the record type assigned to the list. Customize the display of column headings in the record set by checking or unchecking the field(s) in **Actions \> Show columns** as appropriate for the selected record type. 
-
-
-#### Record type: Items
-
-
-To build a query for **Record type: Items**, follow these steps:
-
-
-1. Select a **Field** from the *Filter options list* drop-down menu. The **Fields** available for selection in the **Filter options** are based on the **Record Type**. 
-2. Select an **Operator** from the **Select operator** drop-down list:
-* ==: Selected **Field** equals the selected **Value**.
-* !=: Selected **Field** does not equal the selected **Value**.
-* In: Selected **Field** appears in the selected **Value**.
-* Not in: Selected **Field** does not appear in the selected **Value**.
-3. Select a **Value** from the **Select value** drop-down list. The **Values** available for selection are based on the **Record Type** and **Field**.
-4. Click on the **+ icon** to add additional rows to the query. Click on the **trash can icon** to delete rows from the query. 
-5. Click the **Test query** button to see how many records are returned and to preview the record set of the list. In an **Items** test query preview, the default column headings for the record set displayed include: 
-
-
-* **Instance title**
-* **Item barcode** 
-* **Item copy number** 
-* **Item effective call number**
-* **Item effective location name**
-
-
-To change the display of columns headings, click on the **Show columns** button. Uncheck fields to remove them from the display. Check fields to include them in the display.  
 
 
 ### Test query
@@ -229,7 +199,7 @@ To edit the **List information** in a list, follow these steps:
 1. Select the list in the **Lists** pane. The list opens a new window.
 2. Click **Actions \> Edit List**. 
 3. In the **List information** section, edit the **List name**, **Description**, **Visibility**, and/or **Status** fields as appropriate.
-4. Click **Save**. A *List _List Title_ was saved* confirmation message will appear in the lower right corner of the screen. 
+4. Click **Save**. A *List (List Title) was saved* confirmation message will appear in the lower right corner of the screen. 
 
 
 To edit the **Query** in a list, follow these steps: 
@@ -247,14 +217,14 @@ To edit the **Query** in a list, follow these steps:
 
 To duplicate a list, follow these steps:
 
-Select the list from the **Lists** pane. The selected list will open in a new window. 
-Click **Actions \> Duplicate List**. 
-Edit the **List name**, **Description** (optional), or change **Visibility** and **Status**,  if appropriate. 
-Edit the query, if appropriate, by clicking the **Edit query** button. 
-Make changes to **Field**, **Operator**, and/or **Value**. The **Query** field displays a preview of the query string as it is edited.
-If necessary, click on the **+ icon** to add additional rows to the query or click on the **trash can icon** to delete rows from the query. 
-Click the **Test query** button to see how many records are returned and to preview the record set of the list. Test query is required when editing the query of a list before the new query can be run and saved. 
-Click the **Run query & save** button. A confirmation message, *List (Duplicate List Name) was saved* will appear in the lower right corner of the screen. 
+1. Select the list from the **Lists** pane. The selected list will open in a new window. 
+2. Click **Actions \> Duplicate List**. 
+3. Edit the **List name**, **Description** (optional), or change **Visibility** and **Status**,  if appropriate. 
+4. Edit the query, if appropriate, by clicking the **Edit query** button. 
+5. Make changes to **Field**, **Operator**, and/or **Value**. The **Query** field displays a preview of the query string as it is edited.
+6. If necessary, click on the **+ icon** to add additional rows to the query; click on the **trash can icon** to delete rows from the query. 
+7. Click the **Test query** button to see how many records are returned and to preview the record set of the list. Test query is required when editing the query of a list before the new query can be run and saved. 
+8. Click the **Run query & save** button. A confirmation message, *List (Duplicate List Name) was saved* will appear in the lower right corner of the screen. 
 If duplicating the list without making any changes, click **Save.** A confirmation message, *List (Original List Name) - copy was saved* appears in the lower right corner of the screen. 
 
 ## Delete a list
