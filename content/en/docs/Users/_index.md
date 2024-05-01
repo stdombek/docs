@@ -284,7 +284,7 @@ To anonymize a user’s closed loan, follow these steps:
 ### Requests
 
 
-The **Requests** section displays the number of **open requests** and **closed requests** on a user’s record. For more information about requests, see [Requests](../access/requests/requests/)
+The **Requests** section displays the number of **open requests** and **closed requests** on a user’s record. For more information about requests, see [Requests](../access/requests/requests/).
 
 
 #### Open requests
@@ -693,7 +693,7 @@ To view a **Lost items requiring actual cost** report:
 
 ### View patron notice print jobs
 
-If a library is required to send print overdue notices to their patrons, the **View patron notice print jobs (PDF)** provides a daily report of patron notices. This PDF file is automatically generated overnight every 24 hours using the assigned patron notice template(s). In Quesnalia, this option appears in the Action menu, but the PDF file is actually generated only for libraries that have set up [reminder fees](.../access/additional-topics/feesfines/feesfines/#reminder-fees) in their overdue fine policies. For more information about setting up reminder fees, see [Settings \> Circulation \> Reminder fees](.../settings/settings_circulation/settings_circulation/#reminder-fees). 
+If a library is required to send print overdue notices to their patrons, the **View patron notice print jobs (PDF)** provides a daily report of patron notices. This PDF file is automatically generated overnight every 24 hours using the assigned patron notice template(s). In Quesnalia, this option appears in the Action menu, but the PDF file is actually generated only for libraries that have set up [reminder fees](../access/additional-topics/feesfines/feesfines/#reminder-fees) in their overdue fine policies. For more information about setting up reminder fees, see [Settings \> Circulation \> Reminder fees](../settings/settings_circulation/settings_circulation/#reminder-fees). 
 
 To view patron notice print jobs (PDF): 
 1. In the **User search results** pane, click **Actions \> View patron notice print jobs (PDF)**.
@@ -778,7 +778,7 @@ To create a **Refunds to process manually report**:
 ## Managing loans and fee/fines for patrons
 
 
-From the loans section on a patron’s record, a FOLIO user with appropriate permissions can renew a loan for a patron, change the due date, mark the item claim returned, or declare the item lost. For more information, see [Additional Topics \> Loans](../access/additional-topics/loans/loans/).
+From the loans section on a patron’s record, a FOLIO user with appropriate permissions can renew a loan for a patron, change the due date, mark the item claim returned, or declare the item lost. For more information, see [Additional Topics \> Loans](../access/additional-topics/loans/loans).
 
 
 FOLIO users with appropriate permissions can manage fee/fines on patron accounts. This includes viewing fee/fine information, creating manual charges, accepting payment, waiving a fine, refunding a fine, and canceling a fine. For more information, see [Additional Topics \> Fees and fines](../access/additional-topics/feesfines/feesfines/). 
@@ -924,7 +924,7 @@ To create a manual fee/fine, **Fee/fine types** and other fee/fine settings must
 6. In the **Fee/fine amount** box, you can do one of three things:
     - Keep the default fee/fine amount, if one is populated for the fee/fine type.
     - Adjust the default fee/fine amount, if it is populated for the fee/fine type.
-    - Provide a fee/fine amount, if one did not populate. See [Lost items requiring actual cost](###lost-items-requiring-actual-cost).
+    - Provide a fee/fine amount, if one did not populate. See [Lost items requiring actual cost](#lost-items-requiring-actual-cost).
 7. Optional: To associate the fee/fine with an item, scan or enter the item barcode into the **Item information** box and click **Enter**.
 8. Optional: Enter any **Additional information for staff** in the box.
 9. Click **Charge only** to apply the charge to the patron record. FOLIO users with appropriate permissions may be able to create the fine and immediately accept payment by clicking **Charge & pay now**.
@@ -1014,7 +1014,7 @@ The modal will close, and the **Fee/fine details** page will update with the can
 ## Processing lost items requiring actual cost
 
 
-Libraries may choose to use **Actual cost** for some or all of the fines that they charge patrons. With the actual cost model, libraries review each loan after it ages to lost in order to charge the patron a specific amount for the item, rather than a flat amount based on the associated loan policy. For more information, see [Lost items - charging set cost versus actual cost](../access/additional topics/feesfines/feesfines/#lost-items--charging-set-cost-versus-actual-cost
+Libraries may choose to use **Actual cost** for some or all of the fines that they charge patrons. With the actual cost model, libraries review each loan after it ages to lost in order to charge the patron a specific amount for the item, rather than a flat amount based on the associated loan policy. For more information, see [Lost items - charging set cost versus actual cost](../access/additional-topics/feesfines/feesfines/#lost-items---charging-set-cost-versus-actual-cost
 ).
 
 
