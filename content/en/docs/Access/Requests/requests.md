@@ -64,7 +64,7 @@ Closed requests have one of the following statuses:
 * **Closed - Cancelled**: The request was cancelled either prior to an item being available for pickup, or after the item became available for pickup, but before the pickup expired.
 * **Closed - Filled**: The item was placed on hold for the patron, and the patron checked the item out. This also includes [Delivery requests](#processing-delivery-requests) where the item was checked in and the **Close and check out** option was selected.
 * **Closed - Pickup expired**: The item was placed on hold for the patron, but the patron did not pick up the item before the Hold shelf expiration date passed.
-* **Closed - Unfilled**: The request was not set in progress before the Request expiration date passed. If the Request expiration date field is empty, the request will never be moved to this status.
+* **Closed - Unfilled**: The request was still open when the Request expiration date passed. If the Request expiration date field is empty, the request will never be moved to this status. Exception: Open - Awaiting pickup requests remain open until the Hold shelf expiration date is passed.
 
 ## Searching for requests
 
