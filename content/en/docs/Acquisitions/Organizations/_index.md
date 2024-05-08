@@ -1,7 +1,7 @@
 ---
 title: "Organizations"
 linkTitle: "Organizations"
-date: 2024-04-21
+date: 2024-05-08
 weight: 40
 tags: ["parenttopic"]
 ---
@@ -316,7 +316,7 @@ The information that you enter under Vendor information sets some of the default
 *   **Vendor currencies.** The currencies accepted by the vendor.
 *   **Expected activation interval.** The standard activation period for the vendor, in days. Note: The interval you enter here is used in the Activation due field in the E-resources details section of an order line associated with the vendor. For example, if you set the interval to 365, the Activation due field is populated with the date that falls one year from the date the order line is created.
 *   **Expected invoice interval.** The standard invoice interval for the vendor, in days. Currently, this information does not display on invoices.
-*   **Claiming interval.** The standard claim period for the vendor, in days. This value will carry over to the purchase order lines (POL) associated with this vendor. The default value may be overridden on an individual POL.
+*   **Claiming interval.** The standard claim period for the vendor, in days. This value will carry over to the purchase order lines (POL) associated with this vendor. The default value may be overridden on an individual POL or receiving title. This interval represents how long after a piece's expected receipt date it should be marked 'Late' if the piece is not received.
 *   **Expected receipt interval.** The standard period during which ordered items are received from the vendor, in days.
 *   **Discount percent.** The discount negotiated with the vendor, as a percent value. When creating an order line for an order with the vendor, this value appears as the default in the discount field.
 *   **Renewal activation interval.** The standard renewal activation period for this vendor, in days.
