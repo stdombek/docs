@@ -581,7 +581,7 @@ Expected pieces can be found  in the Expected section of a Receiving app record.
 *   **Expected receipt date.** The date the piece is expected to be received.
 *   **Comment.** Comments or notes about the piece.
 *   **Internal note.** A note for staff related to the piece.
-*   **External note.** A note for end user interfaces related to the piece
+*   **External note.** A note meant to relay information to a vendor related to a claim.
 *   **Create item.** Select the **Create item** checkbox to connect the new piece to an item in Inventory. This option is only available for pieces linked to an order with the purchase order line **Create inventory** value set to “Instance, holdings, item.” . Note: In order to create an item in Inventory, a default instance status, instance type, and loan type must already be set up in Settings.  See [Settings > Orders](../settings/settings_orders/settings_orders/) for more information.
 *   **Supplement.** Select the **Supplement** checkbox to indicate that the piece is supplementary material such as a CD or a map. 
 *   **Display on holdings.**  Select the **Display on holdings** checkbox to indicate that information about this piece should be displayed in the Inventory app in the Acquisition section of the holdings record.  See [Inventory > Acquisition](../metadata/inventory/#acquisition) for more information.
@@ -727,30 +727,32 @@ The Receive function can be used to receive multiple pieces at once.
 5. Click **Unreceive**. The selected pieces are now displayed under the Expected section.
 
 ## Marking a piece unreceivable
-If a piece arrives and is damaged or otherwise unreceiveable, use the following steps to mark the piece unreceivable:
+If a piece will not arrive at the library (e.g. the title is out of print) and will never be received by the library, use the following steps to mark the piece unreceivable:
 1. Using the **Search & filter** pane, find the receiving title you want to mark unreceivable and select it.
 2. In the Expected section of the receiving title, click on the piece.
 3. The **Edit piece** modal will appear.
 4. Click on the dropdown menu next to **Save & close** and select **Unreceivable**.
 5. The piece status will update to 'Unreceivable' and the piece will move to the **Unreceiveable** accordion on the receiving record.
-6. Click **Receive**. The selected pieces are now displayed under the Received section.
 
 Note: if this action is performed in error or the piece becomes receivable, you can click on the piece in the **Unreceivable** accordion and, in the **Edit piece** modal, click on the dropdown menu next to **Save & close** and select **Expect**. This will move the piece back to the **Expected** accordion and update the piece status accordingly.
 
 ## Claiming a piece
-If a piece never arrives from the vendor, the library may wish to file a claim with the vendor to seek replacement or a refund. 
+If a piece has not arrived from the vendor by the expected receipt date or is damaged/unacceptable upon arrival, the library may wish to file a claim with the vendor to seek replacement or a refund. 
+
+A library may configure a **Claiming interval** on the Organization record for the vendor. A **Claiming interval** represents the number of days after a piece's **Expected receipt date** when an unreceived piece will be marked **Late**. If a **Claiming interval** is entered on the Organization record, this will appear as the default claiming interval on purchase order lines associated with the vendor, but the default may be changed when the **Claiming active** box is checked on the purchase order line. The interval may also be changed on each receiving title; for example, if a package POL has mutliple titles that should each have different claiming intervals assigned.
+
+Once a piece is marked **Late**, a library may wish to send a claim to the vendor. In the Quesnelia release of FOLIO, pieces can be marked as **Claim sent**, but automatic transmission to the vendor is not yet implemented. A library may wish to filter by **Receiving status** and use the **Export results (CSV)** option to send information to their vendor to support the claim.
 
 To update a piece to 'Claim sent', use the following steps:
 1. Using the **Search & filter** pane, find the receiving title for which you want to send a claim and select it.
 2. In the Expected section of the receiving title, click on the piece.
 3. The **Edit piece** modal will appear.
 4. Click on the dropdown menu next to **Save & close** and select **Send claim**.
-5. In the **Send claim** modal, enter a **Claim expiry date**.
+5. In the **Send claim** modal, enter a **Claim expiry date**. This is the date by which the claim needs to be resolved. If the piece status is not resolved before that date, the piece status will update back to **Late** to facilitate subsequent claims.
 6. Optional: add internal and external notes, if desired.
 7. Click **Save & close**.
 8. The piece status will update to 'Claim sent' and remain in the **Expected** accordion on the receiving record.
 
-Note: A library may wish to filter by **Receiving status** and use the **Export results (CSV)** option to send information to their vendor to support the claim.
 
 If a library knows they must wait for a longer period of time before submitting a claim to a vendor, they may update a piece to delay the claim:
 1. Using the **Search & filter** pane, find the receiving title for which you want to send delay a claim and select it.
