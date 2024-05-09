@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-04-26
+date: 2024-05-09
 weight: 550
 ---
 
@@ -556,31 +556,43 @@ To download the errors as a .csv file, follow these steps:
 
 ### Start bulk edit 
 
-
 The data in the **Email**, **Expiration date**, and **Patron group** fields of matched user records can be replaced with new data by using the Bulk edit approach. Bulk edit may be performed on each of these fields individually or simultaneously. To bulk edit all three fields simultaneously, click the **+ icon** at the end of the row to add another bulk edit option. 
 
 To start a bulk edit, follow these steps:
 
 1. In the **Preview** pane, click **Actions > Start bulk edit**. The number of matched records and the filename of the .csv file display at the top of the **Bulk edit** window.
-2. In the **Bulk edits** section, select **Email**, **Expiration Date**, or **Patron Group**
-  * For **Email**, bulk edit performs a find and replace in the email address field of the matched records. Thus, the **Actions** available are **Find (full field search)** and **Replace with** . Type the current data (text) in the **Find (full field search)** box. Type the new data (text) in the **Replace with** box. 
-  * For **Expiration date**, bulk edit replaces the date in the Expiration date of the matched records. Thus, the **Actions** available are limited to **Replace with**.  Type the new expiration date in MM/DD/YYYY format in the **Data** box. 
-  * For **Patron group**, bulk edit replaces the Patron group data in the matched records. Thus, the **Actions** available are limited to **Replace with**. Select the new Patron group from the **Data** drop-down menu. 
-### Start bulk edit (Local)
+2. In the **Bulk edits** section, select **Email**, **Expiration Date**, or **Patron Group**.
+ - For **Email**, bulk edit performs a find and replace in the email address field of the matched records. Thus, the **Actions** available are **Find (full field search)** and **Replace with** . Type the current data (text) in the **Find (full field search)** box. Type the new data (text) in the **Replace with** box. 
+ - For **Expiration date**, bulk edit replaces the date in the Expiration date of the matched records. Thus, the **Actions** available are limited to **Replace with**.  Type the new expiration date in MM/DD/YYYY format in the **Data** box. 
+ - For **Patron group**, bulk edit replaces the Patron group data in the matched records. Thus, the **Actions** available are limited to **Replace with**. Select the new Patron group from the **Data** drop-down menu. 
+3. Click the **Confirm changes** button.
+4. A message appears in the **Are you sure?**modal. The message *(Number of) records will be changed if the Commit changes button is clicked. You may choose Download preview to review all changes prior to saving.* A **Preview of records to be changed** is also displayed.
+ - Click **Keep editing** to return to the Bulk edit window.
+ - Click **Download preview** to download a .csv file of the proposed changes. 
+ - Click **Commit changes** to run the bulk edit.
+5. When the bulk edit is complete, a confirmation message, *(Number of) records have been successfully changed*, appears in the **Bulk edit** window. 
+6. To change the column headings in the **Preview of record changed** table, click **Actions** and select or deselect the fields in the **Show columns** list as appropriate.
+7. To download a .csv file of changed records, click **Actions > Download changed records (CSV)**. 
 
+
+### Start bulk edit (Local)
 
 The **Bulk edit (Local)** function allows the user to perform a bulk edit on records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, records. 
 
-The data in the **Email**, **Expiration date**, and **Patron group** fields of matched user records can be replaced with new data by using the Bulk edit (Local) approach. 
+Any field in matching user records can be changed by using the Bulk edit (Local) approach.
 
-To use bulk edit to apply local changes to records, follow these steps: 
+Note that Microsoft Excel processes .csv files in ways that may change data unexpectedly, especially date and time fields. Reviewing the .csv data in a text editor helps ensure that no unexpected changes are made to records with **Bulk edit (Local)**.
 
+To use **Bulk edit (Local)** approach to apply changes to records, follow these steps: 
 
-1. Select **Actions \> Start bulk edit (Local)**. 
-2. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer.
-3. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window. 
-4. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked* appears in a new window.
-5. Click **Commit changes**. Bulk edit will apply the local changes to the records in FOLIO.
+1. In the **Set criteria** pane, select Users as the **Record type** and select the appropriate **Record identifier**: User UUIDs, User barcodes, External IDs, or Usernames.
+2. Upload a .csv file with the selected Record identifier by either using the **Drag and drop** option or clicking the **Choose file** button.
+3. Select **Actions \> Download matched records (CSV)** to download a .csv file of matched user records; or select **Actions \> Download errors (CSV)** to download a .csv file of records that did not match your selected record identifier. 
+4. Edit the downloaded .csv file and make changes to the user records in the file itself. Save the edited .csv file to your computer.
+5. Select **Actions \> Start bulk edit (Local)**. 
+6. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window.
+7. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked.* appears in a new window.
+8. Click **Commit changes**. Bulk edit will apply the local changes to the records in FOLIO.
 
 
 ## Logs
