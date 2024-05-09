@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-02-28
+date: 2024-05-09
 weight: 550
 ---
 
@@ -48,10 +48,7 @@ The Bulk edit app provides two methods for editing records:
 * **Bulk edit**: The **Bulk edit** approach is also referred to as **In-app**. This approach allows the user to set criteria for the bulk edit by uploading a list of record identifiers from a .csv file. Once the records are identified and matched, **Bulk edit** allows the user to designate an action for these records and commit the changes to the records in FOLIO’s user interface. 
 
 
-* **Bulk edit (Local)**: The **Bulk edit (Local)** approach is also referred to as **CSV**. This approach uses a .csv file to display records matching a selected **Record identifier**. Changes are made to the records and saved in the .csv file, and committed to FOLIO by uploading the edited .csv file. 
-
-
-Note that Microsoft Excel processes .csv files in ways that may change data unexpectedly, especially date and time fields. Reviewing the .csv data in a text editor helps ensure that no unexpected changes are made to records with **Bulk edit (Local)**.
+* **Bulk edit (Local)**: The **Bulk edit (Local)** approach is also referred to as **CSV**. This approach uses a .csv file to display records matching a selected **Record identifier**. Changes to the matching records are made and saved in the .csv file on your local device and committed to FOLIO by uploading the edited .csv file. 
 
 
 ## Inventory - holdings
@@ -543,18 +540,21 @@ To bulk edit the **Patron group** field in the matched records, follow these ste
 
 The **Bulk edit (Local)** function allows the user to perform a bulk edit on records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, records. 
 
+Any field in matching user records can be changed by using the Bulk edit (Local) approach.
 
-In matching user records, the **Email**, **Expiration date**, and **Patron group** fields of matched user records can be changed by using the Bulk edit (Local) approach. 
+Note that Microsoft Excel processes .csv files in ways that may change data unexpectedly, especially date and time fields. Reviewing the .csv data in a text editor helps ensure that no unexpected changes are made to records with **Bulk edit (Local)**.
 
+To use **Bulk edit (Local)** approach to apply changes to records, follow these steps: 
 
-To use bulk edit to apply local changes to records, follow these steps: 
-
-
-1. Select **Actions \> Start bulk edit (Local)**. 
-2. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer.
-3. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window. 
-4. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked* appears in a new window.
-5. Click **Commit changes**. Bulk edit will apply the local changes to the records in FOLIO.
+1. In the **Set criteria** pane, select Users as the **Record type** and select the appropriate **Record identifier**: User UUIDs, User barcodes, External IDs, or Usernames.
+2. Upload a .csv file with the selected Record identifier by either using the **Drag and drop** option or clicking the **Choose file** button.
+3. Select **Actions \> Download matched records (CSV)** to download a .csv file of matched user records; or select **Actions \> Download errors (CSV)** to download a .csv file of records that did not match your selected record identifier.
+4. Edit the downloaded .csv file and make changes to the user records in the file itself. Save the edited .csv file to your computer.
+5. Select **Actions \> Start bulk edit (Local)**.
+6. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer.
+7. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window.
+8. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked* appears in a new window.
+9. Click **Commit changes**. Bulk edit will apply the local changes to the records in FOLIO.
 
 
 ## Logs
