@@ -26,6 +26,10 @@ The permissions listed below allow you to interact with the Inventory app and de
 -   **MARC Authority: Create new MARC authority record.** This permission allows the user to create authority records.
 -   **quickMARC: View, edit MARC authority record.** This permission allows the user to view and edit MARC authority records.
 
+## Keyboard shortcuts
+
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform Essentials \> Keyboard shortcuts](../../../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+
 ## Viewing a MARC authority record
 
 The full MARC record opens in the third pane once you search for and select an authority record. The heading or reference you selected will be highlighted in the record.
@@ -112,14 +116,14 @@ To use Advanced Search, follow these steps:
 - **Contains all.** Results include records that contain the entire search term, but individual words can appear in any order.
 - **Starts with.** Results include records that include a field that starts with the search term.
 - **Contains any.** Results include records that include any of the words included in the search term.
-5.  On the same row, click the **Keyword** drop-down list and select a field. See [searching for authority records](#searching-for-authority-records) for a list of fields.
-6.  To enter search terms into additional rows, you must select an operator from the **AND** drop-down list.
-7.  Click the **AND** drop-down list and select an operator from the list below:
+4.  On the same row, click the **Keyword** drop-down list and select a field. See [searching for authority records](#searching-for-authority-records) for a list of fields.
+5.  To enter search terms into additional rows, you must select an operator from the **AND** drop-down list.
+6.  Click the **AND** drop-down list and select an operator from the list below:
 -   **AND.** Results include records containing all of the search terms.
 -   **OR.**  Results include all records containing at least one of the search terms.
 -   **NOT.** Results do not include records containing the search terms in this row.
-6.  Continue entering additional search terms and selecting the appropriate fields for each row.
-7.  Click **Search**.
+7.  Continue entering additional search terms and selecting the appropriate fields for each row.
+8.  Click **Search**.
 
 After performing a search, you can limit results by selecting any of the filters in the **Search & filter** pane.
 
