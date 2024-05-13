@@ -54,6 +54,10 @@ The following are all the Inventory permissions:
 
 Note: Some actions in Inventory require permissions in other apps. For example, **View source** requires permissions in quickMARC.
 
+## Keyboard shortcuts
+
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform Essentials \> Keyboard shortcuts](../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+
 ## Creating an instance record manually in FOLIO
 
 1.  In the Inventory pane, click **Actions \> New**.
@@ -869,21 +873,6 @@ To search, first select the record type (instance, holdings, or item) then enter
 -   **Circulation notes.** Keyword search across check in and check out notes.
 -   **Item HRID.** Human readable identifier for the item record.
 -   **Item UUID.** Universally unique identifier for the item record.
-  
-To use the **Advanced search** button, follow these steps:
-1.  Select the **Advanced Search** button. A pop-up box will appear.
-2.  Enter a search term into the first box.
-3.  On the same row, click the **Contains all** drop-down list and select an option from the list below:
-- **Exact phrase.** Results include records that contain only an exact match to the search term.
-- **Contains all.** Results include records that contain the entire search term, but individual words can appear in any order.
-- **Starts with.** Results include records that include a field that starts with the search term.
-- **Contains any.** Results include records that include any of the words included in the search term.
-4.  On the same row, click the **Keyword** drop-down list and select a field. See [searching for a record](#searching-for-a-record) for a list of fields.
-5.  To enter search terms into additional rows, you must select an operator from the **AND** drop-down list.
-6.  Click the **AND** drop-down list and select an operator from the list below:
--   **AND.** Results include records containing all of the search terms.
--   **OR.**  Results include all records containing at least one of the search terms.
--   **NOT.** Results do not include records containing the search terms in this row.
 
 ## Browsing for a record
 
