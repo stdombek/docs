@@ -13,8 +13,8 @@ The Invoices section of the Settings app is where you establish one click approv
 
 To interact with invoice settings, users need the following permission: 
 
-*   **Settings (Invoices): Batch group usernames and passwords: view.** This permission allows the user to view FTP/SFTP authentication credntials entered in [Settings \> Invoices \> Batch group configuration](../settings/settings_invoices/settings_invoices/#settings--invoices--batch-group-configuration/).
-*   **Settings (Invoices): Batch group usernames and passwords: view and edit.** This permission allows the user to view and edit FTP/SFTP authentication credntials entered in [Settings \> Invoices \> Batch group configuration](../settings/settings_invoices/settings_invoices/#settings--invoices--batch-group-configuration/).
+*   **Settings (Invoices): Batch group usernames and passwords: view.** This permission allows the user to view FTP/SFTP authentication credntials entered in [Settings \> Invoices \> Batch group configuration](#settings--invoices--batch-group-configuration/).
+*   **Settings (Invoices): Batch group usernames and passwords: view and edit.** This permission allows the user to view and edit FTP/SFTP authentication credntials entered in [Settings \> Invoices \> Batch group configuration](#settings--invoices--batch-group-configuration/).
 *   **Settings (Invoices): View settings.** This permission allows the user to view the Invoice settings. 
 *   **Settings (Invoices): Can view and edit settings.** This permission allows the user to view and edit all of the Invoice settings. 
 
