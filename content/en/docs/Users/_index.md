@@ -1,7 +1,7 @@
 ---
 title: "Users"
 linkTitle: "Users"
-date: 2024-01-22        
+date: 2024-05-09        
 weight: 250
 ---
 
@@ -86,7 +86,9 @@ ________________
 -   **Middle name.** The middle name of the user.
 -  **Preferred first name.** The name by which the user prefers to be called. If a preferred first name is provided, it will display in the user record in place of the first name. 
 -  **Patron group (required).** Select a patron group to assign to the user. Patron groups are classes of library users configured by your library in the Settings app. See [Settings \> Users \> Patron Groups](../settings/settings_users/settings_users/#settings--users--patron-groups) for more information about setting up Patron Groups.
--  **Status (required).** Select a status for the user: **Active** or **Inactive.** A user's status is tied to the expiration date set on their user record. **Active** status indicates current affiliation, employment, or enrollment within the library's institution. **Inactive** status indicates that the expiration date on the user's record has passed and the user is no longer affiliated, employed, or enrolled. When a **Patron Group** is selected, the **Status** automatically defaults to **Active**.
+-  **Status (required).** Select a status for the user: **Active** or **Inactive.** A user's status is tied to the expiration date set on their user record.
+    - **Active** status indicates current affiliation, employment, or enrollment within the library's institution.
+    - **Inactive** status indicates that the expiration date on the user's record has passed and the user is no longer affiliated, employed, or enrolled. When a **Patron Group** is selected, the **Status** automatically defaults to **Active**.
 -  **Expiration date.** The amount of time set before the user record lapses and the user no longer has active permissions or the ability to borrow items. The expiration date determines when a user's status changes from **Active** to **Inactive**. Expiration date is optional and this field may be left blank. For information about editing an expiration date, see [Edit an expiration date](#edit-an-expiration-date).
 -  **Barcode.** The barcode number for the user's library card.
 -  **User Type.** Select the user type: **Patron** or **Staff**. This field is optional for a non-ECS-enabled tenant but required in an ECS-enabled tenant. For more information, see  [Consortium manager \> Members](../consortia/#members).
@@ -637,6 +639,20 @@ If the deleted user had permissions to edit records, the **Source** on the metad
 
 
 ## Create a report
+
+
+### Lost items requiring actual cost
+
+The **Lost items requiring actual cost** report is a list that displays in the UI and contains information about open loan items with **Aged to lost** status. To use this report to manage billings for lost items, **Actual cost** must be set up in at least one **Lost item fee policy**. For more information about using actual cost for lost items, see [Creating a lost item fee policy](.../settings/settings_circulation/settings_circulation/#creating-a-lost-item-fee-policy).
+
+To view a **Lost items requiring actual cost** report: 
+1. In the **User search results** pane, click **Actions \> Lost items requiring actual cost**.
+2. In the **Actions** column of the report, click on the ellipse in the appropriate row to view the options for billing the patron: 
+    - **Bill actual cost**: This option creates a bill for the patron. To bill for actual cost, a manual fee/fine is applied. If this option is selected, an **Actual cost to bill [patron’s name]** dialog displays with the **Fee/fine type** and **Fee/fine owner** information. Enter the actual cost of the item in the **Actual cost to bill patron** box. Add **Additional information for staff** or **Additional information for patron** as appropriate. Click **Continue**. An **Confirm actual cost** dialog appears to warn you that the patron will be billed. Click **Confirm** to proceed with billing.
+    - **Do not bill**: This option allows the library to waive the bill for the lost item. If this option is selected, a **Do not bill** dialog displays with the **Fee/fine type** and **Fee/fine owner** information. The **Actual cost to bill patron** is automatically assigned to zero. Library staff can add information in the **Additional information for staff** if desired. Click **Continue** to waive the bill.
+    - **Patron details**: This option opens the patron’s user record in a separate pane. 
+    - **Loan details**: This option opens the Loan details in a separate window. Library staff can change the loan status of the item, add **New patron info** or **New staff info** as appropriate. 
+    - **Item details**: This option displays the Item record in a new window.
 
 
 ### Overdue loans report
