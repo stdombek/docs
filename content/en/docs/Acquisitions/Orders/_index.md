@@ -735,7 +735,7 @@ Receiving is only possible if an order is in “Open” or “Closed” status. 
 
 2. In the **Purchase order** pane, select **Actions > Receive.** The order line(s) open in the Receiving app.
 
-3. Follow the steps as outlined in [Receiving > Receiving a piece](../acquisitions/receiving/#receiving-a-piece).
+3. Follow the steps as outlined in [Receiving > Receiving a piece](../receiving/#receiving-a-piece).
 
 
 ## Updating encumbrances for an order
@@ -1661,7 +1661,7 @@ To change the Inventory instance connection for a purchase order line, follow th
 
 2. In the **PO Line details** pane, click **Actions > Receive.** The order line opens in the Receiving app.
 
-3. Follow the steps as outlined in the [Receiving app documentation](../acquisitions/receiving/).
+3. Follow the steps as outlined in the [Receiving app documentation](../receiving).
 
 
 ## Cancelling an order line
