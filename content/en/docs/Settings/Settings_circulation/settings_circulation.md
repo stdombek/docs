@@ -618,8 +618,8 @@ Patron notice templates are the templates used in your Patron notice policies. E
 3. Clear the **Active** checkbox if you do not want the notice to be available for use in notice policies.
 4. Optional: Enter a **Description** in the box.
 5. Select a **Category** for the template. Categories determine which section of the notice policy the notice can be used in and which tokens are available to be used in the body of the email.
-6.	In the **Email or print** section, select the **Print only** checkbox to delete the subject line. Notices are printed in the [Users search results pane](../../../users#view-patron-notice-print-jobs).   Currently, only Reminder fees are able to be collected in the nightly print job.
-7.	Clear the **Print only** checkbox if you want to email the notice, and enter a Subject.
+6. In the **Email or print** section, select the **Print only** checkbox to delete the subject line. Notices are printed in the [Users search results pane](../../../users#view-patron-notice-print-jobs). Currently, only Reminder fees are able to be collected in the nightly print job.
+7. Clear the **Print only** checkbox if you want to email the notice, and enter a Subject.
 8. Enter a **Body** for the email sent to the patron. Click **{ }** to add tokens to the notice. Tokens fill in the item, loan, request, or user information based on the selected variables related to the notice event.
 9. Optional: Click **Preview** to view a preview of the notice.
 10. Click **Save & close**. The notice is saved and appears in the Patron notice templates pane.
