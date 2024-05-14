@@ -1169,14 +1169,14 @@ In the **Search & filter** pane, click **Payment status** and select any applica
 *   **Cancelled.** Order lines with cancelled payment.
 *   **Fully paid.** Order lines that are fully paid.
 *   **Ongoing.** Order lines for an ongoing order.
-*   **Partially paid.** Order lines that are partially paid.  Note: Once or more invoices connected to a purchase order line have been “Approved,” the Payment status on the purchase order is changed to “Partially paid.”  See [Invoices > Approving an invoice]({{< ref "/invoices#approving-an-invoice" >}}).
+*   **Partially paid.** Order lines that are partially paid.  Note: Once one or more invoices connected to a purchase order line have been “Approved,” the Payment status on the purchase order is changed to “Partially paid.” 
 *   **Payment not required.** Order lines that do not require payment.
 *   **Pending.** Order lines with pending payment.
 
 
 ### Prefix
 
-To search for order lines by purchase order number prefix, follow these steps.  For more information about creating **Prefix** values, see [Settings > Orders > Prefixes](../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes)
+To search for order lines by purchase order number prefix, follow these steps.  For more information about creating **Prefix** values, see [Settings > Orders > Prefixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes)
 
 1. In the **Search & filter** pane, click **Prefix**.
 
@@ -1185,7 +1185,7 @@ To search for order lines by purchase order number prefix, follow these steps.  
 
 ### Suffix
 
-To search for order lines by purchase order number suffix, follow these steps.  For more information about creating **Suffix** values, see [Settings > Orders > Suffixes](../settings/settings_orders/settings_orders/#settings--orders--po-number--suffixes).
+To search for order lines by purchase order number suffix, follow these steps.  For more information about creating **Suffix** values, see [Settings > Orders > Suffixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--suffixes).
 
 
 1. In the **Search & filter** pane, click **Suffix**.
