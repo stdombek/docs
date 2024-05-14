@@ -12,7 +12,7 @@ Definitions of terms used in the Finance app:
 
 
 
-*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
+*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../../../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
 *   **Amount allocated.** The amount of money assigned to a fund at the start of a fiscal year. Additional money can also be allocated during the year.
 *   **Budget.** A finance record that describes the amount of money available for a fiscal year within a fund that includes a definition of the allowed expenditure percentage and allowed encumbrance percentage. Transfer and allocation transactions are performed against a budget. Expense classes can be assigned to a budget.
 *   **Encumbrance.** An amount of money that the library commits to pay to a vendor from a fund’s budget for ordered materials that are invoiced in the future.
