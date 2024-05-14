@@ -1141,7 +1141,7 @@ You can search for order lines in the **Search & filter** pane. Order lines is s
 *   **Product ID.** The Product ID of the item.
 *   **Product ID ISBN.** The ISBN of the item.
 
-You can also search for order lines by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information. Note: additional filter options may be visible to users if custom fileds have been configured in [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+You can also search for order lines by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information. Note: additional filter options may be visible to users if custom fileds have been configured in [Setting > Orders > Custom fields](../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Receipt status
