@@ -28,6 +28,7 @@ The following are all the Inventory permissions:
 
 -   **Inventory: All permissions.** This permission allows the user to perform all actions in Inventory.
 -   **Inventory: Create order from instance.** This permission allows the user to initiate the creation of a new purchase order or a new purchase order line (in the Orders app) from an Instance record in Inventory.
+-   **Inventory: Enable staff suppress facet.** This permission allows the user to search and view instance records that are suppressed for staff.
 -   **Inventory: Import single bibliographic records.** This permission allows the user to import and overlay Instance records from external sources. External sources must be configured in Settings.
 -   **Inventory: Mark items in process.** This permission allows the user to update an item record's Item status to In process.
 -   **Inventory: Mark items in process (non-requestable).** This permission allows the user to update an item record's Item status to In process (non-requestable).
@@ -39,7 +40,7 @@ The following are all the Inventory permissions:
 -   **Inventory: Mark items withdrawn.** This permission allows the user to update an item record's Item status to Withdrawn. The user can also view and edit items.
 -   **Inventory: Move holdings.** This permission allows the user to move holdings records from one instance record to another. The user can also search and view instances, holdings, and items.
 -   **Inventory: Move items.** This permission allows the user to move an item record from one holding record to another. The user can also search and view instances, holdings, and items.
--   **Inventory: View instance records being suppressed for staff.** This permission allows the user to search and view instance records that are suppressed for staff. (Not currently implemented; by default all users who can view records can view those suppressed for staff.)
+-   **Inventory: Set record for deletion.** This permission allows the user to set instance records and associated MARC records for deletion.
 -   **Inventory: View instances, holdings, and items.** This permission allows the user to view instances, holdings, and items. 
 -   **Inventory: View, create holdings.** This permission allows the user to create new holdings records. The user can also view holdings.
 -   **Inventory: View, create instances.** This permission allows the user to create new instance records. The user can also view instances.
@@ -64,7 +65,7 @@ Note: Some actions in Inventory require permissions in other apps. For example, 
 The Administrative data section contains technical information about the instance record.
 
 -   **Suppress from discovery.** If you want to suppress the record from your discovery layer, select the **Suppress from discovery** checkbox.
--   **Staff suppress.** If you want to suppress the record, and its associated holdings and item records, from staff who do not have the proper permissions to view the record, select the **Staff suppress** checkbox. If selected, staff need to have the permission Inventory: View instance records being suppressed for staff in order to view the record.
+-   **Staff suppress.** If you want to suppress the record, and its associated holdings and item records, from staff who do not have the proper permissions to view the record, select the **Staff suppress** checkbox. If selected, staff need to have the permission Inventory: Enable staff suppress facet in order to view the record.
 -   **Previously held.** If the resource was previously held by your library, select the **Previously held** checkbox. A library may adopt a policy to select the Previously held checkbox in the case where the library no longer owns the bibliographic resource described in the instance record, but for administrative reasons wishes to retain the record in the inventory and indicate previous ownership. For example, permission for library users to view or use items in a consortial collection may require proof that the library at some time owned those items.
 -   **Instance HRID.** The human readable identifier, also called eye readable ID, a system-assigned sequential ID.
 -   **Source (required).** Format of the instance source record, if a source record exists. For example, FOLIO if it's a record created in Inventory, MARC if it's a MARC record created in MARCcat, or EPKB if it's a record coming from eHoldings. The system assigns the source automatically.
@@ -947,6 +948,8 @@ To search for instances by whether or not they are suppressed to staff, in the *
 -   **Yes.** The instance is suppressed to staff.
 -   **No.** The instance is not suppressed to staff.
 
+Note: To view this facet, staff need to have the permission Inventory: Enable staff suppress facet. Inventory search defaults **Staff suppress** to **No**. 
+
 ### Suppress from discovery
 
 To search for instances, holdings, or items by whether or not they are suppressed from discovery, in the **Search & filter** pane, click **Suppress from discovery** and select one of the following:
@@ -1141,12 +1144,11 @@ To move items to a different holdings record within the same instance record, fo
 
 ## Deleting an instance record
 
-Note: An instance record cannot be deleted, but it may be suppressed.
+Note: This is only a soft delete. When a record is set for deletion, the instance will be Suppressed from discovery and Staff suppressed. If the instance source is MARC, then the MARC LDR 05 will be set to "d".
 
 1.  [Find the instance](#searching-for-a-record) you want to delete and select it.
-2.  In the **Instance record details** pane, click **Actions \> Edit**.
-3.  In the **Edit** window, under **Administrative data**, click **Suppress from discovery**.
-4.  Click **Save and close**. The instance record is updated.
+2.  In the **Instance record details** pane, click **Actions \> Set record for deletion**.
+3.  In the **Confirm deletion of record** dialog, click **Confirm**. The instance record is deleted.
 
 ## Editing holdings records
 
@@ -1199,7 +1201,7 @@ Note: An instance record cannot be deleted, but it may be suppressed.
 1.  [Find the instance](#searching-for-a-record) with the item you want to change.
 2.  In the **Instance record details** pane, in the **Holdings** section, click the **Item barcode** of the item.
 3.  In the **Item record details** window, click **Actions \> Mark as …**.
-4.  In the **Confirm item status ** dialog, click **Confirm**. The item record is updated and its Item status changes to the value selected.
+4.  In the **Confirm item status** dialog, click **Confirm**. The item record is updated and its Item status changes to the value selected.
 
 Note: See **[Platform Essentials](../../platform-essentials/item-status/itemstatus/)** for more information on Item status.
 
