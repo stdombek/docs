@@ -930,7 +930,7 @@ Note: multiple product IDs may be added to a purchase order line.
 
 
 ## Donor information
-The Donor information accordion can be used to capture information about a donor related to the order line. The donor information will be autofilled on the oder if the fund selected in the [Fund distribution] (#fund-distribution) accordion is associated with a donor. 
+The Donor information accordion can be used to capture information about a donor related to the order line. The donor information will be autofilled on the oder if the fund selected in the [Fund distribution](#fund-distribution) accordion is associated with a donor. 
 
 To add a donor manually:
 1. Click **Add donor**.
