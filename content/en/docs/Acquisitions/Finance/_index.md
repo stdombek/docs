@@ -184,7 +184,7 @@ To unassign all locations:
 Note: If you would like to unrestrict the fund, be sure to also uncheck **Restrict use by location** in the Fund information accordion.
 
 ### Donor information
-Funds can be associated with donors who may have provided the money allocated to the fund's budget. Donor records are created within the Organizations app. For more information, see [Creating an Organization] (../acquisitions/organizations/#creating-an-organization). When a donor is associated with a fund, and that fund is applied to a purchase order line (POL) as a fund distribution, the donor information is automatically added to the POL. It can be subsequently removed, if not required or desired.
+Funds can be associated with donors who may have provided the money allocated to the fund's budget. Donor records are created within the Organizations app. For more information, see [Creating an Organization](../acquisitions/organizations/#creating-an-organization). When a donor is associated with a fund, and that fund is applied to a purchase order line (POL) as a fund distribution, the donor information is automatically added to the POL. It can be subsequently removed, if not required or desired.
 
 To add a donor:
 1. Click **Add donor**.
