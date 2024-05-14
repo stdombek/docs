@@ -1078,7 +1078,7 @@ This section only appears if you select Other under [Order format](#order-format
 *   **Material type.** The type of material.
 
 ### Custom fields
-The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields](../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 ## Adding package titles to an order line
 
