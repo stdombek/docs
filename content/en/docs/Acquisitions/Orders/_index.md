@@ -1206,7 +1206,7 @@ To search for order lines assigned to a specific acquisitions unit, follow these
 
 ### Acquisition method
 
-In the **Search & filter** pane, click **Acquisition method** and select any applicable filters. Values are configured in [Settings > Orders > Acquisition methods] (../settings/settings_orders/settings_orders/#settings--orders--general--acquisition-methods).
+In the **Search & filter** pane, click **Acquisition method** and select any applicable filters. Values are configured in [Settings > Orders > Acquisition methods](../../settings/settings_orders/settings_orders/#settings--orders--general--acquisition-methods).
 
 
 ### Location
