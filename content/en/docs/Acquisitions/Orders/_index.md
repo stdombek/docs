@@ -1583,7 +1583,7 @@ This section displays notes about the order.  See [Adding a note to an order lin
 
 *   **Date.**  Last updated date of the note.  Click on the column label **Date** to sort notes by ascending or descending order.
 *   **Title and details.**  The note title and the details of the note. Click **Edit** to edit the note.  Click **Save & Close** to save your changes and click **X** to close the notes window.
-*   **Type.** Note type.  See [Settings > Notes](../settings/settings_notes/settings_notes/#settings--notes--general) for more information about note types.
+*   **Type.** Note type.  See [Settings > Notes](../../settings/settings_notes/settings_notes/#settings--notes--general) for more information about note types.
 
 
 
