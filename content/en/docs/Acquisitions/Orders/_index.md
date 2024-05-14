@@ -1610,7 +1610,7 @@ This section displays information about invoices and invoice lines that link to 
 
 ### Related agreements
 
-If the PO Line has been linked to an Agreement line in the Agreements app, a Linked Agreement Lines section will display in the PO Line details pane containing information about the linked Agreement Line.  See [Agreements > Adding a PO line to an agreement line](../erm/agreements/#adding-a-purchase-order-line-to-an-agreement-line) for more information.
+If the PO Line has been linked to an Agreement line in the Agreements app, a Linked Agreement Lines section will display in the PO Line details pane containing information about the linked Agreement Line.  See [Agreements > Adding a PO line to an agreement line](../../erm/agreements/#adding-a-purchase-order-line-to-an-agreement-line) for more information.
 
 
 
