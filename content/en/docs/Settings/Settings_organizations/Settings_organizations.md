@@ -25,7 +25,7 @@ You can assign permissions to users in the Users app.
 
 Categories are a way to classify the contact people and contact information you add to an organization. Categories are defined by your library and can be used to group contact information and contact people to make them easier to find and identify. You need to first add the categories in the Settings app in order to assign them to organization contacts.
 
-For more information on adding contact information and contact people to organizations, see [Contact information](../acquisitions/organizations/#contact-information) and [Contact people](../acquisitions/organizations/#contact-people).
+For more information on adding contact information and contact people to organizations, see [Contact information](../../organizations/#contact-information) and [Contact people](../../organizations/#contact-people).
 
 
 ### Creating a new category
