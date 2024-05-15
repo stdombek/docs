@@ -184,7 +184,7 @@ To unassign all locations:
 Note: If you would like to unrestrict the fund, be sure to also uncheck **Restrict use by location** in the Fund information accordion.
 
 ### Donor information
-Funds can be associated with donors who may have provided the money allocated to the fund's budget. Donor records are created within the Organizations app. For more information, see [Creating an Organization](../acquisitions/organizations/#creating-an-organization). When a donor is associated with a fund, and that fund is applied to a purchase order line (POL) as a fund distribution, the donor information is automatically added to the POL. It can be subsequently removed, if not required or desired.
+Funds can be associated with donors who may have provided the money allocated to the fund's budget. Donor records are created within the Organizations app. For more information, see [Creating an Organization](../organizations/#creating-an-organization). When a donor is associated with a fund, and that fund is applied to a purchase order line (POL) as a fund distribution, the donor information is automatically added to the POL. It can be subsequently removed, if not required or desired.
 
 To add a donor:
 1. Click **Add donor**.
@@ -781,7 +781,7 @@ There are cases when, after deleteing financial transactions like penidng paymen
 
 1. [Find the budget](#viewing-budget-details) you want to recalculate and select it.
 2. In the **Budget details** window, click **Actions > Recalculate budget totals.**
-3. A confirmation message appears that says *Budget totals have been updated based on current budget transactions*. 
+3. A confirmation message appears that says **Budget totals have been updated based on current budget transactions**. 
 
 ## Deleting a budget
 
@@ -1104,7 +1104,7 @@ If your institution runs rollover before or after the fiscal year end date, youâ
 
 #### Rollover budgets 
 
-The information in this section defines rollover behavior for budgets by fund type.  For more information about creating fund types, see [Settings > Finance > Fund types]({{< ref "/settings_finance.md#settings--finance--fund-types" >}}).  For each fund type listed, select the appropriate settings for each of the fields defined below.  These settings will be applied to all upcoming fiscal year budgets of that fund type. If a fund does not have a fund type assigned, it will be listed under **No fund type**.
+The information in this section defines rollover behavior for budgets by fund type.  For more information about creating fund types, see [Settings > Finance > Fund types](../../settings/settings_finance/settings_finance/#settings--finance--fund-types).  For each fund type listed, select the appropriate settings for each of the fields defined below.  These settings will be applied to all upcoming fiscal year budgets of that fund type. If a fund does not have a fund type assigned, it will be listed under **No fund type**.
 
 
 *   **Rollover allocation.**  Check this box if you want the upcoming fiscal year budget initial allocation amount to equal the current fiscal year budget total allocation amount.
