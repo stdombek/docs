@@ -37,7 +37,7 @@ The permissions listed below allow you to interact with the Receiving app and de
 
 
 ## Keyboard shortcuts
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
 
 
 
@@ -45,7 +45,7 @@ Keyboard shortcuts allow you to perform actions in this app using the keyboard. 
 
 Usually, an order consists of a receiving title that may have one or more pieces attached. For example, if you order a journal, the receiving title would be the journal name and the attached pieces would include each issue of the journal.
 
-Purchase order lines can also be used to represent Packages. A package order line is created in the Orders app as a single purchase order line, but it can’t be located or received in the Receiving app because it represents the acquisition of multiple titles (for example, a monographic standing order). In order to receive the titles that are included in a package, you must either [add the titles to the purchase order line] (../acquisitions/orders/#adding-package-titles-to-an-order-line) or create the receiving titles in the Receiving app and link them to the Package POL.
+Purchase order lines can also be used to represent Packages. A package order line is created in the Orders app as a single purchase order line, but it can’t be located or received in the Receiving app because it represents the acquisition of multiple titles (for example, a monographic standing order). In order to receive the titles that are included in a package, you must either [add the titles to the purchase order line](../orders/#adding-package-titles-to-an-order-line) or create the receiving titles in the Receiving app and link them to the Package POL.
 
 The **New** action allows you to create the receiving titles that come in a package so that they can be received by the library. This action also allows you to link existing instances to a package POL if you want to create a relationship between the instance and the order. In this case, the receiving title is searchable by its related POL number.
 
@@ -582,9 +582,9 @@ Expected pieces can be found  in the Expected section of a Receiving app record.
 *   **Comment.** Comments or notes about the piece.
 *   **Internal note.** A note for staff related to the piece.
 *   **External note.** A note meant to relay information to a vendor related to a claim.
-*   **Create item.** Select the **Create item** checkbox to connect the new piece to an item in Inventory. This option is only available for pieces linked to an order with the purchase order line **Create inventory** value set to “Instance, holdings, item.” . Note: In order to create an item in Inventory, a default instance status, instance type, and loan type must already be set up in Settings.  See [Settings > Orders](../settings/settings_orders/settings_orders/) for more information.
+*   **Create item.** Select the **Create item** checkbox to connect the new piece to an item in Inventory. This option is only available for pieces linked to an order with the purchase order line **Create inventory** value set to “Instance, holdings, item.” . Note: In order to create an item in Inventory, a default instance status, instance type, and loan type must already be set up in Settings.  See [Settings > Orders](../../settings/settings_orders/settings_orders/) for more information.
 *   **Supplement.** Select the **Supplement** checkbox to indicate that the piece is supplementary material such as a CD or a map. 
-*   **Display on holdings.**  Select the **Display on holdings** checkbox to indicate that information about this piece should be displayed in the Inventory app in the Acquisition section of the holdings record.  See [Inventory > Acquisition](../metadata/inventory/#acquisition) for more information.
+*   **Display on holdings.**  Select the **Display on holdings** checkbox to indicate that information about this piece should be displayed in the Inventory app in the Acquisition section of the holdings record.  See [Inventory > Acquisition](../../inventory/#acquisition) for more information.
 *   **Order line locations.**  A list of locations that were selected on the purchase order line.
 *   **Select holdings.**  In the drop down list, select the location for this piece. You can change the location by clicking [Create new holdings for location](#create-new-holdings-for-location). 
 
@@ -689,7 +689,7 @@ The Receive function can be used to receive multiple pieces at once.
 
 1. Using the **Search & filter** pane, find the receiving title you want to receive and select it.
 2. In the Expected section of the receiving title, click the **Actions** button and select **Receive**.
-3. A receiving note popup window will display if the purchase order line field **[Must acknowledge receiving note](../acquisitions/orders/#item-details)** is checked.  Click **Continue** to close the popup window.
+3. A receiving note popup window will display if the purchase order line field **[Must acknowledge receiving note](../orders/#item-details)** is checked.  Click **Continue** to close the popup window.
 4. In the receiving title window, all of the expected pieces are displayed. Here, you can make changes to the pieces. See below for more information.
 5. Select the checkbox beside each piece you want to receive. Note: If you want to receive all of the pieces, click the top checkbox.
 6. Click **Receive**. The selected pieces are now displayed under the Received section.
@@ -711,7 +711,7 @@ The Receive function can be used to receive multiple pieces at once.
 *   **Item status.** The current status of the associated item record. Expected pieces typically have a status of 'On order', which updated to 'In process' once the piece is received.
 *   **Call number.** The item level call number. This will update the item record if filled in.
 *   **Create item.** This will show as 'Connected' and provide a clickable link to the item in Inventory, if applicable.
-*   **Display on holdings.**  Select the **Display on holdings** checkbox to indicate that information about this piece should be displayed in the Inventory app in the Acquisition section of the holdings record.  See [Inventory > Acquisition](../metadata/inventory/#acquisition) for more information.
+*   **Display on holdings.**  Select the **Display on holdings** checkbox to indicate that information about this piece should be displayed in the Inventory app in the Acquisition section of the holdings record.  See [Inventory > Acquisition](../../inventory/#acquisition) for more information.
 *   **Supplement.** Select the **Supplement** checkbox to indicate that the piece is supplementary material such as a CD or a map. 
 
 
