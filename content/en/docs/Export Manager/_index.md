@@ -32,7 +32,7 @@ The Export manager app allows users to view export logs and reports initiated fr
 *   eHoldings
 *   MARC authority 
 
-Note: MARC authority exports are limited to the [reports related to MARC authorities](../metadata/inventory/marcauthority/#reporting). If exporting MARC authority records, the export can be accessed in the Data export logs. For more information, see [Exporting MARC authority records](../metadata/inventory/marcauthority/#exporting-marc-authority-records).
+Note: MARC authority exports are limited to the [reports related to MARC authorities](../inventory/marcauthority/#reporting). If exporting MARC authority records, the export can be accessed in the Data export logs. For more information, see [Exporting MARC authority records](../inventory/marcauthority/#exporting-marc-authority-records).
 
 Once an export is initiated in any of these areas, a log of the export appears in the Export manager app. The app’s **Search & filter** pane displays two tabs: **All** and **Organizations**. The **Organizations** tab supports EDIFACT order export, while all other supported exports are accessible using the **All** tab.
 
@@ -58,7 +58,7 @@ The **Organizations** tab results pane displays the following columns:
 *   **Source.** The user who initiated the export. Entries may include ‘System’ for automated exports or ‘folio’ for jobs resulting from bulk edit or a re-run EDIFACT export.
 *   **Start time.** Date and time the export began.
 *   **End time.** Date and time the export finished.
-*   **Export method.** This value corresponds to the **Integration name** on the associated Organization record’s [Integration details](../acquisitions/organizations/#adding-integration-details-to-a-vendor-organization).
+*   **Export method.** This value corresponds to the **Integration name** on the associated Organization record’s [Integration details](../organizations/#adding-integration-details-to-a-vendor-organization).
 
 Click on any column name, except **Description** and **Source**, to sort by that column.
 
@@ -147,7 +147,7 @@ If a job has a status of **Failed**, click on the row to view additional informa
 
 ## Managing EDIFACT orders export jobs
 
-A FOLIO tenant may be configured to support the export of EDIFACT orders to a vendor. This requires [configuration of **Integration details** on the Organization record](../acquisitions/organizations/#adding-integration-details-to-a-vendor-organization). All exports are recorded and accessible in the **Export manager** app under the **Organizations** pane . The file is available for download in FOLIO, with no expiry date. If a library needs a new copy of the EDIFACT file that was created, they must use the download or resend options within the **Export manager** app. The **Resend** action will send a new copy of the previously exported EDIFACT file to the organization’s FTP site, where the library and the vendor can once again access the file.
+A FOLIO tenant may be configured to support the export of EDIFACT orders to a vendor. This requires [configuration of **Integration details** on the Organization record](../organizations/#adding-integration-details-to-a-vendor-organization). All exports are recorded and accessible in the **Export manager** app under the **Organizations** pane . The file is available for download in FOLIO, with no expiry date. If a library needs a new copy of the EDIFACT file that was created, they must use the download or resend options within the **Export manager** app. The **Resend** action will send a new copy of the previously exported EDIFACT file to the organization’s FTP site, where the library and the vendor can once again access the file.
 
 ### Resending an EDIFACT orders export job
 
