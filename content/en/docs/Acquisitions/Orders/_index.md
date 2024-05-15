@@ -66,7 +66,7 @@ Once you create an order, you need to [add at least one order line to the order]
 
 5. Fill in the rest of the fields under [Purchase order](#purchase-order) and [PO summary](#po-summary). For more information on the fields and actions available in these sections, see the section descriptions below.
 
-6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--order-templates).
+6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
 
 7. Click **Save & close**. A confirmation message appears and the order appears in the Orders pane.
 
@@ -77,7 +77,7 @@ Once you create an order, you need to [add at least one order line to the order]
 
 *   **Prefix.** If applicable, select a **Prefix** for the purchase order number from the drop-down list. Prefixes are configured by your library in the Settings app. See [Settings > Orders > Prefixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes) for more information.
 *   **PO number.** Purchase order number for the order. Whether you can edit the PO number depends on your library’s settings in the PO number Edit setting. See [Settings > Orders > Edit](../../settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
-*   **Suffix.** If applicable, select a **Suffix** for the purchase order number from the drop-down list. Suffixes are configured by your library in the Settings app. See [Settings > Orders > Suffixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
+*   **Suffix.** If applicable, select a **Suffix** for the purchase order number from the drop-down list. Suffixes are configured by your library in the Settings app. See [Settings > Orders > Suffixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--suffixes) for more information.
 *   **Vendor.** The vendor associated with this purchase order. Click **Organization look-up** to select a vendor. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to select it. The organization is added to the Vendor field.
 *   **Order type.** Select the type of order you are placing: One-time or Ongoing.
 *   **Acquisitions units.** If you want the order to be available to particular users within certain acquisitions units, enter or select the Acquisition units from the drop-down list. You can select multiple units. For more information on acquisition units, see [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/).
@@ -101,7 +101,7 @@ Once you create an order, you need to [add at least one order line to the order]
 *   **Approved.** To approve the order, select the **Approved** checkbox. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
 
 #### Custom fields
-The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields](../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Creating an ongoing order
@@ -159,7 +159,7 @@ You can search for orders in the **Search & filter** pane. Click **Orders** to s
 *   **PO number.** The purchase order number.
 
 
-You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in [Setting > Orders > Custom fields] (../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in [Setting > Orders > Custom fields](../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Status
@@ -691,7 +691,7 @@ Note: Unopening an order removes any encumbrances and item records with an On Or
 
 ## Cancelling an order
 
-To cancel an open purchase order, follow the steps below.  Cancelling a purchase order removes all encumbrances and updates all associated item records for all purchase order lines to an **Item status** of Order closed.  To cancel individual order lines, see [Cancelling an order line](#cancelling-an-order-line). You can [reopen an order[(#reopening-an-order) after performing the cancel action.
+To cancel an open purchase order, follow the steps below.  Cancelling a purchase order removes all encumbrances and updates all associated item records for all purchase order lines to an **Item status** of Order closed.  To cancel individual order lines, see [Cancelling an order line](#cancelling-an-order-line). You can [reopen an order](#reopening-an-order) after performing the cancel action.
 
 1. [Search for the order you want to cancel](#searching-for-an-order) and select it.
 
@@ -833,7 +833,7 @@ When a template is used to create an order, it may be configured to hide specifi
 
 ## Adding an order line to an order
 
-Follow these steps to add an order line to an order.  You can also add an order line from the Inventory app by searching for an instance and clicking [Actions > New order](../../metadata/inventory/#creating-a-new-order).
+Follow these steps to add an order line to an order.  You can also add an order line from the Inventory app by searching for an instance and clicking [Actions > New order](../../inventory/#creating-a-new-order).
 
 1. [Search for the order to which you want to add the PO line](#searching-for-an-order) and select it.
 
@@ -1610,7 +1610,7 @@ This section displays information about invoices and invoice lines that link to 
 
 ### Related agreements
 
-If the PO Line has been linked to an Agreement line in the Agreements app, a Linked Agreement Lines section will display in the PO Line details pane containing information about the linked Agreement Line.  See [Agreements > Adding a PO line to an agreement line](../../erm/agreements/#adding-a-purchase-order-line-to-an-agreement-line) for more information.
+If the PO Line has been linked to an Agreement line in the Agreements app, a Linked Agreement Lines section will display in the PO Line details pane containing information about the linked Agreement Line.  See [Agreements > Adding a PO line to an agreement line](../../agreements/#adding-a-purchase-order-line-to-an-agreement-line) for more information.
 
 
 
