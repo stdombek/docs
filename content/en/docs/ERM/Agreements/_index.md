@@ -72,11 +72,11 @@ Keyboard shortcuts allow you to perform actions in this app using the keyboard. 
 
 *   **Name (required).** The title of the agreement record.
 *   **Description**. Enter a description of the agreement.
-*   **Status (required).** Select from the drop-down list the state of the agreement. For example, Active or Closed. You can configure the labels that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
-*   **Reason for closure.** This option only becomes available if **Closed** is selected from the **Status** drop-down list. Select from the drop-down list why the agreement was closed. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
-*   **Renewal priority.** Select from the drop-down list the level of interest in renewing the agreement. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
-*   **Is perpetual.** If the agreement provides perpetual access to the purchased materials, select *Yes*. You can configure the labels that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
-*   **Content type.** If the agreement represents a particular content type or types, add one or more content type field and select a type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
+*   **Status (required).** Select from the drop-down list the state of the agreement. For example, Active or Closed. You can configure the labels that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
+*   **Reason for closure.** This option only becomes available if **Closed** is selected from the **Status** drop-down list. Select from the drop-down list why the agreement was closed. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
+*   **Renewal priority.** Select from the drop-down list the level of interest in renewing the agreement. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
+*   **Is perpetual.** If the agreement provides perpetual access to the purchased materials, select *Yes*. You can configure the labels that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
+*   **Content type.** If the agreement represents a particular content type or types, add one or more content type field and select a type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
 *   **Alternative names.** Alternative names for the agreement record.
 
 
@@ -87,7 +87,7 @@ Note: Adding a content type is optional, but if you click **Add content type**, 
 
 
 1. Click **Add content type**.
-2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/#settings_agreements/settings--agreements--pick-list-values).
+2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../settings/settings_agreements/settings--agreements--pick-list-values).
 3. Repeat as needed. The Content type saves once you save the agreement.
 
 
