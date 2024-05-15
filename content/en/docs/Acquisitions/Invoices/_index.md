@@ -752,7 +752,7 @@ To approve an invoice, follow these steps:
 2. In the **Vendor invoice number** pane, click **Actions > Approve.**
 3. In the **Approve invoice** dialog, click **Approve**. A confirmation message appears and the invoice is approved.
 
-Note: the action may be listed as **Approve & pay** if you have selected the **Approve and pay in one click** option in [Settings > Invoices > Approvals] (../../settings/settings_invoices/settings_invoices/#settings--invoices--approvals).
+Note: the action may be listed as **Approve & pay** if you have selected the **Approve and pay in one click** option in [Settings > Invoices > Approvals](../../settings/settings_invoices/settings_invoices/#settings--invoices--approvals).
 
 
 ## Viewing a voucher
@@ -780,7 +780,7 @@ Once an invoice is approved, an invoice voucher is created and is added to the i
 *   **Accounting code.**  Vendor accounting code to identify the vendor organization in an external accounts payable system.
 *   **Enclosure needed.**  If true and payment method is “Check,” this indicates to an external accounting system that an enclosure is needed with this invoice. If the Export to accounting checkbox is set to true and a voucher is created for this invoice, the export voucher file will contain a value of true in the enclosure needed data element.
 *   **Vendor.** Vendor name.
-*   **Address 1.** Vendor address 1. This is the vendor’s primary address from the Organization app.  See [Organizations> Adding an address](../organizations/#searching-for-an-organization) for more information.
+*   **Address 1.** Vendor address 1. This is the vendor’s primary address from the Organization app.  See [Organizations> Adding an address](../organizations/#adding-an-address) for more information.
 *   **Address 2.** Vendor address 2.
 *   **City.** Vendor city.
 *   **State/Prov./Region.** Vendor State, Province, or Region code.
@@ -822,7 +822,7 @@ The only fields that are editable on the voucher are:
 *   **Disbursement number.** Enter an identifier from an external system corresponding to a payment, such as a check number.
 *   **Disbursement date.**  Enter the date of the disbursement transaction in the external system.
 *   **Disbursement amount.**  Enter the amount of the disbursement, with or without decimal.
-Note: the voucher number will be editable only if configured in [Settings > Invoices > Voucher number] (../../settings/settings_invoices/settings_invoices/#settings--invoices--voucher-number).
+Note: the voucher number will be editable only if configured in [Settings > Invoices > Voucher number](../../settings/settings_invoices/settings_invoices/#settings--invoices--voucher-number).
   
 ## Exporting vouchers
 To export a file of voucher information in JSON or XML format, follow these steps:
