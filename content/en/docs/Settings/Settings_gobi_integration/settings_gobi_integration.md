@@ -6,7 +6,7 @@ weight: 125
 tags: ["subtopic"]   
 ---
 
-The GOBI integration section of the Settings app defines your configuration for an integration with the provider GOBI Library Solutions. This integration supports the creation of FOLIO orders initiated from the GOBI order form. 
+The GOBI integration section of the Settings app defines your configuration for an integration with the provider GOBI Library Solutions. This integration supports the creation of FOLIO orders initiated from the GOBI order form.
 
 
 ## Permissions
