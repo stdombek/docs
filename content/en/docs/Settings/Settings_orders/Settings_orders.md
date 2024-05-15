@@ -27,7 +27,7 @@ In order to interact with order settings, a user needs to be assigned the follow
 
 ## Settings > Orders > General > Approvals
 
-If you want to require approval to open orders, select **“Approval required” to open orders**. When selected, an additional step between Pending and Open is added. A user with the appropriate permission has to approve the order via a separate action or by checking an approval box on the order record. Once the order is approved, the date and time of the approval is captured, along with the username of the person who made the approval. If this setting is not activated, the approval date and time will match the date and time that the order was opened. For more information, see [Approving an order](../acquisitions/orders/#approving-an-order).
+If you want to require approval to open orders, select **“Approval required” to open orders**. When selected, an additional step between Pending and Open is added. A user with the appropriate permission has to approve the order via a separate action or by checking an approval box on the order record. Once the order is approved, the date and time of the approval is captured, along with the username of the person who made the approval. If this setting is not activated, the approval date and time will match the date and time that the order was opened. For more information, see [Approving an order](../../orders/#approving-an-order).
 
 
 ## Settings > Orders >  General > Closing purchase order reasons
@@ -75,7 +75,7 @@ To create a new order template, follow the steps below.  To hide a field from vi
 
 2. Click **Hide all eligible fields** to turn off visibility for all fields that can be hidden during order creation.  You can then turn on only the fields that you want to display by unselecting the eye icon beside those fields.
 
-3. Fill in information as needed for the remaining order creation fields. Follow the instructions under [Creating an order](../acquisitions/orders/#creating-an-order) for more information. Click on the eye icon to hide fields as needed.
+3. Fill in information as needed for the remaining order creation fields. Follow the instructions under [Creating an order](../../orders/#creating-an-order) for more information. Click on the eye icon to hide fields as needed.
 
 3. Click **Save**. A confirmation message appears and the template is saved.
 
