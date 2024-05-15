@@ -12,7 +12,7 @@ Definition of terms related to the Organizations app:
 
 
 
-*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
+*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
 *   **Organization.** Any institution with which your library interacts.  An organization may or may not be an institution from which you purchase materials.
 *   **Vendor.** Any institution from which your library purchases materials.
 
@@ -34,10 +34,10 @@ Organizations permissions:
 *   **Organizations: Interface usernames and passwords: view, edit, create, delete.** This permission allows the user to create, edit, and delete the usernames and passwords that appear in the Interface section. Note: This permission must always be assigned in conjunction with either the Organizations: View, edit, create or Organizations: View, edit, delete permissions.
 *   **Organizations: Manage acquisition units.** This permission allows the user to change the assignment of acquisition units for the organization when editing a record.
 *   **Organizations: View.** This permission allows the user to search and view organization records and settings. The user can also access Contacts and Interfaces but cannot access Interface usernames and passwords.
-*   **Organizations: View and edit banking information.** This permission allows the user to view and edit the information contained in the Banking information accordion of an Organization record with a vendor designation. Note: Banking information must also be enabled in [Settings > Organizations > Banking information] (../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
-*   **Organizations: View banking information.** This permission allows the user to view the information contained in the Banking information accordion of an Organization record with a vendor designation. Note: Banking information must also be enabled in [Settings > Organizations > Banking information] (../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
+*   **Organizations: View and edit banking information.** This permission allows the user to view and edit the information contained in the Banking information accordion of an Organization record with a vendor designation. Note: Banking information must also be enabled in [Settings > Organizations > Banking information](../../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
+*   **Organizations: View banking information.** This permission allows the user to view the information contained in the Banking information accordion of an Organization record with a vendor designation. Note: Banking information must also be enabled in [Settings > Organizations > Banking information](../../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
 *   **Organizations: View, edit.** This permission allows the user to edit and view organizations. The user can also access Contacts, but they cannot access Interface usernames and passwords.
-*   **Organizations: View, edit and create banking information.** This permission allows the user to view and edit information contained in the Banking information accordion of an Organization record with a vendor designation, as well as create new entries. Note: Banking information must also be enabled in [Settings > Organizations > Banking information] (../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
+*   **Organizations: View, edit and create banking information.** This permission allows the user to view and edit information contained in the Banking information accordion of an Organization record with a vendor designation, as well as create new entries. Note: Banking information must also be enabled in [Settings > Organizations > Banking information](../../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information).
 *   **Organizations: View, edit, create.** This permission allows the user to create, edit, and view organizations. The user can also access Contacts, but they cannot access Interface usernames and passwords.
 *   **Organizations: View, edit, create and delete banking information.** This permission allows the user to view, edit, and delete information contained in the Banking information accordion of an Organization record with a vendor designation, as well as create new entries. Note: Banking information must also be enabled in Settings > Organizations > Banking information.
 *   **Organizations: View, edit, delete.** This permission allows the user to view, edit, and delete organizations. The user can also access Contacts, but they cannot access Interface usernames and passwords.
@@ -45,7 +45,7 @@ Organizations permissions:
 
 
 ## Keyboard shortcuts
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
 
 
 ## Creating an organization
@@ -67,9 +67,9 @@ When creating an organization, you either create it as a general organization or
 *   **Code (required).** A unique identifier for the organization. Note: You cannot have duplicate vendor codes. The codes for each organization must be different.
 *   **Accounting code.** The accounting code used by your library in your payment system in reference to the organization.
 *   **Organization status (required).** Select an organization status: Active, Inactive, or Pending. The status you select here is evaluated by the Orders and Invoices apps. Orders can only be opened and invoices can only be paid if the organization is a vendor with an Active status. You may want to use the Pending status to signify that the organization record is a draft.
-*  **Type.**  Select one or more organization types.  See [Settings > Organizations > Creating a new type](../settings/settings_organizations/settings_organizations/#creating-a-new-type) for more information.
+*  **Type.**  Select one or more organization types.  See [Settings > Organizations > Creating a new type](../../settings/settings_organizations/settings_organizations/#creating-a-new-type) for more information.
 *   **Default language.** Select the organization’s default language.
-*   **Acquisition units.** Select the Acquisition units you want to apply to the organization record. See [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
+*   **Acquisition units.** Select the Acquisition units you want to apply to the organization record. See [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
 *   **Description.** Enter a description of the organization.
 *   **Donor.** If you wish to include donor information on the Organization record, select the **Donor** checkbox. See [Privileged donor information](#privileged-donor-information) for more information.
 *   **Vendor.** If you are creating a vendor organization, select the **Vendor** checkbox . See [Creating a vendor](#creating-a-vendor) for more information.
@@ -116,7 +116,7 @@ Categories for contact information are configured in the Settings app. If you as
 
 2. Fill in the address information.
 
-3. Repeat as needed. The address saves once you save the organization. Note: If you are adding multiple addresses, select the **Use as primary address** checkbox at the top of the organization’s primary address.  The primary address is included in the invoice voucher extract.  See [Invoices > Voucher information](../acquisitions/invoices/#voucher-information) for more information.
+3. Repeat as needed. The address saves once you save the organization. Note: If you are adding multiple addresses, select the **Use as primary address** checkbox at the top of the organization’s primary address.  The primary address is included in the invoice voucher extract.  See [Invoices > Voucher information](../invoices/#voucher-information) for more information.
 
 
 #### Deleting an address
@@ -312,7 +312,7 @@ The information that you enter under Vendor information sets some of the default
 
 
 
-*   **Payment method.** The payment method that you want to appear as the default payment method for the vendor on an invoice. See [Invoices > Extended information](../acquisitions/invoices/#extended-information) for more information.
+*   **Payment method.** The payment method that you want to appear as the default payment method for the vendor on an invoice. See [Invoices > Extended information](../invoices/#extended-information) for more information.
 *   **Vendor currencies.** The currencies accepted by the vendor.
 *   **Expected activation interval.** The standard activation period for the vendor, in days. Note: The interval you enter here is used in the Activation due field in the E-resources details section of an order line associated with the vendor. For example, if you set the interval to 365, the Activation due field is populated with the date that falls one year from the date the order line is created.
 *   **Expected invoice interval.** The standard invoice interval for the vendor, in days. Currently, this information does not display on invoices.
@@ -397,7 +397,7 @@ Note: Adding an account is optional, but if you click **Add**, you must fill in 
 
 11. Optional: Enter any **Notes** about the account in the box.
 
-12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/).
+12. Optional: Select any **Acquisition units** from the drop-down list. For more information on acquisition units, see [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/).
 
 13. Repeat steps 1-12 as needed. Accounts are saved once you save the vendor.
 
@@ -409,15 +409,15 @@ Note: Adding an account is optional, but if you click **Add**, you must fill in 
 2. Click the **trash can icon**. The account is removed and is deleted once you save the vendor.
 
 ### Banking information
-This accordion will appear on Organization records where the **Vendor** checkbox is selected, only if activated in [Settings > Organizations > Banking information] (../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information). This section allows storage of banking details to fulfil payments to the associated vendor. Staff users must have permissions to view and interact with the data in this accordion.
+This accordion will appear on Organization records where the **Vendor** checkbox is selected, only if activated in [Settings > Organizations > Banking information](../../settings/settings_organizations/settings_organizations/#settings--organizations--banking-information). This section allows storage of banking details to fulfil payments to the associated vendor. Staff users must have permissions to view and interact with the data in this accordion.
 
 #### Adding banking information
 1. Click **Add banking information.**
 2. Enter the **Bank name.**
 3. Enter the **Bank account number.**
 4. Enter the **Transit number.**
-5. Select an **Address category** from the dropdown menu. The address category is derived from the addresses added in the [Contact information] (#contact-information) accordion. The category you select here will determine which address is associated with the bankin information.
-6. Select an **Account type** from the dropdown menu. Account types are configured in [Settings > Organizations > Account types] (../settings/settings_organizations/settings_organizations/#settings--organizations--account-types).
+5. Select an **Address category** from the dropdown menu. The address category is derived from the addresses added in the [Contact information](#contact-information) accordion. The category you select here will determine which address is associated with the bankin information.
+6. Select an **Account type** from the dropdown menu. Account types are configured in [Settings > Organizations > Account types](../../settings/settings_organizations/settings_organizations/#settings--organizations--account-types).
 7. Add notes, if desired.
 
 #### Deleting banking information
@@ -604,7 +604,7 @@ In the search results, click on an organization to view it. The Organization det
 *   **Vendor terms.**  See [Vendor terms](#vendor-terms). 
 *   **Integration details.**  See [Adding integration details to a vendor organization](#adding-integration-details-to-a-vendor-organization).
 *   **Accounts.**  See [Accounts](#accounts).
-*   **Banking information.** See [Banking information] (#banking-information).
+*   **Banking information.** See [Banking information](#banking-information).
 *   **Agreements.**  The agreements section displays a table list containing the following information for all agreements linked to the organization:
 
 *   **Agreement name.**  The title of the agreement record.
@@ -658,7 +658,7 @@ To view a log of orders exported to a vendor organization that is set up for EDI
 
 2. In the **Organization details** pane, click **Actions > View export log**.
 
-3. The Export Manager app opens with the Search & Filter pane set to view exports related to the selected vendor organization.  See the [Export Manager documentation](../export-manager/#viewing-export-jobs) for more information about viewing export jobs.
+3. The Export Manager app opens with the Search & Filter pane set to view exports related to the selected vendor organization.  See the [Export Manager documentation](../../export-manager/#viewing-export-jobs) for more information about viewing export jobs.
 
 
 ## Adding a tag to an organization
@@ -714,7 +714,7 @@ This section enables orders to be exported to vendors in EDIFACT format. To add 
 ### EDI configuration
 
 *   **Account numbers (required).** All account numbers created in **Vendor account** section of the organization are listed.  Click on all vendor account numbers to be included in this EDI configuration.  To select multiple account numbers for this configuration, use shift+click. When you move your cursor to another field you will see the highlight persist on the selected account number(s).
-*   **Automate order export for acquisition methods.**   All order acquisition methods are listed. To automatically export orders for this vendor using specific order acquisitions methods, click on the acquisition method name.  When creating orders, you can override this default behavior by checking the [Manual](../acquisitions/orders/#purchase-order) checkbox on the purchase order.  To select multiple acquisition methods to export automatically, use shift+click. When you move your cursor to another field you will see the highlight persist on the selected acquisition methods.
+*   **Automate order export for acquisition methods.**   All order acquisition methods are listed. To automatically export orders for this vendor using specific order acquisitions methods, click on the acquisition method name.  When creating orders, you can override this default behavior by checking the [Manual](../orders/#purchase-order) checkbox on the purchase order.  To select multiple acquisition methods to export automatically, use shift+click. When you move your cursor to another field you will see the highlight persist on the selected acquisition methods.
 *   **Vendor EDI code (required).** The vendor identifier for EDI transactions
 *   **Vendor EDI type.** Select one of the Vendor EDI types, which designates the type of identifier used as the vendor identifier: 014/EAN, 31B/US-SAN, 091/Vendor-assigned, or 092/Customer-assigned.
 *   **Library EDI code (required).** The library identifier for EDI transactions
@@ -787,7 +787,7 @@ Note: If you need to create a new contact, you should save your progress on the 
 *   **First name.** The given name of the contact.
 *   **Status.** Select the status of the contact from the drop-down list: Active or Inactive.
 *   **Language.** The primary language spoken by the contact.
-*   **Categories.** Select any categories from the drop-down list that describe the contact. Categories are configured in the Settings app. See [Settings > Organizations > Categories](../settings/settings_organizations/settings_organizations/#settings--organizations--categories) for more information.
+*   **Categories.** Select any categories from the drop-down list that describe the contact. Categories are configured in the Settings app. See [Settings > Organizations > Categories](../../settings/settings_organizations/settings_organizations/#settings--organizations--categories) for more information.
 *   **Notes.** Any notes related to the contact.
 
 
@@ -1029,7 +1029,7 @@ Note: If you need to create a new donor, you should save your progress on the or
 *   **First name.** The given name of the donor.
 *   **Status.** Select the status of the donor from the drop-down list: Active or Inactive.
 *   **Language.** The primary language spoken by the donor.
-*   **Categories.** Select any categories from the drop-down list that describe the donor. Categories are configured in the Settings app. See [Settings > Organizations > categories](../settings/settings_organizations/settings_organizations/#settings--organizations--categories) for more information.
+*   **Categories.** Select any categories from the drop-down list that describe the donor. Categories are configured in the Settings app. See [Settings > Organizations > categories](../../settings/settings_organizations/settings_organizations/#settings--organizations--categories) for more information.
 *   **Note.** Any notes related to the donor.
 
 
