@@ -11,7 +11,7 @@ The Orders app allows you to create and manage purchase orders.
 Definition of terms related to the Orders app:
 
 
-*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
+*   **Acquisition units.** An additional layer you can add to acquisitions records that restricts a user’s ability to interact with those records unless they have been assigned to that unit. For example, you may create acquisition units to represent the different libraries within your library system. Units are defined and determined by your library in the Settings app. See [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/) for more information.
 *   **Order.** A purchase order featuring a list of titles or packages (physical or electronic) being ordered by the library from a vendor.
 *   **Order line.** A purchase order line contains one of the titles or packages being ordered by the library. Order lines make up an order. Orders can contain multiple order lines.
 
@@ -42,7 +42,7 @@ Orders permissions:
 
 
 ## Keyboard shortcuts
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials > Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
  
  
 ## Creating an order
@@ -51,7 +51,7 @@ Orders contain a list of titles or packages (physical or electronic) being order
 
 In FOLIO, you can create either [one-time orders](#creating-a-one-time-order) or [ongoing orders](#creating-an-ongoing-order). One-time orders should be used for items fulfilled within the year, like monographs. Ongoing orders generally span multiple years, and you usually pay as you receive each item. You would want to create an ongoing order for a journal subscription, for example.
 
-Once you create an order, you need to [add at least one order line to the order](#adding-an-order-line-to-an-order) so the [order can be opened](#opening-an-order) and the acquisitions process can begin. You can also initiate order creation from the Inventory app by searching for an instance and clicking [Actions > New order](../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
+Once you create an order, you need to [add at least one order line to the order](#adding-an-order-line-to-an-order) so the [order can be opened](#opening-an-order) and the acquisitions process can begin. You can also initiate order creation from the Inventory app by searching for an instance and clicking [Actions > New order](../../inventory/#creating-a-new-order) for more information.
 
 
 ### Creating a one-time order
@@ -60,13 +60,13 @@ Once you create an order, you need to [add at least one order line to the order]
 
 2. In the **Orders** pane, click **New**.
 
-3. In the **Create purchase order** window, select a template from the **Template name** drop-down list, if using. The order is populated with the information configured in the template. Templates are created in the Settings app. See [Settings > Orders > Order templates](../settings/settings_orders/settings_orders/#settings--orders--general--order-templates) for more information.
+3. In the **Create purchase order** window, select a template from the **Template name** drop-down list, if using. The order is populated with the information configured in the template. Templates are created in the Settings app. See [Settings > Orders > Order templates](../../settings/settings_orders/settings_orders/#settings--orders--general--order-templates) for more information.
 
 4. Select **One-time** from the **Order type** drop-down list.
 
 5. Fill in the rest of the fields under [Purchase order](#purchase-order) and [PO summary](#po-summary). For more information on the fields and actions available in these sections, see the section descriptions below.
 
-6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. For more information, see [Settings > Orders > Approvals](../settings/settings_orders/settings_orders/#settings--orders--general--order-templates).
+6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--order-templates).
 
 7. Click **Save & close**. A confirmation message appears and the order appears in the Orders pane.
 
@@ -75,16 +75,16 @@ Once you create an order, you need to [add at least one order line to the order]
 
 
 
-*   **Prefix.** If applicable, select a **Prefix** for the purchase order number from the drop-down list. Prefixes are configured by your library in the Settings app. See [Settings > Orders > Prefixes](../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes) for more information.
-*   **PO number.** Purchase order number for the order. Whether you can edit the PO number depends on your library’s settings in the PO number Edit setting. See [Settings > Orders > Edit](../settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
-*   **Suffix.** If applicable, select a **Suffix** for the purchase order number from the drop-down list. Suffixes are configured by your library in the Settings app. See [Settings > Orders > Suffixes](./settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
+*   **Prefix.** If applicable, select a **Prefix** for the purchase order number from the drop-down list. Prefixes are configured by your library in the Settings app. See [Settings > Orders > Prefixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes) for more information.
+*   **PO number.** Purchase order number for the order. Whether you can edit the PO number depends on your library’s settings in the PO number Edit setting. See [Settings > Orders > Edit](../../settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
+*   **Suffix.** If applicable, select a **Suffix** for the purchase order number from the drop-down list. Suffixes are configured by your library in the Settings app. See [Settings > Orders > Suffixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--edit) for more information.
 *   **Vendor.** The vendor associated with this purchase order. Click **Organization look-up** to select a vendor. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to select it. The organization is added to the Vendor field.
 *   **Order type.** Select the type of order you are placing: One-time or Ongoing.
-*   **Acquisitions units.** If you want the order to be available to particular users within certain acquisitions units, enter or select the Acquisition units from the drop-down list. You can select multiple units. For more information on acquisition units, see [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/).
+*   **Acquisitions units.** If you want the order to be available to particular users within certain acquisitions units, enter or select the Acquisition units from the drop-down list. You can select multiple units. For more information on acquisition units, see [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/).
 *   **Assigned to.** To assign the order to a user, click the **+**. In the **Select User** dialog, find the user using the search box and/or the filters. Click the user to select them. The user appears in the **Assigned to** box. If you need to remove the user, click the **x**. If you need to assign the order to a different user, click the **+** and repeat the above steps.
-*   **Bill to.** In the **Bill to** drop-down list, select the billing address for the order. Once you select an address, the billing address appears. Addresses are configured in the Settings app. For more information, see [Settings > Tenant > Addresses](../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).
-*   **Ship to.** In the **Ship to** drop-down list, select the address the order items will be shipped to. Once you select an address, the shipping address appears. Addresses are configured in the Settings app. For more information, see [Settings > Tenant > Addresses](../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).
-*   **Manual.** If the Manual checkbox is selected, EDI integration settings for this vendor will be ignored and nothing on this order will be exported to the vendor.. For example, select this checkbox if [EDI order integration](../acquisitions/organizations/#edi-configuration)  is set up
+*   **Bill to.** In the **Bill to** drop-down list, select the billing address for the order. Once you select an address, the billing address appears. Addresses are configured in the Settings app. For more information, see [Settings > Tenant > Addresses](../../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).
+*   **Ship to.** In the **Ship to** drop-down list, select the address the order items will be shipped to. Once you select an address, the shipping address appears. Addresses are configured in the Settings app. For more information, see [Settings > Tenant > Addresses](../../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).
+*   **Manual.** If the Manual checkbox is selected, EDI integration settings for this vendor will be ignored and nothing on this order will be exported to the vendor.. For example, select this checkbox if [EDI order integration](../organizations/#edi-configuration)  is set up
 *   **Re-encumber.** The Re-encumber checkbox is selected by default. If the checkbox is cleared, you are indicating that the order shouldn’t re-encumber during the fiscal year rollover even if it meets the criteria to re-encumber. However, if the checkbox is selected and the rollover settings indicate that this order doesn’t meet the criteria to re-encumber, money will not be committed to the next fiscal year for this order. The re-encumber toggle is only considered when the order meets the rollover criteria. If the checkbox is selected and the rollover settings indicate that this order meets the criteria to re-encumber, then money is committed to the next fiscal year for the order.
 *   **Created by.** This field will be completed by the system when the order is saved and will contain the name of the user who created the order.
 *   **Created on.** This field will be completed by the system when the order is saved and will contain the date and time the order was created.
@@ -98,10 +98,10 @@ Once you create an order, you need to [add at least one order line to the order]
 
 *   **Total units.** This field will be calculated by the system and will contain the total quantity across all purchase order lines.
 *   **Total estimated price.** This field will be calculated by the system and will contain a sum of the estimated price across all purchase order lines.
-*   **Approved.** To approve the order, select the **Approved** checkbox. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
+*   **Approved.** To approve the order, select the **Approved** checkbox. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
 
 #### Custom fields
-The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+The Custom fields section appears only if it is configured in the **Settings > Orders** app. For information on configuring the Custom fields section, see [Setting > Orders > Custom fields] (../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Creating an ongoing order
@@ -110,13 +110,13 @@ The Custom fields section appears only if it is configured in the **Settings > O
 
 2. In the **Orders** pane, click **New**.
 
-3. In the **Create purchase order** window, select a template from the **Template name** drop-down list, if using. The order is populated with the information configured in the template. Templates are created in the Settings app. See [Settings > Orders > Order templates](../settings/settings_orders/settings_orders/#settings--orders--general--order-templates) for more information.
+3. In the **Create purchase order** window, select a template from the **Template name** drop-down list, if using. The order is populated with the information configured in the template. Templates are created in the Settings app. See [Settings > Orders > Order templates](../../settings/settings_orders/settings_orders/#settings--orders--general--order-templates) for more information.
 
 4. Select **Ongoing** from the **Order type** drop-down list.
 
 5. Fill in the rest of the fields under [Purchase order](#purchase-order), [Ongoing order information](#ongoing-order-information), and [PO summary](#po-summary). For more information on the fields and actions available in these sections, see the section descriptions below.
 
-6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
+6. Optional: Select **Approved** to approve the order. Note: You only need to approve the order if your library has the Approval required setting turned on. An order is automatically approved when opened. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--approvals).
 
 7. Click **Save & close**. A confirmation message appears and the order appears in the Orders pane.
 
@@ -159,7 +159,7 @@ You can search for orders in the **Search & filter** pane. Click **Orders** to s
 *   **PO number.** The purchase order number.
 
 
-You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in [Setting > Orders > Custom fields] (../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
+You can also search for orders by selecting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information on the filters. Note: Users may see additional filters appear in the **Search & filter** pane if custom fields are configured in [Setting > Orders > Custom fields] (../../settings/settings_orders/settings_orders/#settings--orders--general--customfields).
 
 
 ### Status
@@ -175,7 +175,7 @@ In the **Search & filter** pane, click **Status** and select any applicable filt
 
 ### Prefix
 
-To search for orders by purchase order number prefix, follow these steps.  For more information about creating **Prefix** values, see [Settings > Orders > Prefixes](../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes).
+To search for orders by purchase order number prefix, follow these steps.  For more information about creating **Prefix** values, see [Settings > Orders > Prefixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--prefixes).
 
 
 1. In the **Search & filter** pane, click **Prefix**.
@@ -185,7 +185,7 @@ To search for orders by purchase order number prefix, follow these steps.  For m
 
 ### Suffix
 
-To search for orders purchase order number suffix, follow these steps.  For more information about creating **Suffix** values, see [Settings > Orders > Suffixes](../settings/settings_orders/settings_orders/#settings--orders--po-number--suffixes)
+To search for orders purchase order number suffix, follow these steps.  For more information about creating **Suffix** values, see [Settings > Orders > Suffixes](../../settings/settings_orders/settings_orders/#settings--orders--po-number--suffixes)
 
 
 1. In the **Search & filter** pane, click **Suffix**.
@@ -331,7 +331,7 @@ To search for orders within a review period, in days, follow these steps:
 
 ### Bill to
 
-To search for orders based on their bill to address, follow these steps. Addresses are created in [Settings > Tenant > Addresses](../settings/settings_tenant/settings_tenant/#settings--tenant--addresses). 
+To search for orders based on their bill to address, follow these steps. Addresses are created in [Settings > Tenant > Addresses](../../settings/settings_tenant/settings_tenant/#settings--tenant--addresses). 
 
 1. In the **Search & filter** pane, click **Bill to**.
 
@@ -340,7 +340,7 @@ To search for orders based on their bill to address, follow these steps. Address
 
 ### Ship to
 
-To search for orders based on their ship to address, follow these steps. Addresses are created in [Settings > Tenant > Addresses](../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).  
+To search for orders based on their ship to address, follow these steps. Addresses are created in [Settings > Tenant > Addresses](../../settings/settings_tenant/settings_tenant/#settings--tenant--addresses).  
 
 1. In the **Search & filter** pane, click **Ship to**.
 
@@ -618,9 +618,9 @@ This section displays information about order exports related to this order, whe
 *   **Job ID.**   Identification number of the export.
 *   **Export date.**  Date that the export job was run.
 *   **File name.**  Name of the export file.
-*   **Export method.**  The **Integration name** on the associated Organization record’s [Integration details](../acquisitions/organizations/#adding-integration-details-to-a-vendor-organization).
+*   **Export method.**  The **Integration name** on the associated Organization record’s [Integration details](../organizations/#adding-integration-details-to-a-vendor-organization).
 
-See the [Export Manager](../export-manager/#viewing-export-jobs) for more information about viewing export jobs.
+See the [Export Manager](../../export-manager/#viewing-export-jobs) for more information about viewing export jobs.
 
 
 
@@ -637,7 +637,7 @@ See the [Export Manager](../export-manager/#viewing-export-jobs) for more inform
 
 ## Approving an order
 
-You only need to approve an order if you have the Approvals required setting turned on. For more information, see [Settings > Orders > Approvals](../settings/settings_orders/settings_orders/#settings--orders--general--approvals). If you have this setting turned on, you also need the applicable permission to be able to approve the order. You can open an order once it is approved.
+You only need to approve an order if you have the Approvals required setting turned on. For more information, see [Settings > Orders > Approvals](../../settings/settings_orders/settings_orders/#settings--orders--general--approvals). If you have this setting turned on, you also need the applicable permission to be able to approve the order. You can open an order once it is approved.
 
 There are two ways to approve an order. You can edit the order and select the **Approved** checkbox under PO summary, or you can follow these steps:
 
@@ -662,10 +662,10 @@ After you create an order, it has the status of Pending until you open it. Once 
 
 
 *   Encumbrance transactions are created. Note: Encumbrances are only created if a fund distribution was added to an order line.
-*   Inventory records are created. If **Create inventory** on the purchase order line is set to "Instance, holdings, item", an item is created with an item status of "On order." For more information about item status see [Platform essentials > Item Status](../platform-essentials/item-status/itemstatus/). FOLIO will first try to find a matching instance and holdings prior to creating new records. Inventory records are not created if **Create inventory** on the order line is set to None. For more information about **Create inventory**, see the [E-resources details](#e-resources-details) and [Physical details](#physical-resource-details) sections below.
+*   Inventory records are created. If **Create inventory** on the purchase order line is set to "Instance, holdings, item", an item is created with an item status of "On order." For more information about item status see [Platform essentials > Item Status](../../platform-essentials/item-status/itemstatus/). FOLIO will first try to find a matching instance and holdings prior to creating new records. Inventory records are not created if **Create inventory** on the order line is set to None. For more information about **Create inventory**, see the [E-resources details](#e-resources-details) and [Physical details](#physical-resource-details) sections below.
 *   Date opened is set to today’s date.
 *   Approval date is set to today’s date if the order hasn’t already been approved by a user.
-*   If possible duplicates are found, based on title and product ID values, a modal displays with a list of possible duplicate orders. Select continue or cancel. This duplicate check can be disabled in Settings. See [Settings > Orders > Opening purchase orders](../settings/settings_orders/settings_orders/#settings--orders--general--opening-purchase-orders).
+*   If possible duplicates are found, based on title and product ID values, a modal displays with a list of possible duplicate orders. Select continue or cancel. This duplicate check can be disabled in Settings. See [Settings > Orders > Opening purchase orders](../../settings/settings_orders/settings_orders/#settings--orders--general--opening-purchase-orders).
 *   Order lines cannot be added after the order is opened unless you [unopen](#unopening-an-order) the order.
 *   Fields such as Order type, Title, Acquisition method, and Order format are not editable once an order is opened. The order would need to be unopened to edit those fields. For more information, see [Unopening an order](#unopening-an-order).
 
@@ -705,13 +705,13 @@ Upon cancellation, the order **Workflow status** changes to Closed, the **Reason
 
 ## Closing an order
 
-The system will automatically close one-time orders that are fully received and fully paid, or those where receipt or payment is not required, as indicated by the purchase order line **Receipt status** and **Payment status** values.  Only open orders can be closed. If you need to close an order manually, follow the steps below. Note about **Item status**: If **Create inventory** on the purchase order line is set to “Instance, holdings,item”, an item was created in Inventory when the order was opened. Closing an order when the item is not yet received will update the **Item status** of the item to “Order Closed.”  For more information about item status see [Platform essentials > Item Status](../platform-essentials/item-status/itemstatus/).
+The system will automatically close one-time orders that are fully received and fully paid, or those where receipt or payment is not required, as indicated by the purchase order line **Receipt status** and **Payment status** values.  Only open orders can be closed. If you need to close an order manually, follow the steps below. Note about **Item status**: If **Create inventory** on the purchase order line is set to “Instance, holdings,item”, an item was created in Inventory when the order was opened. Closing an order when the item is not yet received will update the **Item status** of the item to “Order Closed.”  For more information about item status see [Platform essentials > Item Status](../../platform-essentials/item-status/itemstatus/).
 
 1. [Search for the order you want to close](#searching-for-an-order) and select it.
 
 2. In the **Purchase order** pane, select **Actions > Close order**.
 
-3. In the **Close - purchase order** dialog, select a closing **Reason** from the drop-down list. Closing reasons are configured in the Settings app. For more information, see [Settings > Orders > Closing purchase order reasons](../settings/settings_orders/settings_orders/#settings--orders---general--closing-purchase-order-reasons).
+3. In the **Close - purchase order** dialog, select a closing **Reason** from the drop-down list. Closing reasons are configured in the Settings app. For more information, see [Settings > Orders > Closing purchase order reasons](../../settings/settings_orders/settings_orders/#settings--orders---general--closing-purchase-order-reasons).
 
 4. Optional: Enter any notes about why you are closing the order.
 
@@ -759,7 +759,7 @@ You can create an invoice for Open status orders from within the Orders app usin
 
 3. In response to the Create invoice dialog prompt, “Do you want to create an invoice from this order?” click **Submit**.  The **Create invoice** window opens.
 
-4. Follow the steps in [Creating an invoice](../acquisitions/invoices/#creating-an-invoice) to complete the Create invoice window and click **Save and close**.
+4. Follow the steps in [Creating an invoice](../invoices/#creating-an-invoice) to complete the Create invoice window and click **Save and close**.
 
 5. If the order contains more than one purchase order line, the **Edit sequence of invoice lines** window opens containing a table list of all purchase order lines linked from the order. You can optionally drag and drop order line rows to resequence them to match the vendor invoice sequence.  When finished, click **Save and close**.
 
@@ -792,7 +792,7 @@ To print or save a PDF file containing a snapshot of key information about an or
 
 ## Showing hidden fields
 
-When a template is used to create an order, it may be configured to hide specific fields on the order and/or order line(s). To reveal fields that are hidden by the template, as defined in [Settings > Orders > Creating an order template](../settings/settings_orders/settings_orders/#settings--orders--general--order-templates), follow these steps.  Note: The user permission **Orders: Show all hidden fields** must be assigned to the user.
+When a template is used to create an order, it may be configured to hide specific fields on the order and/or order line(s). To reveal fields that are hidden by the template, as defined in [Settings > Orders > Creating an order template](../../settings/settings_orders/settings_orders/#settings--orders--general--order-templates), follow these steps.  Note: The user permission **Orders: Show all hidden fields** must be assigned to the user.
 
 1. From the detail pane of the order, select **Actions > Show hidden fields.**  If any fields are hidden, they are added to the detail pane.
 
@@ -833,7 +833,7 @@ When a template is used to create an order, it may be configured to hide specifi
 
 ## Adding an order line to an order
 
-Follow these steps to add an order line to an order.  You can also add an order line from the Inventory app by searching for an instance and clicking [Actions > New order](../metadata/inventory/#creating-a-new-order).
+Follow these steps to add an order line to an order.  You can also add an order line from the Inventory app by searching for an instance and clicking [Actions > New order](../../metadata/inventory/#creating-a-new-order).
 
 1. [Search for the order to which you want to add the PO line](#searching-for-an-order) and select it.
 
@@ -841,9 +841,9 @@ Follow these steps to add an order line to an order.  You can also add an order 
 
 3. In the **Add PO line** window, fill in the required and desired fields. For more information on the fields and actions available in each PO line section, see the section descriptions below.
 
-4. **Create another** checkbox: If the [Settings > Orders > Purchase orders line limit](../settings/settings_orders/settings_orders/#settings--orders--general--purchase-order-lines-limit) value is greater than one, click this checkbox at the bottom of the window to keep the **Add PO line** window open after saving the current order line.
+4. **Create another** checkbox: If the [Settings > Orders > Purchase orders line limit](../../settings/settings_orders/settings_orders/#settings--orders--general--purchase-order-lines-limit) value is greater than one, click this checkbox at the bottom of the window to keep the **Add PO line** window open after saving the current order line.
 
-5. Click **Save**, **Save & close** or **Save & open order**, if applicable.  If possible duplicates are found, based on title and product ID values, a modal displays with a list of possible duplicate orders. Select continue or cancel. This duplicate check can be disabled in Settings. For more information on checking for duplicates and enabling saving and opening orders simultaneously, see [Settings > Orders > Opening purchase orders](../settings/settings_orders/settings_orders/#settings--orders--general--opening-purchase-orders).
+5. Click **Save**, **Save & close** or **Save & open order**, if applicable.  If possible duplicates are found, based on title and product ID values, a modal displays with a list of possible duplicate orders. Select continue or cancel. This duplicate check can be disabled in Settings. For more information on checking for duplicates and enabling saving and opening orders simultaneously, see [Settings > Orders > Opening purchase orders](../../settings/settings_orders/settings_orders/#settings--orders--general--opening-purchase-orders).
 
 6. Once the order line is created, you can add notes, See [Adding a note to an order line](#adding-a-note-to-an-order-line) for more information. If the order line is for a package, you can add package titles. See [Adding package titles to an order line](#adding-package-titles-to-an-order-line).
 
@@ -959,7 +959,7 @@ Note: If the [Package checkbox](#item-details) is selected for the purchase orde
 *   **Physical unit price.** The price of the physical unit. Required if the [Order format](#order-format) is Physical, P/E mix, or Other.
 *   **Quantity physical.** The number of items you are ordering. Required if the [Order format](#order-format) is Physical, P/E mix, or Other.
 *   **Additional cost.** Any additional costs for the item.
-*   **Currency.** Select the **Currency** of the item from the drop-down list. The default value is stored in Tenant settings as the primary currency. For more information, see [Settings > Tenant > Language and localization](../../../settings/settings_tenant/settings_tenant/#settings--tenant--language-and-localization). Note: When an order is opened, the system creates an encumbrance transaction on the current budget for the fund selected in the fund distribution section of the order. If the currency of the PO line is different than the budget currency, the encumbrance will display on the budget as a converted amount.  The budget currency is set to the Tenant currency value at the time the [Finance > Fiscal year](../finance/#fiscal-year-information) record is created; therefore, if the Tenant currency value is updated, any budgets created prior to the update will still operate based on the Tenant currency that existed when the Fiscal year associated with the budget was created.
+*   **Currency.** Select the **Currency** of the item from the drop-down list. The default value is stored in Tenant settings as the primary currency. For more information, see [Settings > Tenant > Language and localization](../../settings/settings_tenant/settings_tenant/#settings--tenant--language-and-localization). Note: When an order is opened, the system creates an encumbrance transaction on the current budget for the fund selected in the fund distribution section of the order. If the currency of the PO line is different than the budget currency, the encumbrance will display on the budget as a converted amount.  The budget currency is set to the Tenant currency value at the time the [Finance > Fiscal year](../finance/#fiscal-year-information) record is created; therefore, if the Tenant currency value is updated, any budgets created prior to the update will still operate based on the Tenant currency that existed when the Fiscal year associated with the budget was created.
 *   **Current exchange rate.**  This value will display after the currency field is updated. The system automatically retrieves the current currency exchange rate using the Java Money API that retrieves and convert currencies using the European Central Bank (ECB) as the source.
 *    **Use set exchange rate.**  Check this box if you want to input an exchange rate value to be used for order instead of current rate.
 *   **Set exchange rate.**  The exchange rate value to be used for this order instead of the current rate.  This field is locked, as indicated by the lock icon beside the field label, unless the **Use set exchange rate** checkbox is selected.
@@ -980,7 +980,7 @@ If you want to encumber money to certain funds, enter your fund distributions in
 
 1. Click **Add fund distribution**.
 
-2. Select the **Fund ID** from the drop-down list. Only **Active** funds appear in the list. Note: The use of acquisitions units may restrict which funds appear in this list. If an acquisition unit is set up to restrict view permissions, then only funds that are assigned to the same acquisition unit as the user will display in the drop-down list.  For more information, see See [Settings > Acquisition units](../settings/settings_acquisition_units/settings_acquisition_units/).
+2. Select the **Fund ID** from the drop-down list. Only **Active** funds appear in the list. Note: The use of acquisitions units may restrict which funds appear in this list. If an acquisition unit is set up to restrict view permissions, then only funds that are assigned to the same acquisition unit as the user will display in the drop-down list.  For more information, see See [Settings > Acquisition units](../../settings/settings_acquisition_units/settings_acquisition_units/).
 
 3. Select the **Expense class** from the list. Note: the **Expense class** dropdown will only appear if the selected fund's current budget has expense classes assigned. Only active expense classes will be included in the dropdown.
 
@@ -1037,7 +1037,7 @@ This section only appears if you select Physical resource or P/E mix under [Orde
 *   **Material supplier.** The supplier of the item. The field defaults to the name of the vendor associated with the vendor code selected for the order. For more information, see [Purchase order](#purchase-order). To change the supplier, click **Organization look-up** to select an organization. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to select it. The organization is added to the Material supplier field.
 *   **Receipt due.** The date that receipt of the material is due, or the date by which the material should be received.
 *   **Expected receipt date.** The date the material is expected to be received. This date could fall before or after the Receipt due date.
-*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened: Instance, holdings, item; Instance; Instance, holdings; None.  For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions](../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
+*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened: Instance, holdings, item; Instance; Instance, holdings; None.  For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions](../../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
 *   **Material type.** The type of material. If an item is created for the order, this material type value will appear on the item record in the Inventory app. Note: If the item material type is edited from the Inventory app, the order record material type value will not be updated.
 *   **Volume.** A number to identify the specific volume being ordered within a series, set or collection. Currently, this information is stored only on the order.
 #### Adding a volume
@@ -1057,7 +1057,7 @@ This section only appears if you select Electronic resource or P/E mix under [Or
 *   **Access provider.** The e-resource provider. The default value is set to the vendor organization. To change the provider organization, click **Organization look-up** to select a different organization. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to add it as the access provider.
 *   **Activation status.** If the e-resource is activated, select the **Activation status** checkbox.
 *   **Activation due.** The date the activation is due. Note: If you have entered an interval in the Expected activation interval field in the Vendor information section of the vendor record, the activation due date is populated based on the number of days you entered as the interval. For example, if you set the interval to 365, the Activation due field is populated with the date that falls one year from the date of order line creation. 
-*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened. For information on configuring the default setting for this field based on [Order format](#order-format), see [Settings > Orders > Inventory interactions](../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
+*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened. For information on configuring the default setting for this field based on [Order format](#order-format), see [Settings > Orders > Inventory interactions](../../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
 *   **Material type.** The type of material.
 *   **Trial.** If the e-resource is part of a trial, select the **Trial** checkbox.
 *   **Expected activation.** The date activation of the e-resource is expected.
@@ -1074,7 +1074,7 @@ This section only appears if you select Other under [Order format](#order-format
 *   **Material supplier.** The supplier of the item. The default value is the vendor selected on the order. To change the supplier, click **Organization look-up** to select a vendor. In the **Select Organization** dialog, find the organization using the search box and/or filters. Click the organization to add it as the Material supplier.
 *   **Receipt due.** The date the receipt is due.
 *   **Expected receipt date.** The date the item is expected to be received.
-*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened. For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions](../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
+*   **Create inventory.** Select the types of records you want to create in the Inventory app once the order is opened. For information on configuring the default setting for this field, see [Settings > Orders > Inventory interactions](../../settings/settings_orders/settings_orders/#settings--orders--inventory-interaction--inventory-interactions-defaults).
 *   **Material type.** The type of material.
 
 ### Custom fields
