@@ -97,7 +97,7 @@ Use this setting to create, edit, and delete batch groups, which are used to org
 
 ## Settings > Invoices > Batch group configuration
 
-Use this setting to configure batch group voucher exports. This configuration enables you to setup automated exports of files containing all invoice vouchers created since the last export. For more information about how vouchers are created, see  [Invoices > Approving an invoice](../acquisitions/invoices/#approving-an-invoice).  All vouchers with the **Export to accounting** checkbox selected that were created since the last export for the batch group will be exported to a file. For more information about the Export to accounting checkbox, see  [Invoices > Extended information](../acquisitions/invoices/#extended-information).  Each invoice generates a single unique voucher on which all fund charges are grouped by the fund external account number. 
+Use this setting to configure batch group voucher exports. This configuration enables you to setup automated exports of files containing all invoice vouchers created since the last export. For more information about how vouchers are created, see  [Invoices > Approving an invoice](../../invoices/#approving-an-invoice).  All vouchers with the **Export to accounting** checkbox selected that were created since the last export for the batch group will be exported to a file. For more information about the Export to accounting checkbox, see  [Invoices > Extended information](../../invoices/#extended-information).  Each invoice generates a single unique voucher on which all fund charges are grouped by the fund external account number. 
 
 
 
