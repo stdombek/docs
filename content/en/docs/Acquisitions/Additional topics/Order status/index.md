@@ -10,12 +10,12 @@ The status of an order record impacts downstream workflows related to Receiving,
 ## What is workflow status and why is it significant?
 Workflow status is the overall status of the order record: Pending, Open, or Closed. When an order record is created, it is saved in a 'Pending' status and cannot be opened until at least one purchase order line (POL) is associated with the order.
 
-When an order is opened, several different events occur. See [Opening an Order](../acquisitions/orders/#opening-an-order) for more information. The act of opening an order also impacts editability of select fields on the order and POL (see below).
+When an order is opened, several different events occur. See [Opening an Order](../../orders/#opening-an-order) for more information. The act of opening an order also impacts editability of select fields on the order and POL (see below).
 
-An order can be closed automatically by the system (see below) or can be manually closed by a staff user in FOLIO. See [Closing an Order](../acquisitions/orders/#closing-an-order) for more information.
+An order can be closed automatically by the system (see below) or can be manually closed by a staff user in FOLIO. See [Closing an Order](../../orders/#closing-an-order) for more information.
 
 ## Which fields are editable when an order is open?
-A library may need to edit fields on an order record with an 'Open' status. This is especially common on Ongoing and Ongoing subscription orders. Use the table below to determine if a field is editable. If the field is not listed in the table below, and order must be unopened to edit the field. See [Unopening an Order](../acquisitions/orders/#unopening-an-order) for more information.
+A library may need to edit fields on an order record with an 'Open' status. This is especially common on Ongoing and Ongoing subscription orders. Use the table below to determine if a field is editable. If the field is not listed in the table below, and order must be unopened to edit the field. See [Unopening an Order](../../orders/#unopening-an-order) for more information.
 
 ### Order fields
 | One-Time   | Ongoing | Ongoing Subscription |
