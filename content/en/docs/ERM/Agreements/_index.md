@@ -1,7 +1,7 @@
 ---
 title: "Agreements"
 linkTitle: "Agreements"
-date: 2024-05-17
+date: 2024-06-04
 weight: 10
 tags: ["parenttopic"]
 ---
@@ -51,10 +51,10 @@ If you want to eUsage data in an agreement record, you also need to have the fol
 *   **eUsage reports: charts may be viewed.** This permission adds an accordion to the Agreement record in the Agreement app that displays charts and graphs of eUsage data for the titles related to an agreement.
 
 
-##Keyboard shortcuts
+## Keyboard shortcuts
 
 
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](< ref "keyboardshortcuts.md" >) for more information.
 
 
 ## Creating an agreement
@@ -87,7 +87,7 @@ Note: Adding a content type is optional, but if you click **Add content type**, 
 
 
 1. Click **Add content type**.
-2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](/../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
+2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values]{{< ref "settings_agreements.md#settings--agreements--pick-list-values" >}}.
 3. Repeat as needed. The Content type saves once you save the agreement.
 
 
@@ -461,7 +461,7 @@ To filter agreements by their reason for closure, select one of the listed optio
 *   **Rejected.** Agreements you have rejected.
 *   **Superseded.** Agreements that have been superseded by another agreement.
 
-Renewal priority values are configured in [Settings > Agreements > Pick list values](../../settings_agreements/settings_agreements/#settings--agreements--pick-list-values").
+Renewal priority values are configured in [Settings > Agreements > Pick list values]{{< ref "/settings_agreements.md#settings--agreements--pick-list-values" >}}.
 
 
 ### Renewal priority
@@ -473,7 +473,7 @@ To filter agreements by their renewal priority, select one of the listed options
 *   **Definitely renew.** Agreements you want to renew.
 *   **Definitely cancel.** Agreements you do not want to renew.
 
-Renewal priority values are configured in [Settings \> Agreements \> Pick list values](../../settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
+Renewal priority values are configured in [Settings \> Agreements \> Pick list values]{{< ref "/settings_agreements.md#settings--agreements--pick-list-values" >}}.
 
 
 ### Is perpetual
