@@ -585,4 +585,4 @@ You can add and assign notes to license records. Assigning a note means you are 
 
 The Dashboard app is designed to enable a personalized view of key information from across FOLIO apps at a glance. In its first release (included in the Juniper flower release), the Dashboard includes the ability to display information from the Agreements and Licenses applications.
 
-In the Quesnelia release, the Licenses app comes with one dashboard widget ("ERM Licenses"). There are examples of how you can use this  widget definition to achieve a wide range of outcomes in the Example widget configurations documentation.
+The Licenses app comes with one dashboard widget ("ERM Licenses"). There are examples of how you can use this  widget definition to achieve a wide range of outcomes in the Example widget configurations documentation.
