@@ -54,7 +54,7 @@ If you want to eUsage data in an agreement record, you also need to have the fol
 ## Keyboard shortcuts
 
 
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](< ref "keyboardshortcuts.md" >) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts.md) for more information.
 
 
 ## Creating an agreement
@@ -461,7 +461,7 @@ To filter agreements by their reason for closure, select one of the listed optio
 *   **Rejected.** Agreements you have rejected.
 *   **Superseded.** Agreements that have been superseded by another agreement.
 
-Renewal priority values are configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
+Renewal priority values are configured in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
 
 
 ### Renewal priority
@@ -735,7 +735,7 @@ There are two ways to add an e-resource from the basket to agreement lines:
 9. (Optional) Enter a **Description** of the agreement line in the box.
 10. (Optional) Enter a **Note** about the agreement line in the box.
 11. (Optional) Enter **Active from** and **Active to** dates to indicate when the material covered by this agreement line was or is active in your collection.
-12. (Optional) To hide this information from your discovery layer, select the **Suppress from discovery** checkbox. If you don’t want this checkbox to appear, or you would like the checkbox to display on agreement line records, see [Settings > Agreements > Display settings](../../settings/settings_agreements/settings_agreements/#settings--agreements--display-settings) for more information.
+12. (Optional) To hide this information from your discovery layer, select the **Suppress from discovery** checkbox. If you don’t want this checkbox to appear, or you would like the checkbox to display on agreement line records, see [Settings \> Agreements \> Display settings](../../settings/settings_agreements/settings_agreements/#settings--agreements--display-settings) for more information.
 13. (Optional) To link the agreement line to a PO line, click **Add PO line**. See [Adding a purchase order line to an agreement line](#adding-a-purchase-order-line-to-an-agreement-line) for more information.
 14. To add multiple agreement lines at once, check the **Create another** checkbox and repeat steps 1-13.
 15. Click **Save & close**. A confirmation message appears and the agreement line is saved.
@@ -1069,7 +1069,7 @@ Packages can be further filtered by:
 * Content type
 * Tags: Select a tag(s) from the drop-down list, or search for one by typing the tag’s name. 
 
-The values for Status, Scope, Availability, and Content type can be configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
+The values for Status, Scope, Availability, and Content type can be configured in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
 
 
 ### Searching for titles
@@ -1083,7 +1083,7 @@ Titles can be further filtered by:
 * Type
 * Publication type
 
-The values for Type and Publication Type can be configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
+The values for Type and Publication Type can be configured in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
 
 
 ## Searching for platforms
