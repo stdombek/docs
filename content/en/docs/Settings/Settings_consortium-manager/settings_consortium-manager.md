@@ -1,7 +1,7 @@
 ---
 title: "Settings > Consortium Manager"
 linkTitle: "Consortium-manager"
-Date: 2024-04-26
+Date: 2024-06-05
 weight: 45
 tags: ["subtopic"]
 ---
@@ -34,7 +34,7 @@ The following are the permissions for **Settings \> Consortium Manager**:
 * **Settings (Consortia): Can view and edit consortia membership** This permission allows the user to view and edit the details of the list of members in the Settings app of the central tenant.
 * **Settings (Consortia): Can view consortia membership** This permission allows the user to view the details of the list of members in the Settings app of the central tenant.
 
-For more general information about permissions, see [Platform Essentials > Permissions](../platform-essentials/permissions/).
+For more general information about permissions, see [Platform Essentials \> Permissions](../../platform-essentials/permissions/).
 
 ## Edit member details
 
