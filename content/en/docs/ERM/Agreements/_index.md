@@ -1,7 +1,7 @@
 ---
 title: "Agreements"
 linkTitle: "Agreements"
-date: 2024-06-04
+date: 2024-06-05
 weight: 10
 tags: ["parenttopic"]
 ---
@@ -87,7 +87,7 @@ Note: Adding a content type is optional, but if you click **Add content type**, 
 
 
 1. Click **Add content type**.
-2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values]{{< ref "settings_agreements.md#settings--agreements--pick-list-values" >}}.
+2. Select the agreement record’s content type from the drop-down list. You can configure the values that appear in the drop-down list in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
 3. Repeat as needed. The Content type saves once you save the agreement.
 
 
@@ -461,7 +461,7 @@ To filter agreements by their reason for closure, select one of the listed optio
 *   **Rejected.** Agreements you have rejected.
 *   **Superseded.** Agreements that have been superseded by another agreement.
 
-Renewal priority values are configured in [Settings > Agreements > Pick list values]{{< ref "/settings_agreements.md#settings--agreements--pick-list-values" >}}.
+Renewal priority values are configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
 
 
 ### Renewal priority
@@ -473,7 +473,7 @@ To filter agreements by their renewal priority, select one of the listed options
 *   **Definitely renew.** Agreements you want to renew.
 *   **Definitely cancel.** Agreements you do not want to renew.
 
-Renewal priority values are configured in [Settings \> Agreements \> Pick list values]{{< ref "/settings_agreements.md#settings--agreements--pick-list-values" >}}.
+Renewal priority values are configured in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values).
 
 
 ### Is perpetual
@@ -735,7 +735,7 @@ There are two ways to add an e-resource from the basket to agreement lines:
 9. (Optional) Enter a **Description** of the agreement line in the box.
 10. (Optional) Enter a **Note** about the agreement line in the box.
 11. (Optional) Enter **Active from** and **Active to** dates to indicate when the material covered by this agreement line was or is active in your collection.
-12. (Optional) To hide this information from your discovery layer, select the **Suppress from discovery** checkbox. If you don’t want this checkbox to appear, or you would like the checkbox to display on agreement line records, see [Settings > Agreements > Display settings]({{< ref "/settings_agreements.md#settings--agreements--display-settings" >}}) for more information.
+12. (Optional) To hide this information from your discovery layer, select the **Suppress from discovery** checkbox. If you don’t want this checkbox to appear, or you would like the checkbox to display on agreement line records, see [Settings > Agreements > Display settings](../../settings/settings_agreements/settings_agreements/#settings--agreements--display-settings) for more information.
 13. (Optional) To link the agreement line to a PO line, click **Add PO line**. See [Adding a purchase order line to an agreement line](#adding-a-purchase-order-line-to-an-agreement-line) for more information.
 14. To add multiple agreement lines at once, check the **Create another** checkbox and repeat steps 1-13.
 15. Click **Save & close**. A confirmation message appears and the agreement line is saved.
@@ -1069,7 +1069,7 @@ Packages can be further filtered by:
 * Content type
 * Tags: Select a tag(s) from the drop-down list, or search for one by typing the tag’s name. 
 
-The values for Status, Scope, Availability, and Content type can be configured in Settings > Agreements > Pick list values. 
+The values for Status, Scope, Availability, and Content type can be configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
 
 
 ### Searching for titles
@@ -1083,7 +1083,7 @@ Titles can be further filtered by:
 * Type
 * Publication type
 
-The values for Type and Publication Type can be configured in Settings > Agreements > Pick list values. 
+The values for Type and Publication Type can be configured in [Settings > Agreements > Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
 
 
 ## Searching for platforms
@@ -1245,5 +1245,5 @@ You can add and assign notes to agreement records, agreement lines, and e-resour
 
 The Dashboard app is designed to enable a personalized view of key information from across FOLIO apps at a glance. In its first release (included in the Juniper flower release), the Dashboard includes the ability to display information from the Agreements and Licenses applications.
 
-In the Quesnelia release, the Agreements app comes with two dashboard widgets ("ERM Agreements" and "ERM Agreement Jobs"). There are examples of how you can use these two 
+The Agreements app comes with two dashboard widgets ("ERM Agreements" and "ERM Agreement Jobs"). There are examples of how you can use these two 
 widget definitions to achieve a wide range of outcomes in the Example widget configurations documentation.
