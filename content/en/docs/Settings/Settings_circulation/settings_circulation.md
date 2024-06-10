@@ -732,7 +732,7 @@ Click **Save** at the bottom of the screen to save any changes.
 
 ## Settings > Circulation > Print hold requests
 
-**Allow print hold requests (Open - Not yet filled)**. Check the box if you want the option to print [Search slips](../../../access/requests/requests/printing-hold-request-search-slips) for item level hold requests.
+**Allow print hold requests (Open - Not yet filled)**. Check the box if you want the option to print [Search slips](../../../access/requests/requests/#printing-hold-request-search-slips) for item level hold requests.
 
 Click **Save** at the bottom of the screen to save any changes.
 
