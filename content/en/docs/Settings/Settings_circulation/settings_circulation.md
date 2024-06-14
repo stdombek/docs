@@ -284,7 +284,7 @@ If you select **Fixed**, you see the following fields:
 
 **Item limit.** Enter the maximum number of items matching the loan type and material type criteria of the circulation rule that can be borrowed by one patron under this policy. Leave blank to have no item limit.
 
-The item limit will only apply when the circulation rule criteria includes either [loan type](../../settings_inventory/settings_inventory/#settings--inventory--loan-types), [material type](../../settings_inventory/settings_inventory/#settings--inventory--material-types), or both. If the circulation rule includes neither loan type nor material type, then the item limit in the loan policy will not be applied. See [CIRC-559](https://folio-org.atlassian.net/issues/CIRC-558) and [Automated Item Block guidelines]( https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/5670275/Implementing+Automated+Item+Blocks) for more information.
+The item limit will only apply when the circulation rule criteria includes either [loan type](../../settings_inventory/settings_inventory/#settings--inventory--loan-types), [material type](../../settings_inventory/settings_inventory/#settings--inventory--material-types), or both. If the circulation rule includes neither loan type nor material type, then the item limit in the loan policy will not be applied. See [CIRC-558](https://folio-org.atlassian.net/issues/CIRC-558) and [Automated Item Block guidelines]( https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/5670275/Implementing+Automated+Item+Blocks) for more information.
 
 To limit the number of items that users in a patron group can borrow, see [Settings > Users > Limits](../../settings_users/settings_users/#settings--users--limits).
 
@@ -305,7 +305,7 @@ If you select **Rolling**, you see the following fields:
 
 **Item limit.** Enter the maximum number of items matching the loan type and material type criteria of the circulation rule that can be borrowed by one patron under this policy. Leave blank to have no item limit.
 
-The item limit will only apply when the circulation rule criteria includes either [loan type](../../settings_inventory/settings_inventory/#settings--inventory--loan-types), [material type](../../settings_inventory/settings_inventory/#settings--inventory--material-types), or both. If the circulation rule includes neither loan type nor material type, then the item limit in the loan policy will not be applied. See [CIRC-559](https://folio-org.atlassian.net/issues/CIRC-558) and [Automated Item Block guidelines]( https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/5670275/Implementing+Automated+Item+Blocks) for more information.
+The item limit will only apply when the circulation rule criteria includes either [loan type](../../settings_inventory/settings_inventory/#settings--inventory--loan-types), [material type](../../settings_inventory/settings_inventory/#settings--inventory--material-types), or both. If the circulation rule includes neither loan type nor material type, then the item limit in the loan policy will not be applied. See [CIRC-558](https://folio-org.atlassian.net/issues/CIRC-558) and [Automated Item Block guidelines]( https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/5670275/Implementing+Automated+Item+Blocks) for more information.
 
 To limit the number of items that users in a patron group can borrow, see [Settings > Users > Limits](../../settings_users/settings_users/#settings--users--limits).
 
