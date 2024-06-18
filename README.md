@@ -36,6 +36,19 @@ hugo server -D
 ### Preview the Docs site
 After serving, visit <http://localhost:1313>
 
+## FOLIO Documentation Working Group
+
+Community members who are interested in helping with documentation should reach out to a member of the FOLIO Documentation Working Group to find out how you can help.
+
+For questions regarding documentation, please join the
+[slack channel](https://folio-org.atlassian.net/wiki/spaces/COMMUNITY/pages/4227287/FOLIO+Communication+Spaces#FOLIOCommunicationSpaces-slackSlack)
+#folio-documentation and ask there.
+
+Please refer to the
+[FOLIO Documentation Working Group webspace](https://folio-org.atlassian.net/wiki/spaces/SS/pages/4489616/FOLIO+Documentation+Working+Group)
+that includes the
+[Basic Workflow in Github for Updating Existing Documentation](https://folio-org.atlassian.net/wiki/spaces/SS/pages/4490218/Basic+Workflow+in+Github+for+Updating+Existing+Documentation).
+
 ## Issue tracker
 
 See project [DOCS](https://issues.folio.org/browse/DOCS)
