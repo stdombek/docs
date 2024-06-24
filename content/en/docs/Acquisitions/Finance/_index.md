@@ -1,7 +1,7 @@
 ---
 title: "Finance"
 linkTitle: "Finance"
-date: 2023-04-16
+date: 2023-06-24
 weight: 10
 tags: ["parenttopic"]
 ---
