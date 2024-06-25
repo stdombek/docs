@@ -1,7 +1,7 @@
 ---
 title: "Consortium manager"
 linkTitle: "Consortium manager"
-date: 2024-04-26        
+date: 2024-06-25        
 weight: 675
 ---
 
@@ -172,7 +172,7 @@ To remove affiliation permissions from a user’s record, go to the **Users** ap
 In **Consortium manager**, some settings can be modified and centrally managed for all member libraries through the **Share** option. By sharing settings, member libraries apply a controlled vocabulary to ensure consistency in library records and transactions across the consortium. 
 
 
-The sharing option cannot be edited once the setting is initially created and saved. To change the sharing option in a setting, each of the relevant settings must first be deleted and then a new setting created with the appropriate sharing option. The **Share** option must be set when the setting is created and saved, and cannot be edited after the setting is initially saved. If **Share** is selected, the data fields, **Source**,  **Member libraries**, and **Update** display as **consortium**,  **ALL**, and **SystemConsortia**, respectively, indicating the setting can be managed in Consortium manager. 
+The sharing option cannot be edited once the setting is initially created and saved. To change the sharing option in a setting, each of the relevant settings must first be deleted and then a new setting created with the appropriate sharing option. The **Share** option must be set when the setting is created and saved, and cannot be edited after the setting is initially saved. If **Share** is selected, the data fields, **Source**,  **Member libraries**, and **Update** display as **consortium**,  **ALL**, and **System Consortia**, respectively, indicating the setting can be managed in Consortium manager. 
 
 
 If a setting is not shared, it serves as a local setting for a specific member library in the consortium regardless of which member tenant was used to create it. 
