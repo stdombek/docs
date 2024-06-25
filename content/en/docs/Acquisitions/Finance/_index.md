@@ -1,10 +1,12 @@
 ---
 title: "Finance"
 linkTitle: "Finance"
-date: 2023-04-16
+date: 2023-06-24
 weight: 10
 tags: ["parenttopic"]
 ---
+
+**This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may not be aligned with the current release of FOLIO.**
 
 The Finance app allows you to create fund structures and manage money.
 
@@ -344,8 +346,7 @@ This section displays a table containing summary financial information for all f
 *   **Awaiting Payment.** The sum of all pending payment transaction amounts against all fund budgets for the fiscal year.  
 *   **Expended.** The sum of all payment transaction amounts minus credit transaction amounts, against all fund budgets for the fiscal year.
 *   **Unavailable.** The total amount unavailable across all fund budgets for the fiscal year, calculated as the sum of the encumbered, awaiting payment, and expended amounts.
-*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). It should be  
-    `Unavailable - Total funding - Over expended`.
+*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). 
 *   **Over expended.** The total amount expended and awaiting payment minus the total funding amount for all fund budgets for the fiscal year (or zero if that value is negative).
 *   **Available balance.** Total amount available across all fund budgets for the fiscal year, calculated as **Total funding** amount minus the **Unavailable** amount.  
 
@@ -419,8 +420,7 @@ The Ledger information section contains the following fields:
 *   **Awaiting Payment.** The sum of all pending payment transaction amounts against all fund budgets for the ledger during the current fiscal year.  
 *   **Expended.** The sum of all payment transaction amounts minus credit transaction amounts against all fund budgets for the ledger during the current fiscal year.
 *   **Unavailable.** The total amount unavailable across all fund budgets for the ledger during the current fiscal year, calculated as the sum of the encumbered, awaiting payment, and expended amounts.
-*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the ledger during the current fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). It should be  
-    `Unavailable - Total funding - Over expended`.
+*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the ledger during the current fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). 
 *   **Over expended.**  The total amount expended and awaiting payment minus the total funding amount for all fund budgets for the ledger during the current fiscal year (or zero if that value is negative).
 *   **Available balance.** Total amount available across all fund budgets for the ledger during the current fiscal year, calculated as **Total funding** amount minus the **Unavailable** amount.  
 
@@ -541,8 +541,7 @@ The group details pane contains group financial summary information and lists al
 *   **Awaiting Payment.** The sum of pending payment transaction amounts against all fund budgets for the group during the fiscal year selected.  
 *   **Expended.** The sum of payment transaction amounts minus credit transaction amounts against all fund budgets for the group during the fiscal year selected.
 *   **Unavailable** Total amount unavailable across all fund budgets for the group during the fiscal year selected, calculated as the sum of the encumbered, awaiting payment, and expended amounts.
-*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the group during the fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). It should be  
-    `Unavailable - Total funding - Over expended`.
+*   **Over encumbrance.** The encumbrance going beyond what is available in the fund budgets for the group during the fiscal year (not taking allowable encumbrance into account). In Quesnelia the calculation is wrong in several cases (see [MODFISTO-484](https://folio-org.atlassian.net/browse/MODFISTO-484) for details). 
 *   **Over expended.**  The total amount expended and awaiting payment minus the total funding amount for all fund budgets for the group during the current fiscal year (or zero if that value is negative).
 *   **Available balance.** Total amount available across all fund budgets for the group during the fiscal year selected, calculated as **Total funding** amount minus the **Unavailable** amount.  
 
@@ -1007,7 +1006,7 @@ Note: Financial structure records cannot be deleted if they have other records a
 Fiscal year rollover is initiated from the ledger detail pane.  This process can close current fiscal year budgets, create upcoming fiscal year budgets with or without allocated funds based on fund type, and roll encumbrances onto new fiscal year budgets based on order type (one-time, ongoing, and ongoing subscription). This action is applied only to the funds associated with the ledger, so rollover must be run separately for each ledger.  
 
 Note: Prior to running the fiscal year rollover process, it is recommended to do the following:
-1. Review open orders to determine if the **Re-encumber** check box is selected where desired.
+1. Review open orders to determine if the **Re-encumber** check box is selected where desired. If **Re-encumber** is not selected, but the order's workflow status is **Open**, an encumbrance transaction will be created in the new fiscal year's budget, but the transaction will be released and will not earmark any funds in the new budget.
 2. Review and resolve approved invoices.
 3. Run at least one test of rollover to identify any remaining unpaid invoices and to view the rollover log prior to running the actual rollover.
 
