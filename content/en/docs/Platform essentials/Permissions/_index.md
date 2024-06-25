@@ -61,9 +61,9 @@ Settings \(\[Area of Settings or Appname\]\): \[What the user can do\]
 
 ## Viewing Permissions 
 
-Permissions can be viewed by navigating to Seetings > Developer > Permissions inspector. 
+Permissions can be viewed by navigating to Settings > Developer > Permissions inspector. 
 
-A list of permissions will be populated in the window pane on the right. Each permission includes a dropdown with its relevant subpermissions. To see invisible permissions in the Permissions inspector, check the "Show invisible permissions" box at the top of the pane. 
+A list of permissions will be populated in the window pane on the right. Each permission includes a dropdown with its subpermissions. To see invisible permissions in the Permissions inspector, check the "Show invisible permissions" box at the top of the pane. 
 
 ## Common Workflows
 
@@ -94,7 +94,7 @@ The ability to see invisible permissions is determined user-by-user. The logged-
 2. Check the box for **List ‘invisible’ permissions in add-perm menus?**
 3. Save your changes.
 
-It is not recommended to leave this setting on permanently; there are thousands of permissions in FOLIO when including visible and invisible permissions together, and displaying invisible permissions will significantly slow down permissions management workflows. To see invisible permissions without changing the sysstem configuration, use the Permissions inspector in Settings > Developer > Permissions inspector and check the "Show invisible permissions" box at the top of the pane.
+It is not recommended to leave this setting on permanently; there are thousands of permissions in FOLIO when including visible and invisible permissions together, and displaying invisible permissions will significantly slow down permissions management workflows. To see invisible permissions without changing the system configuration, use the Permissions inspector in Settings > Developer > Permissions inspector and check the "Show invisible permissions" box at the top of the pane.
 
 ### How should I configure FOLIO to use invisible permissions with user accounts, if I need to be able to assign them to staff?
 
