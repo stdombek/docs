@@ -1,7 +1,7 @@
 ---
 title: "Settings > Users"
 linkTitle: "Users"
-date: 2024-05-01 
+date: 2024-06-25 
 weight: 220
 tags: ["subtopic"]
 ---
@@ -233,14 +233,6 @@ Custom fields can be deleted if they are in use, but any information tied to the
 3.  Click **Save & close**.
 4.  In the **Delete field data** dialog, click **Save & lose data**.
 
-
-## Settings \> Users \> Number generator options
-
-- **Number generator off**: the barcode can be filled manually only.
-- **Number generator on, editable**: the barcode can be filled using the generator and be edited, or filled manually. 
-- **Number generator on, fixed**: the barcode can be filled using the generator only. 
-
-
 ## Settings \> Users \> Owners
  A Fee/fine owner is the agent or office that manages fines for FOLIO transactions. Fee/fine owners collect fees/fines for FOLIO service points.
 
@@ -286,7 +278,7 @@ When manually creating a fee/fine, **Fee/fine Type** is a required field.
 7.  Optional: Select an **Action Notice**.
 8.  Click **Save**. The Fee/fine type is saved.
 
-See [Settings \> Circulation \> Patron notice templates](../settings_circulation/settings_circulation/#patron-notice-templates) for more information about **Patron notice templates**.
+See [Settings \> Circulation \> Patron notice templates](/settings/settings_circulation/settings_circulation/#patron-notice-templates) for more information about **Patron notice templates**.
 
 
 ### Edit a fee/fine type
