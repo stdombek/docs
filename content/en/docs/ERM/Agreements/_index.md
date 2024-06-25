@@ -1,7 +1,7 @@
 ---
 title: "Agreements"
 linkTitle: "Agreements"
-date: 2024-06-05
+date: 2024-06-25
 weight: 10
 tags: ["parenttopic"]
 ---
@@ -54,7 +54,7 @@ If you want to eUsage data in an agreement record, you also need to have the fol
 ## Keyboard shortcuts
 
 
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts.md) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/) for more information.
 
 
 ## Creating an agreement
@@ -866,7 +866,7 @@ To filter agreement lines by an agreement record, click **Select agreement**. In
 
 ### Agreement line type
 
-To filter agreement lines by type, check the **Unlinked**, **External**, and/or **Internal** checkboxes. An [unlinked agreement line](#adding-an-unlinked-agreement-line) is not linked to a resource in a knowledge base. An [external agreement line](#adding-an-agreement-line-via-eHoldings) is linked to a resource in an external knowledge base (like the eHoldings app), and an [internal agreement line](#adding-an-agreement-line-via-the-internal-KB) is linked to a resource in the internal knowledge base.
+To filter agreement lines by type, check the **Unlinked**, **External**, and/or **Internal** checkboxes. An **unlinked agreement line** is not linked to a resource in a knowledge base. An **external agreement line** is linked to a resource in an external knowledge base (like the eHoldings app), and an **internal agreement line** is linked to a resource in the internal knowledge base.
 
 
 ### Active from
