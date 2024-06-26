@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-05-09
+date: 2024-06-26
 weight: 550
 ---
 
@@ -14,10 +14,10 @@ The Bulk Edit app allows a user to apply changes to multiple FOLIO records simul
 Bulk edit can apply changes to these record types:
 
 
-* **Inventory - holdings**
-* **Inventory - instances**
-* **Inventory - items**
-* **Users**
+- [**Inventory - holdings**](#inventory---holdings)
+- [**Inventory - instances**](#inventory---instances)
+- [**Inventory - items**](#inventory---items)
+- [**Users**](#users)
 
 
 ## Permissions
@@ -32,13 +32,13 @@ Bulk edit permissions, combined with other functional app permissions, allow a u
 The following are the permissions for the Bulk edit app:
 
 
-- **Bulk edit: In App - Edit user records.** This permission allows the user to edit multiple user records in the Bulk Edit app. 
 - **Bulk edit: Can build query**: This permission allows the user to build and test a query, and preview matched records in the Bulk edit app. 
 - **Bulk edit: Can view logs** This permission allows the user to download and view logs in the Bulk Edit app.
-- **Bulk edit: In app - Edit inventory records** This permission allows the user to edit a field in multiple inventory records in the Bulk Edit app. 
-- **Bulk edit: In app - View inventory records** This permission allows the user to view a list of inventory records in the Bulk Edit app. 
+- **Bulk edit: In app - Edit inventory records** This permission allows the user to edit a field in multiple inventory records in the Bulk Edit app.
+- **Bulk edit: In app - View inventory records** This permission allows the user to view a list of identified inventory records in the Bulk Edit app. 
 - **Bulk edit: Local - Edit user records** This permission allows the user to edit a field in multiple user records in Bulk Edit using the CSV approach.
 - **Bulk edit: Local - View user records** This permission allows the user to view a list of identified user records in Bulk Edit using the CSV approach.
+
 
 
 ## Bulk edit methods
