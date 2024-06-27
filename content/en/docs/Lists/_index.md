@@ -1,10 +1,10 @@
 ---
 title: "Lists"
 linkTitle: "Lists"
-date: 2024-01-22        
+date: 2024-06-26        
 weight: 525
 ---
-
+**This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may not be aligned with the current release of FOLIO.**
 
 The Lists app provides actionable lists in FOLIO at the point of need. Some use cases include:
 
@@ -145,7 +145,7 @@ To set criteria and build a query for new list, follow these steps:
 
 1. Click the **Build query** button to open the **Build query** window. 
 2. Select the **Record type** for the query. Currently, record types include **Items**, **Loans**, and **Users**. For more information about building a query for a specific record type, see [**Items**](#record-type-items), [**Loans**](#record-type-loans), or [**Users**](#record-type-users) as appropriate.
-3. Select a **Field** from the **Filter options list** drop-down menu. The **Fields** available for selection in the **Filter options** are based on the **Record Type**. 
+3. Select a **Field** from the **Filter options list** drop-down menu. The **Fields** available for selection in the **Filter options** are based on the **Record Type**. See [Supported fields by List record type](https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/264831080/Supported+fields+by+List+record+type+Lists+app) for more information.
 4. Select an **Operator** from the **Select operator** drop-down list.
 5. Select a **Value** from the **Select value** drop-down list. The **Values** available for selection are based on the **Record Type** and **Field**.
 6. Click on the **+ icon** to add additional lines to the query. 
