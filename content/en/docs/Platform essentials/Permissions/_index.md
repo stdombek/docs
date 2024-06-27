@@ -59,6 +59,12 @@ Settings \(\[Area of Settings or Appname\]\): \[What the user can do\]
 * **Visible permission.** A visible permission is one that you can see in the list of permissions in the UI. They can be assigned to patrons directly, and/or you can add them to a permission set through Settings → Users → General →  Permission Sets.
 * **Invisible Permission:** An invisible permission is hidden from the FOLIO user interface, and is not usually assigned directly to a FOLIO user. Invisible permissions are commonly part of a backend module. They provide very specific, limited access to functionality in FOLIO.
 
+## Viewing Permissions 
+
+Permissions can be viewed by navigating to Settings > Developer > Permissions inspector. 
+
+A list of permissions will be populated in the window pane on the right. Each permission includes a dropdown with its subpermissions. To see invisible permissions in the Permissions inspector, check the "Show invisible permissions" box at the top of the pane. 
+
 ## Common Workflows
 
 Common permissions workflows include:
@@ -88,7 +94,7 @@ The ability to see invisible permissions is determined user-by-user. The logged-
 2. Check the box for **List ‘invisible’ permissions in add-perm menus?**
 3. Save your changes.
 
-It is not recommended to leave this setting on permanently; there are thousands of permissions in FOLIO when including visible and invisible permissions together, and displaying invisible permissions will significantly slow down permissions management workflows.
+It is not recommended to leave this setting on permanently; there are thousands of permissions in FOLIO when including visible and invisible permissions together, and displaying invisible permissions will significantly slow down permissions management workflows. To see invisible permissions without changing the system configuration, use the Permissions inspector in Settings > Developer > Permissions inspector and check the "Show invisible permissions" box at the top of the pane.
 
 ### How should I configure FOLIO to use invisible permissions with user accounts, if I need to be able to assign them to staff?
 
