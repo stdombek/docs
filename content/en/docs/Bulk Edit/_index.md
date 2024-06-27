@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-05-09
+date: 2024-06-27
 weight: 550
 ---
 
@@ -19,6 +19,9 @@ Bulk edit can apply changes to these record types:
 * **Inventory - items**
 * **Users**
 
+For more information about record types in the Inventory app, see [Metadata \> Inventory](../metadata/inventory/_index.md).
+
+For more information about user records, see [Users](../users/#view-a-user-record).
 
 ## Permissions
 
@@ -26,7 +29,7 @@ Bulk edit can apply changes to these record types:
 The permissions listed below allow you to interact with the Bulk Edit app and determine what you can or cannot do within the app. Permissions are assigned to users in the Users app. If none of these permissions are assigned to a user, they are unable to see the Bulk Edit app or any related information. 
 
 
-Bulk edit permissions, combined with other functional app permissions, allow a user to access specific areas of the Bulk Edit app. Depending on how your library runs bulk edit jobs, users may also need permissions in other modules, such as Export Manager, Inventory, Users, and Settings. For more information about permissions, see [Users \> Permissions](../users/#permissions). 
+Bulk edit permissions, combined with other functional app permissions, allow a user to access specific areas of the Bulk Edit app. Depending on how your library runs bulk edit jobs, users may also need permissions in other modules, such as Export Manager, Inventory, Users, and Settings. For more information about permissions, see [Platform Essentials \> Permissions](../platform-essentials/permissions). 
 
 
 The following are the permissions for the Bulk edit app:
