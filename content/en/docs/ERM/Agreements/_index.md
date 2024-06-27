@@ -1,7 +1,7 @@
 ---
 title: "Agreements"
 linkTitle: "Agreements"
-date: 2024-06-25
+date: 2024-06-27
 weight: 10
 tags: ["parenttopic"]
 ---
@@ -54,7 +54,7 @@ If you want to eUsage data in an agreement record, you also need to have the fol
 ## Keyboard shortcuts
 
 
-Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/) for more information.
+Keyboard shortcuts allow you to perform actions in this app using the keyboard.  See [Platform essentials \> Keyboard shortcuts](../../platform-essentials/keyboard-shortcuts/keyboardshortcuts/) for more information.
 
 
 ## Creating an agreement
