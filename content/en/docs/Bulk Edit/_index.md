@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2024-06-26
+date: 2024-06-27
 weight: 550
 ---
 
@@ -19,6 +19,9 @@ Bulk edit can apply changes to these record types:
 - [**Inventory - items**](#inventory---items)
 - [**Users**](#users)
 
+For more information about record types in the Inventory app, see [Metadata \> Inventory](../../metadata/inventory/_index.md).
+
+For more information about user records, see [Users](../../users/_index.md#view-a-user-record).
 
 ## Permissions
 
