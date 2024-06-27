@@ -13,13 +13,13 @@ The Check Out app allows you to check out items to patrons. To check out an item
 The permissions listed below allow you to interact with the Check out app and determine what you can or cannot do within the app. You can assign permissions to users in the Users app. If none of these permissions are assigned to a user, then they will be unable to see the Check out app or any related information.
 
 * **Check out: All permissions.** This permission allows the user to check out items to patrons (create new loans). However, this permission does not include seeing open loans or requests or seeing the entirety of the user record.
-* **Check out: Check out circulating items.** This permission allows the user to check out items, but they cannot override non-circulating loan policies.
+* **Check out: Check out circulating items.** This permission allows the user to check out items, but does not include seeing open loans or requests or seeing the entirety of the user record.
 * **Check out: View fees/fines.** This permission allows users to click the fee in the **Scan patron card** pane to view the patron’s fees/fines in the Users app. The user must have permission to view fees/fines in the Users app for the link to work -- for example the permission **Users: Can view fees/fines and loans** (see [Users \> Permissions](../../../users/#permissions)).
 A user who has **Check out: all permissions** but does not have **Check out: View fees/fines** will see a patron’s fee/fine amount in the **Scan patron card** pane as text (not a link).
 * **Check out: View loans.** This permission allows users to click the number of open loans in the **Scan patron card** pane to view the patron’s current loans in the Users app. The user must have permission to view loans in the Users app in order for the link to work -- for example the permission **Users: User loans view** (see [Users \> Permissions](../../../users/#permissions)).
 A user who has **Check out: all permissions** but does not have **Check out: View loans** will see how many loans a patron has in the **Scan patron card** pane as text (not a link).
-* **Check out: View requests.**  This permission allows users to be able to click the number of open requests in the **Scan patron card** pane to view the patron’s current requests in the Requests app. The user must have permission to view requests in the Requests app in order for the link to work -- for example the permission **Requests: View** (see [Requests \> Permissions](../../requests/requests/#permissions)).
-A user who has **Check out: all permissions** but does not have **Check out: View requests** will see how many requests a patron has in the **Scan patron card** pane as text (not a link).
+* **Check out: View requests.**  This permission allows users to be able to click the number of open requests in the **Scan patron card** pane to view the patron’s current requests in the Requests app. The user must have permission to view requests in the Requests app in order for the link to work -- for example the permission **Requests: View** (see [Requests \> Permissions](../../requests/requests/#permissions)). A user who has **Check out: all permissions** but does not have **Check out: View requests** will see how many requests a patron has in the **Scan patron card** pane as text (not a link).
+* **User: Can override item blocks.** This permission allows users to override non-circulating loan policies.
 
 
 
@@ -45,7 +45,7 @@ Locate the patron using the Patron Look-up function:
 
 If a patron has a note on their record that is checked to display in the Check out app, the note will appear as a pop-up window after the patron details are displayed.
 
-### Assessing the patron's data
+### Accessing the patron's data
 
 Within the patron details area, note that you can access additional information related to the user. Clicking on any linked information opens the appropriate app and displays the associated information. For example, if the FOLIO user has the appropriate permissions, clicking the number beneath Open requests will open a list of the patron's open requests in the Requests app.
 
@@ -56,10 +56,10 @@ Review the available information to determine if you can continue with check out
 
 Proxy borrowers are patrons who are checking out items on the behalf of another patron. For example, a graduate assistant may act as a proxy for a professor.
 
-Note: A patron must first be assigned as a proxy for the borrower in their user record in the Users app.
+Note: A patron must first be assigned as a proxy for the borrower in their user record in the [Users app](../../../users/#add-a-proxy).
 
 1. [Locate the proxy borrower in the system.](#locating-a-patron-in-the-system)
-2. In the Who are you acting as? dialog, select the name of the user they will be acting as a proxy for and click **Continue**. The Who are you acting as? dialog closes and patron and proxy details are displayed.
+2. In the **Who are you acting as?** dialog, select the name of the user they will be acting as a proxy for and click **Continue**. The Who are you acting as? dialog closes and patron and proxy details are displayed.
 
 ## Scanning the item to check out
 
