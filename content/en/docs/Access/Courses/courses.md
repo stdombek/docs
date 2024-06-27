@@ -18,14 +18,15 @@ You can assign permissions to users in the Users app. The permissions described 
 
 The following are all the Courses permissions:
 
-* **Courses: All permissions.** This permission allows users to maintain (view, add, edit, and delete) courses, items, instructors, cross-listed courses and all course settings.
-* **Courses: Read, add, edit, and delete courses.** This permission allows users to view, add, edit and delete a course.
-* **Courses: Read, add, and edit courses.** This permission allows users to view, add, and edit a course. They cannot delete a course.
 * **Courses: Add and edit courses’ reserved items.** This permission allows users to add and edit items associated with a course. They cannot remove items from a course.
 * **Courses: Add, edit, and remove courses’ reserved items.** This permission allows users to view, add, edit, and remove items associated with a course.
-* **Courses: Read All.** This permission allows users to see all courses and item information.
+* **Courses: All permissions.** This permission allows users to maintain (view, add, edit, and delete) courses, items, instructors, cross-listed courses and all course settings.
+* **Courses: Read all.** This permission allows users to see all courses and item information.
+* **Courses: Read, add, and edit courses.** This permission allows users to view, add, and edit a course. They cannot delete a course.
+* **Courses: Read, add, edit, and delete courses.** This permission allows users to view, add, edit and delete a course.
+* **Fast add: Create.** This permission allows users to [Fast add](#adding-a-reserve-item-to-a-course-using-fast-add) a reserve item to a course.
 * **Settings (Courses): Can create, edit and delete course settings.** This permission allows users to maintain (view, add, edit, and delete) all course settings.
-*  **Settings (Courses): Can view course settings.** This permission allows users to view course settings. They cannot add, edit or delete course settings.
+* **Settings (Courses): Can view course settings.** This permission allows users to view course settings. They cannot add, edit or delete course settings
 
 
 ## Keyboard shortcuts
@@ -64,7 +65,7 @@ You can choose to integrate the Courses app with these applications:
 * EBSCO Discovery Service (EDS)
 * VuFind
 
-In addition, you can connect the Courses app to your learning management system using the Learning Tools Interoperability (LTI) protocol. There is a separate module to install for LTI support. For more information, see [Course Reserves - LTI connectivity](https://wiki.folio.org/display/FOLIOtips/Course+Reserves+-+LTI+connectivity).
+In addition, you can connect the Courses app to your learning management system using the Learning Tools Interoperability (LTI) protocol. There is a separate module to install for LTI support. For more information, see [Course Reserves - LTI connectivity](https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/5670903/Course+Reserves+-+LTI+connectivity).
 
 Each of these integrations has specific features to consider in regards to the migration of courses, sections, cross-listings, and separate courses and how they interact with FOLIO.
 
@@ -262,6 +263,7 @@ Information that is copied to support searching includes:
 
 A reserve item's start date and end date are maintained in the Reserve app. FOLIO will update the item's temporary location in inventory when you first add it on reserve, based on the location listed on the course record.
 
+See [Editing a reserve item](#editing-a-reserve-item) for how to change the temporary loan type.
 
 ## Adding a reserve item to a course using Fast Add
 
