@@ -46,7 +46,7 @@ The following are the permissions for the Bulk edit app:
 
 ## Identify records for bulk edit
 
-The Bulk edit app provides two methods for identifying records: 
+The Bulk edit app provides two methods for identifying records: **Identifier** and **Query**.
 
 ### Identifier
 
@@ -73,20 +73,20 @@ To set criteria for bulk edit using **Query**, follow these steps:
 4. Select a **Field** from the *Select field* drop-down menu or filter the selection by typing the field in the *Filter options list* text box.
 5. Select an **Operator** from the *Select operator* drop-down list. The operators available for selection are based on the **Field**. 
 
- - ==: Field equals selected or input Value.
- - !=:  Field does not equal selected or input Value.
- - Contains: Field appears in selected or input Value.
- - Starts: Field starts with selected or input Value.
- - >: Field is greater than the selected or input Value.
- - <: Field is less than the selected or input Value.
- - >=: Field is greater than or equal to the selected or input Value.
- - <=: Field is less than or equal to the selected or input Value.
- - Is null/empty: Field is blank; it contains no data.
+   - ==: Field equals selected or input Value.
+   - !=:  Field does not equal selected or input Value.
+   - Contains: Field appears in selected or input Value.
+   - Starts: Field starts with selected or input Value.
+   - \>: Field is greater than the selected or input Value.
+   - <: Field is less than the selected or input Value.
+   - \>=: Field is greater than or equal to the selected or input Value.
+   - <=: Field is less than or equal to the selected or input Value.
+   - Is null/empty: Field is blank; it contains no data.
 
-6. Select a **Value** from the *Select value* drop-down list or type the value in the text box.  The Values available for selection are based on the **Field** and **Operator**.
-7. Click on the **+ icon** to add additional lines to the query; Click on the **trash can icon** to delete a line from the query.
-8. Once a query is built, it must be tested before the query can be run and saved. Click the **Test query** button to run the query and display a preview of matched records. The query string can be edited in the **Query string** field. If edited, another Test query must be done.
-9. If the Test query is successful, click the **Run query** button to run the query and preview the matched records in the **Bulk edit query** modal.
+7. Select a **Value** from the *Select value* drop-down list or type the value in the text box.  The Values available for selection are based on the **Field** and **Operator**.
+8. Click on the **+ icon** to add additional lines to the query; Click on the **trash can icon** to delete a line from the query.
+9. Once a query is built, it must be tested before the query can be run and saved. Click the **Test query** button to run the query and display a preview of matched records. The query string can be edited in the **Query string** field. If edited, another Test query must be done.
+10. If the Test query is successful, click the **Run query** button to run the query and preview the matched records in the **Bulk edit query** modal.
 
 ## Preview matched records
 
@@ -96,9 +96,11 @@ If the **Query** method is used to identify records for bulk edit, a **Test quer
 
 If the query is run, the **Query** and a preview of matched records display in the **Bulk edit query** modal. 
 
-To add or remove record identifier columns in the preview pane, click the **Actions** button. 
-- In the **Show columns** section of the Actions menu, check the box next to the name of the record identifier to include as a column in the preview.
-- Uncheck the box next to the name of the record identifier to remove the column from the preview.
+To add or remove record identifier columns in the preview pane: 
+
+1. Click the **Actions** button.
+2. In the **Show columns** section of the Actions menu, check the box next to the name of the record identifier to include as a column in the preview.
+3. Uncheck the box next to the name of the record identifier to remove the column from the preview.
 
 ## Download matched records
 
@@ -123,11 +125,12 @@ To download the errors as a .csv file:
 ### Inventory - holdings
 
 In the Bulk edit app, the **fields** that can be changed in Holdings records include:
+
 - [**Administrative note**](#administrative-note)
 - [**Electronic access**](#electronic-access)
 - [**Holdings location**](#holdings-location)
 - [**Holdings notes**](#holdings-notes)
-- [**Suppress from discovery. **](#suppress-from-discovery).
+- [**Suppress from discovery**](#suppress-from-discovery)
 
 To identify Holdings records for bulk edit, follow these steps:
 
@@ -136,7 +139,6 @@ To identify Holdings records for bulk edit, follow these steps:
 3. [Preview the list of matching Holdings records](#preview-matched-records) in the **Preview of record matched** pane.
 4. (Optional): [Download the matched records](#download-matched-records) as a .csv file.
 5. (Optional): [Download errors in matched records](#download-errors) as a .csv file.
-6. Start bulk edit of matched Holdings records. 
 
 To start a bulk edit on the matched Holdings records, follow these steps: 
 
@@ -147,7 +149,7 @@ To start a bulk edit on the matched Holdings records, follow these steps:
 To delete a row, click the trash icon at the end of the row you want to delete. The row is deleted.
 5. Click **Confirm changes**. A new window will appear with a preview of the first 10 records to be changed.
 6. To return to the bulk edit, click **Keep editing**. The window will close and you can continue editing.
-7. To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+7. To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
 8. To run the bulk edit job, click **Save & close**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 9. To download the list of changed records, click the **Actions** button at the top right of the pane.
 10. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device. 
@@ -157,99 +159,100 @@ To delete a row, click the trash icon at the end of the row you want to delete. 
 
 To bulk edit the **Administrative note** in the matched holdings records, follow these steps:
 
-Under **Options**, select **Administrative note** from the drop-down list.
-Click **Actions** to select the action you want to apply from the drop-down list.
-**Add note.** Input note text you want added.
-**Change note type.** Select the new note type.  
-**Find (full field search)** Input note text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
-**Remove all** will delete any administrative notes in the item records..
-Click **Confirm changes**. The selected action will be applied to the matched holdings records.
-The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
-Click **Commit changes** to save the changes to the matched holdings records.
+1. Under **Options**, select **Administrative note** from the drop-down list.
+2. Click **Actions** to select the action you want to apply from the drop-down list.
+3. **Add note.** Input note text you want added.
+4. **Change note type.** Select the new note type.
+5. **Find (full field search)** Input note text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
+6. **Remove all** will delete any administrative notes in the item records.
+7. Click **Confirm changes**. The selected action will be applied to the matched holdings records.
+8. The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
+9. Click **Commit changes** to save the changes to the matched holdings records.
 
 #### Electronic access
 
 To bulk edit the **Electronic access** in the matched holdings records, follow these steps:
 
-In the **Bulk edit** window, select the appropriate electronic access from the **Select option** drop-down list. The following types of options may be changed in the Bulk edit app:
-**Link text**
-**Materials specified**
-**URI**
-**URL public note**
-**URL Relationship**
+1. In the **Bulk edit** window, select the appropriate electronic access from the **Select option** drop-down list. The following types of options may be changed in the Bulk edit app:
 
-Click **Actions** to select the action you want to apply from the drop-down list. Actions available in the Bulk edit app include:
+   - **Link text**
+   - **Materials specified**
+   - **URI**
+   - **URL public note**
+   - **URL Relationship**
 
-**Clear field**. Removes the data in the selected field of the matched records.
-**Find (full field search)** input the text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
-**URL Relationship** requires a selection of **No display constant generated**, **No information provided**, **Related resource**, **Resource**, or **Version of resource** to be selected instead of text input.
-**Replace with**. Replaces the text in the matched records with the new text.
-**URL Relationship** requires a selection of **No display constant generated**, **No information provided**, **Related resource**, **Resource**, or **Version of resource**.
+2. Click **Actions** to select the action you want to apply from the drop-down list. Actions available in the Bulk edit app include:
 
-Click **Confirm changes**. The selected action will be applied to the matched holdings records.
-The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
-Click **Commit changes** to save the changes to the matched holdings records. 
+   - **Clear field**. Removes the data in the selected field of the matched records.
+   - **Find (full field search)** input the text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
+   - **URL Relationship** requires a selection of **No display constant generated**, **No information provided**, **Related resource**, **Resource**, or **Version of resource** to be selected instead of text input.
+   - **Replace with**. Replaces the text in the matched records with the new text.
+   - **URL Relationship** requires a selection of **No display constant generated**, **No information provided**, **Related resource**, **Resource**, or **Version of resource**.
+
+3. Click **Confirm changes**. The selected action will be applied to the matched holdings records.
+4. The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
+5. Click **Commit changes** to save the changes to the matched holdings records. 
 
 
 #### Holdings location
 
 To bulk edit the **Holdings location** in the matched records, follow these steps:
 
-In the **Bulk edit** window, select the appropriate location from the **Select option** drop-down list. The following locations may be changed in the Bulk edit app:
+1. In the **Bulk edit** window, select the appropriate location from the **Select option** drop-down list. The following locations may be changed in the Bulk edit app:
 
-**Permanent location**
-**Temporary location**
+   - **Permanent location**
+   - **Temporary location**
 
-Click **Actions** to select the action you want to apply from the drop-down list.
+2. Click **Actions** to select the action you want to apply from the drop-down list.
 
-**Clear field**. Removes the data in the location field. 
-**Replace with**: Replaces the location field in the matched records with the location selected in the **Select location** drop-down list or use the **Location look-up**.. 
+   - **Clear field**. Removes the data in the location field. 
+   - **Replace with**: Replaces the location field in the matched records with the location selected in the **Select location** drop-down list or use the **Location look-up**. 
 
-Click **Confirm changes**. The selected action will be applied to the matched holdings records.
-The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
-Click **Commit changes** to save the changes to the matched holdings records.  
+3. Click **Confirm changes**. The selected action will be applied to the matched holdings records. The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
+4. Click **Commit changes** to save the changes to the matched holdings records.  
 
 #### Holdings notes
 
 To bulk edit an **holdings note** in the matched records, follow these steps:
 
-In the **Bulk edit** window, select the appropriate holdings note from the **Select option** drop-down list. The following types of holdings notes may be changed in the Bulk edit app:
+1. In the **Bulk edit** window, select the appropriate holdings note from the **Select option** drop-down list. The following types of holdings notes may be changed in the Bulk edit app:
 
-**Action note**
-**Binding**
-**Copy note**
-**Electronic bookplate**
-**Note**
-**Provenance**
-**Reproduction**
+   - **Action note**
+   - **Binding**
+   - **Copy note**
+   - **Electronic bookplate**
+   - **Note**
+   - **Provenance**
+   - **Reproduction**
 
-Click **Actions** to select the action you want to apply from the drop-down list. Actions available in the Bulk edit app include:
+2. Click **Actions** to select the action you want to apply from the drop-down list. Actions available in the Bulk edit app include:
 
-**Add note.** Input note text you want added.
-**Change note type.** Select the new note type you want.
-**Find (full field search)** input note text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
-**Mark as staff only** marks the holdings note as viewable by staff only. 
-**Remove all** will delete any check in notes in the holdings records.
-**Remove mark as staff only** removes the staff only designation for the item note.
+   - **Add note.** Input note text you want added.
+   - **Change note type.** Select the new note type you want.
+   - **Find (full field search)** input note text you want to find. Select **Replace with** and input new text or select **Remove** to remove the text.
+   - **Mark as staff only** marks the holdings note as viewable by staff only.
+   - **Remove all** will delete any check in notes in the holdings records.
+   - **Remove mark as staff only** removes the staff only designation for the item note.
 
-Click **Confirm changes**. The selected action will be applied to the matched item records.
-The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
-Click **Commit changes** to save the changes to the matched holdings records. 
+3. Click **Confirm changes**. The selected action will be applied to the matched item records.
+4. The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
+5. Click **Commit changes** to save the changes to the matched holdings records. 
 
 #### Suppress from discovery
 
 To suppress the matched holdings records from discovery in the Bulk edit app, follow these steps:
 
-In the **Bulk edit** window, select **Suppress from discovery** from the **Select option** drop-down list.
-Select the appropriate **Action** from the **Select action** drop-down list.
+1. In the **Bulk edit** window, select **Suppress from discovery** from the **Select option** drop-down list.
+2. Select the appropriate **Action** from the **Select action** drop-down list.
 
-**Set true**: Suppresses the matched holdings records from discovery.
-**Set false**: Unsuppresses the matched holdings records from discovery.
+   - **Set true**: Suppresses the matched holdings records from discovery.
+   - **Set false**: Unsuppresses the matched holdings records from discovery.
 
-Once an action is selected, the **Data** defaults to apply the same **Set true** or **Set false** action to all holdings records. Click the appropriate checkbox(es) if you do not want the selected action to be applied to the holdings records. 
-Click **Confirm changes** to apply the changes to the matched holdings records.
-An *Are you sure?* message appears in a new window with a **Preview of records to be changed**. An alert appears at the top of the window: *(Number of) records will be changed if the Commit changes button is clicked.* Click **Keep editing** to return to the Bulk edits window, [**Download preview**](#download-matched-records) to preview the changes before saving, or **Commit changes** to run the bulk edit.
-Click **Commit changes** to save the changes to the matched holdings records. 
+3. Once an action is selected, the **Data** defaults to apply the same **Set true** or **Set false** action to all holdings records. Click the appropriate checkbox(es) if you do not want the selected action to be applied to the holdings records. 
+4. Click **Confirm changes** to apply the changes to the matched holdings records.
+5. An *Are you sure?* message appears in a new window with a **Preview of records to be changed**. An alert appears at the top of the window: *(Number of) records will be changed if the Commit changes button is clicked.*
+6. Click **Keep editing** to return to the Bulk edits window, **Download preview** to preview the changes before saving, or **Commit changes** to run the bulk edit.
+7. Click **Commit changes** to save the changes to the matched holdings records. 
 
 
 ## Inventory - instances
