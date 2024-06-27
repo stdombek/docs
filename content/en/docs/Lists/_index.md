@@ -1,10 +1,10 @@
 ---
 title: "Lists"
 linkTitle: "Lists"
-date: 2024-04-26        
+date: 2024-06-26        
 weight: 525
 ---
-
+**This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may not be aligned with the current release of FOLIO.**
 
 The Lists app provides actionable lists in FOLIO at the point of need. Some use cases include:
 
@@ -21,6 +21,7 @@ Functionality of the Lists app includes:
 * Lists persist, can be refreshed and edited;
 * List data updated in near real-time;
 * User-friendly process for building a query to create a list;
+* Duplication of lists;
 * Export records from a list as a .csv file;
 * Each list can include up to 1.25 million records.
 
@@ -132,7 +133,7 @@ To add list details for a new list, follow these steps:
 
 1. In the Lists pane, click on **New**. 
 2. In the **New List** window, add the **List name**, **Description**, **Visibility**, and **Status** criteria in the **List information** section. 
-3. Select the appropriate **Record type** for the list. Select the appropriate **Record type** for the list. Record types include **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, **Purchase order lines**, and **Users**.
+3. Select the appropriate **Record type** for the list. Record types include **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, **Purchase order lines**, and **Users**.
 
 
 ### Build a query
@@ -146,20 +147,21 @@ To set criteria and build a query for new list, follow these steps:
 
 1. Click the **Build query** button to open the **Build query** window. 
 2. Select the **Record type** for the query. 
-3. Select a **Field** from the **Filter options list** drop-down menu. The **Fields** available for selection in the **Filter options** are based on the **Record Type**. 
+3. Select a **Field** from the **Filter options list** drop-down menu. The **Fields** available for selection in the **Filter options** are based on the **Record Type**. See [Supported fields by List record type](https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/264831080/Supported+fields+by+List+record+type+Lists+app) for more information. 
+
 4. Select an **Operator** from the **Select operator** drop-down list. The operators available for selection are based on the **Field**. 
 
-* ==: Field equals the selected Value.
-* !=: Field does not equal the selected Value.
-* In: Field appears in the selected Value.
-* Not in: Field does not appear in the selected Value.
-* Is null/empty: Field is empty; it contains no data. 
+    - ==: Field equals the selected Value.
+    - !=: Field does not equal the selected Value.
+    - In: Field appears in the selected Value.
+    - Not in: Field does not appear in the selected Value.
+    - Is null/empty: Field is empty; it contains no data. 
 
 5. Select a **Value** from the **Select value** drop-down list. The **Values** available for selection are based on the **Record Type** and **Field**.
 6. Click on the **+ icon** to add additional lines to the query; Click on the **trash can icon** to delete a line from the query. 
 7. Click the **Test query** button to preview the returned record set of the list. 
 Test query is required before the query can be run and saved whenever 1) creating a new list and building the query; and 2) editing the query of an existing list. Test query runs the query and displays the total number of records retrieved and a preview of the first 100 records in the record set. 
-8. Click **Run query & save**. If saved successfully, a *(Name of List) saved successfully* message appears momentarily. Once the query is completed, a *Refresh complete with (number of) records: View updated list* at the top of the window. 
+8. Click **Run query & save**. If saved successfully, a *(Name of List) saved successfully* message appears momentarily. Once the query is completed, a *Refresh complete with (number of) records: View updated list* displays at the top of the window. 
 9. Click the **View updated list** link in the confirmation message to view the record set in the list. 
 10. In a list, the fields of the record type display as column headings. The default display of column headings is based on the record type assigned to the list. Customize the display of column headings in the record set by checking or unchecking the field(s) in **Actions \> Show columns** as appropriate for the selected record type. 
 
@@ -218,14 +220,12 @@ To edit the **Query** in a list, follow these steps:
 To duplicate a list, follow these steps:
 
 1. Select the list from the **Lists** pane. The selected list will open in a new window. 
-2. Click **Actions \> Duplicate List**. 
+2. Click **Actions \> Duplicate List**. If duplicating the list without making any changes, click **Save.** A confirmation message, *List (Original List Name) - copy was saved* appears in the lower right corner of the screen. 
 3. Edit the **List name**, **Description** (optional), or change **Visibility** and **Status**,  if appropriate. 
-4. Edit the query, if appropriate, by clicking the **Edit query** button. 
-5. Make changes to **Field**, **Operator**, and/or **Value**. The **Query** field displays a preview of the query string as it is edited.
-6. If necessary, click on the **+ icon** to add additional rows to the query; click on the **trash can icon** to delete rows from the query. 
-7. Click the **Test query** button to see how many records are returned and to preview the record set of the list. Test query is required when editing the query of a list before the new query can be run and saved. 
-8. Click the **Run query & save** button. A confirmation message, *List (Duplicate List Name) was saved* will appear in the lower right corner of the screen. 
-If duplicating the list without making any changes, click **Save.** A confirmation message, *List (Original List Name) - copy was saved* appears in the lower right corner of the screen. 
+4. Edit the query, if appropriate, by clicking the **Edit query** button.
+5. Make changes to **Field**, **Operator**, and/or **Value**. The **Query** field displays a preview of the query string as it is edited. If necessary, click on the **+ icon** to add additional rows to the query; click on the **trash can icon** to delete rows from the query. 
+6. Click the **Test query** button to see how many records are returned and to preview the record set of the list. Test query is required when editing the query of a list before the new query can be run and saved. 
+7. Click the **Run query & save** button. A confirmation message, *List (Duplicate List Name) was saved* will appear in the lower right corner of the screen. 
 
 ## Delete a list
 

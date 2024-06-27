@@ -1,7 +1,7 @@
 ---
 title: "Settings > Users"
 linkTitle: "Users"
-date: 2024-05-01 
+date: 2024-06-25 
 weight: 220
 tags: ["subtopic"]
 ---
@@ -232,14 +232,6 @@ Custom fields can be deleted if they are in use, but any information tied to the
 2.  In the **Edit custom fields** pane, click the **trash can icon** next to the custom fields you want to delete. Clear out all of the fields to remove the accordion from appearing in user records.
 3.  Click **Save & close**.
 4.  In the **Delete field data** dialog, click **Save & lose data**.
-
-
-## Settings \> Users \> Number generator options
-
-- **Number generator off**: the barcode can be filled manually only.
-- **Number generator on, editable**: the barcode can be filled using the generator and be edited, or filled manually. 
-- **Number generator on, fixed**: the barcode can be filled using the generator only. 
-
 
 ## Settings \> Users \> Owners
  A Fee/fine owner is the agent or office that manages fines for FOLIO transactions. Fee/fine owners collect fees/fines for FOLIO service points.

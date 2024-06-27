@@ -1,7 +1,7 @@
 ---
 title: "Users"
 linkTitle: "Users"
-date: 2024-04-30        
+date: 2024-06-24       
 weight: 250
 ---
 
@@ -91,9 +91,9 @@ Keyboard shortcuts allow you to perform actions in this app using the keyboard. 
     -  **Active** status indicates current affiliation, employment, or enrollment within the library's institution. 
     -  **Inactive** status indicates that the expiration date on the user's record has passed and the user is no longer affiliated, employed, or enrolled. 
 -  **Expiration date.** The amount of time set before the user record becomes inactive and the user no longer has permissions to borrow items. The expiration date determines when a user's status changes from **Active** to **Inactive**. Expiration date is optional and this field may be left blank. For information about editing an expiration date, see [Edit an expiration date](#edit-an-expiration-date).
--  **Barcode.** The barcode number for the user's library card. The barcode number can be entered manually or created using the **Number generator**, depending on the configuration in the FOLIO tenant. See [Settings \> Users \> Number generator](.../settings/settings_users/settings_users/#settings--users--number-generator) for more information about the Number generator.
+-  **Barcode.** The barcode number for the user's library card. 
     -  To enter the barcode manually, type the barcode number in the **Barcode** field. 
-    -  To use the Number generator, click the **Generate user barcode** button under the Barcode field to open the Number generator. In the **User barcode generator** modal, click the blue **Generate user barcode** button. Check the boxes for *Include sequences which have reached their maximum value* and/or *Exact code match* as appropriate.
+    -  Although the **Generate user barcode** button appears under the **Barcode** field, the **Number generator** is not functional in this release.  
 -  **User Type.** Select the user type: **Patron** or **Staff**. This field is optional for a non-ECS-enabled tenant but required in an ECS-enabled tenant. For more information, see  [Consortium manager \> Members](../consortia/#members).
     -  **Patrons.** Users who may borrow library materials but have no FOLIO permissions assigned to their User record and do not log in to FOLIO to manage their library accounts.
     -  **Staff.** Users who are employed by the library, have FOLIO permissions assigned to their User record for the purpose of performing their library work, and may borrow library materials.
@@ -145,7 +145,7 @@ The password must meet the following default validation rules:
 ### Custom fields
 
 
-The **Custom fields** section appears only if it is configured in the **Settings>Users** app. For information on configuring the **Custom fields** section, see [Settings \> Users \> Custom fields](../settings/settings_users/settings_users/#settings--users--custom-fields).
+The **Custom fields** section appears only if it is configured in the **Settings \> Users** app. For information on configuring the **Custom fields** section, see [Settings \> Users \> Custom fields](../settings/settings_users/settings_users/#settings--users--custom-fields).
 
 
 ## Search for user records
@@ -371,7 +371,7 @@ If Profile pictures are enabled in the FOLIO tenant, then library staff with app
 
 
 To upload a **Profile picture** to a user record:
-1. [Find the user record](#search-for-a-user-record) you want to edit and select it.
+1. [Find the user record](#search-for-user-records) you want to edit and select it.
 2. In the **User record** pane, click **Edit**.
 3. Click the **Update** button under the profile picture placeholder. 
     - **Local file**: Choose this option to select an image file from your computer. 
@@ -383,7 +383,7 @@ To upload a **Profile picture** to a user record:
 
 To update or delete a **Profile picture** in a user record:
 
-1. [Find the user record](#search-for-a-user-record) you want to edit and select it.
+1. [Find the user record](#search-for-user-records) you want to edit and select it.
 2. In the **User record** pane, click **Edit**.
 3. Click the **Update** button under the profile picture placeholder. 
     - **Local file**: Choose this option to select an image file from your computer. 
@@ -421,12 +421,12 @@ A **sponsor** is a user who authorizes another user to borrow library materials 
 2. In the **User record** pane, click **Edit**.
 3. In the **Edit** window, expand the **Proxy/sponsor** accordion and click **Add** in the **Sponsors** section.
 4. In the **Select User** pop-up window, search for the sponsor and select them. Optionally, additional information may be included: 
-* In the **sponsor** box, select the **Relationship Status**: **Active** or **Inactive**.
-* Add an **Expiration date** by typing a date using the YYYY-MM-DD format or selecting a date from the calendar icon. The expiration date indicates the expiration of the proxy/sponsor relationship.
-* Select whether the **Proxy can request for the sponsor**. If you select *Yes*, then the proxy can place requests for materials on behalf of the sponsor.
-* Select to whom notifications from the library are sent in the **Notifications sent to** drop-down list: *Proxy* or *Sponsor*.
+    - In the **sponsor** box, select the **Relationship Status**: **Active** or **Inactive**.
+    - Add an **Expiration date** by typing a date using the YYYY-MM-DD format or selecting a date from the calendar icon. The expiration date indicates the expiration of the proxy/sponsor relationship.
+    - Select whether the **Proxy can request for the sponsor**. If you select *Yes*, then the proxy can place requests for materials on behalf of the sponsor.
+    - Select to whom notifications from the library are sent in the **Notifications sent to** drop-down list: *Proxy* or *Sponsor*.
 5. Click **Add**.
-6. Click **Save & Close**. The **sponsor** is added to the user record.
+6. Click **Save & Close**. The **Sponsor** is added to the user record.
 
 
 ### Add a proxy
@@ -439,10 +439,10 @@ A **proxy** is a user who is authorized to borrow library materials on another u
 2. In the **User record** pane, click **Edit**.
 3. In the **Edit** window, expand the **Proxy/sponsor** accordion and click **Add** in the **Proxies** section.
 4. In the **User search** pop-up window, search for the proxy user and select them. Optionally, additional information may be included. 
-* In the **proxy** box, select the **Relationship Status**: **Active** or **Inactive**.
-* Add an Expiration date by typing a date using the YYYY-MM-DD format or selecting a date from the calendar icon. The expiration date indicates the expiration of the proxy/sponsor relationship.
-* Select whether the **Proxy can request for the sponsor**. If you select *Yes*, then the proxy can place requests for materials on behalf of the sponsor.
-* Select to whom notifications from the library are sent in the **Notifications sent to** drop-down list: *Proxy* or *Sponsor*.
+    - In the **proxy** box, select the **Relationship Status**: **Active** or **Inactive**.
+    - Add an Expiration date by typing a date using the YYYY-MM-DD format or selecting a date from the calendar icon. The expiration date indicates the expiration of the proxy/sponsor relationship
+    - Select whether the **Proxy can request for the sponsor**. If you select *Yes*, then the proxy can place requests for materials on behalf of the sponsor.
+    - Select to whom notifications from the library are sent in the **Notifications sent to** drop-down list: *Proxy* or *Sponsor*.
 5. Click **Add**. 
 6. Click **Save & Close**. The **proxy** is added to the user record.
 
@@ -667,9 +667,9 @@ Follow these steps to check for open transactions and delete a user record in th
 1. [Find the user record](#search-for-user-records) for which you want to check for open transactions and select it.
 2. In the **Actions** menu, select **Check for open transactions/delete user**. 
 3. If there are no open transactions for this user, the message *No open transactions for user (Last Name, First Name). Are you sure you want to delete this user?* will appear in the **Check for open transactions/delete user** modal.  
-4. Click **Yes** to delete the user record. A *User (Last Name, First Name) deleted successfully* message will confirm deletion of the user record. 
-5. Or click **No** to cancel the deletion and return to the user record. 
-6. If there are one or more open transactions for the user, the message *User (Last Name, First Name) has the following open transactions. Please resolve the transactions to proceed to delete this user.* Click **OK** to return to the user record. 
+    - Click **Yes** to delete the user record. A *User (Last Name, First Name) deleted successfully* message will confirm deletion of the user record. 
+    - Click **No** to cancel the deletion and return to the user record. 
+4. If there are one or more open transactions for the user, the message *User (Last Name, First Name) has the following open transactions. Please resolve the transactions to proceed to delete this user.* Click **OK** to return to the user record. 
 
 
 If the deleted user had permissions to edit records, the **Source** on the metadata history becomes listed as "Unknown user".
@@ -679,7 +679,7 @@ If the deleted user had permissions to edit records, the **Source** on the metad
 
 ### Lost items requiring actual cost
 
-The **Lost items requiring actual cost** report is a list that displays in the UI and contains information about open loan items with **Aged to lost** status. To use this report to manage billings for lost items, **Actual cost** must be set up in at least one **Lost item fee policy**. For more information about using actual cost for lost items, see [Creating a lost item fee policy](.../settings/settings_circulation/settings_circulation/#creating-a-lost-item-fee-policy).
+The **Lost items requiring actual cost** report is a list that displays in the UI and contains information about open loan items with **Aged to lost** status. To use this report to manage billings for lost items, **Actual cost** must be set up in at least one **Lost item fee policy**. For more information about using actual cost for lost items, see [Creating a lost item fee policy](../settings/settings_circulation/settings_circulation/#creating-a-lost-item-fee-policy).
 
 
 To view a **Lost items requiring actual cost** report: 
@@ -693,7 +693,7 @@ To view a **Lost items requiring actual cost** report:
 
 ### View patron notice print jobs
 
-If a library is required to send print overdue notices to their patrons, the **View patron notice print jobs (PDF)** provides a daily report of patron notices. This PDF file is automatically generated overnight every 24 hours using the assigned patron notice template(s). In Quesnalia, this option appears in the Action menu, but the PDF file is actually generated only for libraries that have set up [reminder fees](../access/additional-topics/feesfines/feesfines/#reminder-fees) in their overdue fine policies. For more information about setting up reminder fees, see [Settings \> Circulation \> Reminder fees](../settings/settings_circulation/settings_circulation/#reminder-fees). 
+If a library is required to send print overdue notices to their patrons, the **View patron notice print jobs (PDF)** provides a daily report of patron notices. This PDF file is automatically generated overnight every 24 hours using the assigned patron notice template(s). This option appears in the Action menu, but the PDF file is actually generated only for libraries that have set up [reminder fees](../access/additional-topics/feesfines/feesfines/#reminder-fees) in their overdue fine policies. For more information about setting up reminder fees, see [Settings \> Circulation \> Reminder fees](../settings/settings_circulation/settings_circulation/#reminder-fees). 
 
 To view patron notice print jobs (PDF): 
 1. In the **User search results** pane, click **Actions \> View patron notice print jobs (PDF)**.
@@ -934,7 +934,7 @@ To create a manual fee/fine, **Fee/fine types** and other fee/fine settings must
 ### Accepting payment for a fee/fine
 
 
-To accept payment for a fee/fine, **Fee/fine owner** and other fee/fine settings must be configured in the FOLIO tenant. For more information, see [Settings \> Users \> Payment Methods](.../settings/settings_users/settings_users/#settings--users--payment-methods). 
+To accept payment for a fee/fine, **Fee/fine owner** and other fee/fine settings must be configured in the FOLIO tenant. For more information, see [Settings \> Users \> Payment Methods](../settings/settings_users/settings_users/#settings--users--payment-methods). 
 
 To accept payment for a fee/fine:
 
@@ -955,7 +955,7 @@ The modal will close and the **Fee/fine details** page will update with the paym
 ### Waiving a fee/fine
 
 
-Staff with appropriate permissions can apply a partial or full waive to a fee/fine. To waive fines, **Fee/fine: Waive reasons** and other fee/fine settings must be configured in the FOLIO tenant. For more information, see [Settings /> Users /> Waive reasons](.../settings/settings_users/settings_users/#settings--users--waive-reasons).
+Staff with appropriate permissions can apply a partial or full waive to a fee/fine. To waive fines, **Fee/fine: Waive reasons** and other fee/fine settings must be configured in the FOLIO tenant. For more information, see [Settings \> Users \> Waive reasons](../settings/settings_users/settings_users/#settings--users--waive-reasons).
 
 
 1. [Find the user record](#search-for-user-records) to which you want to accept payment for a fee/fine and select it.
@@ -974,7 +974,7 @@ The modal will close, and the **Fee/fine details** page will update with the pay
 ### Refund a fee/fine
 
 
-Staff with appropriate permissions can partially or fully refund a fee/fine. The payment method must allow refunds and **Fee/fine: Refund reasons** must be configured in the FOLIO tenant. See [Settings /> Users /> Fee/fine: Refund reasons](...//settings/settings_users/settings_users/#settings--users--refund-reasons). 
+Staff with appropriate permissions can partially or fully refund a fee/fine. The payment method must allow refunds and **Fee/fine: Refund reasons** must be configured in the FOLIO tenant. See [Settings \> Users \> Fee/fine: Refund reasons](../settings/settings_users/settings_users/#settings--users--refund-reasons). 
 
 
 1. [Find the user record](#search-for-user-records) to which you want to refund a payment and click it.
