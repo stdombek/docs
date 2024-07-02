@@ -597,7 +597,7 @@ Note: If the location is changed for a specific piece and no holding exists for 
 3. Click **Save and close**. The changes appear in the **Select holdings** field of the **Add piece** dialog. The location is confirmed once the piece is saved.
 
 #### Item details
-Note: This section of the **Add piece** modal becomes active as soon as the **Create item** xheckbox is selected.
+Note: This section of the **Add piece** modal becomes active as soon as the **Create item** checkbox is selected.
 
 *   **Barcode.** The item barcode. This value must be unique and will update the item record if filled in.
 *   **Call number.** The item level call number. This will update the item record if filled in.
@@ -659,7 +659,7 @@ To delete an expected or received piece, make sure the correct receiving title i
 
 ## Receiving a piece
 
-Receiving a piece confirms that the ordered material arrived at the library.
+Receiving a piece confirms that the ordered material arrived at the library. If an item record was created as a result of the corresponding POL's **Create inventory** setting, the act of receiving the corresponding piece(s) will also update the item record(s). A major update is to the item's status, which will transition from 'On order' to 'In process'. Once the item processing has concluded, a staff member should check the item in using the **Check in** app to complete the technical services workflow. This will check for any open requests on the item or update the item status to 'Available' if the material is not needed to fill a request.
 
 There are two ways to receive a piece:
 
