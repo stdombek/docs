@@ -30,11 +30,11 @@ The action associated with the shortcut may vary slightly for different apps -- 
  
 ### The following keyboard shortcuts are only available in one app:
 
-| Action                       | Shortcut keys | App used in |
-|:-----------------------------|:--------------|:------------|
-| Add POL                      | Alt+a         | Orders      |
-| Receive pieces/Quick receive | Ctrl+Alt+r    | Receiving   |
-
+|      Action                         |      Shortcut keys     |      App used in     |
+|-------------------------------------|------------------------|----------------------|
+|     Add POL                         |     Alt+a              |     Orders           |
+|     Receive pieces/Quick receive    |     Ctrl+Alt+r         |     Receiving        |
+|     Save a piece and create another |     Alt+s              |     Receiving        |
 
 ## Viewing the keyboard shortcuts list 
 
