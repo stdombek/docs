@@ -574,7 +574,7 @@ This section displays pricing and status information for the purchase order.
 *   **Workflow status.**  The order status: Pending, Open, Closed.
 *   **Total estimated price.**  
 *   **Total encumbered.**  The total of all PO line encumbered amounts.
-*   **Total expended.**  The total expended amount for all PO lines.  When an invoice line is created, it can be linked to a PO line.  The total amount of the invoice line is expended once the invoice is approved.
+*   **Total expended.**  The total expended amount for all PO lines.  When an invoice line is created, it can be linked to a PO line.  The total amount of the invoice line is expended once the invoice is approved. Note: this does not include the amount of any non pro-rated adjustments on the invoice.
 
 
 
