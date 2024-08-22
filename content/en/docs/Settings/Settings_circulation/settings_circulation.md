@@ -435,7 +435,7 @@ Lost item fee policies determine when overdue items automatically age to lost (t
 9. Enter a **Lost item processing fee**. This is an additional charge that will be added to the charge amount for the item when billed to the patron.
 10. Select whether to **Charge lost item processing fee if item declared lost by patron**.
 11. Select whether to **Charge lost item processing fee if item aged to lost by system**.
-12. Enter an amount of time **For lost items not charged a fee/fine, close the loan after**. (This setting is required for Actual cost and does not apply to Set cost.)
+12. Enter an amount of time **For lost items not charged a fee/fine, close the loan after**. This setting is required for Actual cost; it does not apply to Set cost. During the specified time period after an open loan is updated to ‘Declared lost’ or ’Aged to lost,’ Library staff can bill for the item using the [Lost items requiring actual cost](../../../users/#lost-items-requiring-actual-cost) report in the Users app.  After the specified time period, the item can no longer be billed, the loan will close, and the item status will update to ‘Lost and paid.’
 13. Select whether **If lost item returned or renewed, remove lost item processing fee**.
 14. Select whether to charge overdue fines **If lost item returned or renewed**.
 15. Select whether **Replacement allowed**.
