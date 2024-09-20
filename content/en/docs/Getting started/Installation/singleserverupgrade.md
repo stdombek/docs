@@ -17,8 +17,6 @@ This is a documentation for an **upgrade** of your FOLIO system.
 
 * It assumes that you have already successfully installed a FOLIO system and now want to upgrade your system to Poppy. 
 
-* If you are deploying FOLIO for the first time, or if you want to start with a fresh installation for whatever reasons, see [how to do a **fresh installation**]({{< ref "singleserverfreshinstall.md" >}}) of a single server deployment.
-
 * This documentation shows how to upgrade to a **platform-complete** distribution of Poppy.
 
 * Throughout this documentation, the sample tenant "diku" will be used. Replace with the name of your tenant, as appropriate.
