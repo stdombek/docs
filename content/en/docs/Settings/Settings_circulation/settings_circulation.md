@@ -472,11 +472,16 @@ Lost item fee policies determine when overdue items automatically age to lost (t
 
 ### Editing a lost item fee policy
 
+ 
 1. In the **Lost item fee policies** pane, select the Lost item fee policy you want to edit.
 2. In the **lost item fee policy details** pane, click **Actions > Edit**.
 3. Edit the lost item fee policy.
 4. Click **Save & close**. The policy is updated.
 
+Edits made in the Lost item fee policies that change the policies from set cost to actual cost can create problems when items **are checked in under the edited policy but were checked out** under the old policy. The recommended solution is:
+1. rename the existing policies to, e.g., `old laptop lost item policy`
+2. write new policies named, e.g., `laptop lost item policy`
+3. delete the old policies after all loans that occurred under the old policy have been closed—items were checked in, became lost and paid, etc.
 
 ### Deleting a lost item fee policy
 
