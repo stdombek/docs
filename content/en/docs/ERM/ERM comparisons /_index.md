@@ -28,3 +28,31 @@ The following permissions are also needed to create a comparison:
 
 * **Agreements: Search & view agreements.** This permission allows the user to search and view existing agreements. It also allows the user to see and access the Agreement app in the FOLIO interface.
 * **Agreements: Search & view e-resources.** This permission allows the user to search and view e-resources (packages and titles in those packages) in the internal KB. This includes the permission to see and access the Agreements app in the FOLIO interface.
+
+## Creating a comparison
+
+1. In the **ERM comparisons** pane, click **New**.
+2. Select a name.
+3. Add as a first comparison point either a package or an agreement to the comparison.
+4. Select a date. All titles that where an active component of the collection on this date are included in the comparison. The current day is preset by default.
+5. Add as a second comparison point either a package or an agreement to the comparison.
+6. Select a date. All titles that were an active component of the collection on this date are included in the comparison. The current day is preset by default.
+7. Once you have included all of the information you want about the comparison, click **Save & close**. A confirmation message appears, and the comparison is saved and appears in the comparison pane.
+
+## Searching for a comparison
+
+You can search for a comparison in the **Search & filter** pane. Ti search for comparisons, enter your search terms in the search box and click **Search**. The search bos searched the name of the comparison.
+
+You can also search for comparisons by selscting any of the filters in the **Search & filter** pane. Additionally, you can apply the filters after you perform a search to limit your results. See the sections below for more information.
+
+###  Running status
+
+### Result
+
+### Comparison point 1 & 2
+
+## Viewing a comparison
+
+## Viewing a comparison report
+
+## Deleting a comparison
