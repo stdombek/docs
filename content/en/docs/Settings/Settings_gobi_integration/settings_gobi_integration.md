@@ -36,7 +36,7 @@ To view the mapping configuration files, open Settings > GOBI integration > Inte
 *   **Unlisted Print Monograph**
 *   **Unlisted Print Serial**
 
-Mappings for "Listed" formats indicate that a tile is available within the GOBI system for ordering. The mappings for "Unlisted" formats are invoked if a library submits an order for a title that does not appear in GOBI using the **Add Unlisted** option in the GOBI Order Cart.
+Mappings for "Listed" formats indicate that a title is available within the GOBI system for ordering. The mappings for "Unlisted" formats are invoked if a library submits an order for a title that does not appear in GOBI using the **Add Unlisted** option in the GOBI Order Cart.
 
 ## Viewing configuration files
 
