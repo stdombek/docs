@@ -1,9 +1,9 @@
 ---
 title: "ERM comparisons"
-linkTitle: "??"
+linkTitle: "ERM comparisons"
 date: 2024-09-26
-weight: ??
-tags: ["??"]
+weight: 15
+tags: ["subtopic"]
 ---
 
 The ERM comparisons app compares the contents of two diferent packages or agreements with each other to check whether there are any overlaps in content.
