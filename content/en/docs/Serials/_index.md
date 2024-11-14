@@ -260,7 +260,7 @@ Volume {{enumeration1.level1}}, number {{enumeration1.level2}} ({{chronology1.ye
 More information about templates: ["Using Templates" by Owen Stephens]( https://folio-org.atlassian.net/wiki/spaces/FOLIOtips/pages/154861687/Using+Templates) 
 
 ## Generating predicted pieces
-To generate predicted pieces, you first need to add a publication pattern to your series.
+To generate predicted pieces, you first need to add a publication pattern to your serial.
 
 1. In the Serial record pane, click **Actions** and then **Generate predicted pieces**
 
