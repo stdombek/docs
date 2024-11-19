@@ -717,6 +717,12 @@ This area includes all the links and documents attached to the invoice. Click th
 3. Edit the invoice.  Note: The **Status** of the invoice impacts which fields are editable.  Many fields are locked for editing after the invoice is approved.
 4. Click **Save & close.** A confirmation message appears and the invoice is updated.
 
+## Duplicating an invoice
+Duplicating an invoice is possible from any invoice status. However, the resulting duplicate invoice will be created with an Open status.
+
+1. Find the invoice you want to duplicate and select it.
+2. Click **Actions** > **Duplicate**.
+3. In the Duplicate invoice dialog, click **Duplicate**. A confirmation message appears and the invoice is duplicated, including invoice data and invoice lines. 
 
 
 
