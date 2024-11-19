@@ -1,7 +1,7 @@
 ---
 title: "Invoice adjustments"
 linkTitle: "Invoice adjustments"
-weight: 15
+weight: 10
 tags: ["subtopic"]
 ---
 
