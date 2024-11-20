@@ -74,4 +74,4 @@ For example: if the entered subtotal is $10 and a 10% adjustment is added with t
 
 
 ## Is there a way to save adjustments that are commonly applied to invoices?
-Yes, for commonly used adjustments, it is recommended that these be added to Settings > Invoices as preset adjustments, which can be applied to relevant invoices. {{Needs documentation links}}
+Yes, for commonly used adjustments, it is recommended that these be added to Settings > Invoices as preset adjustments, which can be applied to relevant invoices. If a library wishes to apply a preset adjustment to every invoice, check the **Always show** box. The adjustment will be proactively applied to every newly created invoice, but may be edited or deleted on each individual invoice, as needed.  {{Needs documentation links}}
