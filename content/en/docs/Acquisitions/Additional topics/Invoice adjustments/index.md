@@ -13,9 +13,9 @@ An adjustment is an addition to an invoice record that accounts for charges that
 ## How do I add an adjustment to an invoice?
 An adjustment can be added at the invoice level or to an individual invoice line. 
 
-To add an adjustment to the invoice level, follow the steps outlined HERE
+To add an adjustment to the invoice level, follow the steps outlined HERE {{Needs documentation links}}
 
-To add an adjustment to an invoice line, follow the steps outlined HERE
+To add an adjustment to an invoice line, follow the steps outlined HERE {{Needs documentation links}}
 
 ## How do I select the correct pro-rate option?
 When adding an adjustment to an invoice, staff must select one of the following options for **Pro rate**:
