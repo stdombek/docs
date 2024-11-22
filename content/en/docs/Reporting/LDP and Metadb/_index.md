@@ -1,7 +1,7 @@
 ---
 title: "LDP and Metadb"
 linkTitle: "LDP and Metadb"
-date: 2023-10-25
+date: 2024-04-24 
 weight: 30
 tags: ["parenttopic"]
 ---
@@ -17,23 +17,23 @@ In order for the LDP software to connect to FOLIO, it needs read-only access to 
 
 There are three main software components to install for your LDP implementation: LDP2, ldpmarc, and Folio Analytics. In general, install the latest production release for the LDP and ldpmarc software components, which do not have a dependency on FOLIO (flower) software release versions. For FOLIO Analytics, see https://github.com/folio-org/folio-analytics/blob/main/README.md.
 
-### Documentation 
+### Documentation
 
 For detailed information about how to set up and configure the LDP software, please review this [link](https://github.com/library-data-platform/ldp#readme) to access individual links to guides in the LDP repository. There you also will find the latest versions and fixes of the LDP software.
 
 ## Setting up derived tables
 
-To let report users take full advantage of the community-developed [report queries](../folio-analytics/#using-queries-from-the-folio-analytics-repository) as well as having a good starting point for [ad hoc querying](../folio-analytics/#ad-hoc-querying-using-ldp-tables), it is strongly recommended to set up a nightly update on [derived tables](https://github.com/folio-org/folio-analytics/blob/main/sql/derived_tables/README.md  ). 
+To let report users take full advantage of the community-developed [report queries](../folio-analytics/#using-queries-from-the-folio-analytics-repository) as well as having a good starting point for [ad hoc querying](../folio-analytics/#ad-hoc-querying-using-ldp-tables), it is strongly recommended to set up a nightly update on [derived tables](https://github.com/folio-org/folio-analytics/blob/main/sql/derived_tables/README.md  ).
 
 {{% alert color="info"%}}
-**Note:** use of *views* and *materialized views* is not supported in LDP databases and may cause the LDP software to be unable to perform data updates.
+**Note:** use of *views* and *materialized views* is not supported in LDP or Metadb databases and may cause the software to be unable to perform data updates.
 {{% /alert %}}
 
 You can find instructions in Github on how to set up [FOLIO Reporting Derived Tables](https://github.com/folio-org/folio-analytics/tree/main/sql/derived_tables#folio-reporting-derived-tables).
 
 ## Data privacy
 
-The LDP software is designed to support GDPR and other data privacy requirements. Administrators can exclude a predefined set of tables.
+The LDP software is designed to support GDPR and other data privacy requirements. Administrators can exclude a predefined set of tables. 
 
 See the [Anonymization Guide](https://github.com/library-data-platform/ldp/blob/main/doc/Admin_Guide.md#6-data-privacy) for information on how to activate and configure these features.
 
@@ -41,6 +41,10 @@ The pages linked below list attributes that contain potential personal data:
 
 * [Users module](https://wiki.folio.org/display/RPT/Potential+personal+data%3A+List+of+FOLIO+attributes?src=contextnavpagetreemode): tables that will not loaded in LDP software when anonymization is turned on
 * [Organizations module](https://wiki.folio.org/display/RPT/Potential+personal+data+in+mod-organizations-storage?src=contextnavpagetreemode): potential personal data in organizations module
+
+{{% alert color="info"%}}
+**Note:** The Metadb software currently does not support anonymization. The above information is for LDP software only. 
+{{% /alert %}}
 
 ## Adding local data
 As documented in the [user guide](https://github.com/library-data-platform/ldp/blob/main/doc/User_Guide.md#4-local-tables), it is also possible to load and create local data into your LDP reporting database.
@@ -60,13 +64,12 @@ Learn more about the schema concept and how to configure schemas using [Postgres
 For a granular setup of permissions, see also the built-in [Roles](https://www.postgresql.org/docs/current/user-manag.html) and [Privileges](https://www.postgresql.org/docs/current/ddl-priv.html) concepts of Postgres.
 
 ### Moving and loading data
-Loading and moving data into an LDP reporting database is as simple as it is for databases in general. 
+Loading and moving data into an LDP reporting database is as simple as it is for databases in general.
 
 For Postgres there are two common approaches:
 
 * [COPY](https://www.postgresql.org/docs/current/sql-copy.html): SQL command for moving table data via csv files
 * [pg_dump](https://www.postgresql.org/docs/current/app-pgdump.html) / [pg_restore](https://www.postgresql.org/docs/current/app-pgrestore.html): Postgres command line tools for importing and exporting data
 
-## Installing and configuring the Metadb software 
+## Installing and configuring the Metadb software
 The next generation software platform Metadb has been released and has been adopted by some institutions. Metadb is a new streaming data integration platform intended to eventually replace LDP. For installing and configuring Metadb follow the *Metadb Documentation* at the [Library Data Platform - resources site](https://librarydataplatform.org/resources/).
-
