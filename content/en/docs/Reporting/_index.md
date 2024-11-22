@@ -1,7 +1,7 @@
 ---
 title: "Reporting with LDP/Metadb"
 linkTitle: "Reporting with LDP/Metadb"
-date: 2023-10-25
+date: 2024-04-24
 weight: 650
 ---
 
@@ -9,7 +9,7 @@ The [Library Data Platform (LDP)](https://librarydataplatform.org) is a project 
 
 LDP is the current software platform. The next generation software platform Metadb has been released and has been adopted by some institutions. Metadb is a new streaming data integration platform intended to eventually replace LDP. Find detailed and very recent information about the platforms on the [project website](https://librarydataplatform.org).
 
-Some FOLIO apps include functionality that allows the user to download data as a CSV (comma separated values) file. For example, the Users app allows you to run an overdue loans report and download the results as a CSV file. See the documentation on individual apps for more details on this functionality where it is available. 
+Some FOLIO apps include functionality that allows the user to download data as a CSV (comma separated values) file. For example, the Users app allows you to run an overdue loans report and download the results as a CSV file. See the documentation on individual apps for more details on this functionality where it is available.
 
 
 ## Data Flow from FOLIO to LDP/Metadb
