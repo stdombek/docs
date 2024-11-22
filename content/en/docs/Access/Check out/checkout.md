@@ -18,7 +18,7 @@ The permissions listed below allow you to interact with the Check out app and de
 A user who has **Check out: all permissions** but does not have **Check out: View fees/fines** will see a patron’s fee/fine amount in the **Scan patron card** pane as text (not a link).
 * **Check out: View loans.** This permission allows users to click the number of open loans in the **Scan patron card** pane to view the patron’s current loans in the Users app. The user must have permission to view loans in the Users app in order for the link to work. See, for example the permission **Users: User loans view** ([Users \> Permissions](../../../users/#permissions)).
 A user who has **Check out: all permissions** but does not have **Check out: View loans** will see how many loans a patron has in the **Scan patron card** pane as text (not a link).
-* **Check out: View requests.**  This permission allows users to be able to click the number of open requests in the **Scan patron card** pane to view the patron’s current requests in the Requests app. The user must have permission to view requests in the Requests app in order for the link to work. See, for example the permission **Requests: View** [Requests \> Permissions](../../requests/requests/#permissions)). A user who has **Check out: all permissions** but does not have **Check out: View requests** will see how many requests a patron has in the **Scan patron card** pane as text (not a link).
+* **Check out: View requests.**  This permission allows users to be able to click the number of open requests in the **Scan patron card** pane to view the patron’s current requests in the Requests app. The user must have permission to view requests in the Requests app in order for the link to work. See, for example the permission **Requests: View** ([Requests \> Permissions](../../requests/requests/#permissions)). A user who has **Check out: all permissions** but does not have **Check out: View requests** will see how many requests a patron has in the **Scan patron card** pane as text (not a link).
 * **User: Can override item blocks.** This permission allows users to override non-circulating loan policies.
 * **Users: Can view profile pictures.** This permission allows users to view profile pictures at Check out.
 
@@ -29,14 +29,14 @@ A user who has **Check out: all permissions** but does not have **Check out: Vie
 You can find the patron by either:
 
 *   Scanning / entering the barcode provided by the patron.
-*   Using the Patron Look-up function.
+*   Using the Patron look-up function.
 
 Locate the patron using a barcode:
 
 1. Either scan the barcode on the patron's library card, or enter the patron barcode number.
 2. Click **Enter**. Patron details are displayed.
 
-Locate the patron using the Patron Look-up function:
+Locate the patron using the Patron look-up function:
 
 1. In the Scan patron card pane, click **Patron look-up**.
 2. In the **Select User** dialog, in the **User search** box, enter part or all of the patron's name, email, or username.
@@ -64,7 +64,7 @@ Note: A patron must first be assigned as a proxy for the borrower in their user 
 
 ## Scanning the item to check out
 
-Make sure you have [looked up the user record prior to scanning items.](#locating-a-patron-in-the-system)
+Make sure you have [looked up the user record](#locating-a-patron-in-the-system) prior to scanning items.
 
 To select the item for check out, scan or enter the barcode of the item and click **Enter**. The item appears in the Scan Items area with the **Due date** and **Time**. The total number of items scanned increases.
 
