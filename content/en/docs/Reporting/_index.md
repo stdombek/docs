@@ -61,4 +61,4 @@ LDP pulls data from the following FOLIO modules*:
 * mod-users
 
 {{% alert color="info"%}}
-<b>Note:</b> Metadb features full FOLIO data coverage. {{% /alert %}}
+**Note:** Metadb features full FOLIO data coverage. {{% /alert %}}
