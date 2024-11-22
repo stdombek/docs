@@ -92,10 +92,10 @@ In the search results, click a comparison to view it. The comparisons details pa
 To view a comparison report, click ob the comparison whose report you would like to view. In the cmoparisons details pane, click **View comparisons report**. The report displays the following information.
 
 * **Title.** The title of each e-resource that is whether in one or the other or both packages, shown in alphabetical order.
-* **Available via.** ???
-* **Coverage.** ???
-* **Agreement/Package #1 on MM/DD/YYYY.** ???
-* **Agreement/Package #2 on MM/DD/YYYY.** ???
+* **Available via.** The title of the platform of the specific e-resource and a link to the e-resource on this platform.
+* **Coverage.** Only displayyed with e-Journals.
+* **Agreement/Package #1 on MM/DD/YYYY.** Name of Package or Agreement #1 with the date of the comparison.
+* **Agreement/Package #2 on MM/DD/YYYY.** Name of Package or Agreement #2 with the date of the comparison.
 * **Overlap.** ???
   * **None.** ???
   * **Full.** ???
