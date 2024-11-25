@@ -206,7 +206,7 @@ In the **COUNTER statistics table,** click on a **Report button**. The **Report 
 * **Note** A note can be left.
 * Type of data storage can be chosen by using the radio buttons.
     * **Upload file** With this option you can upload a non-Counter report to the system. Select a file by dragging and dropping the file into the upload form field or select a file via your file manager using **or select file** button. Then click **Save**.
-	* **Link file** This option allows you to enter a URL as text. Then click **Save**.
+    * **Link file** This option allows you to enter a URL as text. Then click **Save**.
 
 
 ### Downloading a COUNTER report

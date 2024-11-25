@@ -16,16 +16,16 @@ An aggregator is a service that aggregates pre-processing statistics for multipl
 
 * **General information**
     * **Name** A freely selectable name for the entry. We recommend choosing the name of the aggregator.
-	* **Service type** You can currently only select the German National Statistics Server in the selection list.
-	* **Service URL** Enter the address for the end point here. Example: https://sushi.url-to-nss.de/Sushiservice/GetReport
+    * **Service type** You can currently only select the German National Statistics Server in the selection list.
+    * **Service URL** Enter the address for the end point here. Example: https://sushi.url-to-nss.de/Sushiservice/GetReport
 * **Aggregator configuration** For German National Statistic Server you can specify the keys **apiKey**, **requestorId**, **customerId**, **reportRelease** by clicking on the button **Add config parameter**. To enter the values, there are the **key** and **value** fields as a pair. Every time you click the button **Add config parameter**, a new pair of fields appears. If you want to delete a pair, click the pair delete icon next to it.
     * **Key** = reportRelease and **Value** = 5
-	* **Key** = apiKey and **Value** = *Your API key*
-	* **Key** = requestorId and **Value** = *Your requestor ID*
-	* **Key** = customerId and **Value** = *Your customer ID*
+    * **Key** = apiKey and **Value** = *Your API key*
+    * **Key** = requestorId and **Value** = *Your requestor ID*
+    * **Key** = customerId and **Value** = *Your customer ID*
 * **Account configuration**
     * **Type** Select the configurtion type between **Mail**, **API** and **Manual**.
-	* **Mail** Here you can enter an email address.
+    * **Mail** Here you can enter an email address.
     * **Contacts** You can add a contact as a short note by clicking on the button **+ Add contact**. Example: John Doe, Phone +49 0000 0000000. If you want to delete a line, click on the **Remove** button next to the contact's entry.
 
 6. Then click **Save & close**.
@@ -112,8 +112,8 @@ It is possible to use a automatic harvesting process to retrieve reports continu
 * **Start time** the time on which the interval should first start. The automatic harvesting process then starts after the specified interval, which is set under **Periodic interval**.
 * **Periodic interval** the interval for the automatic harvesting process.
     * Daily
-	* Weekly
-	* Monthly
+    * Weekly
+    * Monthly
 * **Last triggered at** informs you about the last started automatic harvesting job. Example: **September 12, 2024 3:01 AM**. If no interval has been started before, you see **--**.
 7. Then click **Save**.
 
