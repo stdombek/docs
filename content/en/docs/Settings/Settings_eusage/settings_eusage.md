@@ -1,3 +1,11 @@
+---
+title: "Settings > eUsage"
+linkTitle: "eUsage"
+date: 2024-11-15
+weight: 100
+tags: ["subtopic"]   
+---
+
 The eUsage application offers additional settings options. You can manage these settings in the eUsage section of the Settings app. 
 
 # General
