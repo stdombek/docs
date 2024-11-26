@@ -8,13 +8,13 @@ tags: ["subtopic"]
 
 The eUsage application offers additional settings options. You can manage these settings in the eUsage section of the Settings app. 
 
-# General
+## General
 
-## Settings > General > Aggregators
+### Settings > General > Aggregators
 
 An aggregator is a service that aggregates pre-processing statistics for multiple statistics providers and offers an endpoint to download the reports. eUsage allows you to harvest statistics for a usage data provider either directly from the provider via SUSHI or from an aggregator. Please note: The only aggregator service currently supported in FOLIO is the German National Statistics Server.
 
-### Add an aggregator
+#### Add an aggregator
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -39,7 +39,7 @@ An aggregator is a service that aggregates pre-processing statistics for multipl
 6. Then click **Save & close**.
 
 
-### Edit an aggregator
+#### Edit an aggregator
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -52,7 +52,7 @@ An aggregator is a service that aggregates pre-processing statistics for multipl
 9. Click on **Save & close**.
 
 
-### Delete an aggregator
+#### Delete an aggregator
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -65,7 +65,7 @@ An aggregator is a service that aggregates pre-processing statistics for multipl
 9. Confirm the question in the dialog **Delete aggregator** by clicking on the button **Submit**.
 
 
-## Settings > General > Display settings
+### Settings > General > Display settings
 
 If you want, you can hide the display of SUSHI credentials in the detailed view for a usage data provider in the UI.
 
@@ -76,9 +76,9 @@ If you want, you can hide the display of SUSHI credentials in the detailed view 
 5. Then click **Save**.
 
 
-# Harvester
+## Harvester
 
-## Settings > Harvester > Number of failed attempts
+### Settings > Harvester > Number of failed attempts
 
 If the automatic harvesting process fails, it will be restarted later. You can set a number of times the auto-scheduled harvest process can fail to fetch a report. If the specified number is exceeded, no attempt will be made to retrieve the report.
 
@@ -91,7 +91,7 @@ If the automatic harvesting process fails, it will be restarted later. You can s
 If you want to change the setting, repeat the steps.
 
 
-## Settings > Harvester > Start harvester
+### Settings > Harvester > Start harvester
 
 **Starting the harvester for all usage data providers** manually is an optional way. This can be done in the **Settings app**.
 
@@ -103,12 +103,12 @@ If you want to change the setting, repeat the steps.
 6. Then click **OK**
 
 
-## Settings > Harvester > Periodic harvesting
+### Settings > Harvester > Periodic harvesting
 
 It is possible to use a automatic harvesting process to retrieve reports continuously from providers. You can set the interval for the automatic harvesting process. This can be done in the **Settings app**. Please note: You can only use one interval.
 
 
-### Add a new interval
+#### Add a new interval
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -126,7 +126,7 @@ It is possible to use a automatic harvesting process to retrieve reports continu
 7. Then click **Save**.
 
 
-### Edit an interval
+#### Edit an interval
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -138,7 +138,7 @@ It is possible to use a automatic harvesting process to retrieve reports continu
 8. Then click **Save**.
 
 
-### Delete an interval
+#### Delete an interval
 
 1. Open FOLIO's **Settings** app.
 2. Choose the application **eUsage**.
@@ -150,7 +150,7 @@ It is possible to use a automatic harvesting process to retrieve reports continu
 8. Confirm the question **Delete periodic harvesting config?** by clicking on the **Submit** button.
 
 
-## Settings > Harvester > Harvester logs
+### Settings > Harvester > Harvester logs
 
 In this setting you can specify how many days the harvester will keep the logs.
 
