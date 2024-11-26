@@ -35,6 +35,7 @@ The action associated with the shortcut may vary slightly for different apps -- 
 |     Add POL                         |     Alt+a              |     Orders           |
 |     Receive pieces/Quick receive    |     Ctrl+Alt+r         |     Receiving        |
 |     Save a piece and create another |     Alt+s              |     Receiving        |
+| Edit MARC record                    | Ctrl+Shift+e           | Inventory            |
 
 ## Viewing the keyboard shortcuts list 
 
@@ -46,7 +47,7 @@ Click on the downward-facing caret, “v”, at the end of the app name.
  
 Click **Keyboard shortcuts** to view the list of shortcut actions.
 
-Alternatively, use the keyboard shortcut Ctrl+Alt+k after opening the app (this works in all [listed apps](#list-of-apps-displaying-the-shortcut-list) except for **eUsage**).
+Alternatively, use the keyboard shortcut Ctrl+Alt+k after opening the app.
 
 ## List of apps displaying the shortcut list
 
