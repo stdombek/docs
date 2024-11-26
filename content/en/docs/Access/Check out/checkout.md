@@ -99,6 +99,16 @@ To change the due date:
 2. In the **Change Due Date** dialog, enter the date and/or time for the new due date.
 3. Click **Save and Close**. The new due date is saved.
 
+## Printing due date receipts
+
+You can print due date receipts at check out. Due date receipts can include borrower and loan due date information. You can configure the information that appears on the due date receipt in the [Settings app](../../../settings/settings_circulation/settings_circulation/#settings--circulation--staff-slips).
+
+To print due date receipts, follow these steps:
+
+1. Click **… > Loan details** to open the Users app.
+2. Click **Print due date receipt**. A print dialog appears.
+
+
 ## Adding a loan comment
 
 You can use loan comments to store ILL transaction numbers, record a reason for a changed due date, or track how many times a claimed returned item was searched for. You can include patron info comments as a token in patron notices (only the most recent comment is included in the token). You need to have the appropriate permissions to be able to add patron or staff info loan comments -- see [Users \> Permissions](../../../users/#permissions).
