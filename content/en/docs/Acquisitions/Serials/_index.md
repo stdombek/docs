@@ -3,7 +3,7 @@ title: "Serials Management"
 linkTitle: "Serials Management"
 date: 2024-11-14
 weight: 55
-tags: ["subtopic"]
+tags: ["parenttopic"]
 ---
 **This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may be aligned with a different FOLIO release.**
 
