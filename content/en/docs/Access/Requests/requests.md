@@ -319,7 +319,7 @@ To print pick slips, in the Requests pane, select **Actions > Print pick slips f
 3. Select **Actions > Print selected pick slips for [your service point].** A print dialog appears.
 
 #### Printing a single pick slip
-1. 	In the Search & filter pane, select **Request type > Pages** and **Request status > Open - Not yet filled** to filter the items down to open page requests.
+1. In the Search & filter pane, select **Request type > Pages** and **Request status > Open - Not yet filled** to filter the items down to open page requests.
 2. Have the **Single print** column selected in the Actions menu.
 3. Click the **Print** button in the Single print column. A print dialog appears. Note: the print button will only be active for items whose effective locations are associated with your selected service point.
 
