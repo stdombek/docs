@@ -7,9 +7,9 @@ tags: ["parenttopic"]
 ---
 
 
-{{% alert color="info"%}}
+<div class="alert alert-info" role="alert">
 **Note:** This [WOLFcon 2021 presentation](https://www.youtube.com/watch?v=SM1vq0zvxsY) gives an overview of the Library Data Platform.
-{{% /alert %}}
+</div>
 
 In order for the LDP software to connect to FOLIO, it needs read-only access to Okapi and the FOLIO database. The LDP can be hosted and administered locally by an institution's own staff or by contracting hosting services out to a third party. You can find specific [system requirements](https://github.com/library-data-platform/ldp/blob/1.8.2/doc/Admin_Guide.md#2-system-requirements) in the LDP documentation.
 
@@ -25,15 +25,15 @@ For detailed information about how to set up and configure the LDP software, ple
 
 To let report users take full advantage of the community-developed [report queries](../folio-analytics/#using-queries-from-the-folio-analytics-repository) as well as having a good starting point for [ad hoc querying](../folio-analytics/#ad-hoc-querying-using-ldp-tables), it is strongly recommended to set up a nightly update on [derived tables](https://github.com/folio-org/folio-analytics/blob/main/sql/derived_tables/README.md  ).
 
-{{% alert color="info"%}}
+<div class="alert alert-info" role="alert">
 **Note:** use of *views* and *materialized views* is not supported in LDP or Metadb databases and may cause the software to be unable to perform data updates.
-{{% /alert %}}
+</div>
 
 You can find instructions in Github on how to set up [FOLIO Reporting Derived Tables](https://github.com/folio-org/folio-analytics/tree/main/sql/derived_tables#folio-reporting-derived-tables).
 
 ## Data privacy
 
-The LDP software is designed to support GDPR and other data privacy requirements. Administrators can exclude a predefined set of tables. 
+The LDP software is designed to support GDPR and other data privacy requirements. Administrators can exclude a predefined set of tables.
 
 See the [Anonymization Guide](https://github.com/library-data-platform/ldp/blob/main/doc/Admin_Guide.md#6-data-privacy) for information on how to activate and configure these features.
 
@@ -42,9 +42,9 @@ The pages linked below list attributes that contain potential personal data:
 * [Users module](https://wiki.folio.org/display/RPT/Potential+personal+data%3A+List+of+FOLIO+attributes?src=contextnavpagetreemode): tables that will not loaded in LDP software when anonymization is turned on
 * [Organizations module](https://wiki.folio.org/display/RPT/Potential+personal+data+in+mod-organizations-storage?src=contextnavpagetreemode): potential personal data in organizations module
 
-{{% alert color="info"%}}
+<div class="alert alert-info" role="alert">
 **Note:** The Metadb software currently does not support anonymization. The above information is for LDP software only. 
-{{% /alert %}}
+</div>
 
 ## Adding local data
 As documented in the [user guide](https://github.com/library-data-platform/ldp/blob/main/doc/User_Guide.md#4-local-tables), it is also possible to load and create local data into your LDP reporting database.
