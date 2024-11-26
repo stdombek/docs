@@ -117,13 +117,9 @@ You can only edit open requests. Once a request is closed, it cannot be edited.
 You can duplicate open requests but you will need to change either the requester or the item in order to save the request, as there cannot be two requests on the same item by the same requester. Closed requests can be duplicated, but you will need to enter a requester barcode.
 
 1. [Find the request you want to duplicate.](#searching-for-requests) 
-
 2. In the **Request details** pane, select **Actions > Duplicate**. A New request window appears with the same Item information, Requester information, and Request information as the request you chose to duplicate.
-
-3. Edit any of the request information before submitting the request.
-
+3. Edit the request.
 4. Select a **Pickup service point**.
-
 5. Click **Save & close**. The new request appears in the Request details pane.
 
 ### Moving an item-level request to another item on the same instance
@@ -225,13 +221,9 @@ You can only edit open requests. Once a request is closed, it cannot be edited.
 You can duplicate any open title level request. When you duplicate the request, you will need to change the instance or the requester, because a patron cannot have more than one open title level request on the same instance. 
 
 1. [Find the request you wish to duplicate.](#searching-for-requests) 
-
 2. In the **Request details** pane, select **Actions > Duplicate**. A New request window appears with the same Item information, Requester information, and Request information as the request you chose to duplicate.
-
-3. Edit any of the request information before submitting the request.
-
+3. Edit the request.
 4. Select a **Pickup service point**.
-
 5. Click **Save & close**. The new request appears in the Request details pane.
 
 ### Reordering Request Queues with Title Level Requests
@@ -322,7 +314,7 @@ You can configure the information that appears on the pick slips in the [Setting
 To print pick slips, in the Requests pane, select **Actions > Print pick slips for [your service point]**. A print dialog appears.
 
 #### Printing selected pick slips 
-1. In the Search & filter pane, select **Request type > Pages and Request status > Open - Not yet filled** to filter the items down to open page requests.
+1. In the Search & filter pane, select **Request type > Pages** and **Request status > Open - Not yet filled** to filter the items down to open page requests.
 2. Select the checkboxes in the first column of the requests you want to print. You can only print Page requests for items whose effective locations are associated with your selected service point.
 3. Select **Actions > Print selected pick slips for [your service point].** A print dialog appears.
 
