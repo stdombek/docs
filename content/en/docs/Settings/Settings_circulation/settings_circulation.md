@@ -29,6 +29,7 @@ The following are all the Circulation Settings permissions:
 * **Settings (Circ): Can create, edit and remove request policies:** Allows the user to create, read, update, and delete request policies.
 * **Settings (Circ): Can create, edit and remove staff slips:** Allows the user to create, read, and update staff slips. Note: Users can erase the content of staff slips in the editor, but cannot delete the staff slip itself.
 * **Settings (Circ): Can edit loan history:** Allows the user to edit settings in Settings > Circulation > Loan anonymization.
+* **Settings (Circ): Can enable request print details:** Allows the user to edit settings in [Settings > Circulation > Requests > View print details](#settings--circulation--view-print-details).
 * **Settings (Circ): Can view loan history:** Allows the user to view settings in Settings > Circulation > Loan anonymization but does not allow editing.
 * **Settings (Circ): Can view loan policies:** Allows the user to view loan policies but does not allow create, edit or delete.
 * **Settings (Circ): Can view lost item fee policies:** Allows the user to view lost item fee policies but does not allow create, edit or delete.
@@ -133,7 +134,8 @@ If your library could potentially encounter duplicate barcodes as described, you
 
 Staff slips allow you to configure the information that appears on your staff slips. You have the option of printing these slips when their associated action occurs:
 
-* **Hold.** This slip is available through the Check in app, when you check in an item with a request.
+* **Due date receipt.** This slip is available in the Check out app, when you go to Loan details, and in the Users app, when you go to Open loans or Loan details.
+* **Hold.** This slip is available in the Check in app, when you check in an item with a request.
 * **Pick slip.** This slip is available in the Requests app, when you generate the [pick slip report](../../../access/requests/requests/#printing-pick-slips).
 * **Request delivery.** This slip is available in the Check in app, when you check in an item with a delivery request.
 * **Search slip (Hold requests).** This slip is available in the Requests app, when you generate the [search slip report.](../../../access/requests/requests/#printing-hold-request-search-slips)
@@ -396,10 +398,10 @@ Overdue fine policies determine the fines that accrue when an item is checked ou
 #### Reminder fees
 
 1. **Create on closed days.** If you select **Yes**, Reminder fees will be created on days the library is closed. Select **No** to have Reminder fees created on the first open day after they would otherwise be created. See example in [Additional topics > Fees and fines](../../../access/additional-topics/feesfines/feesfines/#reminder-fee-examples-with-closed-days).
-2. **Ignore grace periods for recalls.** This setting can only be **No** for Quesnelia.
-3. **Ignore grace periods for holds.** This setting can only be **No** for Quesnelia.
+2. **Ignore grace periods for recalls.** This setting can only be **No** for Ramsons.
+3. **Ignore grace periods for holds.** This setting can only be **No** for Ramsons.
 4. **Allow renewal of items with reminder fee(s).** If you select Yes, items with reminder fees can be renewed. The reminder fee will not be removed when the item is renewed.
-5. **Clear patron block when paid.** This setting can only be **No** for Quesnelia.
+5. **Clear patron block when paid.** This setting can only be **No** for Ramsons.
 
 Click **Add reminder fee** to set up a reminder fee schedule:
 
@@ -751,3 +753,6 @@ Click **Save** at the bottom of the screen to save any changes.
 
 Click **Save** at the bottom of the screen to save any changes.
 
+## Settings > Circulation > View Print details
+
+**Enable view print details (Pick slips)**. Check this box to enable [printing log functionality](../../../access/requests/requests/#showing-the-pick-slip-print-history).
