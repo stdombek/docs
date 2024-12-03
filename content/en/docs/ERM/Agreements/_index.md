@@ -607,8 +607,8 @@ To filter agreements by their documents, follow these steps:
 
 1. In the Search & filter pane, click **Documents**.
 2. Click **Edit document filters**.
-3. In the **Document filter builder** dialog, select a **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
-4. Select a **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
+3. In the **Document filter builder** dialog, select an **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
+4. Select an **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
 5. In the **Value** box, select or enter a value.
 6. (Optional) To continue to build the document filter, click **Add rule.** Note, multiple rules in a single document filter card will apply to a single document. I.e. If you have a document filter card with two rules, then to find an agreement, a single document on that agreement must fulfill both rules. Whereas when you add a new document filter card in the filter builder, then it can apply to either the same or a different document. 
 7. (Optional) To search for agreements using multiple document filters, click **Add filter**. Note: To delete a rule or document filter in the Document filter builder, click on the **trash can icon** next to the rule or document filter.
@@ -787,6 +787,42 @@ Note: If you are already editing an agreement line, skip to step 5.
 6. Click **Save & close**. A confirmation message appears and the agreement line is updated.
 
 
+### Adding a document to an agreement line
+
+You have the option of adding a document to an agreement line. For example, if an agreement line represents a package, a document describing the package and content could be uploaded. Or if an agreement line is for an ebook that is catalogued, a URL could be added linking the relevant inventory item, holding or instance. 
+
+Note: If you are already editing an agreement line, skip to step 5.
+
+
+
+1. [Find the agreement](#searching-for-agreements) with the agreement line to which you want to add a document and select it.
+2. In the **Agreement details** pane, click **Agreement lines**.
+3. In the **Agreement lines** section, click the agreement line to which you want to add a document.
+4. In the **Agreement line** pane, click **Actions > Edit**.
+5. In the **Edit agreement line** window, click **Add document**.
+6. Enter a **Name** in the box.
+7. (Optional): Select a **Category** from the drop-down list.
+    * Categories include Consortium negotiation document, License, and Misc.
+8. (Optional): Enter a **Note** about the document.
+9. You must complete at least one of the following:
+    * Upload a file into the agreement record by dragging and dropping the file in the **Drag & drop to upload** box, or click **or choose file**.
+    * Enter the **Physical location** of the document in the box.
+    * Enter the **URL** of the document in the box.
+10. Repeat steps 5-9 as needed. The documents are saved when the agreement line is saved.
+
+
+### Deleting a document from an agreement line
+
+
+
+1. [Find the agreement](#searching-for-agreements) with the agreement line with the document you want to delete and select it.
+2. In the **Agreement details** pane, click **Agreement lines**.
+3. In the **Agreement lines** section, click the agreement line with the document you want to delete and select it.
+4. In the **Agreement line** pane, click **Actions > Edit**.
+5. To remove the document, click the **trash can icon** next to the document you want to delete.
+6. Click **Save & close**. A confirmation message appears and the agreement line is updated.
+
+
 ### Adding an unlinked agreement line
 
 Use this feature to add an agreement line that has no connection to a record from either the internal KB or eHoldings.
@@ -896,6 +932,22 @@ To search for agreement lines assigned specific tags, follow these steps:
 
 1. In the **Search & filter** pane, click **Tags**.
 2. Select the tag(s) from the drop-down list. Your results appear in the Agreement lines pane.
+
+
+### Documents
+
+To search for agreement lines linked to specific documents, follow these steps:
+
+
+
+1. In the Agreement lines Search & filter pane, click **Documents**.
+2. Click **Edit document filters**.
+3. In the **Document filter builder** dialog, select an **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
+4. Select an **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
+5. In the **Value** box, select or enter a value.
+6. (Optional) To continue to build the document filter, click **Add rule.** Note, multiple rules in a single document filter card will apply to a single document. I.e. If you have a document filter card with two rules, then to find an agreement line, a single document on that agreement line must fulfill both rules. Whereas when you add a new document filter card in the filter builder, then it can apply to either the same or a different document. 
+7. (Optional) To search for agreement lines using multiple document filters, click **Add filter**. Note: To delete a rule or document filter in the Document filter builder, click on the **trash can icon** next to the rule or document filter.
+8. Click **Save & close.** Your results appear in the Agreements lines pane.
 
 
 ## Adding a tag to an agreement
