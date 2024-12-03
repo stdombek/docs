@@ -14,7 +14,7 @@ Definition of terms related to the Agreements app:
 *   **Agreement.** An agreement is a place where you can manage the content your library can access (based on resources described in a knowledge base) and link that content to licensing and acquisitions information.
 *   **External knowledge base.** A knowledge base (see definition in this list) that is outside of the FOLIO system. For example, the EBSCO knowledge base.
 *   **Internal knowledge base.** Managing your library’s knowledge base from within FOLIO.
-*   **Knowledge base (KB).** A knowledge base is an extensive database maintained by a knowledge base supplier that contains information about electronic resources such as title lists and coverage dates etc. Knowledge bases typically organize the resources provided by a content provider into collections or databases that reflect specific content provider offerings, for example packages of e-journals, e-books, or other materials.
+*   **Knowledge base (KB).** A knowledge base is an extensive database maintained by a knowledge base supplier that contains information about electronic resources such as title lists and coverage dates, etc. Knowledge bases typically organize the resources provided by a content provider into collections or databases that reflect specific content provider offerings, for example packages of e-journals, e-books, or other materials.
 *   **License.** A license explains what you can do with the content your library can access. The license is the contract or Terms of Use.
 
 Library’s utilizing FOLIO can employ an external knowledge base, like EBSCO, or use FOLIO’s internal knowledge base. Note: Some instructions differ depending on your library’s use of an external or internal knowledge base.
@@ -44,7 +44,7 @@ The following permissions are only applicable if your library is using the inter
 *   **Agreements: Search & view platforms.** This permission allows the user to search and view platforms in the internal KB. This includes the permission to see and access the Agreement app in the FOLIO interface.
 *   **Agreements: Edit platforms.** This permission allows the user to edit platform properties. It also grants all permissions included in "Agreements: Search & view e-resources."
 
-If you want to eUsage data in an agreement record, you also need to have the following eUsage permission:
+If you want eUsage data in an agreement record, you also need to have the following eUsage permission:
 
 
 
