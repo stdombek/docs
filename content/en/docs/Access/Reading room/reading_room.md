@@ -46,3 +46,5 @@ Note: Unlike in the **Check out** app, Patron look-up will only return results i
 3. Select **Allowed** or **Not allowed**.
 
 Note: Inactive users will display an Inactive user message under their patron details. The allowed and not allowed buttons do not display for inactive users.
+
+You can access the log of approvals and denials via the **/reading-room/access-log** API endpoint.
