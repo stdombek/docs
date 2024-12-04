@@ -1589,6 +1589,12 @@ This section displays information if the order includes a POL with an order form
 This section displays information if the order includes a POL with an order format of **Physical**, **P/E mix,** or **Other.** See [Adding an order line to an order > Physical resource details](#physical-resource-details) for more information on the fields displayed in this section of the purchase order line.
 
 
+## Routing lists
+This section displays routing lists for the order.  See [Routing lists](#routing-lists) for more information about adding routing lists.
+
+*   **Name.**  The unique name of the routing list.
+*   **Notes.**  Optional notes added to the routing list.
+*   **Users.** A comma-delimited list of users to whom the material will be routed.
 
 ### Notes
 
