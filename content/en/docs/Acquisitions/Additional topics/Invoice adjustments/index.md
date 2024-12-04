@@ -1,6 +1,7 @@
 ---
 title: "Invoice adjustments"
 linkTitle: "Invoice adjustments"
+date: 2024-12-04
 weight: 10
 tags: ["subtopic"]
 ---
