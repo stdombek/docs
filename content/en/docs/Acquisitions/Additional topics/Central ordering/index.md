@@ -1,6 +1,7 @@
 ---
 title: "Central ordering"
 linkTitle: "Central ordering"
+date: 2024-12-04
 weight: 05
 tags: ["subtopic"]
 ---
