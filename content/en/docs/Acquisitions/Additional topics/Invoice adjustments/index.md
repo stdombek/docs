@@ -13,9 +13,9 @@ An adjustment is an addition to an invoice record that accounts for charges that
 ## How do I add an adjustment to an invoice?
 An adjustment can be added at the invoice level or to an individual invoice line. 
 
-To add an adjustment to the invoice level, follow the steps outlined HERE {{Needs documentation links}}
+To add an adjustment to the invoice level, see [Adjustments](../../invoices/#adjustments) for instructions.
 
-To add an adjustment to an invoice line, follow the steps outlined HERE {{Needs documentation links}}
+To add an adjustment to an invoice line, see [Adjustments](../../invoices/#adjustments-1) for instructions.
 
 ## How do I select the correct pro-rate option?
 When adding an adjustment to an invoice, staff must select one of the following options for **Pro rate**:
@@ -74,4 +74,4 @@ For example: if the entered subtotal is $10 and a 10% adjustment is added with t
 
 
 ## Is there a way to save adjustments that are commonly applied to invoices?
-Yes, for commonly used adjustments, it is recommended that these be added to Settings > Invoices as preset adjustments, which can be applied to relevant invoices. If a library wishes to apply a preset adjustment to every invoice, check the **Always show** box. The adjustment will be proactively applied to every newly created invoice, but may be edited or deleted on each individual invoice, as needed.  {{Needs documentation links}}
+Yes, for commonly used adjustments, it is recommended that these be added to **Settings > Invoices** as [preset adjustments](../../../settings/settings_invoices/settings_invoices/#settings--invoices--adjustments), which can be applied to relevant invoices. If a library wishes to apply a preset adjustment to every invoice, check the **Always show** box. The adjustment will be proactively applied to every newly created invoice, but may be edited or deleted on each individual invoice, as needed.  
