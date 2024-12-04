@@ -92,14 +92,14 @@ In the search results, click a comparison to view it. The comparisons details pa
 To view a comparison report, click on the comparison whose report you would like to view. In the cmoparisons details pane, click **View comparisons report**. The report displays the following information:
 
 * **Title.** The title of each e-resource that is whether in one or the other or both packages, shown in alphabetical order.
-* **Available via.** The title of the platform of the specific e-resource and a link to the e-resource on this platform.
-* **Coverage.** If available, the start date and/or end date of the e-resource will be displayed. Coverage is typically only displayed for e-Journals.
-* **Agreement/Package #1 on MM/DD/YYYY.** The first comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the title is in the collection and an X circled in red if the title is not in the collection. 
-* **Agreement/Package #2 on MM/DD/YYYY.** The second comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the title is in the collection and an X circled in red if the title is not in the collection. 
+* **Available via.** The name of the platform of the specific e-resource and a link to the e-resource on this platform.
+* **Coverage.** If available, the start date and/or end date of the e-resource. Coverage is typically only displayed for e-Journals.
+* **Agreement/Package #1 on MM/DD/YYYY.** The first comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource.
+* **Agreement/Package #2 on MM/DD/YYYY.** The second comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource. 
 * **Overlap.**
-  * **None.** The e-resource in the comparison point do not overlap. The title on only found in one of the comparison points. No overlap will be displayed in a red color.
-  * **Full.** The e-resource in the comparison point overlap. The title including its metadata is found in both comparison points. Full overlap will be displayed in a green color.
-  * **Partly** The e-resource in the comparison point is partly overlapping. The title is found in both comparison points but with differentiating metadata, e.g. the coverage or plattform-URL. Partly overlap will be displayed in an orange color.
+  * **None.** The e-resource does not overlap. The title is only found in one of the comparison points. No overlap will be displayed in a red color.
+  * **Full.** The e-resource overlaps. The title including its metadata is found in both comparison points. Full overlap will be displayed in a green color.
+  * **Partly** The e-resource is partly overlapping. The title is found in both comparison points but with differentiating metadata, e.g. the coverage or plattform-URL. Partly overlap will be displayed in an orange color.
 
 ## Deleting a comparison
 
