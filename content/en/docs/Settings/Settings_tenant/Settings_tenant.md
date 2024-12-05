@@ -23,8 +23,8 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can maintain SSO settings.** This permission allows the user to create, edit, and delete SSO configurations.
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
 * **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.
-* **Settings (tenant): Can create, edit, and remove reading room access** Can view, create, edit and delete Reading room access entries in tenant settings.
-* **Settings (tenant): Can view reading room access** Can view Reading room access entries in tenant settings.
+* **Settings (tenant): Can create, edit, and remove reading room access** This permission allows the user to view, create, edit and delete Reading room access entries in tenant settings.
+* **Settings (tenant): Can view reading room access** This permission allows the user to view Reading room access entries in tenant settings.
 
 
 ## Settings \> Tenant \> Addresses
