@@ -24,7 +24,7 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
 * **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.
 * **Settings (tenant): Can create, edit, and remove reading room access** Can view, create, edit and delete Reading room access entries in tenant settings.
-* ** Settings (tenant): Can view reading room access** Can view Reading room access entries in tenant settings.
+* **Settings (tenant): Can view reading room access** Can view Reading room access entries in tenant settings.
 
 
 ## Settings \> Tenant \> Addresses
@@ -95,12 +95,21 @@ Changing any of the preferred plugins to **(none)** disables the action for all 
 Use this setting to create, edit and delete reading rooms. Users can assign reading rooms to patrons in the Reading room access app.
 
 ### Creating a new Reading room access entry
-1. Select "Reading room access" from Tenant settings.
-2. In the Reading room access pane, click the "+New" button
-3. (Required) Create a name for the Room name. This will appear to users in the Reading room access app
-4. Uncheck the "Public" box if the Reading room access is not public.
-5. (Required) Assign one or more service points to the Reading room access entry from the dropdown menu.  A user will need to be using the the selected service point to assign the Reading room access to a patron. Multiple service points can be assigned to one entry, but once a service point is assigned to a Reading room access entry, it cannot be assigned to another Reading room access entry.  Once a service point has been assigned to an entry, it will no longer appear in the dropdown menu.
-6. Select "Save"
+1. In the Reading room access pane, click the "+New" button
+2. (Required) Create a name for the Room name. This will appear to users in the Reading room access app
+3. Uncheck the "Public" box if the Reading room access is not public.
+4. (Required) Assign one or more service points to the Reading room access entry from the dropdown menu.  A user will need to be using the the selected service point to assign the Reading room access to a patron. Multiple service points can be assigned to one entry, but once a service point is assigned to a Reading room access entry, it cannot be assigned to another Reading room access entry.  Once a service point has been assigned to an entry, it will no longer appear in the dropdown menu.
+5. Select "Save"
+
+### Editing a Reading room access entry
+1. In the Reading room access pane, select the pencil icon in the "Actions" column on the row of the entry you wish to edit
+2. Make the desired changes to Room name, Public checkbox and Associated service point.  An entry must still have a name and one or more unique Associated service points
+3. To make the changes, select "Save" from the Actions column.  Select "Cancel" to discard changes
+
+### Deleting a Reading room access entry
+1. In the Reading room access pane, select the trashcan icon in the "Actions" column you wish to delete
+2. A prompt will open. Confirm you wish to delete the reading room entry.
+3. The Reading room access entry is deleted.  
 
 ## Settings \> Tenant \> SSO settings
 
