@@ -1,7 +1,7 @@
 ---
 title: "Settings > Tenant"
 linkTitle: "Tenant"
-date: 2022-03-21
+date: 2024-12-05
 weight: 250
 tags: ["subtopic"]
 ---
@@ -22,7 +22,9 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can maintain preferred plugins.** This permission allows the user to edit preferred plugins.
 * **Settings (tenant): Can maintain SSO settings.** This permission allows the user to create, edit, and delete SSO configurations.
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
-* **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.  
+* **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.
+* **Settings (tenant): Can create, edit, and remove reading room access** Can view, create, edit and delete Reading room access entries in tenant settings.
+* ** Settings (tenant): Can view reading room access** Can view Reading room access entries in tenant settings.
 
 
 ## Settings \> Tenant \> Addresses
@@ -76,6 +78,7 @@ Use this setting to change your location, numbering system, timezone, and/or cur
 * **Primary currency (for currency symbol to display).** Primary currency adjusts FOLIO's currency symbol, using ISO 4217 standard codes.
 1. Select a **Locale**, **Time zone**, and/or **Primary currency** from the drop-down lists.
 2. Click **Save**. A confirmation message appears and your changes are saved.
+
 
 
 ## Settings \> Tenant \> Preferred plugins
