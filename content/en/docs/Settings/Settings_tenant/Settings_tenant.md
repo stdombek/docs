@@ -90,6 +90,18 @@ Currently, FOLIO doesn’t have multiple plugins to choose from for each of the 
 Changing any of the preferred plugins to **(none)** disables the action for all FOLIO users, which may break app workflows.
 
 
+## Settings \> Tenant \> Reading room Access
+
+Use this setting to create, edit and delete reading rooms. Users can assign reading rooms to patrons in the Reading room access app.
+
+### Creating a new Reading room access entry
+1. Select "Reading room access" from Tenant settings.
+2. In the Reading room access pane, click the "+New" button
+3. (Required) Create a name for the Room name. This will appear to users in the Reading room access app
+4. Uncheck the "Public" box if the Reading room access is not public.
+5. (Required) Assign one or more service points to the Reading room access entry from the dropdown menu.  A user will need to be using the the selected service point to assign the Reading room access to a patron. Multiple service points can be assigned to one entry, but once a service point is assigned to a Reading room access entry, it cannot be assigned to another Reading room access entry.  Once a service point has been assigned to an entry, it will no longer appear in the dropdown menu.
+6. Select "Save"
+
 ## Settings \> Tenant \> SSO settings
 
 Use this setting if your library wishes to implement Single Sign-On (SSO) for staff members to log into FOLIO. SSO allows library staff to use the same username and password they use for other services at their library, removing the need to maintain a separate username and password just for FOLIO.
