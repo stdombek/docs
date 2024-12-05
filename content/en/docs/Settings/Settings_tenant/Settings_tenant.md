@@ -90,7 +90,7 @@ Currently, FOLIO doesn’t have multiple plugins to choose from for each of the 
 Changing any of the preferred plugins to **(none)** disables the action for all FOLIO users, which may break app workflows.
 
 
-## Settings \> Tenant \> Reading room Access
+## Settings \> Tenant \> Reading room access
 
 Use this setting to create, edit and delete reading rooms. Users can assign reading rooms to patrons in the Reading room access app.
 
