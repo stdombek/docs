@@ -163,7 +163,7 @@ All service points should be associated to a fee/fine owner in Settings\>Users, 
 * If the hold shelf expiration period is calculated in **minutes** or **hours**, then you can choose to keep the original expiration date/time, move the expiration date/time to when the service point is closing, or move the expiration date/time to the beginning of the next open set of hours.
 * If the hold shelf expiration period is calculated in **days**, **weeks**, or **months**, you can choose to keep the original expiration date, move the expiration date to the end of the previous open day, or move the expiration date to the end of the next open day.  
   
-10. (Optional): Select the **Hold**, **Pick slip**, **Request delivery**, **Search slip( Hold Requests)**, and/or **Transit** checkboxes to determine which staff slips print by default for this service point.
+10. (Optional): Select the **Due date receipt**,  **Hold**, **Pick slip**, **Request delivery**, **Search slip( Hold Requests)**, and/or **Transit** checkboxes to determine which staff slips print by default for this service point.
 11. Click **Save & close**. A confirmation message appears and the service point is created.
 
 The **Assigned locations** accordion is updated when the service point is assigned to any locations in the location tree. 
