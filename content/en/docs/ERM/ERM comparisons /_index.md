@@ -75,7 +75,7 @@ Once you search for a comparison, the following information appear in the ERM co
 
 * **Name.** The name of the comparison.
 * **Running status.** The running status of the comparison.
-* **Outcome.** The outcome of the comparison as soon as the running status is set to *ended*
+* **Outcome.** The outcome of the comparison as soon as the running status is set to *ended*.
 * **Errors.** The number of errors that occured during the comparison.
 * **Started.** The time and date the comparison process started.
 * **Ended.** The time and date the comparison process ended.
