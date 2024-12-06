@@ -202,14 +202,17 @@ For resource sharing purposes, shared settings allow the same **Request cancella
 To create a shared setting for **Circulation**, follow these steps:
 
 
-1. In the **Settings** pane, select **Circulation**
-2. In the **Circulation** pane, select **Request cancellation reasons**. 
-3. Click the **New** button in the **Request cancellation reasons** pane. 
-4. Fill out the **Cancel reason**, **Description (internal)**, and **Description (public)** fields. 
-5. Check the box next to **Share**. 
-6. Click on **Save** in the **Actions** column. 
-7. A **Confirm share to all** window appears with the message, *Are you sure you want to share (Name of Note) with **ALL** members?*
-8. Click **Confirm** to save the shared Circulation note.
+1. Login as a user which is added to all tenants (central tenant and all clients).
+2. Change affiliation to the central tenant.
+3. Along the top of the page, click **Apps** and select **Consortium manager** from the drop down menu.
+4. In the **Settings** pane along the left hand side of the screen, select **Circulation**
+5. In the **Circulation** pane, select **Request cancellation reasons**. 
+6. Click the **New** button in the **Request cancellation reasons** pane. 
+7. Fill out the **Cancel reason**, **Description (internal)**, and **Description (public)** fields. 
+8. Check the box next to **Share**. 
+9. Click on **Save** in the **Actions** column. 
+10. A **Confirm share to all** window appears with the message, *Are you sure you want to share (Name of Note) with **ALL** members?*
+11. Click **Confirm** to save the shared Circulation note.
 
 
 To create a local (unshared) setting for **Circulation**, follow these steps: 
