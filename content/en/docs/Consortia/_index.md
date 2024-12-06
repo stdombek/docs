@@ -60,9 +60,10 @@ To view membership in **Consortium manager**, the user must be affiliated with t
     - To switch the **active affiliation**, click on the service point menu in the top right corner of the screen.
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
-    - Click **Save & close**. 
-2. Click on **Select members**. 
-3. In the **Select members** window, the list of members in the consortia is displayed. 
+    - Click **Save & close**.
+2. In the top navigation, click **Apps** and select **Consortium manager** from the drop down.
+3. Along the lefthand side of Consortium manager, click on **Select members**. 
+4. In the **Select members** window, the list of members in the consortia is displayed. 
 
 
 Members cannot currently be added or removed in Consortium manager, but membership details can be edited. For more information about editing membership, see [Edit member details](../settings/settings_consortium-manager/settings_consortium-manager/#edit-member-details). 
