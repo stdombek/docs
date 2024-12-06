@@ -108,12 +108,13 @@ When a user record is created in an ECS-enabled environment, the user is automat
 To assign an additional affiliation to a user record, follow these steps:
 
 
-1. Search for the user record. For more information, see [Users \> Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
-2. Click **Actions \> Edit** to edit the user record.
-3. Open the **Affiliations** accordion. 
-4. Click the **Assign/unassign** button.
-5. Check the box next to the **Name** of the member to assign the affiliation. One or more affiliations can be assigned in this step. 
-6. Click **Save & close**.
+1. Login as an account which is already added to the affiliation you want to add to another user.  A user can assign or unassign other users to any affiliation that they themself are added to.  If a user is added to only one affiliation of a client library, then they will not see the **Affiliation** accordion while editing other users.
+2. Starting from any affiliation (does not have to be the central tenant), search for the user record that you want to add to an affiliation. For more information, see [Users \> Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
+3. Click **Actions \> Edit** to edit the user record.
+4. Open the **Affiliations** accordion. 
+5. Click the **Assign/unassign** button.  
+6. Check the box next to the **Name** of the member to assign the affiliation. One or more affiliations can be assigned in this step. 
+7. Click **Save & close**.
 
 
 ### Unassign an affiliation
