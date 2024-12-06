@@ -1,7 +1,7 @@
 ---
 title: "eUsage"
 linkTitle: "eUsage"
-date: 2024-09-12
+date: 2024-12-06
 weight: 30
 tags: ["parenttopic"]
 ---
@@ -167,7 +167,7 @@ Note: Changing the harvesting configuration for a usage data provider doesn’t 
 2. In the **usage data provider details** pane, click **COUNTER statistics**.
 3. If reports are stored, they are displayed in a separate table for each year. Click on the year you want to view or click **Expand all years**.
 
-The **COUNTER statistics table** displays a row for each report type and a column for each month. If a report is stored or has tried to harvest, a **Report button** is displayed in the appropriate cell of the table. The buttons show the state of the report with an icon:
+The **COUNTER statistics table** displays a row for each report type and a column for each month, grouped by release. If a report is stored or has tried to harvest, a **Report button** is displayed in the appropriate cell of the table. The buttons show the state of the report with an icon:
 
 * **Green/checkmark.** A valid report is available for the month.
 * **Orange/exclamation mark.** The report tried to harvest but failed. The harvester tries again in the next harvesting cycle.
@@ -311,10 +311,18 @@ To filter usage data providers by the aggregator used for the harvesting, select
 
 ### Report types
 
-To search for usage data providers for which reports of a specific type are stored in FOLIO,  follow these steps:
+To search for usage data providers for which reports of a specific type are stored in FOLIO, follow these steps:
 
 1. In the **Search & filter** pane, click **Report types**.
 2. Select the type(s) from the drop-down list. Your results appear in the usage data provider pane.
+
+
+### Report releases
+
+To search for usage data providers with specific versions of COUNTER reports that have been saved, follow these steps:
+
+1. In the **Search & filter** pane, click **Report releases**.
+2. Select the versions of COUNTER reports from the drop-down list. Your results appear in the usage data provider pane. The list shows usage data providers that have reports with one of the selected versions.
 
 
 ### Has failed report(s)
