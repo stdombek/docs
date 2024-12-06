@@ -145,24 +145,26 @@ Users may be assigned permissions for any assigned affiliations. To manage user 
 To assign affiliation permissions to a user record, go to the **Users** app and follow these steps:
 
 
-1. Search for the user record. For more information, see [Users \> Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
-2. Click **Actions \> Edit** to edit the user record.
-3. Expand the **User permissions** accordion.
-4. Select the **Affiliation** from the drop-down menu. 
-5. Click on **Add permissions**. 
-6. Select the permission(s) to assign by checking the box next to the permission or permission set name. You can also search and filter for a permission or permission set in the **Search & filter** pane and check the box next to its name in the **Permissions** pane. 
-7. Click **Save & close** to save the permissions to the user record. 
+1. Login as an account which is already added to the affiliation on which you want to edit a user's permissions.  If a user is added to only one affiliation of a client library, then they will not see the **Affiliation** accordion while editing other users, nor will they see the **Affiliation** drop down menu options while editing permissions on another user.
+2. Search for the user record. For more information, see [Users \> Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
+3. Click **Actions \> Edit** to edit the user record.
+4. Expand the **User permissions** accordion.
+5. Select the affiliation you want to edit permissions in from the **Affiliation** drop-down menu. 
+6. Click on **Add permissions**. 
+7. Select the permission(s) to assign by checking the box next to the permission or permission set name. You can also search and filter for a permission or permission set in the **Search & filter** pane and check the box next to its name in the **Permissions** pane. 
+8. Click **Save & close** to save the permissions to the user record. 
 
 
 To remove affiliation permissions from a user’s record, go to the **Users** app and follow these steps: 
 
 
-1. Search for the user record. For more information, see [Users \> Search for user records](../users/#search-for-user-records) for user records. 
-2. Select the user record. It will open in a new pane.
-3. Click **Actions \> Edit**.
-4. Expand the **User permissions** accordion.
-5. Select the **Affiliation** in the Affiliation drop-down menu. 
-6. Unassign permissions by any of these methods: 
+1. Login as an account which is already added to the affiliation on which you want to edit a user's permissions.  If a user is added to only one affiliation of a client library, then they will not see the **Affiliation** accordion while editing other users, nor will they see the **Affiliation** drop down menu options while editing permissions on another user.
+2. Search for the user record. For more information, see [Users \> Search for user records](../users/#search-for-user-records) for user records. 
+3. Select the user record. It will open in a new pane.
+4. Click **Actions \> Edit**.
+5. Expand the **User permissions** accordion.
+6. Select the **Affiliation** in the Affiliation drop-down menu. 
+7. Unassign permissions by any of these methods: 
 * Click on the **X icon** next to a permission to remove the permission for that affiliation.
 *  Or click on **Add permission** and uncheck the box next to **Name** in the **Permissions** window to unassign all of the permissions for that affiliation with one click.
 * To remove all permissions for an affiliation, click on the **Unassign all permissions** button or [unassign the affiliation](#unassign-an-affiliation). All permissions are removed for that user in that member’s tenant.
