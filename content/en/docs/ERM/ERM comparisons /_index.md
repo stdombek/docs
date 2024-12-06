@@ -94,8 +94,8 @@ To view a comparison report, click on the comparison whose report you would like
 * **Title.** The title of each e-resource that is whether in one or the other or both packages, shown in alphabetical order.
 * **Available via.** The name of the platform of the specific e-resource and a link to the e-resource on this platform.
 * **Coverage.** If available, the start date and/or end date of the e-resource. Coverage is typically only displayed for e-Journals.
-* **Agreement/Package #1 on MM/DD/YYYY.** The first comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource.
-* **Agreement/Package #2 on MM/DD/YYYY.** The second comparison point with the name of the Package or Agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource. 
+* **Agreement/Package #1 on MM/DD/YYYY.** The first comparison point with the name of the package or agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource.
+* **Agreement/Package #2 on MM/DD/YYYY.** The second comparison point with the name of the package or agreement and date of the comparison. The field will display a check mark circled in green if the comparison point contains the e-resource and an X circled in red if the comparison point does not contain the e-resource. 
 * **Overlap.**
   * **None.** The e-resource does not overlap. The title is only found in one of the comparison points. No overlap will be displayed in a red color.
   * **Full.** The e-resource overlaps. The title including its metadata is found in both comparison points. Full overlap will be displayed in a green color.
