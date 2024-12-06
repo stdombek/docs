@@ -126,13 +126,14 @@ A user's **primary affiliation** and affiliation with the central tenant cannot 
 To unassign an affiliation with a member, follow these steps:
 
 
-1. Search for the user record. For more information, see [Users > Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
-2. Click **Actions \> Edit** to edit the user record.
-3. Open the **Affiliations** accordion. The user’s primary affiliation appears in bold type.  
-4. Click the **Assign/unassign** button. 
-5. Find the member in the **Affiliations** window or use the **Search & filter** pane to search for a member or filter the list by **Affiliation assignment status**. 
-6. Uncheck the box next to the **Name** of the member to unassign, or remove, the affiliation. One or more affiliations to member libraries, excluding the primary affiliation and affiliation with central tenant, can be unassigned in this step. 
-7. Click **Save & close**.
+1. Login as an account which is already added to the affiliation you want to remove from another user.  A user can assign or unassign other users to any affiliation that they themself are added to.  If a user is added to only one affiliation of a client library, then they will not see the **Affiliation** accordion while editing other users.
+2. Search for the user record. For more information, see [Users > Search for user records](../users/#search-for-user-records). Select the user record. It will open in a new pane.
+3. Click **Actions \> Edit** to edit the user record.
+4. Open the **Affiliations** accordion. The user’s primary affiliation appears in bold type.  
+5. Click the **Assign/unassign** button. 
+6. Find the member in the **Affiliations** window or use the **Search & filter** pane to search for a member or filter the list by **Affiliation assignment status**. 
+7. Uncheck the box next to the **Name** of the member to unassign, or remove, the affiliation. One or more affiliations to member libraries, excluding the primary affiliation and affiliation with central tenant, can be unassigned in this step. 
+8. Click **Save & close**.
 
 
 ### Assign or unassign user permissions for an affiliation
