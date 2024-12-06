@@ -50,7 +50,7 @@ You can also search for comparisons by selecting any of the filters in the **Sea
 To filter comparisons by their status, select one of the following:
 
 * **Ended.** The comparison of the two comparison points is finished. The outcome/result can be checked.
-* **In progress.** The comparison of the two comparison points is running right now.
+* **In progress.** The comparison of the two comparison points is currently running.
 * **Queued.** The comparison of the two comparison points has not started yet. It will be automatically started at some point.
 
 ### Result
