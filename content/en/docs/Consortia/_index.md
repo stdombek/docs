@@ -61,7 +61,7 @@ To view membership in **Consortium manager**, the user must be affiliated with t
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. Click on the **Select members**. 
+2. Click on **Select members**. 
 3. In the **Select members** window, the list of members in the consortia is displayed. 
 
 
@@ -77,7 +77,7 @@ User records include the same fields in all FOLIO tenants. However, **user type*
 In Consortium manager, **user types** include: 
 
 
-* **Staff**: Users who are employed by a library and must log into FOLIO to conduct library work. Staff accounts are assigned a primary tenant and a unique username. If the staff account is affiliated with multiple tenants, the username is used to log in at a single service point.
+* **Staff**: Users who are employed by a library and must log into FOLIO to conduct library work. Staff accounts are assigned a primary tenant and a unique username. If the staff account is affiliated with multiple tenants, the username is used to log in at a single URL, and then use a drop down menu in the top right to change affiliation while logged in.
 * **Patron**: Users who borrow library items. Patrons have user records in the Users app but do not log into FOLIO to manage their library accounts. They are assigned a primary tenant only and do not have any assigned affiliations or user permissions for other tenants in the consortium.
 * **Shadow**: Shadow accounts serve as a representation of a user record and are automatically created by the FOLIO system in the central tenant whenever a staff user record is created. Shadow accounts display a user’s assigned permissions for a member tenant and allow management of permissions for the user record outside of the central tenant. If an affiliation is removed, the shadow account becomes inactive. If the staff user is deleted from their primary tenant, all of the user’s shadow accounts are also deleted from the member tenants.
 * **System**: At least one system-level account must be in place in order to assign other roles and permissions. 
@@ -259,7 +259,7 @@ For troubleshooting purposes, the central tenant can view imported records in an
 To view a data import log for a member library, follow these steps: 
 
 
-1. Select the central, or primary, tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
+1. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
@@ -324,7 +324,7 @@ To create a shared setting for Inventory, follow these steps:
 7. Check the box next to **Share**. 
 8. Click on **Save** in the **Actions** column. 
 9. A **Confirm share to all** modal appears with the message, *Are you sure you want to share (Name of Inventory Setting) with **ALL** members?*.
-10. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* appears in the bottom right corner. 
+10. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* message appears in the bottom right corner. 
 
 
 To create a local (unshared) setting for Inventory, follow these steps: 
