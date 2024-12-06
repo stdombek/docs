@@ -71,7 +71,7 @@ To filter for comparisons that contain specific packages or the components of a 
 
 ## Viewing a comparison
 
-Once you search for a comparison, the following information apprear in the ERM comparisons pane:
+Once you search for a comparison, the following information appear in the ERM comparisons pane:
 
 * **Name.** The name of the comparison.
 * **Running status.** The running status of the comparison.
