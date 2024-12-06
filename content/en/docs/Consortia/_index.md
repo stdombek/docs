@@ -272,7 +272,7 @@ To view a data import log for a member library, follow these steps:
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. In **Consortium manager**, select **Data import** in the **Settings** pane. 
+2. In **Apps** **Consortium manager**, select **Data import** in the **Settings** pane. 
 3. In the **Data import** pane, select the **Member** for which you wish to view the logs. 
 4. The **Data import** logs are listed in the **Data import** pane with these identifiers:
     - **File name**: File name assigned by the FOLIO system. 
@@ -323,16 +323,21 @@ For Inventory purposes, shared settings allow the following **Inventory** settin
 To create a shared setting for Inventory, follow these steps:
 
 
-1. In the **Settings** pane, select **Inventory**
-2. In the **Inventory** pane, select the appropriate setting in the **Instances**, **Holdings**, **Items**, **Instances, Holdings, Items** or **Holdings, Items** sections. 
-3. Click on the **Select members** button in the **Request cancellation reasons** pane. Check the box in the **Name** column next to the member’s name to select the member for whom the local (unshared) setting will be created.
-4. Confirm the number of selected members. In the **Settings for selected members can be modified at the same time** window, the number of members selected will display at the top of the window. 
-5. Click the **New** button. 
-6. Fill out the **Name** field for the new setting.
-7. Check the box next to **Share**. 
-8. Click on **Save** in the **Actions** column. 
-9. A **Confirm share to all** modal appears with the message, *Are you sure you want to share (Name of Inventory Setting) with **ALL** members?*.
-10. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* message appears in the bottom right corner. 
+1. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
+    - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
+    - Select **switch active affiliation** in the drop-down menu. 
+    - Select the primary member from the **Consortium members** menu. 
+    - Click **Save & close**.
+2. In **Apps** **Consortium manager**, select select **Inventory** in the **Settings** pane.
+3. In the **Inventory** pane, select the appropriate setting in the **Instances**, **Holdings**, **Items**, **Instances, Holdings, Items** or **Holdings, Items** sections. 
+4. Click on the **Select members** button in the **Request cancellation reasons** pane. Check the box in the **Name** column next to the member’s name to select the member for whom the local (unshared) setting will be created.
+5. Confirm the number of selected members. In the **Settings for selected members can be modified at the same time** window, the number of members selected will display at the top of the window. 
+6. Click the **New** button. 
+7. Fill out the **Name** field for the new setting.
+8. Check the box next to **Share**. 
+9. Click on **Save** in the **Actions** column. 
+10. A **Confirm share to all** modal appears with the message, *Are you sure you want to share (Name of Inventory Setting) with **ALL** members?*.
+11. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* message appears in the bottom right corner. 
 
 
 To create a local (unshared) setting for Inventory, follow these steps: 
