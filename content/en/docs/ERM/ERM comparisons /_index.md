@@ -58,7 +58,7 @@ To filter comparisons by their status, select one of the following:
 To filter comparisons by their result, select one of the following:
 
 * **Failure.** The comparison of the two comparison points was not successful. The comparison report is empty.
-* **Interrupted.** The comparison of the comparison points was interrupted.
+* **Interrupted.** The comparison of the two comparison points was interrupted.
 * **Partial success.** The comparison of the two comparison points was partially successful.
 * **Success.** The comparison of the two comparison points was successful. A comparison report can be viewed. The report only contains titles if at least one of the two comparison points contained titles.
 
