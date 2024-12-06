@@ -239,14 +239,15 @@ For troubleshooting purposes, the central tenant can view data export logs in an
 To view a data export log for a member library, follow these steps: 
 
 
-1. Select the central, or primary, tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
+1. Login as a user which is added to the tenant whose data you want to look at.
+2. Select the central, or primary, tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. In **Apps** **Consortium manager**, select **Data export** in the **Settings** pane. 
-3. In the **Data export** pane, use the **Member** drop down to select the tenant for which you wish to view the logs. 
-4. The **Data export** logs are listed in the **Data export** pane with these identifiers:
+3. In **Apps** **Consortium manager**, select **Data export** in the **Settings** pane. 
+4. In the **Data export** pane, use the **Member** drop down to select the tenant for which you wish to view the logs. 
+5. The **Data export** logs are listed in the **Data export** pane with these identifiers:
     - **File name**: File name assigned by the FOLIO system. 
     - **Status**: Completed, Fail, or Completed with errors
     - **Total**: Number of records requested for export
@@ -267,14 +268,15 @@ For troubleshooting purposes, the central tenant can view imported records in an
 To view a data import log for a member library, follow these steps: 
 
 
-1. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
+1. Login as a user which is added to the tenant whose data you want to look at.
+2. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. In **Apps** **Consortium manager**, select **Data import** in the **Settings** pane. 
-3. In the **Data import** pane, select the **Member** for which you wish to view the logs. 
-4. The **Data import** logs are listed in the **Data import** pane with these identifiers:
+3. In **Apps** **Consortium manager**, select **Data import** in the **Settings** pane. 
+4. In the **Data import** pane, select the **Member** for which you wish to view the logs. 
+5. The **Data import** logs are listed in the **Data import** pane with these identifiers:
     - **File name**: File name assigned by the FOLIO system. 
     - **Status**: Completed, Fail, or Completed with errors
     - **Records**: Number of records imported
@@ -323,21 +325,22 @@ For Inventory purposes, shared settings allow the following **Inventory** settin
 To create a shared setting for Inventory, follow these steps:
 
 
-1. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
+1. Login as a user which is added to all tenants (central tenant and all clients).
+2. Select the central, or primary tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected: 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**.
-2. In **Apps** **Consortium manager**, select select **Inventory** in the **Settings** pane.
-3. In the **Inventory** pane, select the appropriate setting in the **Instances**, **Holdings**, **Items**, **Instances, Holdings, Items** or **Holdings, Items** sections. 
-4. Click on the **Select members** button in the **Request cancellation reasons** pane. Check the box in the **Name** column next to the member’s name to select the member for whom the local (unshared) setting will be created.
-5. Confirm the number of selected members. In the **Settings for selected members can be modified at the same time** window, the number of members selected will display at the top of the window. 
-6. Click the **New** button. 
-7. Fill out the **Name** field for the new setting.
-8. Check the box next to **Share**. 
-9. Click on **Save** in the **Actions** column. 
-10. A **Confirm share to all** modal appears with the message, *Are you sure you want to share (Name of Inventory Setting) with **ALL** members?*.
-11. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* message appears in the bottom right corner. 
+3. In **Apps** **Consortium manager**, select select **Inventory** in the **Settings** pane.
+4. In the **Inventory** pane, select the appropriate setting in the **Instances**, **Holdings**, **Items**, **Instances, Holdings, Items** or **Holdings, Items** sections. 
+5. Click on the **Select members** button in the **Request cancellation reasons** pane. Check the box in the **Name** column next to the member’s name to select the member for whom the local (unshared) setting will be created.
+6. Confirm the number of selected members. In the **Settings for selected members can be modified at the same time** window, the number of members selected will display at the top of the window. 
+7. Click the **New** button. 
+8. Fill out the **Name** field for the new setting.
+9. Check the box next to **Share**. 
+10. Click on **Save** in the **Actions** column. 
+11. A **Confirm share to all** modal appears with the message, *Are you sure you want to share (Name of Inventory Setting) with **ALL** members?*.
+12. Click **Keep editing** to make additional changes or click **Confirm** to save the setting. A *(Name of Inventory Setting) successfully **created** for **ALL** libraries* message appears in the bottom right corner. 
 
 
 To create a local (unshared) setting for Inventory, follow these steps: 
@@ -382,32 +385,35 @@ To view shared permissions, follow these steps:
 To create a shared permission, follow these steps: 
 
 
-1. Select the central tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected, switch the active affiliation. 
+1. Login as a user which is added to all tenants (central tenant and all clients).
+2. Select the central tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected, switch the active affiliation. 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. In **Consortium manager**, select **Users** in the **Settings** pane. 
-3. In the **Users** pane, select **Permission sets**. 
-4. In the **Permission sets** pane, click ** the **Select members** button and check the box next to the name of each member for which the new permission will be created. 
-5. Click **Actions \> New**.
-6. In the **New permission set** window, add the **Permission set name** and a **Description**. 
-7. Click the **Add permission** button. The new permission is added for each member in the consortium. 
+3. In **Consortium manager**, select **Users** in the **Settings** pane. 
+4. In the **Users** pane, select **Permission sets**. 
+5. In the **Permission sets** pane, click ** the **Select members** button and check the box next to the name of each member for which the new permission will be created. 
+6. Click **Actions \> New**.
+7. In the **New permission set** window, add the **Permission set name** and a **Description**. 
+8. Click the **Add permission** button. The new permission is added for each member in the consortium.
+9. Warning:  Individual clients can locally edit the permission sets, depending on permissions given to a client.  In a consortial environment where both the consortium and the members are anticipated to create and manage permission sets, it is recommended to create all permission sets with a naming scheme.  For example, the permission sets managed centrally might have names which all start with the consortium's initials, and the onboarding process to new systems and admin employees at member institutions might include instructions to never edit settings beginning with those initials.
 
 
 To compare shared user permission sets between two members, follow these steps: 
 
 
-1. Select the central, or primary, tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected, switch the active affiliation. 
+1. Login as a user which is added to the central tenant and to the two clients you want to compare.
+2. Select the central, or primary, tenant as the **active affiliation** in the top right corner if it is not already selected. If the central tenant is not selected, switch the active affiliation. 
     - Click on the user profile icon in the top right corner of the screen to switch the **active affiliation**. 
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. Select **Users** in the **Settings** pane. 
-3. In the **Users** pane, select **Permission sets**. 
-4. In the **Permission sets** pane, click the **Actions** button and select **Compare**.
-5. The **Compare** window is divided into 2 panes, one for each member. Select the **Member** and **Permission set** for each member as appropriate.
-6. The lists of assigned permissions are compared side-by-side in the **Assigned permissions** accordion. Any assigned permissions that are unique to a member tenant are highlighted in yellow. Any assigned permissions that are common between member tenants are not highlighted. 
+3. Select **Apps** along the top navigation, then **Settings** in the drop down menu, then **Users** along the left hand side. 
+4. In the **Users** pane, select **Permission sets**. 
+5. In the **Permission sets** pane, click the **Actions** button and select **Compare**.
+6. The **Compare** window is divided into 2 panes, one for each member. Select the **Member** and **Permission set** for each member as appropriate.
+7. The lists of assigned permissions are compared side-by-side in the **Assigned permissions** accordion. Any assigned permissions that are unique to a member tenant are highlighted in yellow. Any assigned permissions that are common between member tenants are not highlighted. 
 
 
 To edit permissions assigned to a shared user permission set, follow these steps:
