@@ -62,7 +62,7 @@ To view membership in **Consortium manager**, the user must be affiliated with t
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**.
 2. In the top navigation, click **Apps** and select **Consortium manager** from the drop down.
-3. Along the lefthand side of Consortium manager, click on **Select members**. 
+3. Towards the top right within Consortium manager, click on the **Select members** button. 
 4. In the **Select members** window, the list of members in the consortia is displayed. 
 
 
