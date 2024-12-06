@@ -80,7 +80,7 @@ Once you search for a comparison, the following information appear in the ERM co
 * **Started.** The time and date the comparison process started.
 * **Ended.** The time and date the comparison process ended.
 
-In the search results, click a comparison to view it. The comparisons details pane displays the following additional information:
+In the search results, click a comparison to view it. The **comparisons details** pane displays the following additional information:
 
 * **Comparison report.** The listing of the compared titles with the information in which comparison point the titles are and whether they overlap or not.
 * **Comparison points.** The listing of the e-resouce collections (agreements and/or packages) that were being compared.
@@ -89,7 +89,7 @@ In the search results, click a comparison to view it. The comparisons details pa
 
 ## Viewing a comparison report
 
-To view a comparison report, click on the comparison whose report you would like to view. In the cmoparisons details pane, click **View comparisons report**. The report displays the following information:
+To view a comparison report, click on the comparison whose report you would like to view. In the **comparisons details** pane, click **View comparisons report**. The report displays the following information:
 
 * **Title.** The title of each e-resource that is whether in one or the other or both packages, shown in alphabetical order.
 * **Available via.** The name of the platform of the specific e-resource and a link to the e-resource on this platform.
