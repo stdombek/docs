@@ -174,7 +174,7 @@ To remove affiliation permissions from a user’s record, go to the **Users** ap
 ## Shared Settings
 
 
-In **Consortium manager**, some settings can be modified and centrally managed for all member libraries through the **Share** option. By sharing settings, member libraries apply a controlled vocabulary to ensure consistency in library records and transactions across the consortium. 
+In **Consortium manager**, some settings can be modified and centrally managed for all member libraries through the **Share** option. By sharing settings, member libraries apply a controlled vocabulary to ensure consistency in library records and transactions across the consortium. Centralized controlled vocabularies can aid or enable search features in a federated search of all members, for example, by allowing a facet on search to work for all member records at the same time in a federated search environment.
 
 
 The sharing option cannot be edited once the setting is initially created and saved. To change the sharing option in a setting, each of the relevant settings must first be deleted and then a new setting created with the appropriate sharing option. The **Share** option must be set when the setting is created and saved, and cannot be edited after the setting is initially saved. If **Share** is selected, the data fields, **Source**,  **Member libraries**, and **Update** display as **consortium**,  **ALL**, and **System Consortia**, respectively, indicating the setting can be managed in Consortium manager. 
