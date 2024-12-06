@@ -1,7 +1,7 @@
 ---
 title: "Receiving"
 linkTitle: "Receiving"
-date: 2024-05-08
+date: 2024-12-09
 weight: 50
 tags: ["parenttopic"]
 ---
@@ -735,6 +735,26 @@ This applies only to receiving records where the corresponding purchase order li
 3. Print or save, as needed.
 
 ## Binding and unbinding pieces
+Bindery fuctionality in FOLIO allows users to create an item record representing multiple received pieces, including pieces that may already have a connected item.
+
+A library will indicate that a receiving record is eligible for binding by selecting the **Bindery active** checkbox on the corresponding POL. These receiving records may be easily identified using the **Bindery active** filter in the Receiving app.
+
+To bind pieces, use the following steps:
+1. Using the **Search & filter** pane, find the receiving title for which you want to bind pieces and select it.
+2. In the Received section of the receiving title, click on **Actions > Bind pieces**.
+3. On the screen that appears, use the checkboxes in the left-hand column to select pieces to bind.
+4. Optional: Assign a unique item **Barcode** for the bound piece.
+5. Optional: Assign an item **Call number** for the bound piece. If a call number is not assigned, the call number associated with the corresponding holdings record will be used as the effective call number for the item.
+6. Select a **Material type** to assign to the resulting item record.
+7. Select a **Permanent loan type** to assign to the resulting item record.
+8. Select a **Permanent location** for the item. Use the dropdown menu to select and existing holdings record or use the **Create new holdings for location** lookup option if a new holdings record is required for the item.
+9. Click **Bind**.
+10. **Bound items** will appear in a dedicated section at the bottom of the receiving record. Clicking on the hyperlinked **Barcode** will route to the item record in the Inventory app, which includes a section for **Bound pieces data**. **Please note:** The item record will have a status of 'In process'.
+
+To unbind pieces, use the following steps:
+1. Using the **Search & filter** pane, find the receiving title for which you want to unbind pieces and select it.
+
+The **Actions** menu contains filters for 'Bound' and 'Not bound' pieces to facilitate the binding workflow in the app. (pick up at 6 minutes)
 
 ## Unreceiving an piece
 
@@ -759,7 +779,7 @@ If a piece has not arrived from the vendor by the expected receipt date or is da
 
 A library may configure a **Claiming interval** on the Organization record for the vendor. A **Claiming interval** represents the number of days after a piece's **Expected receipt date** when an unreceived piece will be marked **Late**. If a **Claiming interval** is entered on the Organization record, this will appear as the default claiming interval on purchase order lines associated with the vendor, but the default may be changed when the **Claiming active** box is checked on the purchase order line. The interval may also be changed on each receiving title; for example, if a package POL has mutliple titles that should each have different claiming intervals assigned.
 
-Once a piece is marked **Late**, a library may wish to send a claim to the vendor. In the Quesnelia release of FOLIO, pieces can be marked as **Claim sent**, but automatic transmission to the vendor is not yet implemented. A library may wish to filter by **Receiving status** and use the **Export results (CSV)** option to send information to their vendor to support the claim.
+Once a piece is marked **Late**, a library may wish to send a claim to the vendor. In the current release of FOLIO, pieces can be marked as **Claim sent**, but automatic transmission to the vendor is not yet implemented. A library may wish to filter by **Receiving status** and use the **Export results (CSV)** option to send information to their vendor to support the claim.
 
 To update a piece to 'Claim sent', use the following steps:
 1. Using the **Search & filter** pane, find the receiving title for which you want to send a claim and select it.
