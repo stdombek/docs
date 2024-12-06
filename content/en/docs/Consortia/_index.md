@@ -244,8 +244,8 @@ To view a data export log for a member library, follow these steps:
     - Select **switch active affiliation** in the drop-down menu. 
     - Select the primary member from the **Consortium members** menu. 
     - Click **Save & close**. 
-2. In **Consortium manager**, select **Data export** in the **Settings** pane. 
-3. In the **Data export** pane, select the **Member** for which you wish to view the logs. 
+2. In **Apps** **Consortium manager**, select **Data export** in the **Settings** pane. 
+3. In the **Data export** pane, use the **Member** drop down to select the tenant for which you wish to view the logs. 
 4. The **Data export** logs are listed in the **Data export** pane with these identifiers:
     - **File name**: File name assigned by the FOLIO system. 
     - **Status**: Completed, Fail, or Completed with errors
