@@ -509,22 +509,30 @@ This section displays a table list of the pieces of the order that are still exp
 3. Deselect any columns that you want to remove from the Expected table list.
 4. Your selections persist until you logout of FOLIO.
 
-
-
 ### Received
 
-This section displays a table list of the pieces of the order that have been received. To customize the columns that appear in the table list, follow these steps:
+This section displays a table list of the pieces of the order that have been received. See [Receiving a piece](#receiving-a-piece) for more information. To customize the columns that appear in the table list, follow these steps:
 
 1. In the Received section of the receiving title, select the **Actions** button.  
 2. The listed columns are all selected by default under **Show columns** in the Actions list.  
 3. Deselect any columns that you want to remove from the Received table list.
 4. Your selections persist until you logout of FOLIO.
 
+### Routing lists
+This section contains information about and the ability to add to a receiving record. See [Routing pieces](#routing-pieces) for more information. This section will only appear on receiving records with an order format of 'Physical Resource' or 'P/E Mix'.
 
+### Unreceivable
+This section displays a table list of the pieces of the order that have been marked unreceivable. See [Marking a piece unreceivable](#marking-a-piece-unreceivable) for more information. To customize the columns that appear in the table list, follow these steps:
+
+1. In the Unreceivable section of the receiving title, select the **Actions** button.  
+2. The listed columns are all selected by default under **Show columns** in the Actions list.  
+3. Deselect any columns that you want to remove from the Unreceivable table list.
+4. Your selections persist until you logout of FOLIO.
+
+### Bound items
+This section displays a table list of the pieces of the order that have been bound. See [Binding and unbinding pieces](#binding-and-unbinding-pieces) for more information. 
 
 ## Editing receiving title information
-
-
 
 1. Find the receiving title you want to edit and select it.
 2. In the receiving title pane, click **Edit**.
@@ -739,7 +747,7 @@ Bindery fuctionality in FOLIO allows users to create an item record representing
 
 A library will indicate that a receiving record is eligible for binding by selecting the **Bindery active** checkbox on the corresponding POL. These receiving records may be easily identified using the **Bindery active** filter in the Receiving app.
 
-To bind pieces, use the following steps:
+**To bind pieces without corresponding item records, use the following steps:**
 1. Using the **Search & filter** pane, find the receiving title for which you want to bind pieces and select it.
 2. In the Received section of the receiving title, click on **Actions > Bind pieces**.
 3. On the screen that appears, use the checkboxes in the left-hand column to select pieces to bind.
@@ -749,12 +757,29 @@ To bind pieces, use the following steps:
 7. Select a **Permanent loan type** to assign to the resulting item record.
 8. Select a **Permanent location** for the item. Use the dropdown menu to select and existing holdings record or use the **Create new holdings for location** lookup option if a new holdings record is required for the item.
 9. Click **Bind**.
-10. **Bound items** will appear in a dedicated section at the bottom of the receiving record. Clicking on the hyperlinked **Barcode** will route to the item record in the Inventory app, which includes a section for **Bound pieces data**. **Please note:** The item record will have a status of 'In process'.
 
-To unbind pieces, use the following steps:
+**Bound items** will appear in a dedicated section at the bottom of the receiving record. Clicking on the hyperlinked **Barcode** will route to the item record in the Inventory app, which includes a section for **Bound pieces data**. **Please note:** The item record will have a status of 'In process'.
+
+**To bind pieces with corresponding item records, use the following steps:**
+1. Using the **Search & filter** pane, find the receiving title for which you want to bind pieces and select it.
+2. In the Received section of the receiving title, click on **Actions > Bind pieces**.
+3. On the screen that appears, use the checkboxes in the left-hand column to select pieces to bind.
+4. Optional: Assign a unique item **Barcode** for the bound piece.
+5. Optional: Assign an item **Call number** for the bound piece. If a call number is not assigned, the call number associated with the corresponding holdings record will be used as the effective call number for the item.
+6. Select a **Material type** to assign to the resulting item record.
+7. Select a **Permanent loan type** to assign to the resulting item record.
+8. Select a **Permanent location** for the item. Use the dropdown menu to select and existing holdings record or use the **Create new holdings for location** lookup option if a new holdings record is required for the item.
+9. Click **Bind**.
+10. If the pre-existing item records have corresponding requests, a modal will appear that says, 'There are requests on the following pieces: **Item barcode(s). Transfer requests** to the new record?' Click **Cancel** to return to the binding screen. Click **Transfer** to associate the requests with the item record for the newly bound item. Click **Do not transfer** to indicate that the request should remain associated with the original item. **Please note:** These requests will not be fulfilled since the associated item will no longer circulate independently. Library staff will need to manually resolve these requests.
+
+**Bound items** will appear in a dedicated section at the bottom of the receiving record. Clicking on the hyperlinked **Barcode** will route to the item record in the Inventory app, which includes a section for **Bound pieces data**. **Please note:** The item record will have a status of 'In process'.
+
+**To unbind pieces, use the following steps:**
 1. Using the **Search & filter** pane, find the receiving title for which you want to unbind pieces and select it.
-
-The **Actions** menu contains filters for 'Bound' and 'Not bound' pieces to facilitate the binding workflow in the app. (pick up at 6 minutes)
+2. In the Bound items section of the receiving title, click on the barcode for the bound item. This will route you to the item record in Inventory.
+3. Scroll to the Bound pieces data section of the item record and click the **X** to the right of the piece you wish to unbind.
+4. In the confirmation modal, click **Remove**.
+5. If all bound pieces are removed and the item record has no requests, the [item record can be deleted](../../metadata/inventory/#deleting-an-item-record).
 
 ## Unreceiving an piece
 
