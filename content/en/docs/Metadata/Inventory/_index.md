@@ -27,6 +27,7 @@ The permissions listed below allow you to interact with the Inventory app and de
 The following are all the Inventory permissions:
 
 -   **Inventory: All permissions.** This permission allows the user to perform all actions in Inventory.
+-   **Inventory: Create and download In transit items report.** This permission allows the user to export a report of any items with the status "in transit."
 -   **Inventory: Create order from instance.** This permission allows the user to initiate the creation of a new purchase order or a new purchase order line (in the Orders app) from an Instance record in Inventory.
 -   **Inventory: Enable staff suppress facet.** This permission allows the user to search and view instance records that are suppressed for staff.
 -   **Inventory: Import single bibliographic records.** This permission allows the user to import and overlay Instance records from external sources. External sources must be configured in Settings.
@@ -695,6 +696,7 @@ The Item data section contains additional information on the item.
 
 The Enumeration data section contains enumeration information for any serials or multipart monographs.
 
+-   **Display summary.** A summary of the descriptive information for the numbering scheme of a serial. This field can be populated automatically using the Serials app for predictive patterns or manually using the Receiving app.
 -   **Enumeration.** The descriptive information for the numbering scheme of a serial, usually identified by level and a descriptive caption. For example, level 0 = v. and level 1 = no. This means that each issue of the serial has a volume and an issue number that would appear (v.71:no.2-4).
 -   **Chronology.** The descriptive information for the dating scheme of a serial, usually identified by level. For example, level 0 = year level 1 = month. This means that each issue of the serial has a month and a year on each issue (1985:July-Dec.)
 -   **Volume.** Volume is intended for multipart monographs. For example, a biography of George Bernard Shaw in three volumes.
@@ -878,7 +880,8 @@ To search, first select the record type (instance, holdings, or item) then enter
 
 When you browse records in the Inventory App, the **Browse** toggle is highlighted and then you can select a browse option:
 
--   **Call numbers.** The call number browse is based on the shelving order element in the item record; only instances with item records will be retrieved. You can choose to browse all call numbers, or to browse only those call numbers with a particular call number classification (e.g., Dewey Decimal, Library of Congress, Local, National Library of Medicine, SuDoc or Other Scheme). Note that call number types must first be configured in Settings for Inventory, then specified for an item call number when each item record is created, before it is possible to browse by call number classification.
+-   **Call numbers (item).** The call number browse is based on the shelving order element in the item record; only instances with item records will be retrieved. You can choose to browse all call numbers, or to browse only those call numbers with a particular call number classification (e.g., Dewey Decimal, Library of Congress, Local, National Library of Medicine, SuDoc or Other Scheme). Note that call number types must first be configured in Settings for Inventory, then specified for an item call number when each item record is created, before it is possible to browse by call number classification.
+-   **Classification (instance).** The classification browse is based on the classification element in the instance record. You can choose to browse all classifications, or to browse only a particular classification (e.g., Dewey Decminal, Library of Congress, etc.) Note that classification types must first be configured in Settings for Inventory, then specified within the classification element when each instance record is created, before it is possible to browse by instance classification.
 -   **Contributors.** The contributor browse is based on the contributor field in instance records. Names should be entered as they appear in the contributor field.
 -   **Subjects.** The subject browse is based on the subject field in instance records. Subjects should be entered as they appear in the subject field.
 
