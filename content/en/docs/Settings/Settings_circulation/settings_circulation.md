@@ -35,6 +35,7 @@ The following are all the Circulation Settings permissions:
 * **Settings (Circ): Can view lost item fee policies:** Allows the user to view lost item fee policies but does not allow create, edit or delete.
 * **Settings (Circ): Can view overdue fine policies:** Allows the user to view overdue fine policies but does not allow create, edit or delete.
 * **Settings (Circ): View circulation rules:** Allows a user to view circulation rules but does not allow them to create, edit or delete rules.
+* **Settings (Circulation): Can view all circulation settings:** Allows the user to view all the circulation settings but does not allow editing of circulation settings.
 * **Settings (Circulation): Can view staff slips:** Allows the user to view staff slips but does not  allow editing of staff slips.
 * **Settings (Circulation): Title level request edit:** Allows the user to enable, disable and configure title-level requesting. Note that title level requesting cannot be disabled via settings if there are any open title level requests.
 
@@ -141,6 +142,22 @@ Staff slips allow you to configure the information that appears on your staff sl
 * **Search slip (Hold requests).** This slip is available in the Requests app, when you generate the [search slip report.](../../../access/requests/requests/#printing-hold-request-search-slips)
 * **Transit.** This slip is available in the Check in app, when you check in an item that is in transit to another location.
 
+### Using tokens with staff slips
+
+Staff slips have eight categories of tokens, listed in the table below. All of the categories appear as options in the staff slip editor, but some categories will only populate with information for some types of staff slips.
+
+| **Token Category**           | **Populates with these staff slips**                                                          | **Does not populate with these staff slips**                                 |
+|:------------------------------|:-----------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------|
+|     Item                     |     Due date receipt, Hold, Pick slip, Request delivery, Search slip (Hold requests), Transit |                                                                              |
+|     Effective location       |     Hold, Pick slip, Request delivery, Search slip (Hold requests),Transit                    |     Due date receipt                                                         |
+|     Staff slip               |     Hold, Pick slip, Request delivery, Search slip (Hold requests), Transit                   |     Due date receipt                                                         |
+|     Borrower                 |     Due date receipt                                                                          |     Hold, Pick slip, Request delivery, Search slip (Hold requests),Transit   |
+|     Loan                     |     Due date receipt                                                                          |     Hold, Pick slip, Request delivery, Search slip (Hold requests), Transit  |
+|     Request                  |     Hold, Pick slip, Request delivery, Search slip (Hold requests), Transit                   |     Due date receipt                                                         |
+|     Request delivery address |     Request delivery                                                                          |     Due date receipt, Hold, Pick slip, Search slip (Hold requests), Transit  |
+|     Requester                |     Hold, Pick slip, Request delivery, Search slip (Hold requests), Transit                   |     Due date receipt                                                         |
+
+Note: *StaffSlip.staffUsername* only populates for Pick slip. *Request.barcodeImage* only populates for Pick slip and Search slip (Hold requests).
 
 ### Configuring a staff slip
 
@@ -157,6 +174,8 @@ Staff slips allow you to configure the information that appears on your staff sl
 2. In the **staff slip details** pane, click **Preview**. A Preview of staff slip - [slip type] window appears and the preview is shown.
 3. Optional: To print the preview, click **Print**.
 4. To close the window, click **Close**.
+
+Note: The preview window ignores staff slip type. Non-populating tokens may show as populated. 
 
 
 ## Settings > Circulation > Fixed due date schedules
