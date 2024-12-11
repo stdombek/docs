@@ -14,7 +14,7 @@ Definition of terms related to the Agreements app:
 *   **Agreement.** An agreement is a place where you can manage the content your library can access (based on resources described in a knowledge base) and link that content to licensing and acquisitions information.
 *   **External knowledge base.** A knowledge base (see definition in this list) that is outside of the FOLIO system. For example, the EBSCO knowledge base.
 *   **Internal knowledge base.** Managing your library’s knowledge base from within FOLIO.
-*   **Knowledge base (KB).** A knowledge base is an extensive database maintained by a knowledge base supplier that contains information about electronic resources such as title lists and coverage dates etc. Knowledge bases typically organize the resources provided by a content provider into collections or databases that reflect specific content provider offerings, for example packages of e-journals, e-books, or other materials.
+*   **Knowledge base (KB).** A knowledge base is an extensive database maintained by a knowledge base supplier that contains information about electronic resources such as title lists and coverage dates, etc. Knowledge bases typically organize the resources provided by a content provider into collections or databases that reflect specific content provider offerings, for example packages of e-journals, e-books, or other materials.
 *   **License.** A license explains what you can do with the content your library can access. The license is the contract or Terms of Use.
 
 Library’s utilizing FOLIO can employ an external knowledge base, like EBSCO, or use FOLIO’s internal knowledge base. Note: Some instructions differ depending on your library’s use of an external or internal knowledge base.
@@ -44,7 +44,7 @@ The following permissions are only applicable if your library is using the inter
 *   **Agreements: Search & view platforms.** This permission allows the user to search and view platforms in the internal KB. This includes the permission to see and access the Agreement app in the FOLIO interface.
 *   **Agreements: Edit platforms.** This permission allows the user to edit platform properties. It also grants all permissions included in "Agreements: Search & view e-resources."
 
-If you want to eUsage data in an agreement record, you also need to have the following eUsage permission:
+If you want eUsage data in an agreement record, you also need to have the following eUsage permission:
 
 
 
@@ -607,8 +607,8 @@ To filter agreements by their documents, follow these steps:
 
 1. In the Search & filter pane, click **Documents**.
 2. Click **Edit document filters**.
-3. In the **Document filter builder** dialog, select a **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
-4. Select a **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
+3. In the **Document filter builder** dialog, select an **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
+4. Select an **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
 5. In the **Value** box, select or enter a value.
 6. (Optional) To continue to build the document filter, click **Add rule.** Note, multiple rules in a single document filter card will apply to a single document. I.e. If you have a document filter card with two rules, then to find an agreement, a single document on that agreement must fulfill both rules. Whereas when you add a new document filter card in the filter builder, then it can apply to either the same or a different document. 
 7. (Optional) To search for agreements using multiple document filters, click **Add filter**. Note: To delete a rule or document filter in the Document filter builder, click on the **trash can icon** next to the rule or document filter.
@@ -636,8 +636,9 @@ In the search results, click an agreement to view it. The agreement details pane
 1. In the **Agreements search** display, click **Actions**. 
 2. At the bottom of the Actions menu is the heading **Show columns** followed by a list of available columns with checkboxes to display or hide those columns. All columns are displayed by default. The columns available should be (in order): Name, Status, Start date, End date, Cancellation deadline, and Description. 
 3. When you uncheck a box, that column is removed from the display of the multi-column list.
-4. When you check a box, that column is added to the display of the multi-column list.
-5. When you go to the agreement search and sort view in the same session, the selection of which columns display persists.
+   * Note: the Name column is the main column and cannot be selected or unselected.
+5. When you check a box, that column is added to the display of the multi-column list.
+6. When you go to the agreement search and sort view in the same session, the selection of which columns display persists.
 
 
 ## Editing an agreement
@@ -787,6 +788,42 @@ Note: If you are already editing an agreement line, skip to step 5.
 6. Click **Save & close**. A confirmation message appears and the agreement line is updated.
 
 
+### Adding a document to an agreement line
+
+You have the option of adding a document to an agreement line. For example, if an agreement line represents a package, a document describing the package and content could be uploaded. Or if an agreement line is for an ebook that is catalogued, a URL could be added linking the relevant inventory item, holding or instance. 
+
+Note: If you are already editing an agreement line, skip to step 5.
+
+
+
+1. [Find the agreement](#searching-for-agreements) with the agreement line to which you want to add a document and select it.
+2. In the **Agreement details** pane, click **Agreement lines**.
+3. In the **Agreement lines** section, click the agreement line to which you want to add a document.
+4. In the **Agreement line** pane, click **Actions > Edit**.
+5. In the **Edit agreement line** window, click **Add document**.
+6. Enter a **Name** in the box.
+7. (Optional): Select a **Category** from the drop-down list.
+    * Categories include Consortium negotiation document, License, and Misc.
+8. (Optional): Enter a **Note** about the document.
+9. You must complete at least one of the following:
+    * Upload a file into the agreement record by dragging and dropping the file in the **Drag & drop to upload** box, or click **or choose file**.
+    * Enter the **Physical location** of the document in the box.
+    * Enter the **URL** of the document in the box.
+10. Repeat steps 5-9 as needed. The documents are saved when the agreement line is saved.
+
+
+### Deleting a document from an agreement line
+
+
+
+1. [Find the agreement](#searching-for-agreements) with the agreement line with the document you want to delete and select it.
+2. In the **Agreement details** pane, click **Agreement lines**.
+3. In the **Agreement lines** section, click the agreement line with the document you want to delete and select it.
+4. In the **Agreement line** pane, click **Actions > Edit**.
+5. To remove the document, click the **trash can icon** next to the document you want to delete.
+6. Click **Save & close**. A confirmation message appears and the agreement line is updated.
+
+
 ### Adding an unlinked agreement line
 
 Use this feature to add an agreement line that has no connection to a record from either the internal KB or eHoldings.
@@ -844,8 +881,9 @@ In order to view all of the agreement lines associated with a particular agreeme
 3. In the **Agreement lines** section, click **Actions**. 
 4. At the bottom of the Actions menu is the heading **Show columns** followed by a list of available columns with checkboxes to display or hide those columns. All columns are displayed by default. The columns available should be (in order): Name / Description, Provider, Publication type, Count, Note, Coverage, Custom coverage indicator, Active from, Active to, and PO Line. 
 5. When you uncheck a box, that column is removed from the display of the multi-column list.
-6. When you check a box, that column is added to the display of the multi-column list.
-7. When you go to the agreement lines multi-column list view for any agreement in the same session, the selection of which columns display persists. 
+   * Note: the Name column is the main column and cannot be selected or unselected.
+7. When you check a box, that column is added to the display of the multi-column list.
+8. When you go to the agreement lines multi-column list view for any agreement in the same session, the selection of which columns display persists. 
 
 
 ## Searching for agreement lines
@@ -897,15 +935,21 @@ To search for agreement lines assigned specific tags, follow these steps:
 1. In the **Search & filter** pane, click **Tags**.
 2. Select the tag(s) from the drop-down list. Your results appear in the Agreement lines pane.
 
-## Controlling which columns display in the Agreement lines multi-column list
+
+### Documents
+
+To search for agreement lines linked to specific documents, follow these steps:
 
 
 
-1. In the **Agreement lines search** display, click **Actions**. 
-2. At the bottom of the Actions menu is the heading **Show columns** followed by a list of available columns with checkboxes to display or hide those columns. All columns are displayed by default. The columns available should be (in order): Name / Reference, Description, Parent agreement, Note, Active from, and Active to. 
-3. When you uncheck a box, that column is removed from the display of the multi-column list.
-4. When you check a box, that column is added to the display of the multi-column list.
-5. When you go to the agreement lines search and sort view in the same session, the selection of which columns display persists.
+1. In the Agreement lines Search & filter pane, click **Documents**.
+2. Click **Edit document filters**.
+3. In the **Document filter builder** dialog, select an **Attribute** from the drop-down list. Attributes include Name, Note, Category, Physical location, URL, Content type, and File name. 
+4. Select an **Operator** from the drop-down list. Operators include Is, Contains, and Does not contain.
+5. In the **Value** box, select or enter a value.
+6. (Optional) To continue to build the document filter, click **Add rule.** Note, multiple rules in a single document filter card will apply to a single document. I.e. If you have a document filter card with two rules, then to find an agreement line, a single document on that agreement line must fulfill both rules. Whereas when you add a new document filter card in the filter builder, then it can apply to either the same or a different document. 
+7. (Optional) To search for agreement lines using multiple document filters, click **Add filter**. Note: To delete a rule or document filter in the Document filter builder, click on the **trash can icon** next to the rule or document filter.
+8. Click **Save & close.** Your results appear in the Agreements lines pane.
 
 
 ## Adding a tag to an agreement
@@ -1082,6 +1126,7 @@ Titles can be further filtered by:
 
 * Type
 * Publication type
+* Material type
 
 The values for Type and Publication Type can be configured in [Settings \> Agreements \> Pick list values](../../settings/settings_agreements/settings_agreements/#settings--agreements--pick-list-values). 
 

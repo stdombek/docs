@@ -24,7 +24,7 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can maintain SSO settings.** This permission allows the user to create, edit, and delete SSO configurations.
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
 * **Settings (tenant): Can view reading room access.** This permission allows the user to view reading room access.
-* **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.  
+* **Settings (tenant): Can create, edit, and remove reading room access** This permission allows the user to view, create, edit and delete Reading room access entries in tenant settings.
 
 
 ## Settings \> Tenant \> Addresses
@@ -80,6 +80,7 @@ Use this setting to change your location, numbering system, timezone, and/or cur
 2. Click **Save**. A confirmation message appears and your changes are saved.
 
 
+
 ## Settings \> Tenant \> Preferred plugins
 
 Use this setting to change your preferred plugins for different FOLIO actions.
@@ -91,27 +92,25 @@ Changing any of the preferred plugins to **(none)** disables the action for all 
 
 ## Settings \> Tenant \> Reading room access
 
-Use this setting to set up **Reading room access** for your library. For more information about reading rooms, see [Reading room access](../../access/reading-room-access/reading-room/). 
+Use this setting to create, edit and delete reading rooms. Users can assign reading rooms to patrons in the Reading room access app.
 
-### Creating a reading room
+### Creating a new Reading room access entry
+1. In the Reading room access pane, click the "+New" button
+2. (Required) Create a name for the Room name. This will appear to users in the Reading room access app
+3. Uncheck the "Public" box if the Reading room access is not public.
+4. (Required) Assign one or more service points to the Reading room access entry from the dropdown menu.  A user will need to be using the the selected service point to assign the Reading room access to a patron. Multiple service points can be assigned to one entry, but once a service point is assigned to a Reading room access entry, it cannot be assigned to another Reading room access entry.  Once a service point has been assigned to an entry, it will no longer appear in the dropdown menu.
+5. Select "Save"
 
-1. Click **New**.
-2. Type the name of the reading room in the **Room name** field.
-3. Check the box in the **Public** column if the reading room is accessible to the public.
-4. Select **Associated service points** from the drop-down menu. More than one associated service point may be assigned to the reading room.
-5. Click **Save** in the Actions column. 
+### Editing a Reading room access entry
+1. In the Reading room access pane, select the pencil icon in the "Actions" column on the row of the entry you wish to edit
+2. Make the desired changes to Room name, Public checkbox and Associated service point.  An entry must still have a name and one or more unique Associated service points
+3. To make the changes, select "Save" from the Actions column.  Select "Cancel" to discard changes
 
-### Editing a reading room
+### Deleting a Reading room access entry
+1. In the Reading room access pane, select the trashcan icon in the "Actions" column you wish to delete
+2. A prompt will open. Confirm you wish to delete the reading room entry.
+3. The Reading room access entry is deleted.  
 
-1. Click the **pencil icon** in the Actions column for the reading room.
-2. Edit the **Room name**, **Public**, and **Associated service points** as appropriate.
-3. Click **Save** in the Actions column.
-
-### Deleting a reading room
-
-1. Click the **trash can icon** in the Actions column.
-2. A *The reading room [Room name] will be deleted* message appears in the **Delete reading room access** modal.
-3. Click **Delete** to confirm. The reading room is deleted.
 
 ## Settings \> Tenant \> SSO settings
 
@@ -165,7 +164,7 @@ All service points should be associated to a fee/fine owner in Settings\>Users, 
 * If the hold shelf expiration period is calculated in **minutes** or **hours**, then you can choose to keep the original expiration date/time, move the expiration date/time to when the service point is closing, or move the expiration date/time to the beginning of the next open set of hours.
 * If the hold shelf expiration period is calculated in **days**, **weeks**, or **months**, you can choose to keep the original expiration date, move the expiration date to the end of the previous open day, or move the expiration date to the end of the next open day.  
   
-10. (Optional): Select the **Hold**, **Pick slip**, **Request delivery**, **Search slip( Hold Requests)**, and/or **Transit** checkboxes to determine which staff slips print by default for this service point.
+10. (Optional): Select the **Due date receipt**,  **Hold**, **Pick slip**, **Request delivery**, **Search slip( Hold Requests)**, and/or **Transit** checkboxes to determine which staff slips print by default for this service point.
 11. Click **Save & close**. A confirmation message appears and the service point is created.
 
 The **Assigned locations** accordion is updated when the service point is assigned to any locations in the location tree. 
