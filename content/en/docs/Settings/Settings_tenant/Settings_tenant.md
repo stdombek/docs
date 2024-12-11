@@ -1,7 +1,7 @@
 ---
 title: "Settings > Tenant"
 linkTitle: "Tenant"
-date: 2022-03-21
+date: 2024-12-11
 weight: 250
 tags: ["subtopic"]
 ---
@@ -18,10 +18,12 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can create, edit and remove service points.** This permission allows the user to create, read, update, and delete service points.
 * **Settings (tenant): Can create, edit and remove locations.** This permission allows the user to create, read, update, and delete institutions, campuses, libraries, and locations.
 * **Settings (tenant): View locations.** This permission allows the user to view institutions, campuses, libraries and locations.
+* **Settings (tenant): Can create, edit and remove reading room access.** This permission allows the user to view, create, edit, and delete reading rooms. 
 * **Settings (tenant): Can edit language, localization, and currency.** This permission allows the user to change the locale, numbering system, time zone, and primary currency.
 * **Settings (tenant): Can maintain preferred plugins.** This permission allows the user to edit preferred plugins.
 * **Settings (tenant): Can maintain SSO settings.** This permission allows the user to create, edit, and delete SSO configurations.
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
+* **Settings (tenant): Can view reading room access.** This permission allows the user to view reading room access.
 * **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.  
 
 
@@ -86,6 +88,30 @@ Currently, FOLIO doesn’t have multiple plugins to choose from for each of the 
 
 Changing any of the preferred plugins to **(none)** disables the action for all FOLIO users, which may break app workflows.
 
+
+## Settings \> Tenant \> Reading room access
+
+Use this setting to set up **Reading room access** for your library. For more information about reading rooms, see [Reading room access](../../access/reading-room-access/reading-room/). 
+
+### Creating a reading room
+
+1. Click **New**.
+2. Type the name of the reading room in the **Room name** field.
+3. Check the box in the **Public** column if the reading room is accessible to the public.
+4. Select **Associated service points** from the drop-down menu. More than one associated service point may be assigned to the reading room.
+5. Click **Save** in the Actions column. 
+
+### Editing a reading room
+
+1. Click the **pencil icon** in the Actions column for the reading room.
+2. Edit the **Room name**, **Public**, and **Associated service points** as appropriate.
+3. Click **Save** in the Actions column.
+
+### Deleting a reading room
+
+1. Click the **trash can icon** in the Actions column.
+2. A *The reading room [Room name] will be deleted* message appears in the **Delete reading room access** modal.
+3. Click **Delete** to confirm. The reading room is deleted.
 
 ## Settings \> Tenant \> SSO settings
 
