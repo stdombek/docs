@@ -1,7 +1,7 @@
 ---
 title: "Users"
 linkTitle: "Users"
-date: 2024-12-09       
+date: 2024-12-11       
 weight: 250
 ---
 
@@ -901,6 +901,16 @@ In the **Fees/fines** section, users with appropriate permissions can manage fee
 
 See [Fees/fines](#feesfines).
 
+### Export fees/fines
+
+If the user has open fines, the fee/fine information can be exported into a .csv file and downloaded onto your computer. 
+
+To export fees/fines:
+
+1. [Find the user record](#search-for-user-records) to which you want to add a fee/fine and select it.
+2. In the **User record** pane, expand the **Fees/fines** accordion if needed.
+3. Click **Actions \> Export fees/fines**.
+4. A .csv file containing the user’s fee/fine information is downloaded to your computer. 
 
 ### Create a fee/fine
 
