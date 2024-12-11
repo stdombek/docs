@@ -3,7 +3,7 @@ title: "ERM comparisons"
 linkTitle: "ERM comparisons"
 date: 2024-12-06
 weight: 15
-tags: ["subtopic"]
+tags: ["parenttopic"]
 ---
 
 The ERM comparisons app is used to compare the contents of two different packages or agreements to check whether there are any overlaps in content.
