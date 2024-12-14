@@ -165,7 +165,7 @@ You can also select a search filter in the **User search** pane. To apply a filt
 
 -  **Status**: **Active** or **Inactive**
 -  **Patron group**: Patron groups are configured in [Settings \> Users \> Patron groups](../settings/settings_users/settings_users/#settings--users--patron-groups).
--  **Departments**. Departments are configured in [Settings \> Users \> Departments](../settings/settings_users/settings_users/settings–users–departments).
+-  **Departments**. Departments are configured in [Settings \> Users \> Departments](../settings/settings_users/settings_users/#settings--users--departments).
 -  **Tags**: Tags must be enabled in the [Settings \> Tags](../settings/settings_tags/settings_tags/) in order to appear as a filter. 
 
 
@@ -218,7 +218,7 @@ See [Settings \> Users \> Custom fields](../settings/settings_users/settings_use
 
 ### Reading room access
 
-The **Reading room access** section displays which reading rooms a user is allowed to access within the library. For more information, see [Reading room access](../access/reading-room-access/reading-room/).
+The **Reading room access** section displays which reading rooms a user is allowed to access within the library. For more information, see [Reading room access](../access/reading-room/reading_room/).
 
 
 ### Proxy/sponsor
@@ -241,7 +241,7 @@ For more information on **Fees/fines**, see [Additional Topics \> Fees and fines
 
 The **Loans** section displays the number of open loans and closed loans on a user’s record. To view additional details about the user’s open loans or closed loans, expand the **Loans** accordion and click **open loans** or **closed loans**, accordingly.
 -  **Open loans**. A patron has an **open loan** when they have borrowed an item and the item has not yet been returned. A loan is also considered open when the patron has returned the item but owes a fee/fine, or when a patron says they have returned an item and the library marks it as *claim returned* while they search the shelves.
--  **Closed loans**. Once an item is returned to the library and checked in, and any associated fees/fines are  resolved, the loan is closed. Once a loan is closed, it can be anonymized if **loan anonymization** is set up. For more information, see [Anonymizing a loan that has been checked in](access/check-in/checkin/#anonymizing-a-loan-that-has-been-checked-in).
+-  **Closed loans**. Once an item is returned to the library and checked in, and any associated fees/fines are  resolved, the loan is closed. Once a loan is closed, it can be anonymized if **loan anonymization** is set up. For more information, see [Anonymizing a loan that has been checked in](../access/check-in/checkin/#anonymizing-a-loan-that-has-been-checked-in).
 
 
 ### Requests
@@ -564,7 +564,7 @@ A **Fee/fine** can be manually created after checking in a returned item. For mo
 
 Users with appropriate permissions can update block information, actions, or remove the block from the user’s record.
  
-Patron block templates must be set up in your FOLIO tenant before using them to create a patron block. See [Settings \> Users \> Patron Block Templates](../settings/settings_users/settings_users/#settings--users--patron-block-templates) for more information. 
+Patron block templates must be set up in your FOLIO tenant before using them to create a patron block. See [Settings \> Users \> Patron Block Templates](../settings/settings_users/settings_users/#settings--users--templates) for more information.
 
 
 To create a Block using a patron block template:
