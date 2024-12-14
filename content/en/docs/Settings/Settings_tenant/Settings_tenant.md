@@ -1,7 +1,7 @@
 ---
 title: "Settings > Tenant"
 linkTitle: "Tenant"
-date: 2024-12-05
+date: 2024-12-11
 weight: 250
 tags: ["subtopic"]
 ---
@@ -18,13 +18,13 @@ The permissions listed below determine what you can do or not do with the indivi
 * **Settings (tenant): Can create, edit and remove service points.** This permission allows the user to create, read, update, and delete service points.
 * **Settings (tenant): Can create, edit and remove locations.** This permission allows the user to create, read, update, and delete institutions, campuses, libraries, and locations.
 * **Settings (tenant): View locations.** This permission allows the user to view institutions, campuses, libraries and locations.
+* **Settings (tenant): Can create, edit and remove reading room access.** This permission allows the user to view, create, edit, and delete reading rooms. 
 * **Settings (tenant): Can edit language, localization, and currency.** This permission allows the user to change the locale, numbering system, time zone, and primary currency.
 * **Settings (tenant): Can maintain preferred plugins.** This permission allows the user to edit preferred plugins.
 * **Settings (tenant): Can maintain SSO settings.** This permission allows the user to create, edit, and delete SSO configurations.
 * **Settings (tenant): Can manage tenant addresses.** This permission allows the user to create, read, update, and delete addresses.
-* **Settings (tenant): View.** This permission allows the user to view addresses, language and localization, preferred plugins, SSO settings, service points, institutions, campuses, libraries, and locations.
+* **Settings (tenant): Can view reading room access.** This permission allows the user to view reading room access.
 * **Settings (tenant): Can create, edit, and remove reading room access** This permission allows the user to view, create, edit and delete Reading room access entries in tenant settings.
-* **Settings (tenant): Can view reading room access** This permission allows the user to view Reading room access entries in tenant settings.
 
 
 ## Settings \> Tenant \> Addresses
@@ -110,6 +110,7 @@ Use this setting to create, edit and delete reading rooms. Users can assign read
 1. In the Reading room access pane, select the trashcan icon in the "Actions" column you wish to delete
 2. A prompt will open. Confirm you wish to delete the reading room entry.
 3. The Reading room access entry is deleted.  
+
 
 ## Settings \> Tenant \> SSO settings
 
