@@ -1087,6 +1087,8 @@ To view an item record, follow these steps:
 2.  In the **Instance record details** pane, expand  the **Holdings** accordion.
 3. Click the **Item barcode** of the item you want to view. The Item record details window appears.
 
+If you are using a barcode to view an item record, the item record details window will open immediately upon the barcode being scanned, copy/pasted, or typed into the Item Search & Filter pane.
+
 ## Editing an instance record
 
 1.  [Find the instance](#searching-for-a-record) you want to edit and select it.
