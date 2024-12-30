@@ -34,7 +34,7 @@ Report queries in the FOLIO Analytics repository are laid out in a particular st
 
 ### Locating queries in the repository
 
-Report queries for Metadb are stored in the [sql_metadb/report_queries] (https://github.com/folio-org/folio-analytics/tree/main/sql_metadb/report_queries) folder of the repository. Each subdirectory contains one or more SQL queries, along with documentation that describes the purpose and output of the queries.
+Report queries for Metadb are stored in the [sql_metadb/report_queries](https://github.com/folio-org/folio-analytics/tree/main/sql_metadb/report_queries) folder of the repository. Each subdirectory contains one or more SQL queries, along with documentation that describes the purpose and output of the queries.
 
 ### Running queries in a database query tool
 
