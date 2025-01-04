@@ -2,7 +2,7 @@
 ---
 title: "Install FOLIO"
 linkTitle: "Install FOLIO"
-date: 2022-05-10
+date: 2025-01-06
 weight: 10
 tags: ["parenttopic"]
 ---
@@ -20,6 +20,12 @@ You can work with, install and deploy FOLIO in different ways:
 If you just want to try FOLIO without installing it, you can run one of the pre-built Vagrant boxes. This will take a couple of minutes to download and run a virtual machine with a FOLIO instance and sample data that can be used right away.
 
 See [Vagrant boxes]({{< ref "vagrantboxes.md" >}}) for more information.
+
+### Single-server deployment
+
+Currently we don't have any complete installation instructions for a single-server deployment.
+
+Work in progress is [eureka-platform-bootstrap](https://github.com/folio-org/eureka-platform-bootstrap).
 
 ### Kubernetes
 
@@ -45,7 +51,7 @@ Optional is
 
 #### PostgreSQL
 
-FOLIO requires PostgreSQL 12 or any later version.
+FOLIO requires PostgreSQL 16 or any later version.
 
 `pg_hba.conf` must be configured for `md5` [password authentication](https://www.postgresql.org/docs/current/auth-password.html). Some PostgreSQL distributions default to `scram-sha-256` password authentication failing the FOLIO installation with this error message:
 
