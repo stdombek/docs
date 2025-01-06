@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2025-01-03
+date: 2025-01-06
 weight: 550
 ---
 
@@ -740,96 +740,62 @@ To suppress the matched **Inventory-item** records from discovery in the Bulk ed
 
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
-## Users
+### Users
 
+In the Bulk edit app, it is possible to change any and all fields in multiple user records simultaneously, depending on which method is used to identify matching records.
 
-In the Bulk edit app, the **Fields** that can be changed in **User** records include:
+- **Start bulk edit**: Allows editing of the **Email**, **Expiration date**, and the **Patron group** fields within the Bulk edit app. This approach is available in the **Identifier** and the **Query** methods.
+- **Start bulk edit (Local)**: Allows editing of any and all fields of the matching user records by applying changes via an external .csv file uploaded to the Bulk edit app. This approach is available in the **Identifier** approach only. 
 
-- **Patron group - Name**
-- **Active** 
-- **Barcode** 
-- **Created by user UUID** 
-- **Created date** 
-- **Date of birth**
-- **Department names** 
-- **Email** 
-- **Enrollment date** 
-- **Expiration date** 
-- **External system ID**
-- **First name**
-- **Last name**
-- **Last name, first name** 
-- **Middle name** 
-- **Mobile phone** 
-- **Phone** 
-- **Preferred contact type** 
-- **Preferred first name**
-- **Type** 
-- **Updated by user UUID** 
-- **Updated date** 
-- **User UUID**
-- **Username** 
-
-To identify **User** records for bulk edit, follow these steps:
+To identify **User** records for bulk edit:
 
 1. In the **Set criteria** pane, ensure **Record types** is set to **Users**.
 2. [Identify user records for bulk edit](#identify-records-for-bulk-edit) by using the **Identifier** or **Query** method.
+3. [Preview the list of matching user records](#preview-matched-records) in the **Preview of record matched** pane. 
+4. (Optional): [Download the matched user records](#download-matched-records) as a .csv file.
+5. (Optional): [Download errors in matched user records](#download-errors) as a .csv file.
 
-   - The **Query** method allows only a preview of matched user records in the Bulk edit app. User records cannot be edited using the Query method.
-   - The **Identifier** method allows bulk edit to be performed on all fields of a user record.
+#### Start bulk edit
 
-3. [Preview the list of matching user records](#preview-matched-records) in the **Preview of record matched** pane. The following information appears in the **Preview of record matched** pane:
+The **Start bulk edit** approach allows bulk edit to change the **Email**, **Expiration Date**, and **Patron Group** fields in matching user records. Bulk edit may be performed on each of these fields individually or simultaneously. The **Start bulk edit** approach is available in the **Identifier** and **Query** methods for identifying matching user records.
 
-   - **Username.** The username of the user.
-   - **Barcode.** The barcode from the user record.
-   - **Status.** The status of the user.
-   - **Patron group.** The patron group assigned to the user.
-   - **Last name.** The last name of the user.
-   - **First name.** The first name of the user.
+The **Options** and **Actions** available to perform bulk edit on matched **User records** depend on the selected **Field**.
 
-4. (Optional; Identifier method only): [Download the matched user records](#download-matched-records) as a .csv file.
-5. (Optional; Identifier method only): [Download errors in matched user records](#download-errors) as a .csv file.
+1. Click **Actions > Start bulk edit**. 
+2. Under **Options**, click the drop-down list and select the field you want to edit: **Email**, **Expiration date**, or **Patron group**. The **Actions** available for bulk edit are pre-selected based on the selected **Options**.
+3. Under **Data**, input text in the text field or input date/select date from calendar picker as appropriate for the selected option. 
 
-## Start bulk edit
+| Option | Action | Data | Action | Data |
+| :-----: | :-----: | :-----: | :-----: | :-----: |
+| **Email** | *Find* | Input text | *Replace with* | Input text |
+| **Expiration date** | *Replace with* | Input date | &nbsp; | &nbsp; |
+| **Patron group** | *Replace with* | Select value | &nbsp; | &nbsp; |
 
-The **Start bulk edit** approach allows bulk edit to change the **Email**, **Expiration Date**, and/or **Patron Group** fields in matching user records. Bulk edit may be performed on each of these fields individually or simultaneously. 
-
-To perform bulk edit on matched **User records** using the **Start bulk edit** method, follow these steps:
-
-1. In the **Preview** pane, click **Actions > Start bulk edit**. The number of matched user records and the filename of the .csv file display at the top of the **Bulk edit** window.
-2. In the **Bulk edits** section, select the option from the **Select options** drop-down menu. To bulk edit all three fields simultaneously, click the **+ icon** at the end of the row to add another bulk edit option. 
-
-   - **Email**: Bulk edit performs a find and replace in the email address field of the matched user records. Thus, the **Actions** available are **Find (full field search)** and **Replace with**. Type the current data (text) in the **Find (full field search)** box. Type the new data (text) in the **Replace with** box. 
-   - **Expiration date**: Bulk edit replaces the data in the Expiration date of the matched user records. Thus, the **Actions** available are limited to **Replace with**.  Type the new expiration date in MM/DD/YYYY format in the **Data** box or use the **calendar icon** to select a date.
-   - **Patron group**: Bulk edit replaces the Patron group data in the matched user records. Thus, the **Actions** available are limited to **Replace with**. Select the new Patron group from the **Data** drop-down menu. 
-
-3. Click the **Confirm changes** button. The message *(Number of) records will be changed if the Commit changes button is clicked* displays in the **Are you sure?** modal.
+4. To edit an additional field, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
+5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
+6. Click **Confirm changes**. A new window will appear with a preview of the first 10 item records to be changed.
+7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
    
-   - Click **Keep editing** to return to the Bulk edit window.
-   - Click **Download preview** to review all changes prior to saving.* A **Preview of records to be changed** is also displayed.
-   - Click **Commit changes** to run bulk edit and save the changes to the matched user records.
+   - To return to the bulk edit, click **Keep editing**. The window will close and you can continue editing.
+   - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
+   - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 
-4. When the bulk edit is complete, a confirmation message, *(Number of) records have been successfully changed*, appears in the **Bulk edit** window.
-5. To change the column headings in the **Preview of record changed** table, click **Actions** and select or deselect the fields in the **Show columns** list as appropriate.
-6. To download a .csv file of changed records, click **Actions > Download changed records (CSV)**. 
+8. To change the column headings in the **Preview of record changed** table, click **Actions** and select or deselect the fields in the **Show columns** list as appropriate.
+9. To download the list of changed user records, click **Actions > Download changed records (CSV)**. 
 
 
-### Start bulk edit (Local)
+#### Start bulk edit (Local)
 
-The **Start bulk edit (Local)** function allows the user to perform a bulk edit on user records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, user records. 
+The **Start bulk edit (Local)** function allows the user to perform a bulk edit on user records edited locally (external to FOLIO) by uploading a .csv file of the changed, or edited, user records. Any and all fields in user records can be changed using the **Bulk edit (Local)** approach.
 
-Any field in user records can be changed using the **Bulk edit (Local)** approach.
+To perform bulk edit on user records using the **Start bulk edit (Local)** approach: 
 
-To perform bulk edit on user records using the **Start bulk edit (Local)** approach, follow these steps: 
-
-1. In the **Set criteria** pane, select **Users** as the **Record type** and select the appropriate **Record identifier**: **User UUIDs**, **User barcodes**, **External IDs**, or **Usernames**.
-2. Upload a .csv file with the selected Record identifier by either using the **Drag and drop** option or clicking the **Choose file** button.
-3. Select **Actions \> Download matched records (CSV)** to download a .csv file of matched user records; or select **Actions \> Download errors (CSV)** to download a .csv file of records that did not match your selected record identifier.
-4. Edit the downloaded .csv file and make changes to the user records in the file itself. Save the edited .csv file to your computer.
-5. Select **Actions \> Start bulk edit (Local)**.
-6. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window.
-7. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked.* appears in a new window.
-Click **Commit changes**. Bulk edit will apply and save the local changes to the matched user records in FOLIO.
+1. After identifying user records, click **Actions \> Download matched records (CSV)** to download a .csv file of the matched user records; or select **Actions \> Download errors (CSV)** to download a .csv file of records that did not match your selected record identifier.
+2. Edit the downloaded .csv file and make changes to the user records in the file itself. Save the edited .csv file to your computer.
+3. Click **Actions \> Start bulk edit (Local)**.
+4. In the **Bulk edit** window, **Drag and drop** the .csv file into the **Upload CSV file with edited records** box, or click **or choose file** to upload the .csv file from your computer. If the .csv file is uploaded successfully, the confirmation message, *(Name of File).csv successfully uploaded*, displays in a new window.
+5. Click **Next**. The warning message, *(Number of) records will be updated if the **Commit changes** button is clicked.* appears in a new window.
+6. Click **Commit changes**. Bulk edit will apply and save the local changes to the matched user records in FOLIO.
 
 ## Logs
 
@@ -839,7 +805,7 @@ The Bulk edit app allows users to preview **bulk edit logs** based on set criter
 
 The options available for setting criteria include: **Statuses**, **Record types**, **Started**, **Ended**, and **User**.  
 
-To set criteria and preview bulk edit logs, follow these steps:
+To set criteria and preview bulk edit logs:
 
 1. Click on the **Logs** tab in the **Set criteria** pane.
 2. Under the **Statuses** accordion, select the status for the bulk edit log by checking the appropriate box:  
@@ -863,7 +829,7 @@ To set criteria and preview bulk edit logs, follow these steps:
 4. In the **Started** accordion, use the **calendar icon** or type in the date using the YYYY-MM-DD format in the **From** and **To** fields to limit the preview by the start date of the bulk edit. Click **Apply**.
 5. In the **Ended** accordion, use the **calendar icon** or type in the date using the YYYY-MM-DD format in the **From** and **To** fields to limit the preview by the end date of the bulk edit. Click **Apply**.
 6. In the **Users** accordion, select the user, or FOLIO account, that ran the bulk edit job from the **Choose user** drop-down list.
-7. A preview list of bulk edit logs displays in the **Bulk edit logs** pane. The number of bulk edit logs in the preview displays at the top of the pane as *(number of) records found*. The column headings display the following criteria for each bulk edit log: 
+7. A list of bulk edit logs displays in the **Bulk edit logs** pane. The number of bulk edit logs in the preview displays at the top of the pane as *(number of) records found*. The column headings display the following criteria for each bulk edit log: 
 
    - **Record type**: type of records changed in the bulk edit job
    - **Status**: status of the bulk edit job
@@ -877,16 +843,20 @@ To set criteria and preview bulk edit logs, follow these steps:
 
 ### Download a bulk edit log file
 
-In the Bulk edit app, a file used to run a bulk edit job can be downloaded and saved from the **Bulk edit logs** pane.
+In the Bulk edit app, a file used to run a bulk edit job can be downloaded and saved from the **Bulk edit logs** pane. Bulk edit log files are available for download for 30 days after the bulk edit job is completed.
 
-To download a file associated with a bulk edit log, follow these steps:
+To download a file associated with a bulk edit log:
 
 1. In the **Bulk edit logs** pane, click on the **ellipses** in the **Actions** column next to the appropriate Bulk edit log.
-2. Select the appropriate action from the **Download** drop-down list. The types of files available for download include: 
+2. Select the appropriate action from the **Download** drop-down list. The types of files available for download depend on the method used to identify records for bulk edit, the type of records changed, and/or the presence of errors during the matching or bulk edit process. 
 
    - **File that was used to trigger the bulk edit**
-   - **File with the matching records**
+   - **File with identifiers of the records affected by bulk update**
+   - **File with the preview of proposed changes**
+   - **File with errors encountered during the record matching**
+   - **File with updated records**
+   - **File with errors encountered when committing the changes**.
    - **File with errors encountered during the record matching**
 
-Depending on the web browser settings, the file can be opened and/or saved to your computer. 
+3. Depending on the web browser settings, the file can be opened and/or saved to your computer. 
 
