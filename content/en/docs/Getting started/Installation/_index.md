@@ -23,7 +23,7 @@ See [Vagrant boxes]({{< ref "vagrantboxes.md" >}}) for more information.
 
 ### Single-server deployment
 
-Currently we don't have any complete installation instructions for a single-server deployment.
+Currently we don't have complete installation instructions for a single-server deployment in the Ramsons release.
 
 Work in progress is [Eureka Single Server Fresh Install](https://folio-org.atlassian.net/wiki/spaces/FOLIJET/pages/441843733/Single+Server+Fresh+Install) and [eureka-platform-bootstrap](https://github.com/folio-org/eureka-platform-bootstrap).
 
