@@ -25,7 +25,7 @@ See [Vagrant boxes]({{< ref "vagrantboxes.md" >}}) for more information.
 
 Currently we don't have any complete installation instructions for a single-server deployment.
 
-Work in progress is [eureka-platform-bootstrap](https://github.com/folio-org/eureka-platform-bootstrap).
+Work in progress is [Eureka Single Server Fresh Install](https://folio-org.atlassian.net/wiki/spaces/FOLIJET/pages/441843733/Single+Server+Fresh+Install) and [eureka-platform-bootstrap](https://github.com/folio-org/eureka-platform-bootstrap).
 
 ### Kubernetes
 
