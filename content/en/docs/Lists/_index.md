@@ -1,7 +1,7 @@
 ---
 title: "Lists"
 linkTitle: "Lists"
-date: 2025-01-07        
+date: 2025-01-08        
 weight: 525
 ---
 **This section of the documentation contains links to external sites. Please be advised that these sites are not maintained by the FOLIO Documentation Group and may not be aligned with the current release of FOLIO.**
@@ -9,10 +9,11 @@ weight: 525
 The Lists app provides actionable lists in FOLIO at the point of need. Some use cases include:
 
 
-* Create a custom list when a report isn’t available in FOLIO;
-* Create lists of records across apps and record types;
-* Enable actions and workflows on a list of records;
-* Access a set of pre-generated (canned) lists.
+- Create a custom list when a report isn’t available in FOLIO;
+- Create lists of records across apps and record types;
+- Enable actions and workflows on a list of records;
+- Access a set of pre-generated (canned) lists.
+- Perform a cross-tenant query in ECS-enabled tenants. See [Cross-tenant queries: Definitions, Functionality, Limitations](https://docs.google.com/presentation/d/13LzVYXMvx8eWvRDcqHk5hXTLP-tGJIGL/edit#slide=id.p5) for more information about **Cross-tenant queries**.
 
 
 Functionality of the Lists app includes:
@@ -143,7 +144,7 @@ To add list details for a new list:
 ### Build a query
 
 
-The **Build query** function in the Lists app allows the user to build a query for these record types: **Holdings**, **Instances**, **Items**, **Loans**, **Organizations - contact info**, **Organizations - vendor info**, **Purchase order lines**, and **Users**. The query string populates in the **Query** field as the query is built. 
+The **Build query** function in the Lists app allows the user to build a query for these record types: **Holdings**, **Instances**, **Items**, **Loans**, **Organizations**, **Purchase order lines**, and **Users**. The query string populates in the **Query** field as the query is built. 
 
 
 To set criteria and build a query for new list, follow these steps: 
@@ -156,7 +157,7 @@ To set criteria and build a query for new list, follow these steps:
 4. Select an **Operator** from the **Select operator** drop-down list. The operators available for selection are based on the selected **Field**. 
 
 | Operator | Meaning |
-| :-----: | :-----: |
+| :----- | :----- |
 | *equals* | Field equals the selected Value. |
 | *not equal to* | Field does not equal the selected Value. |
 | *contains* | Field appears in the selected Value. |
@@ -166,23 +167,10 @@ To set criteria and build a query for new list, follow these steps:
 
 5. Select a **Value** from the **Select value** drop-down list. The **Values** available for selection are based on the **Record Type** and **Field**.
 6. Click on the **+ icon** to add additional lines to the query; Click on the **trash can icon** to delete a line from the query. 
-7. Click the **Test query** button to preview the returned record set of the list. 
-Test query is required before the query can be run and saved whenever 1) creating a new list and building the query; and 2) editing the query of an existing list. Test query runs the query and displays the total number of records retrieved and a preview of the first 100 records in the record set. 
-8. Click **Run query & save**. If saved successfully, a *(Name of List) saved successfully* message appears momentarily. Once the query is completed, a *Refresh complete with (number of) records: View updated list* displays at the top of the window. 
-9. Click the **View updated list** link in the confirmation message to view the record set in the list. 
+7. **Test query** is required whenever building a query for a new list. Click the **Test query** button to test the query. The total number of records retrieved and a preview of the first 100 records in the record set displays.
+8. Click **Run query & save**. If saved successfully, a *(Name of List) saved successfully* message appears momentarily. Once the query is completed, a *Refresh complete with (number of) records: View updated list* displays at the top of the window.
+9. Click the **View updated list** link in the confirmation message to view the record set in the list.
 10. In a list, the fields of the record type display as column headings. The default display of column headings is based on the record type assigned to the list. Customize the display of column headings in the record set by checking or unchecking the field(s) in **Actions \> Show columns** as appropriate for the selected record type. See [Supported fields by List record type (Lists app)](https://folio-org.atlassian.net/wiki/x/aADJDw) for a list of column heading options.
-
-
-### Test query
-
-
-Once a query is built, it must be tested before the query can be run and saved.  **Test query** is required in the following scenarios: 
-
-- Creating a new list and building the query. 
-- Editing the query of an existing list.
-
-
-**Test query** runs the query and displays a preview of the returned record set. The first 100 records are displayed in the preview pane and the total count of records appears at the top of the preview pane.
 
 
 ## Update a record set in a list
@@ -207,7 +195,7 @@ To edit the **List information** in a list:
 1. Select the list in the **Lists** pane. The list opens a new window.
 2. Click **Actions \> Edit List**. 
 3. In the **List information** section, edit the **List name**, **Description**, **Visibility**, and/or **Status** fields as appropriate.
-4. Click **Save**. A *List (List Title) was saved* confirmation message will appear in the lower right corner of the screen. 
+4. Click **Save**. A *List _ListTitle_ was saved* confirmation message will appear in the lower right corner of the screen. 
 
 
 To edit the **Query** in a list, follow these steps: 
@@ -217,8 +205,8 @@ To edit the **Query** in a list, follow these steps:
 2. Click **Actions \> Edit List**. 
 3. Open the **Query** accordion, if necessary, and click **Edit query**. Make changes to **Field**, **Operator**, and/or **Value** as appropriate. The **Query** field displays a preview of the query as it is edited.
 4. If necessary, click on the **+ icon** to add additional rows to the query or click on the **trash can icon** to delete rows from the query. 
-5. Click the **Test query** button to see how many records are returned and to preview the record set of the list. See [Test query](#test-query) for more information. 
-6. Click the **Run query & save** button. A confirmation message, *List_ListTitle_was saved* will appear in the lower right corner of the screen. 
+5. **Test query** is required whenever editing a query in an existing list. Click the **Test query** button to test the query. The total number of records retrieved and a preview of the first 100 records in the record set displays.
+6. Click the **Run query & save** button. A confirmation message, *List _ListTitle_ was saved* will appear in the lower right corner of the screen. 
 
 
 ## Duplicate a list
@@ -231,7 +219,7 @@ To duplicate a list:
 4. Edit the query, if appropriate, by clicking the **Edit query** button.
 5. Make changes to **Field**, **Operator**, and/or **Value**. The **Query** field displays a preview of the query string as it is edited. If necessary, click on the **+ icon** to add additional rows to the query; click on the **trash can icon** to delete rows from the query. 
 6. Click the **Test query** button to see how many records are returned and to preview the record set of the list. Test query is required when editing the query of a list before the new query can be run and saved. 
-7. Click the **Run query & save** button. A confirmation message, *List (Duplicate List Name) was saved* will appear in the lower right corner of the screen. 
+7. Click the **Run query & save** button. A confirmation message, *List _DuplicateListName_) was saved* will appear in the lower right corner of the screen. 
 
 ## Delete a list
 
@@ -241,7 +229,7 @@ To delete a list:
 
 1. Select the list from the **Lists** pane. The selected list will open in a new window. 
 2. Click **Actions \> Delete List**. 
-3. A confirmation modal appears: *Are you sure you want to delete the list _List Title_?*
+3. A confirmation modal appears: *Are you sure you want to delete the list _ListTitle_?*
 4. Click the **Delete** button to delete the list.
 
 
