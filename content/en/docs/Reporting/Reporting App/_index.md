@@ -1,12 +1,12 @@
 ---
 title: "Reporting App"
 linkTitle: "Reporting App"
-date: 2024-04-24
+date: 2024-11-13
 weight: 20
 tags: ["parenttopic"]
 ---
 
-The Reporting app provides a FOLIO interface for interacting with an LDP database. There are two section to the app, the **Query builder** and **Saved queries**. The **Query builder** allows you to build a query with the option to save it for later use. **Saved queries** allows you to load a previous query into the **Query builder** to start editing or run.
+The Reporting app provides a FOLIO interface for interacting with a Metadb database. There are two section to the app, the **Query builder** and **Saved queries**. The **Query builder** allows you to build a query with the option to save it for later use. **Saved queries** allows you to load a previous query into the **Query builder** to start editing or run.
 
 ### Permissions
 The permissions listed below allow you to set user permissions to interact with the Reporting app. You can assign permissions to users in the Users app. If none of these permissions are assigned to a user, they are unable to see the Reporting app or any related information. The “Reporting: all permissions” settings for the Reporting App are either all enabled or all disabled when you are assigning them to a user. 
@@ -21,7 +21,7 @@ The following are all the Reporting app permissions:
 * **Settings (Reporting): Can select which tables are available to search**
 
 ### Schema
-Think of schema as the “buckets” in which data tables live. The schema drop-down menu allows you to select one schema at a time to use in your query. Three schemas are available: public, folio_reporting, and local. For a fuller explanation of schemas and examples of some defaults included see [Library Data Platform - Using schemas](../ldp-and-metadb/#using-schemas).
+Think of schema as the “buckets” in which data tables live. The schema drop-down menu allows you to select one schema at a time to use in your query. Three types of schemas are available: public, folio_reporting, and local. For a fuller explanation of schemas and examples of some defaults included see [Metadb - Using schemas](../metadb/#using-schemas).
 
 ### Table
 The **Table** drop-down menu allows you to select a data table from the schema you have selected to use in your query. Tables are where related data lives. Tables belong to a specific schema. With the schema and table selected, the other fields will unlock and update based on the selection.
