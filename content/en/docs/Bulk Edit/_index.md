@@ -1,7 +1,7 @@
 ---
 title: "Bulk Edit"
 linkTitle: "Bulk Edit"
-date: 2025-01-06
+date: 2025-01-08
 weight: 550
 ---
 
@@ -38,7 +38,7 @@ The Bulk edit app provides two methods for setting criteria and identifying reco
 
 The **Identifier** approach allows the user to set criteria for the bulk edit by uploading a list of record identifiers from a .csv file. 
 
-To set criteria for bulk edit using **Identifier**, follow these steps: 
+To set criteria for bulk edit using **Identifier**: 
 
 1. In the **Set Criteria** pane, select the **Identifier** button.
 2. Select the **Record type**. The following **Record types** are available for bulk edit:
@@ -47,6 +47,7 @@ To set criteria for bulk edit using **Identifier**, follow these steps:
    - Inventory - instances
    - Inventory - items
    - Users
+
      
 4. Select the **Record identifier** from the **Select record identifier** drop-down menu. [Record identifiers available for selection](#record-identifiers-by-record-type) are based on the Record type.
 5. **Drag and drop** your .csv file into the **Select a file with record identifiers** box, or click **or choose file** to upload the .csv file from your computer. Only .csv files containing one column of record identifiers are accepted for upload in the Bulk edit app. If the .csv file contains more than one column, the upload will not be successful and a *Something went wrong* message displays. 
@@ -236,13 +237,14 @@ To set criteria and identify records for bulk edit using the **Query** method:
    - Inventory - items
    - Users
 
+
 3. Click the **Build query** button to open the **Build query** modal.
 4. Select a **Field** from the *Select field* drop-down menu or filter the selection by typing the field in the *Filter options list* text box. The **Fields** available for selection are based on the **Record type**. See [Fields by Record Type](#fields-by-record-type) for more information.  
 
 5. Select an **Operator** from the *Select operator* drop-down list. The **Operators** available for selection are based on the **Field**. 
 
 | Operator | Meaning |
-| :-----: | :-----: |
+| :----- | :----- |
 | *equals* | Field equals selected or input value. |
 | *not equal to* | Field does not equal selected or input value. |
 | *contains* | Field appears in selected or input value. |
@@ -301,7 +303,7 @@ In the Bulk edit app, the **Fields** that can be changed in Holdings records inc
 - **Holdings notes**
 - **Suppress from discovery**.
 
-To identify **Inventory-holdings** records for bulk edit, follow these steps:
+To identify **Inventory-holdings** records for bulk edit:
 
 1. In the **Set criteria** pane, ensure **Record types** is set to **Inventory - holdings**.
 2. [Identify holdings records for bulk edit](#identify-records-for-bulk-edit) by using the **Identifier** or **Query** method.
@@ -334,8 +336,9 @@ To bulk edit the **Administrative note** in the matched **Inventory-holdings** r
 7. The **Preview of records to be changed** will pop up with options of *Keep editing*, *Download preview*, or *Commit changes*.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. Click **Commit changes** to save the changes to the matched **Inventory-holdings** records.
 
@@ -350,25 +353,25 @@ To bulk edit the **Electronic access** in the matched **Inventory-holdings** rec
 | Options | Actions | Data | Actions | Data |
 | :-----:| :-----:| :-----:| :-----:| :-----:|
 | *Electronic access - Link text* | Clear field | - | - | - |
-| *Electronic access - Link text* | Find (full field search) | Text field | Remove | - |
-| *Electronic access - Link text* | Find (full field search) | Text field | Replace with | Text field | 
-| *Electronic access - Link text* | Replace with | Text field | - | - |
+| *Electronic access - Link text* | Find (full field search) | Input text | Remove | - |
+| *Electronic access - Link text* | Find (full field search) | Input text | Replace with | Input text | 
+| *Electronic access - Link text* | Replace with | Input text | - | - |
 | *Electronic access - Materials specified* | Clear field | - | - | - |
-| *Electronic access - Materials specified* | Find (full field search) | Text field | Remove | - | *Inventory - items* |
-| *Electronic access - Materials specified* | Find (full field search) | Text field | Replace with | Text field | 
-| *Electronic access - Materials specified* | Replace with | Text field | - | - |
+| *Electronic access - Materials specified* | Find (full field search) | Input text | Remove | - | - |
+| *Electronic access - Materials specified* | Find (full field search) | Input text | Replace with | Input text | 
+| *Electronic access - Materials specified* | Replace with | Input text | - | - |
 | *Electronic access - URI* | Clear field | - | - | - |
-| *Electronic access - URI* | Find (full field search) | Text field | Remove | - | - |
-| *Electronic access - URI* | Find (full field search) | Text field | Replace with | Text field |
-| *Electronic access - URI* | Replace with | Text field | - | - |
+| *Electronic access - URI* | Find (full field search) | Input text | Remove | - | - |
+| *Electronic access - URI* | Find (full field search) | Input text | Replace with | Input text |
+| *Electronic access - URI* | Replace with | Input text | - | - |
 | *Electronic access - URL public note* | Clear field | - | - | - |
-| *Electronic access - URL public note* | Find (full field search) | Text field | Remove | - | - |
-| *Electronic access - URL public note* | Find (full field search) | Text field | Replace with | Text field |
-| *Electronic access - URL public note* | Replace with | Text field | - | - |
+| *Electronic access - URL public note* | Find (full field search) | Input text | Remove | - | - |
+| *Electronic access - URL public note* | Find (full field search) | Input text | Replace with | Input text |
+| *Electronic access - URL public note* | Replace with | Input text | - | - |
 | *Electronic access - URL relationship* | Clear field | - | - | - |
-| *Electronic access - URL relationship* | Find (full field search) | Text field | Remove | - | - |
-| *Electronic access - URL relationship* | Find (full field search) | Text field | Replace with | Text field |
-| *Electronic access - URL relationship* | Replace with | Text field | - | - |
+| *Electronic access - URL relationship* | Find (full field search) | Input text | Remove | - | - |
+| *Electronic access - URL relationship* | Find (full field search) | Input text | Replace with | Input text |
+| *Electronic access - URL relationship* | Replace with | Input text | - | - |
 
 4. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -376,15 +379,16 @@ To bulk edit the **Electronic access** in the matched **Inventory-holdings** rec
 7. The **Preview of records to be changed** will pop up with options of *Keep editing*, *Download preview*, or *Commit changes*.
    
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device. Click **Commit changes** to save the changes to the matched holdings records. 
 
 
 #### Holdings location
 
-To bulk edit the **Holdings-location** in the matched **Inventory-holdings** records:
+To bulk edit the **Holdings location** in the matched **Inventory-holdings** records:
 
 1. Click the **Actions \> Start bulk edit**.
 2. Under **Options**, click the drop-down list and select the **Field** you want to edit.
@@ -402,8 +406,9 @@ To bulk edit the **Holdings-location** in the matched **Inventory-holdings** rec
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
    
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
      
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device. 
 
@@ -420,38 +425,38 @@ The following **Options** and **Actions** are available to bulk edit the **Holdi
 
 | Options | Actions | Data | Actions | Data |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| *Holdings notes - Access restrictions* | Add note | Text field, Staff only check box | - | - |
+| *Holdings notes - Access restrictions* | Add note | Input text, *Staff only* check box | - | - |
 | *Holdings notes - Access restrictions* | Change note type | Select note type | -| - |
-| *Holdings notes - Access restrictions* | Find (full field search) | Text field | Remove | - |
-| *Holdings notes - Access restrictions* | Find (full field search) | Text field | Replace with | Text field |
+| *Holdings notes - Access restrictions* | Find (full field search) | Input text | Remove | - |
+| *Holdings notes - Access restrictions* | Find (full field search) | Input text | Replace with | Input text |
 | *Holdings notes - Access restrictions* | Mark as staff only | - | - | - |
 | *Holdings notes - Access restrictions* | Remove all | - | - | - |
 | *Holdings notes - Access restrictions* | Remove mark as staff only | - | - | - |
-| *Holdings notes - Binding* | Add note | Text field, Staff only check box | - | - |
+| *Holdings notes - Binding* | Add note | Text field, *Staff only* check box | - | - |
 | *Holdings notes - Binding* | Change note type | Select note type | - | - |
-| *Holdings notes - Binding* | Find (full field search) | Text field | Remove | - |
-| *Holdings notes - Binding* | Find (full field search) | Text field | Replace with | Text field |
+| *Holdings notes - Binding* | Find (full field search) | Input text | Remove | - |
+| *Holdings notes - Binding* | Find (full field search) | Input text | Replace with | Input text |
 | *Holdings notes - Binding* | Mark as staff only | - | - | - |
 | *Holdings notes - Binding* | Remove all | - | - | - |
 | *Holdings notes - Binding* | Remove mark as staff only | - | - | - |
-| *Holdings notes - Copy note* | Add note | Text field, Staff only check box | - | - |
+| *Holdings notes - Copy note* | Add note | Input text, Staff only check box | - | - |
 | *Holdings notes - Copy note* | Change note type | Select note type | - | - |
-| *Holdings notes - Copy note* | Find (full field search) | Text field | Remove | - |
-| *Holdings notes - Copy note* | Find (full field search) | Text field | Replace with | Text field |
+| *Holdings notes - Copy note* | Find (full field search) | Input text | Remove | - |
+| *Holdings notes - Copy note* | Find (full field search) | Input text | Replace with | Input text |
 | *Holdings notes - Copy note* | Mark as staff only | - | - | - |
 | *Holdings notes - Copy note* | Remove all | - | - | - |
 | *Holdings notes - Copy note* | Remove mark as staff only | - | - | - |
-| *Holdings notes - Electronic bookplate* | Add note | Text field, Staff only check box | - | - |
+| *Holdings notes - Electronic bookplate* | Add note | Input text, *Staff only* check box | - | - |
 | *Holdings notes - Electronic bookplate* | Change note type | Select note type | - | - |
-| *Holdings notes - Electronic bookplate* | Find (full field search) | Text field | Remove | - |
-| *Holdings notes - Electronic bookplate* | Find (full field search) | Text field | Replace with | Text field |
+| *Holdings notes - Electronic bookplate* | Find (full field search) | Input text | Remove | - |
+| *Holdings notes - Electronic bookplate* | Find (full field search) | Input text | Replace with | Input text |
 | *Holdings notes - Electronic bookplate* | Mark as staff only | - | - | - |
 | *Holdings notes - Electronic bookplate* | Remove all | - | - | - |
 | *Holdings notes - Electronic bookplate* | Remove mark as staff only | - | - | - |
-| *Holdings notes - Note* | Add note | Text field, Staff only check box | - | - |
+| *Holdings notes - Note* | Add note | Input text, *Staff only* check box | - | - |
 | *Holdings notes - Note* | Change note type | Select note type | - | - |
-| *Holdings notes - Note* | Find (full field search) | Text field | Remove | - |
-| *Holdings notes - Note* | Find (full field search) | Text field | Replace with | Text field |
+| *Holdings notes - Note* | Find (full field search) | Input text | Remove | - |
+| *Holdings notes - Note* | Find (full field search) | Input text | Replace with | Input text |
 | *Holdings notes - Note* | Mark as staff only | - | - | - |
 | *Holdings notes - Note* | Remove all | - | - | - |
 | *Holdings notes - Note* | Remove mark as staff only | - | - | - |
@@ -462,9 +467,11 @@ The following **Options** and **Actions** are available to bulk edit the **Holdi
 7. The **Preview of records to be changed** will pop up with options of **Keep editing**, **Download preview**, or **Commit changes**.
    
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to save the changes to the matched holdings records.
+     
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
+
 
 #### Suppress from discovery
 
@@ -477,14 +484,16 @@ To suppress the matched **Inventory-holdings** records from discovery in the Bul
    - Set false.
    - Set true.
 
+
 4. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
 6. Click **Confirm changes**. A new window will appear with a preview of the first 10 records to be changed.
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click [*Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
   
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -503,6 +512,8 @@ In the Bulk edit app, the **Fields** that can be changed in **Inventory-instance
    - **9xx fields**
 
 #### Instances and Administrative data
+
+**Administrative data**, **Instance notes**, **5XX**, and **9XX** fields in multiple **FOLIO Instance** and **MARC Instance** records can be changed simultaneously using  the Bulk edit app. For more information, see [FOLIO Instances - Editing Administrative Data and Instance Notes](https://folio-org.atlassian.net/wiki/x/AYAAIg) or [MARC Instances - Editing Administrative Data, 5XX and 9XX fields](https://folio-org.atlassian.net/wiki/x/AQABIg).  
 
 ##### Administrative note
 
@@ -526,8 +537,9 @@ To perform a bulk edit on the **Administrative note** field:
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -555,8 +567,9 @@ To perform a bulk edit on the **Instance note** field:
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -568,8 +581,8 @@ To suppress the matched **Inventory-instance** records from staff view:
 2. Under **Options**, select **Staff suppress** from the drop-down list.
 3. Click **Actions** to select the action you want to apply from the drop-down list. The following **Actions** are available to bulk edit the **Staff suppress** option in the matching Instance records:
 
- - Set true.
- - Set false.
+   - Set false.
+   - Set true.
 
 4. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -577,8 +590,9 @@ To suppress the matched **Inventory-instance** records from staff view:
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -592,6 +606,7 @@ To suppress the matched **Inventory-instance** records from discovery:
 
    - Set false.
    - Set true.
+
      
 4. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -599,8 +614,9 @@ To suppress the matched **Inventory-instance** records from discovery:
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -630,8 +646,9 @@ To perform a bulk edit on the **5xx** or **9xx** fields in the matched **Invento
 7. The **Preview of records to be changed** will appear in the *Are you sure?* modal with options of **Keep editing**, **Download preview**, or **Commit changes**.
 
    - To return to the bulk edit, click **Keep editing**. The modal will close and you can continue editing.
-   - To preview the entire list of records, click [**Download preview**](#download-matched-records). A .csv file is downloaded to your local device.
+   - To preview the entire list of records, click **Download preview**. A .csv file is downloaded to your local device.
    - Click **Commit changes** to apply the bulk edit changes to the matched holdings records. The modal closes and the message at the top of the **Bulk edit** pane displays the number of successfully changed records.
+
 
 8. To download the list of changed records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -683,6 +700,7 @@ To bulk edit the **Administrative note** in the matched **Inventory-items** reco
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 
+
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
 #### Check in note
@@ -712,6 +730,7 @@ To bulk edit the **Check in note** in the matched item records:
    - To return to the bulk edit, click **Keep editing**. The window will close and you can continue editing.
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
+
 
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -744,6 +763,7 @@ To bulk edit the **Check out note** in the matched Item records:
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 
+
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
 
@@ -775,6 +795,7 @@ To bulk edit an **Item note** in the matched **Inventory-item** records:
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 
+
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
 
@@ -787,16 +808,17 @@ To bulk edit the **item status** field in the matched **Inventory-item** records
 3. Under **Actions**, *Replace with* is pre-selected and is the only action available for changing **Item status**.
 4. Under **Data**, select a new **Item status** from the *Select item status* drop-down:
 
-- *Available*
-- *Missing*
-- *Withdrawn*
-- *In process*
-- *In process (non-requestable)*
-- *Intellectual item*
-- *Long missing*
-- *Restricted*
-- *Unavailable*
-- *Unknown*
+   - *Available*
+   - *Missing*
+   - *Withdrawn*
+   - *In process*
+   - *In process (non-requestable)*
+   - *Intellectual item*
+   - *Long missing*
+   - *Restricted*
+   - *Unavailable*
+   - *Unknown*
+
 
 5. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 6. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -811,17 +833,17 @@ To bulk edit the **item status** field in the matched **Inventory-item** records
 
 #### Loan type
 
-To bulk edit the **Loan type** in the matched **Item** records:
+To bulk edit the **Loan type** in the matched **Inventory-item** records:
 
 1. Click **Actions \> Start bulk edit**.
 2. Under **Options**, select **Loan type**.
-3. Under **Actions**, select the action you want to apply to the item records. The following **Actions** are available to bulk edit the **Loan type** field in the matching Item records:
+3. Under **Actions**, select the action you want to apply to the item records. The following **Actions** are available to bulk edit the **Loan type** field in the matching Item records. Note that *Replace with* is preselected and is the only Action available for changing **Permanent loan type**.
 
 | Options | Actions | Data |
 | :-----: | :-----: | :----- |
-| Permanent loan type | *Replace with* (pre-selected) | Select loan type |
-| Temporary loan type | *Clear field* | - |
-| Temporary loan type | *Replace with* | Select loan type |
+| Permanent loan type | *Replace with* (pre-selected) | Select Loan type |
+| Temporary loan type | Clear field | - |
+| Temporary loan type | Replace with | Select Loan type |
 
 **Loan types** are configured in Settings \> Inventory. See [Settings \> Inventory \> Loan types](../settings/settings_inventory/settings_inventory/#settings--inventory--loan-types) for more information. 
 
@@ -833,6 +855,7 @@ To bulk edit the **Loan type** in the matched **Item** records:
    - To return to the bulk edit, click **Keep editing**. The window will close and you can continue editing.
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
+
 
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -847,9 +870,9 @@ To bulk edit the **Location** in the matched **Inventory-item** records:
 | Options | Actions | Data |
 | :-----: | :-----: | :-----: |
 | Permanent location | Clear field | - |
-| Permanent location | Replace with | Select location from drop-down or *Location lookup* |
+| Permanent location | Replace with | Select Location from drop-down or *Location lookup* |
 | Temporary location | Clear field | - |
-| Temporary location | Replace with | Select location from drop-down or *Location lookup* |
+| Temporary location | Replace with | Select Location from drop-down or *Location lookup* |
 
 **Locations** are configured in Settings \> Tenant. See [Settings \> Tenant \> Location setup](../settings/settings_tenant/settings_tenant/#settings--tenant--location-setup) for more information. 
 
@@ -862,6 +885,7 @@ To bulk edit the **Location** in the matched **Inventory-item** records:
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
 
+
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
 #### Suppress from discovery
@@ -872,8 +896,8 @@ To suppress the matched **Inventory-item** records from discovery in the Bulk ed
 2. Under **Options**, click the drop-down list and select the field you want to edit.
 3. Under **Actions**, select the action you want to apply to the item records. The following **Actions** are available to bulk edit the **Suppress from discovery** field in the matching Item records:
 
-   - Set true.
    - Set false.
+   - Set true.
 
 4. To edit an additional field during the same bulk edit job, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -883,6 +907,7 @@ To suppress the matched **Inventory-item** records from discovery in the Bulk ed
    - To return to the bulk edit, click **Keep editing**. The window will close and you can continue editing.
    - To preview the entire list of matched item records, click **Download preview**. A .csv file is downloaded to your local device.
    - To run the bulk edit and save changes to the matched item records, click **Commit changes**. The window closes and the banner at top of the **Bulk edit** pane displays the number of records successfully changed.
+
 
 8. To download the list of changed item records, click the **Actions** button at the top right of the pane. Select **Download changed records (CSV)**. The .csv file is downloaded to your local device.
 
@@ -913,9 +938,9 @@ The **Options** and **Actions** available to perform bulk edit on matched **User
 
 | Option | Action | Data | Action | Data |
 | :-----: | :-----: | :-----: | :-----: | :-----: |
-| **Email** | *Find* | Input text | *Replace with* | Input text |
-| **Expiration date** | *Replace with* | Input date | *Inventory - items* | *Inventory - items* |
-| **Patron group** | *Replace with* | Select value | *Inventory - items* | *Inventory - items* |
+| **Email** | *Find* (pre-selected) | Input text | *Replace with* (pre-selected) | Input text |
+| **Expiration date** | *Replace with* (pre-selected) | Input date | - | - |
+| **Patron group** | *Replace with* (pre-selected) | Select value | - | - |
 
 4. To edit an additional field, click the **+ sign** near the end of the row. Another row will appear under the existing row(s).
 5. To remove a field, click the **trash can icon** at the end of the row you want to remove.
@@ -945,7 +970,7 @@ To perform bulk edit on user records using the **Start bulk edit (Local)** appro
 
 ## Logs
 
-The Bulk edit app allows users to preview **bulk edit logs** based on set criteria and download a file associated with a bulk edit job. 
+The Bulk edit app allows users to preview **bulk edit logs** based on set criteria and download a .csv file associated with a bulk edit job. 
 
 ### Preview bulk edit logs
 
@@ -965,12 +990,14 @@ To set criteria and preview bulk edit logs:
    - **Completed with errors**
    - **Failed**  
 
+
 3. Under the **Record types** accordion, select the record type for the bulk edit log by checking the appropriate box: 
 
    - **Inventory - holdings**
    - **Inventory - instances**
    - **Inventory - items**
    - **Users**
+
 
 4. In the **Started** accordion, use the **calendar icon** or type in the date using the YYYY-MM-DD format in the **From** and **To** fields to limit the preview by the start date of the bulk edit. Click **Apply**.
 5. In the **Ended** accordion, use the **calendar icon** or type in the date using the YYYY-MM-DD format in the **From** and **To** fields to limit the preview by the end date of the bulk edit. Click **Apply**.
